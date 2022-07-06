@@ -3,7 +3,7 @@
     <q-header flat class="bg-transparent">
       <div class="row justify-around">
         <logo />
-        <actions-group class="col-auto" />
+        <actions-group class="col-auto" @menu="seeMenu()" />
       </div>
     </q-header>
   </div>
@@ -17,6 +17,11 @@ export default {
   components: {
     Logo,
     ActionsGroup
+  },
+  methods: {
+    seeMenu () {
+      this.$emit('menu')
+    }
   }
 }
 </script>

@@ -1,15 +1,18 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
-  </q-page>
+  <div class="margin_top_all">
+    <section-1 />
+    <section-2 />
+  </div>
 </template>
 
 <script>
+import Section1 from '../components/home/Section1.vue'
+import Section2 from '../components/home/Section2.vue'
 export default {
-  name: 'PageIndex'
+  name: 'home',
+  components: {
+    Section1,
+    Section2
+  }
 }
 </script>
