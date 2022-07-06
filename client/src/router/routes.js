@@ -4,8 +4,21 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/Index.vue') }
+      {
+        path: '',
+        name: 'home',
+        component: () => import('pages/Home.vue')
+      }
     ]
+  },
+
+  {
+    path: '/',
+    redirect: '/index'
+  },
+  {
+    path: '*',
+    redirect: '/index'
   },
 
   // Always leave this as last one,
