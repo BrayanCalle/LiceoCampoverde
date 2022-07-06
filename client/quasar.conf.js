@@ -23,7 +23,7 @@ module.exports = function (/* ctx */) {
     // https://v1.quasar.dev/quasar-cli/boot-files
     boot: [
       'i18n',
-      'axios',
+      'axios'
     ],
 
     // https://v1.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
@@ -42,7 +42,7 @@ module.exports = function (/* ctx */) {
       // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
 
       'roboto-font', // optional, you are not bound to it
-      'material-icons', // optional, you are not bound to it
+      'material-icons' // optional, you are not bound to it
     ],
 
     // Full list of options: https://v1.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
@@ -69,7 +69,7 @@ module.exports = function (/* ctx */) {
       // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain
       chainWebpack (chain) {
         chain.plugin('eslint-webpack-plugin')
-          .use(ESLintPlugin, [{ extensions: [ 'js', 'vue' ] }])
+          .use(ESLintPlugin, [{ extensions: ['js', 'vue'] }])
       }
     },
 
@@ -116,9 +116,9 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: `campoverde`,
-        short_name: `campoverde`,
-        description: `liceo campoverde`,
+        name: 'campoverde',
+        short_name: 'campoverde',
+        description: 'liceo campoverde',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
