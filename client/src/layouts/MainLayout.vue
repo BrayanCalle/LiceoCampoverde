@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHr lpr lfr">
-    <header-big @menu="drawer = !drawer"/>
+    <header-web @menu="drawer = !drawer"/>
 
     <drawer-data :drawer="drawer" @close="drawer = false" />
 
@@ -15,14 +15,14 @@
 </template>
 
 <script>
-import HeaderBig from 'layouts/components/HeaderBig'
+import HeaderWeb from 'layouts/components/HeaderWeb'
 import FooterData from 'layouts/components/Footer'
 import DrawerData from 'layouts/components/Drawer'
 import Sticky from 'layouts/components/Sticky'
 export default {
   name: 'MainLayout',
   components: {
-    HeaderBig,
+    HeaderWeb,
     FooterData,
     DrawerData,
     Sticky

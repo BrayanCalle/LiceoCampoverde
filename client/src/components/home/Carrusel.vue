@@ -1,6 +1,8 @@
 <template>
   <div>
+    <div>
     <q-img src="figuras/F-4.svg" style="width:500px">
+      <img src="home/rostro.svg" class="video_carrusel">
       <q-carousel
         v-model="slide"
         transition-prev="scale"
@@ -26,6 +28,7 @@
         </q-carousel-slide>
       </q-carousel>
     </q-img>
+    </div>
   </div>
 </template>
 

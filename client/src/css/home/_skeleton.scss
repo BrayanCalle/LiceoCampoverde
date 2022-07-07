@@ -6,3 +6,12 @@
 .border_green {
   border: 3px solid green;
 }
+.video_carrusel {
+  position: absolute;
+  z-index: 100;
+  top: -10px;
+  right: 0%;
+  border-radius: 100%;
+  width: 170px;
+  height: 170px;
+}
