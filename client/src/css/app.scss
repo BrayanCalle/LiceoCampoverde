@@ -67,3 +67,29 @@
   font-family: 'gotham_black';
 }
 
+@font-face {
+  font-family: 'gotham_ultra';
+  src: url(fonts/Gotham-Black.otf);
+}
+
+.my-font-ultra {
+  font-family: 'gotham_ultra';
+}
+
+@font-face {
+  font-family: 'gotham_medium';
+  src: url(fonts/Gotham-Medium.otf);
+}
+
+.my-font-medium {
+  font-family: 'gotham_medium';
+}
+
+@font-face {
+  font-family: 'gotham_black';
+  src: url(fonts/Gotham-Black.otf);
+}
+
+.my-font-black {
+  font-family: 'gotham_black';
+}
