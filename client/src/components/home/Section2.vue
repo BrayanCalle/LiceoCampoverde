@@ -7,7 +7,7 @@
 
     <div class="column justify-center" style="height: 60%">
       <div class="row justify-center items-center" style="height:100%">
-        <div class="col-auto row justify-center items-center no-wrap" style="height:100%">
+        <div class="col-auto row justify-center items-center no-wrap card">
           <div style="height:100%">
             <img src="figuras/F-C-phone-3.svg" style="height:100%" />
           </div>
@@ -15,20 +15,20 @@
             <img src="home/prekinder-quito.png" style="height:100%" />
           </div>
         </div>
-        <!-- <div class="col-xs-6 col-sm-5 col-md-4 col-lg-4" style="height:300px">
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 card">
           <carrusel style="height:100%" />
-        </div> -->
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-// import Carrusel from './Carrusel.vue'
+import Carrusel from './Carrusel.vue'
 export default {
   name: 'section-2',
   components: {
-    // Carrusel
+    Carrusel
   },
   data () {
     return {

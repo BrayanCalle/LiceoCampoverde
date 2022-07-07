@@ -3,6 +3,7 @@
     v-model="seeDraw"
     side="right"
     overlay
+    flat
     :width="280"
     :breakpoint="500"
   >
