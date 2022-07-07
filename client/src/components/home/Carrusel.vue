@@ -1,9 +1,8 @@
 <template>
   <div>
-    <div>
-    <q-img src="figuras/F-4.svg" style="width:500px">
-      <img src="home/rostro.svg" class="video_carrusel">
-      <q-carousel
+    <img src="figuras/F-4.svg" style="height:100%;"/>
+      <!-- <img src="home/rostro.svg" class="video_carrusel"> -->
+      <!-- <q-carousel
         v-model="slide"
         transition-prev="scale"
         transition-next="scale"
@@ -18,17 +17,15 @@
       >
         <q-carousel-slide :name="1" class="column flex-center">
           <div class="text-h4 text-bold">
-            Tenemos un <br> espíritu <br> comprometido <br> e innovador 1
+            Tenemos un <br> espíritu <br> comprometido <br> e innovador
           </div>
         </q-carousel-slide>
         <q-carousel-slide :name="2" class="column flex-center">
           <div class="text-h4 text-bold">
-            Tenemos un <br> espíritu <br> comprometido <br> e innovador
+            Tenemos un <br> espíritu <br> comprometido <br> e innovador 2
           </div>
         </q-carousel-slide>
-      </q-carousel>
-    </q-img>
-    </div>
+      </q-carousel> -->
   </div>
 </template>
 
