@@ -1,21 +1,28 @@
 <template>
-  <div class="row no-wrap justify-between" :style="`height: ${windowHeight}px`">
-    <div>
-      <img src="home/escuela-particular-en-cumbaya-liceo-campoverde-quito.png" style="height:100%" />
+  <div style="height:100vh">
+    <div class="q-pa-md column items-start text-h4 text-bold">
+      <div>Somos Liceo</div>
+      <div class="border_green q-ml-md q-px-sm">Campo Verde</div>
     </div>
-    <div class="row justify-center items-end">
-      <div class="text-h5 text-bold text-center col-12">Educamos</div>
-      <img src="figuras/F-5.svg" style="width:300px" class="self-end" />
-    </div>
-    <div>
-      <img src="home/colegio-privado-en-cumbaya-y-tumbaco.png" style="height:100%" />
+    <div class="row justify-center q-pa-md">
+      <div>
+        <img src="figuras/F-C-phone-3.svg" style="height:100%" />
+      </div>
+      <div>
+        <img src="home/prekinder-quito.png" />
+      </div>
+      <carrusel />
     </div>
   </div>
 </template>
 
 <script>
+import Carrusel from './Carrusel.vue'
 export default {
-  name: 'section-1',
+  name: 'section-2',
+  components: {
+    Carrusel
+  },
   data () {
     return {
       windowHeight: window.innerHeight

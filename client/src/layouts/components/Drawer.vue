@@ -1,5 +1,4 @@
 <template>
-  <div>
     <q-drawer
       v-model="seeDraw"
       side="right"
@@ -57,7 +56,6 @@
         </q-card>
       </div>
     </q-drawer>
-  </div>
 </template>
 
 <script>
