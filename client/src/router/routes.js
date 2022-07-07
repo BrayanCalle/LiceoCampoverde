@@ -1,4 +1,3 @@
-
 const routes = [
   {
     path: '/',
@@ -11,16 +10,10 @@ const routes = [
       }
     ]
   },
-
   {
     path: '/',
     redirect: '/index'
   },
-  {
-    path: '*',
-    redirect: '/index'
-  },
-
   // Always leave this as last one,
   // but you can also remove it
   {
