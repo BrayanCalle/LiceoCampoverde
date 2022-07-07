@@ -15,20 +15,20 @@
             <img src="home/prekinder-quito.png" style="height:100%" />
           </div>
         </div>
-        <div class="col-xs-6 col-sm-5 col-md-4 col-lg-4" style="height:100%">
+        <!-- <div class="col-xs-6 col-sm-5 col-md-4 col-lg-4" style="height:300px">
           <carrusel style="height:100%" />
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Carrusel from './Carrusel.vue'
+// import Carrusel from './Carrusel.vue'
 export default {
   name: 'section-2',
   components: {
-    Carrusel
+    // Carrusel
   },
   data () {
     return {
