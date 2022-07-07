@@ -1,21 +1,6 @@
 // Layouts skeleton
 
-.web_element {
-  width: auto
-}
-.mobile_element {
-  width: auto
-}
-@media only screen and (max-width: 600px) {
-  .web_element {
-    display: none !important;
-  }
-}
-@media only screen and (min-width: 600px) {
-  .mobile_element {
-    display: none !important;
-  }
-}
+// Estilos de bordes
 .border_bottom_left {
   border-bottom-left-radius: 25px;
 }
@@ -26,12 +11,16 @@
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
 }
+
+// Estilos de tamaño
 .font_small {
   font-size: 10px;
 }
 .icon_footer {
   width: 20px;
 }
+
+// Estilos de posicionamiento
 .close_drawer {
   position: absolute;
   z-index: 100;
@@ -48,5 +37,23 @@
     height: 100%;
     width: 120px;
     padding-left: 30px;
+  }
+}
+
+// Estilos de responsividad
+.web_element {
+  width: auto
+}
+@media only screen and (max-width: 600px) {
+  .web_element {
+    display: none !important;
+  }
+}
+.mobile_element {
+  width: auto
+}
+@media only screen and (min-width: 600px) {
+  .mobile_element {
+    display: none !important;
   }
 }

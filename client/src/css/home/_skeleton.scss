@@ -1,10 +1,17 @@
-// Layouts skeleton
+// Home skeleton
 
-.margin_top_all {
-  margin-top: -72px;
-}
+// Estilos de bordes
 .border_green {
   border: 3px solid green;
+}
+.border_blue {
+  border: 4px solid #81A3EE;
+  border-radius: 20px;
+}
+
+// Estilos de posicionamiento
+.margin_top_all {
+  margin-top: -72px;
 }
 .video_carrusel {
   position: absolute;
@@ -14,4 +21,28 @@
   border-radius: 100%;
   width: 170px;
   height: 170px;
+}
+
+// Estilos de responsividad
+.height_mobile {
+  height: 100vh
+}
+@media only screen and (max-width: 500px) {
+  .height_mobile {
+    height: 60vh
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+  .height_mobile {
+    height: 85vh
+  }
+}
+.text_section1_mobile {
+  width: 100%
+}
+@media only screen and (max-width: 740px) {
+  .text_section1_mobile {
+    position: absolute;
+    top: 120px
+  }
 }

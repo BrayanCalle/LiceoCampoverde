@@ -1,5 +1,5 @@
 <template>
-  <div style="height:100vh">
+  <div class="window-height">
     <div class="q-pa-md column items-start text-h4 text-bold">
       <div>Somos Liceo</div>
       <div class="border_green q-ml-md q-px-sm">Campo Verde</div>
