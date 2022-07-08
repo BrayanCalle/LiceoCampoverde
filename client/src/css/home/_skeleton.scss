@@ -1,5 +1,17 @@
 // Home skeleton
 
+// Estilos de espacios
+.padding_section4 {
+  padding: 30px 50px;
+  .img {
+    padding: 10px;
+  }
+  .card {
+    padding: 30px 20px;
+    background-color: #2FAD62;
+  }
+}
+
 // Estilos de posicionamiento
 .margin_top_all {
   margin-top: -72px;
@@ -60,6 +72,15 @@
       padding-bottom: 15px;
       display: flex;
       justify-content: center;
+    }
+  }
+  .padding_section4 {
+    padding: 0%;
+    .img {
+      padding: 0%;
+    }
+    .card {
+      padding: 30px 30px;
     }
   }
 }

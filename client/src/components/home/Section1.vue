@@ -21,13 +21,3 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'section-1',
-  data () {
-    return {
-    }
-  }
-}
-</script>

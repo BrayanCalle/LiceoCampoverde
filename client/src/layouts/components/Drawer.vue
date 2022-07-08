@@ -11,11 +11,13 @@
       <div class="close_drawer q-pt-lg">
         <q-btn round dense size="sm" color="black" icon="clear" @click="$emit('close')"  />
       </div>
+
       <q-card class="fit border_left_radius bg-white q-pa-sm">
         <q-scroll-area class="fit">
           <div class="row justify-center q-py-md">
             <q-img src="logo/Favicon-LiceoCampoVerde.svg" style="width:60px;" />
           </div>
+
           <div v-for="(item, index) in menu" :key="index">
             <!-- Se muestra si es expandible -->
             <q-expansion-item
