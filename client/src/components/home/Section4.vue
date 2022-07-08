@@ -1,7 +1,7 @@
 <template>
   <div class="padding_section4">
     <div class="row">
-      <div class="col-xs-12 offset-xs-order-last col-sm-7 col-md-7 col-lg-7 img">
+      <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 img order_img">
         <img src="bachillerato/colegio-quito-cumbaya-espacios.jpg" class="fit" />
       </div>
       <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 img">
