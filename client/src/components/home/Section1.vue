@@ -1,6 +1,6 @@
 <template>
   <div class="column no-wrap justify-end window-height">
-    <div class="row no-wrap justify-between height_mobile">
+    <div class="row no-wrap justify-between height_mobile_section1">
       <div class="col-xs-5 col-sm-4 col-md-4 col-lg-4">
         <img src="home/escuela-particular-en-cumbaya-liceo-campoverde-quito.png" class="full-height web_change_img" />
         <img src="home/escuelas-innovadoras-enquito-cumbaya.png" class="full-height mobile_change_img" />

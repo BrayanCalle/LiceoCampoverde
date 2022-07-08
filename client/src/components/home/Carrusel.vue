@@ -1,12 +1,10 @@
 <template>
   <div>
-    <q-avatar style="height:100%; width:100%">
-      <img src="figuras/F-4.svg" style="height:100%; width:100%"/>
+    <q-avatar class="fit">
+      <img src="figuras/F-4.svg" class="fit"/>
 
       <!-- Video solo en vista web -->
-      <q-avatar class="video_carrusel web_element">
-        <img src="home/video-bachillerato-quito.png" class="video">
-      </q-avatar>
+      <video-home class="video_carrusel web_element" />
 
       <q-carousel
         v-model="slide"
@@ -35,7 +33,11 @@
 </template>
 
 <script>
+import VideoHome from './Video'
 export default {
+  components: {
+    VideoHome
+  },
   data () {
     return {
       slide: 1

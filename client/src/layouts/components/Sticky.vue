@@ -11,7 +11,7 @@
 
       <div v-else class="row no-wrap items-end sticky_style cursor-pointer">
         <img src="home/rostro-clic.svg" class="icon_avatar" @click="seeMenu = false">
-        <div class=" q-pa-sm" style="width: 130px;padding-left:13px; margin-top: -200px">
+        <div class=" q-pa-sm menu">
           <q-list dense bordered separator>
             <q-item clickable v-ripple class="text-white bg-purple">
               <q-item-section class="font_small">Admisiones</q-item-section>

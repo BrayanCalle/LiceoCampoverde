@@ -6,24 +6,22 @@
     </div>
 
     <div class="col-12 column justify-center" style="height: 60%">
-      <div class="row justify-center items-center" style="height:100%">
+      <div class="row justify-center items-center full-height">
         <div class="col-auto row justify-center items-center no-wrap card">
-          <div style="height:100%">
-            <img src="figuras/F-C-phone-3.svg" style="height:100%" />
+          <div class="full-height">
+            <img src="figuras/F-C-phone-3.svg" class="full-height" />
           </div>
-          <div style="height:100%">
-            <img src="home/prekinder-quito.png" style="height:100%" />
+          <div class="full-height">
+            <img src="home/prekinder-quito.png" class="full-height" />
           </div>
         </div>
         <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 card">
-          <carrusel style="height:100%; width:100%" />
+          <carrusel class="fit" />
         </div>
 
         <!-- Video solo en vista movil -->
         <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 q-pb-md row justify-center mobile_element">
-          <q-avatar class="video_mobile">
-            <img src="home/video-bachillerato-quito.png" style="height:100%; width:100%">
-          </q-avatar>
+          <video-home class="video_mobile" />
         </div>
       </div>
     </div>
@@ -32,15 +30,12 @@
 
 <script>
 import Carrusel from './Carrusel.vue'
+import VideoHome from './Video'
 export default {
   name: 'section-2',
   components: {
-    Carrusel
-  },
-  data () {
-    return {
-      windowHeight: window.innerHeight
-    }
+    Carrusel,
+    VideoHome
   }
 }
 </script>
