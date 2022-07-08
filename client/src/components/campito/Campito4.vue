@@ -3,7 +3,8 @@
       <div class="row relative-position">
         <div class="action-video">
           <img src="figuras/half-circle.svg"/>
-          <div class="circle">
+          <div class="circle relative-position">
+            <video-home class="play-video" />
             <img src="home/video-bachillerato-quito.png" alt="alt"/>
           </div>
         </div>
@@ -37,7 +38,11 @@
 </template>
 
 <script>
+import VideoHome from '../Video/Video'
 export default {
+  components: {
+    VideoHome
+  },
   name: 'campito-4'
 }
 </script>
