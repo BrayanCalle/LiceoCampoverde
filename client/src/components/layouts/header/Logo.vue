@@ -1,7 +1,8 @@
 <template>
   <div>
     <q-card flat class="bg-grey-3 q-py-md border_bottom_left border_bottom_right q-px-md row justify-between">
-      <img src="logo/liceo-campoverde-cumbaya.svg" style="width:100px" />
+      <img src="logo/liceo-campoverde-cumbaya.svg" style="width:100px; cursor:pointer"
+        @click="$router.push({ name: 'home' })" />
 
       <!-- Se muestra si la pantalla es pequeña -->
       <div class="mobile_element row items-center justify-end no-wrap text-grey-8">
