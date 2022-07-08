@@ -14,7 +14,7 @@
     </div>
 
     <!-- Texto que se muestra en pantalla pequeña -->
-    <div class="col-12 column items-center justify-center full-height q-pt-xl mobile_element">
+    <div class="col-12 column items-center justify-center full-height q-pt-xl mobile_img_section3">
       <div class="text-subtitle1 column justify-between">
         <div class="q-pb-lg">Transformamos y <br> mejoramos <b>la <br> educación</b></div>
         <div class="q-pb-lg"><b>Motivamos e <br> impulsamos</b> al <br> desarrollo de <br> nuestros estudiantes</div>
@@ -27,7 +27,7 @@
 
     <!-- Tres columnas que se muestran en pantalla grande -->
 
-    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column items-center justify-center full-height q-pt-xl web_element">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column items-center justify-center full-height q-pt-xl web_img_section3">
       <div class="text-subtitle1 column justify-between">
         <div class="q-pb-lg">Transformamos y <br> mejoramos <b>la <br> educación</b></div>
         <div class="q-pb-lg"><b>Motivamos e <br> impulsamos</b> al <br> desarrollo de <br> nuestros estudiantes</div>
@@ -42,7 +42,7 @@
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column items-center justify-center full-height q-pt-xl web_element">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column items-center justify-center full-height q-pt-xl web_img_section3">
       <div class="text-subtitle1 column justify-between">
         <div class="q-pb-lg">Respetamos los <br> diversos <b>ritmos <br> de aprendizaje</b></div>
         <div class="q-pb-lg"><b>Fomentamos</b> el <br> respeto, la <br> tolerancia y <br>diversidad</div>
