@@ -72,7 +72,7 @@
                     <div class="container-carousel">
                         <div class="q-pa-md">
                             <div class="title-slider">
-                                        Educamos:
+                                Educamos:
                             </div>
                             <q-carousel infinite autoplay v-model="slide" swipeable animated
                                 :navigation-position="navPos" navigation padding
@@ -117,15 +117,17 @@
                         <div class="col-lg-4 conatainer-texto--section-4">
                             <p>
                                 Responsabilidad, <b>ética, honestidad y transparencia,</b> como
-                                 el nivel más alto de compromiso y de profesionalidad.
+                                el nivel más alto de compromiso y de profesionalidad.
                             </p>
                         </div>
-                        <div class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
+                        <div
+                            class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
                             <div id="circulo1" class="circulo-numeros--section-4">
                                 <p>1.</p>
                             </div>
                         </div>
-                        <div class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
+                        <div
+                            class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
                             <div id="circulo2" class="circulo-numeros--section-4">
                                 <p>2.</p>
                             </div>
@@ -133,7 +135,7 @@
                         <div class="col-lg-4 conatainer-texto--section-4">
                             <p>
                                 Actualización y formación continua, investigación
-                                 pedagógica e innovación
+                                pedagógica e innovación
                             </p>
                         </div>
                     </div>
@@ -142,15 +144,17 @@
                         <div class="col-lg-4 conatainer-texto--section-4">
                             <p>
                                 Reconocimiento y <b>respeto por la diversidad</b> para
-                                 garantizar las mismas oportunidades de aprendizaje.
+                                garantizar las mismas oportunidades de aprendizaje.
                             </p>
                         </div>
-                        <div class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
+                        <div
+                            class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
                             <div id="circulo3" class="circulo-numeros--section-4">
                                 <p>3.</p>
                             </div>
                         </div>
-                        <div class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
+                        <div
+                            class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
                             <div id="circulo4" class="circulo-numeros--section-4">
                                 <p>4.</p>
                             </div>
@@ -167,15 +171,17 @@
                         <div class="col-lg-4 conatainer-texto--section-4">
                             <p>
                                 <b>Calidez y buen trato,</b> condiciones imprescindibles
-                                 en toda relación humana.
+                                en toda relación humana.
                             </p>
                         </div>
-                        <div class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
+                        <div
+                            class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
                             <div id="circulo5" class="circulo-numeros--section-4">
                                 <p>5.</p>
                             </div>
                         </div>
-                        <div class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
+                        <div
+                            class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
                             <div id="circulo6" class="circulo-numeros--section-4">
                                 <p>6.</p>
                             </div>
@@ -183,7 +189,7 @@
                         <div class="col-lg-4 conatainer-texto--section-4">
                             <p>
                                 <b>Solidaridad</b> para una convivencia cordial mediante la <b>participación activa,
-                                 respetuosa y eficaz</b> en la sociedad.
+                                    respetuosa y eficaz</b> en la sociedad.
                             </p>
                         </div>
                     </div>
@@ -203,13 +209,15 @@
                         <div class="parte-arriba-parte-derecha--section5">
                             <p class="titulo-parte-derecha--section5">Idiomas</p>
                             <p class="texto-parte-derecha--section5">
-                                Los idiomas extranjeros cobran auge ya que la internacionalización, así como el desarrollo científico y
+                                Los idiomas extranjeros cobran auge ya que la internacionalización, así como el
+                                desarrollo científico y
                                 tecnológico, exigen que los estudiantes adquieran herramientas para enfrentar
                                 los retos de la globalización.
                             </p>
                         </div>
                         <div class="parte-abajo-parte-derecha--section5">
-                            <p class="titulo-parte-abajo-parte-derecha--section5"><b>Nuestros estudiantes egresan preparados en tres idiomas:</b></p>
+                            <p class="titulo-parte-abajo-parte-derecha--section5"><b>Nuestros estudiantes egresan
+                                    preparados en tres idiomas:</b></p>
                             <ul>
                                 <li>Español (C2)*</li>
                                 <li>Inglés (Bilingüe, B2-C1)*</li>
@@ -225,9 +233,53 @@
         <section class="window-height section6">
             <div class="parte-izquierda--section6">
                 <div class="row">
-                    <p>Modelo <span>pedagógico</span></p>
+                    <p class="titulo-parte-izquierda--section6">Modelo <br> <span>pedagógico</span></p>
                 </div>
-                <div class="">
+                <div class="row">
+                    <div class="col-7 container-texto-izquierda-parte-izquierda--section6">
+                        <p>
+                            Partimos de la individualidad y el respeto a la diversidad, en consecuencia el Sistema
+                            Campoverde se basa en un modelo centrado en el estudiante y grupos colaborativos que
+                            recoge diferentes metodologías.
+                        </p>
+                        <q-expansion-item class="sabermas-texto-izquierda-parte-izquierda--section6" dense dense-toggle
+                            expand-separator expand-icon-class="text-dark" v-model="expanded" label="Saber más">
+                            <q-card>
+                                <q-card-section
+                                    class="texto-interno-sabermas-texto-izquierda-parte-izquierda--section6">
+                                    En esta concepción el estudiante es responsable de su proceso de aprendizaje, debe
+                                    buscar información e interactuar con los contenidos de su curso, desarrollar un
+                                    juicio crítico y tener la iniciativa de aprender continuamente lo que sea esencial
+                                    para cumplir con las intenciones educativas; los estudiantes realizan actividades
+                                    con otros compañeros y entre ellos construyen experiencias de aprendizaje que
+                                    enriquecen los contenidos y el desarrollo de habilidades como el uso de tecnologías,
+                                    trabajo en equipo, discusión de ideas, síntesis, análisis y juicios críticos, etc.,
+                                    asimismo los estudiantes realizan actividades, bien con miembros de la comunidad
+                                    institucional como fuera de ella que les permite enriquecer sus experiencias de
+                                    aprendizaje, el desarrollo de habilidades sociales y ejercitar su compromiso de
+                                    responsabilidad socio-ambiental.
+                                </q-card-section>
+                            </q-card>
+                        </q-expansion-item>
+                    </div>
+                    <div class="col-5 container-texto-derecha-parte-izquierda--section6">
+                        <p>
+                            El aprendizaje constructivo implica que todas las actividades del estudiante
+                            involucran procesos cognitivos activos.
+                        </p>
+                        <q-expansion-item class="sabermas-texto-derecha-parte-izquierda--section6" dense dense-toggle
+                            expand-separator expand-icon-class="text-dark" v-model="expandeddos" label="Saber más">
+                            <q-card>
+                                <q-card-section
+                                    class="texto-interno-sabermas-texto-derecha-parte-izquierda--section6">
+                                    Estos procesos son: la creatividad, solución de problemas, razonamiento, toma de
+                                    decisiones y evaluación. Además, los estudiantes están intrínsecamente motivados
+                                    para aprender por la naturaleza significativa de aprendizaje ambiental y
+                                    actividades.
+                                </q-card-section>
+                            </q-card>
+                        </q-expansion-item>
+                    </div>
                 </div>
             </div>
             <div class="parte-derecha--section6">
@@ -649,6 +701,7 @@
 
 .parte-izquierda--section6{
     width: 70%;
+    padding: 2% 0% 0% 10%;
 }
 
 .parte-derecha--section6{
@@ -661,6 +714,65 @@
     height:100%
 }
 
+.titulo-parte-izquierda--section6{
+    font-size: 40px;
+    line-height: 54px;
+    color: white;
+    font-weight: 900;
+}
+
+.titulo-parte-izquierda--section6 > span{
+    height: fit-content;
+    padding: 0px 22px;
+    border-radius: 33px;
+    background: transparent;
+    border: 7px solid $amarillo;
+    width: fit-content;
+}
+
+.container-texto-izquierda-parte-izquierda--section6 > p:first-child{
+    font-size: 26px;
+    line-height: 28px;
+    padding-right: 13%;
+}
+
+.container-texto-derecha-parte-izquierda--section6{
+    padding-left: 8%;
+}
+
+.container-texto-derecha-parte-izquierda--section6 > p:first-child{
+    font-size: 26px;
+    line-height: 28px;
+}
+
+.sabermas-texto-izquierda-parte-izquierda--section6{
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.texto-interno-sabermas-texto-izquierda-parte-izquierda--section6{
+    background-color: $verde;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.q-expansion-item--expanded {
+    border:1px solid $verde;
+    border-color: $verde;
+    background-color: $verde;
+}
+
+.sabermas-texto-derecha-parte-izquierda--section6{
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.texto-interno-sabermas-texto-derecha-parte-izquierda--section6{
+    background-color: $verde;
+    font-size: 15px;
+    font-weight: normal;
+}
+
 </style>
 
 <script>
@@ -669,6 +781,8 @@ import { ref } from 'vue'
 export default {
   setup () {
     return {
+      expanded: ref(false),
+      expandeddos: ref(false),
       navPos: ref('bottom'),
       slide: ref('style'),
       lorem: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.'
