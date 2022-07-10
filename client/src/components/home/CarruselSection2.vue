@@ -17,12 +17,12 @@
         class="text-white absolute-full bg-transparent border_radius"
       >
         <q-carousel-slide :name="1" class="flex flex-center">
-          <div class="text-h5 text-bold">
+          <div class="text-h5 text-weight-bolder cursor-pointer">
             Tenemos un <br> espíritu <br> comprometido <br> e innovador
           </div>
         </q-carousel-slide>
         <q-carousel-slide :name="2" class="flex flex-center">
-          <div class="text-h5 text-bold">
+          <div class="text-h5 text-weight-bolder cursor-pointer">
             Tenemos un <br> espíritu <br> comprometido <br> e innovador 2
           </div>
         </q-carousel-slide>

@@ -8,8 +8,15 @@
 
       <div class="row justify-center items-end col-xs-2 col-sm-4 col-md-4 col-lg-4">
         <div class="text_section1_mobile column items-center">
-          <div class="text-h5 text-bold text-center cursor-pointer border_blue_rounded q-px-md">Educamos</div>
-          <div class="text-h5 text-bold text-center">Desde otro <br> punto de vista</div>
+          <div class="text-h5 text-weight-bolder text-center cursor-pointer border_blue_rounded q-px-md">Educamos</div>
+          <div @mouseenter="change = true" @mouseout=" change = false">
+            <div v-if="!change" class="text-h5 text-weight-bolder text-center">
+              Desde otro <br> punto de vista
+            </div>
+            <div v-else class="text-h5 text-weight-bolder text-center">
+              en inglés, <br> español y francés
+            </div>
+          </div>
         </div>
         <img src="figuras/F-5.svg" style="width:300px" class="self-end" />
       </div>
@@ -21,3 +28,14 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'section-1',
+  data () {
+    return {
+      change: false
+    }
+  }
+}
+</script>

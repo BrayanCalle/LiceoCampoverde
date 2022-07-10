@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import Carrusel from './Carrusel.vue'
+import Carrusel from './CarruselSection2.vue'
 import VideoHome from './Video'
 export default {
   name: 'section-2',
