@@ -105,92 +105,94 @@
 
         </section>
         <!-- Sección 4 -->
-        <section class="container section-4 q-pa-xl">
-            <div class="mitad-arriba--section-4">
-                <p class="titulo--section-4">
-                    Valores <br> <span>corporativos</span>
-                </p>
-            </div>
-            <div class="mitad-abajo--section-4 window-height ">
-                <div class="container q-pa-xl">
-                    <div class="row q-pa-md">
-                        <div class="col-lg-4 conatainer-texto--section-4">
-                            <p>
-                                Responsabilidad, <b>ética, honestidad y transparencia,</b> como
-                                el nivel más alto de compromiso y de profesionalidad.
-                            </p>
-                        </div>
-                        <div
-                            class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
-                            <div id="circulo1" class="circulo-numeros--section-4">
-                                <p>1.</p>
+        <section class="section-4 q-pa-xl">
+            <div class="container">
+                <div class="mitad-arriba--section-4">
+                    <p class="titulo--section-4">
+                        Valores <br> <span>corporativos</span>
+                    </p>
+                </div>
+                <div class="mitad-abajo--section-4 ">
+                    <div class="container q-pa-xl">
+                        <div class="row q-pa-md">
+                            <div class="col-md-4 conatainer-texto--section-4">
+                                <p>
+                                    Responsabilidad, <b>ética, honestidad y transparencia,</b> como
+                                    el nivel más alto de compromiso y de profesionalidad.
+                                </p>
+                            </div>
+                            <div
+                                class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
+                                <div id="circulo1" class="circulo-numeros--section-4">
+                                    <p>1.</p>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
+                                <div id="circulo2" class="circulo-numeros--section-4">
+                                    <p>2.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 conatainer-texto--section-4">
+                                <p>
+                                    Actualización y formación continua, investigación
+                                    pedagógica e innovación
+                                </p>
                             </div>
                         </div>
-                        <div
-                            class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
-                            <div id="circulo2" class="circulo-numeros--section-4">
-                                <p>2.</p>
+                        <!-- Fila 2 -->
+                        <div class="row q-pa-md">
+                            <div class="col-md-4 conatainer-texto--section-4">
+                                <p>
+                                    Reconocimiento y <b>respeto por la diversidad</b> para
+                                    garantizar las mismas oportunidades de aprendizaje.
+                                </p>
+                            </div>
+                            <div
+                                class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
+                                <div id="circulo3" class="circulo-numeros--section-4">
+                                    <p>3.</p>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
+                                <div id="circulo4" class="circulo-numeros--section-4">
+                                    <p>4.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 conatainer-texto--section-4">
+                                <p>
+                                    Calidad en procesos para asegurar el cumplimiento de los objetivos de la
+                                    organización con <b>eficiencia, eficacia y pertinencia.</b>
+                                </p>
                             </div>
                         </div>
-                        <div class="col-lg-4 conatainer-texto--section-4">
-                            <p>
-                                Actualización y formación continua, investigación
-                                pedagógica e innovación
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Fila 2 -->
-                    <div class="row q-pa-md">
-                        <div class="col-lg-4 conatainer-texto--section-4">
-                            <p>
-                                Reconocimiento y <b>respeto por la diversidad</b> para
-                                garantizar las mismas oportunidades de aprendizaje.
-                            </p>
-                        </div>
-                        <div
-                            class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
-                            <div id="circulo3" class="circulo-numeros--section-4">
-                                <p>3.</p>
+                        <!-- Fila 3 -->
+                        <div class="row q-pa-md">
+                            <div class="col-md-4 conatainer-texto--section-4">
+                                <p>
+                                    <b>Calidez y buen trato,</b> condiciones imprescindibles
+                                    en toda relación humana.
+                                </p>
                             </div>
-                        </div>
-                        <div
-                            class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
-                            <div id="circulo4" class="circulo-numeros--section-4">
-                                <p>4.</p>
+                            <div
+                                class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
+                                <div id="circulo5" class="circulo-numeros--section-4">
+                                    <p>5.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 conatainer-texto--section-4">
-                            <p>
-                                Calidad en procesos para asegurar el cumplimiento de los objetivos de la
-                                organización con <b>eficiencia, eficacia y pertinencia.</b>
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Fila 3 -->
-                    <div class="row q-pa-md">
-                        <div class="col-lg-4 conatainer-texto--section-4">
-                            <p>
-                                <b>Calidez y buen trato,</b> condiciones imprescindibles
-                                en toda relación humana.
-                            </p>
-                        </div>
-                        <div
-                            class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
-                            <div id="circulo5" class="circulo-numeros--section-4">
-                                <p>5.</p>
+                            <div
+                                class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
+                                <div id="circulo6" class="circulo-numeros--section-4">
+                                    <p>6.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div
-                            class="col-lg-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
-                            <div id="circulo6" class="circulo-numeros--section-4">
-                                <p>6.</p>
+                            <div class="col-md-4 conatainer-texto--section-4">
+                                <p>
+                                    <b>Solidaridad</b> para una convivencia cordial mediante la <b>participación activa,
+                                        respetuosa y eficaz</b> en la sociedad.
+                                </p>
                             </div>
-                        </div>
-                        <div class="col-lg-4 conatainer-texto--section-4">
-                            <p>
-                                <b>Solidaridad</b> para una convivencia cordial mediante la <b>participación activa,
-                                    respetuosa y eficaz</b> en la sociedad.
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -349,11 +351,11 @@
         <section class="window-height section8">
             <div class="parte-arriba--section8">
                <div class="parte-izquierda-parte-arriba--section8">
-                    <div class="ochentaporciento row">
-                        <div class="col-6">
+                    <div class="setentaporciento row">
+                        <div class="col-6 container-pb-parte-izquierda-parte-arriba--section8">
                             <p>P<span>B</span></p>
                         </div>
-                        <div class="col-6">
+                        <div class="col-6 container-pdb-parte-izquierda-parte-arriba--section8">
                             <p>
                                 Perfil del<br>Bachiller
                             </p>
@@ -363,8 +365,22 @@
                     </div>
                </div>
                <div class="parte-derecha-parte-arriba--section8">
-                    <div class="ochentaporciento">
-
+                    <div class="setentaporciento">
+                        <div class="container-titulo-parte-derecha-parte-arriba--section8">
+                            <p class="titulo-parte-derecha-parte-arriba--section8">
+                                College<br>Admissions<br>Profile
+                            </p>
+                        </div>
+                        <div class="row container-contenido-parte-derecha-parte-arriba--section8">
+                            <div class="col-3">
+                                <img src="" alt="">
+                            </div>
+                            <div class="col-9 container-cap-parte-derecha-parte-arriba--section8">
+                                <p>
+                                    C<span>AP</span>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                </div>
             </div>
@@ -642,6 +658,7 @@
 
 // < =================== Sección4 =================== >
 .section-4{
+    height: 100%;
     margin-top: 12em;
     background-color: #F2F2F2;
 }
@@ -745,13 +762,13 @@
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-top: 5%;
+    align-items: flex-start;
 }
 
 .parte-derecha--section5{
     height: 70%;
-    width: 80%;
-    padding-right: 103px;
+    width: 100%;
     font-weight: 500;
 }
 
@@ -902,8 +919,8 @@
 
 }
 
-.ochentaporciento{
-    width: 80%;
+.setentaporciento{
+    width: 70%;
     border: 1px solid $morado;
 }
 
@@ -932,6 +949,73 @@
 .parte-abajo--section8{
     background-color: $verde;
     height: 50%;
+}
+
+.container-pb-parte-izquierda-parte-arriba--section8{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+}
+
+.container-pb-parte-izquierda-parte-arriba--section8 > p{
+    font-size: 240px;
+    height: fit-content;
+    margin-bottom: 0px;
+    color: $gris;
+    height: 92%;
+    width: fit-content;
+    font-weight: 900;
+}
+
+.container-pb-parte-izquierda-parte-arriba--section8 > p > span{
+    font-size: 120px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.container-pdb-parte-izquierda-parte-arriba--section8{
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 900;
+    color: white;
+    height: 50%;
+    background-color: $red;
+}
+
+.container-titulo-parte-derecha-parte-arriba--section8{
+    height: 35%;
+    background-color: $morado;
+}
+
+.titulo-parte-derecha-parte-arriba--section8{
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 900;
+    color: white;
+}
+
+.container-cap-parte-derecha-parte-arriba--section8{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.container-cap-parte-derecha-parte-arriba--section8 > p{
+    font-size: 240px;
+    margin-bottom: 0px;
+    color: $gris;
+    font-weight: 900;
+}
+
+.container-cap-parte-derecha-parte-arriba--section8 > p > span{
+    font-size: 120px;
+    margin-bottom: 0px;
+}
+
+.container-contenido-parte-derecha-parte-arriba--section8{
+    height: 65%
 }
 
 </style>
