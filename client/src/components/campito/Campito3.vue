@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import Carrusel from '../home/Carrusel'
+import Carrusel from '../home/CarruselSection2'
 export default {
   name: 'campito-3',
   components: {
