@@ -12,6 +12,17 @@ const routes = [
     ]
   },
   {
+    path: '/campito',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: '',
+        name: 'campito',
+        component: () => import('pages/Campito.vue')
+      }
+    ]
+  },
+  {
     path: '/',
     redirect: '/home'
   },
