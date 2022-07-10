@@ -52,13 +52,13 @@
 
 <script>
 import Section7 from '../home/Section7'
-import Modal1 from './Modal1.vue'
-import Modal2 from './Modal2.vue'
-import Modal3 from './Modal3.vue'
-import Modal4 from './Modal4.vue'
+import Modal1 from '../campito/Modal1.vue'
+import Modal2 from '../campito/Modal2.vue'
+import Modal3 from '../campito/Modal3.vue'
+import Modal4 from '../campito/Modal4.vue'
 
 export default {
-  name: 'campito-6',
+  name: 'basic-5',
   components: {
     Section7,
     Modal1,
