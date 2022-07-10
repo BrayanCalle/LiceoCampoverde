@@ -286,6 +286,100 @@
                 <img src="../assets/img/Figuras/F-N-4.svg" alt="">
             </div>
         </section>
+        <!-- Section 7 -->
+        <section class="window-height section7">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div>
+                            <p class="titulos--section7">
+                                Fortalezas individuales desarrollo afectivo
+                            </p>
+                            <ul class="textos--section7">
+                                <li>Enfoque constructivista</li>
+                                <li>Metacognición</li>
+                                <li>Aprendizaje significativo<br>(conocimientos previos y motivación)</li>
+                                <li>Pensamiento critico</li>
+                                <li>Pensamiento divergente (creatividad)</li>
+                            </ul>
+                        </div>
+                        <div class="q-mt-lg">
+                            <p class="titulos--section7">
+                                Rol protagónico<br>desarrollo sustentable
+                            </p>
+                            <ul class="textos--section7">
+                                <li>Enfoque constructivista social</li>
+                                <li>Globalización y transversalidad</li>
+                                <li>Aprendizaje basado en proyectos</li>
+                                <li>Investigación</li>
+                                <li>Resolución de problemas</li>
+                                <li>Tic's aplicadas a la educación </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-4 container-imagen--section7">
+                        <img src="../assets/img/Figuras/F-N-7.svg" alt="">
+                    </div>
+                    <div class="col-4 columna-container-parte-derecha--section7">
+                        <div class="container-parte-derecha--section7">
+                            <div>
+                                <p class="titulos--section7">Rol protagónico desarrollo del Ecuador y el mundo</p>
+                                <ul class="textos--section7">
+                                    <li>Enfoques: histórico, cultural y constructivista </li>
+                                    <li>Aprendizaje en colaboración</li>
+                                    <li>Espacios de proyección social</li>
+                                    <li>Estrategias de diferenciación e inclusión</li>
+                                </ul>
+                            </div>
+                            <div class="q-mt-lg">
+                                <p class="titulos--section7">Identidad y cultura</p>
+                                <ul class="textos--section7">
+                                    <li>Enfoques: histórico y Cultural</li>
+                                    <li>Globalización: bilingüismo </li>
+                                    <li>Investigación para la difusión</li>
+                                    <li>Modelo de comunicación efectiva</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section 8 -->
+        <section class="window-height section8">
+            <div class="parte-arriba--section8">
+               <div class="parte-izquierda-parte-arriba--section8">
+                    <div class="ochentaporciento row">
+                        <div class="col-6">
+                            <p>P<span>B</span></p>
+                        </div>
+                        <div class="col-6">
+                            <p>
+                                Perfil del<br>Bachiller
+                            </p>
+                            <img src="" alt="">
+                        </div>
+
+                    </div>
+               </div>
+               <div class="parte-derecha-parte-arriba--section8">
+                    <div class="ochentaporciento">
+
+                    </div>
+               </div>
+            </div>
+            <div class="parte-abajo--section8">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="" alt="">
+                        <p>Código de<br>convivencia</p>
+                    </div>
+                    <div class="col-4">
+                        <p>C<span>C</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </q-page>
 </template>
@@ -771,6 +865,73 @@
     background-color: $verde;
     font-size: 15px;
     font-weight: normal;
+}
+
+// < =================== Sección7 =================== >
+.section7{
+    display: flex;
+    align-items: center
+}
+
+.titulos--section7{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 900;
+}
+
+.textos--section7 > li{
+    font-size: 18px
+}
+
+.container-parte-derecha--section7{
+    width: 80%;
+}
+
+.columna-container-parte-derecha--section7{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-imagen--section7{
+    display: flex;
+    align-items: center;
+}
+
+// < =================== Sección8 =================== >
+.section8{
+
+}
+
+.ochentaporciento{
+    width: 80%;
+    border: 1px solid $morado;
+}
+
+.parte-arriba--section8{
+    height: 50%;
+    display: flex;
+}
+
+.parte-izquierda-parte-arriba--section8{
+    width: 50%;
+    background-color: $celeste;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+.parte-derecha-parte-arriba--section8{
+    width: 50%;
+    background-color: $azul-oscuro;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.parte-abajo--section8{
+    background-color: $verde;
+    height: 50%;
 }
 
 </style>
