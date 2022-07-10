@@ -14,8 +14,7 @@
         navigation
         padding
         height="95%"
-        style="border-radius:100%"
-        class="text-white absolute-full bg-transparent"
+        class="text-white absolute-full bg-transparent border_radius"
       >
         <q-carousel-slide :name="1" class="flex flex-center">
           <div class="text-h5 text-bold">

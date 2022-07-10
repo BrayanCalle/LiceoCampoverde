@@ -8,7 +8,7 @@
 
       <div class="row justify-center items-end col-xs-2 col-sm-4 col-md-4 col-lg-4">
         <div class="text_section1_mobile column items-center">
-          <div class="text-h5 text-bold text-center cursor-pointer border_blue q-px-md">Educamos</div>
+          <div class="text-h5 text-bold text-center cursor-pointer border_blue_rounded q-px-md">Educamos</div>
           <div class="text-h5 text-bold text-center">Desde otro <br> punto de vista</div>
         </div>
         <img src="figuras/F-5.svg" style="width:300px" class="self-end" />
