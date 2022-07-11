@@ -1,6 +1,6 @@
 <template>
   <div class="row justify-between height_section3 fondo_naranja text-white">
-    <div class="absolute q-pa-lg column items-start text-h4 text-bold" style="z-index:20">
+    <div class="absolute q-pa-lg column items-start text-h4 text-weight-bolder" style="z-index:20">
       <div>Nuestra</div>
       <div class="bg-white text_naranja q-ml-md q-px-sm">metodología</div>
     </div>
