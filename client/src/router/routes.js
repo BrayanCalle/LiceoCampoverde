@@ -8,6 +8,18 @@ const routes = [
         path: '/home',
         name: 'home',
         component: () => import('pages/Home.vue')
+      },
+      {
+        path: '/blog',
+        redirect: '/blog',
+        component: () => import('layouts/LayoutBlog.vue'),
+        children: [
+          {
+            path: '/blog',
+            name: 'blog',
+            component: () => import('pages/Blog.vue')
+          }
+        ]
       }
     ]
   },

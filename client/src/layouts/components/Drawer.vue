@@ -4,7 +4,6 @@
     side="right"
     overlay
     flat
-    :width="280"
     :breakpoint="500"
   >
     <div class="fit q-pl-xs border_left_radius">

@@ -12,12 +12,16 @@
   position: relative;
   max-width: 100%;
   width: 100% !important;
+  .img_in {
+    visibility: hidden;
+  }
 }
 .img_cover {
-  float: right;
+  position: sticky;
+  top: 0px;
   width: 100vw;
   height:100vh;
-  z-index:1
+  z-index: 3;
 }
 .block1 {
   background-image: url('/home/prekinder-campus-moderno.jpg');
@@ -223,5 +227,8 @@
     height: 50vh;
     max-width: 100%;
     width: 100% !important;
+    .img_in {
+      visibility: visible;
+    }
   }
 }

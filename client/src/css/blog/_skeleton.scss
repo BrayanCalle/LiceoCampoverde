@@ -1,0 +1,24 @@
+// Blog skeleton
+
+// Estilos de posicionamiento
+.menu_blog {
+  position: sticky;
+  top: 70px;
+  width: 100%;
+  height:100vh;
+}
+
+// Estilos de espacios
+.padding_blog {
+  padding: 10px 15px;
+}
+
+// Estilos responsives
+@media only screen and (max-width: 600px) {
+  .padding_blog {
+    padding: 30px;
+  }
+  .menu_blog {
+  height:auto;
+}
+}

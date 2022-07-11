@@ -1,10 +1,10 @@
 <template>
-  <div class="">
-    <!-- <div class="row justify-end bg-transparent img_cover">
+  <div>
+    <div class="row justify-end bg-transparent img_cover">
       <div class="col-8 full-height">
         <img src="home/F-servicios.svg" class="full-height" />
       </div>
-    </div> -->
+    </div>
 
     <!-- <q-page-sticky position="top" :offset="[18, 18]" style="z-index:40">
       <q-btn fab icon="add" color="accent" />
@@ -20,7 +20,7 @@
       </div>
       <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
         <div class="paralax_section block1">
-          <img src="home/F-servicios.svg" class="full-height" />
+          <img src="home/F-servicios.svg" class="full-height img_in" />
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@
       </div>
       <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
         <div class="paralax_section block2">
-          <img src="home/F-servicios.svg" class="full-height" />
+          <img src="home/F-servicios.svg" class="full-height img_in" />
         </div>
       </div>
     </div>
@@ -50,7 +50,7 @@
       </div>
       <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
         <div class="paralax_section block3">
-          <img src="home/F-servicios.svg" class="full-height" />
+          <img src="home/F-servicios.svg" class="full-height img_in" />
         </div>
       </div>
     </div>
