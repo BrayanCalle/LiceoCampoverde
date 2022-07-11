@@ -36,7 +36,7 @@
                 <q-item-section class="text-grey-8">{{item.label}}</q-item-section>
               </template>
               <div v-for="(item2, index) in item.items" :key="index" class="q-pl-xl" :class="selecItem === item2 ? 'text-accent' : 'text-grey-8'">
-                <q-item clickable v-ripple @click="selecItem = item2">
+                <q-item clickable v-ripple @click="selecItem = item2, item2.ruta ? $router.push(item2.ruta) : ''">
                   <q-item-section>
                     {{ item2.label }}
                   </q-item-section>
@@ -46,7 +46,7 @@
 
             <!-- Se muestra si no es expandible -->
             <q-item v-else clickable v-ripple :class="selecItem === item ? 'text-accent' : 'text-grey-8'"
-              @click="selecItem = item">
+              @click="selecItem = item, item.ruta ? $router.push(item.ruta) : ''">
               <q-item-section avatar>
                 <q-avatar size="30px">
                   <img :src="item.image">
@@ -138,7 +138,7 @@ export default {
         },
         {
           label: 'Blog',
-          ruta: '',
+          ruta: '/blog',
           image: 'iconInfo/I-m4.svg'
         },
         {

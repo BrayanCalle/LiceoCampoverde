@@ -64,6 +64,11 @@
               </q-card>
             </q-expansion-item>
           </q-card>
+
+          <div v-if="$route.meta.compartir" class="row no-wrap items-center q-py-md cursor-pointer">
+            <div class="text-caption text-bold q-pr-md">Compartir</div>
+            <img src="iconInfo/share-option.png" style="width:30px" />
+          </div>
         </div>
       </div>
     </q-page-container>

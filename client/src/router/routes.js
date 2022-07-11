@@ -17,7 +17,13 @@ const routes = [
           {
             path: '/blog',
             name: 'blog',
-            component: () => import('pages/Blog.vue')
+            component: () => import('pages/blog/Blog.vue')
+          },
+          {
+            path: '/blog/:id',
+            name: 'blog-detail',
+            component: () => import('pages/blog/Detalle.vue'),
+            meta: { compartir: true }
           }
         ]
       }

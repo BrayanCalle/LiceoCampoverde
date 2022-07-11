@@ -1,7 +1,7 @@
 <template>
   <div>
-    <q-card class="full-height">
-      <q-img :src="data.image" style="height:40%;border-bottom-right-radius: 100%;"/>
+    <q-card flat class="full-height" @click="$router.push({ name: 'blog-detail', params: { id: data.id } })">
+      <q-img :src="data.image" style="height:40%;border-bottom-right-radius: 100%; cursor:pointer"/>
 
       <q-card-section class="q-pb-lg" :style="`height: 60%;background-color: ${colors[index]}`">
         <div class="absolute-right q-pr-sm" style="top:-30px">

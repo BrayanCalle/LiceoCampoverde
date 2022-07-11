@@ -29,6 +29,7 @@ export default {
     return {
       data: [
         {
+          id: '1',
           image: 'home/prekinder-campus-moderno.jpg',
           date: '10/10/2022',
           type: 'Desarrollo',
@@ -39,6 +40,7 @@ export default {
           title: 'La importancia del tiempo libre para el buen desarrollo'
         },
         {
+          id: '2',
           image: 'home/bachillerato-campus-moderno.jpg',
           date: '10/10/2022',
           type: 'Creatividad',
@@ -49,6 +51,7 @@ export default {
           title: 'Juegos para un fin de samana en casa'
         },
         {
+          id: '3',
           image: 'home/bachillerato-campus-moderno.jpg',
           date: '10/10/2022',
           type: 'Tutoriales',
@@ -59,6 +62,7 @@ export default {
           title: 'Como armar tu mochila para este 2022'
         },
         {
+          id: '4',
           image: 'home/escuela-campus-moderno.jpg',
           date: '10/10/2022',
           type: 'Clases',
