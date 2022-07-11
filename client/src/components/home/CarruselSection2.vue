@@ -1,6 +1,6 @@
 <template>
   <div>
-    <q-avatar class="fit">
+    <q-avatar size="400px">
       <img src="figuras/F-4.svg" class="fit"/>
 
       <!-- Video solo en vista web -->
@@ -13,7 +13,7 @@
         control-color="white"
         navigation
         padding
-        height="95%"
+        height="80%"
         class="text-white absolute-full bg-transparent border_radius"
       >
         <q-carousel-slide :name="1" class="flex flex-center">

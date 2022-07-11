@@ -65,10 +65,14 @@
             </q-expansion-item>
           </q-card>
 
-          <div v-if="$route.meta.compartir" class="row no-wrap items-center q-py-md cursor-pointer">
+          <div v-if="$route.meta.compartir" class="row no-wrap items-center q-py-md">
             <div class="text-caption text-bold q-pr-md">Compartir</div>
-            <img src="iconInfo/share-option.png" style="width:30px" />
+            <img src="iconInfo/share-option.png" style="width:30px" class="cursor-pointer" @click="share = true" />
           </div>
+
+          <q-dialog v-model="share" persistent>
+            <share-data @close="share = false" />
+          </q-dialog>
         </div>
       </div>
     </q-page-container>
@@ -76,12 +80,15 @@
 </template>
 
 <script>
+import ShareData from '../components/ShareData.vue'
 export default {
   name: 'Layout-blog',
   components: {
+    ShareData
   },
   data () {
     return {
+      share: false,
       search: '',
       recursos: [
         {
