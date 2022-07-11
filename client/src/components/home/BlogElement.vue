@@ -1,9 +1,9 @@
 <template>
   <div>
     <q-card class="full-height">
-      <q-img :src="data.image" style="height:40%;border-bottom-right-radius: 100px;"/>
+      <q-img :src="data.image" style="height:40%;border-bottom-right-radius: 100%;"/>
 
-      <q-card-section :style="`height: 60%;background-color: ${colors[index]}`">
+      <q-card-section class="q-pb-lg" :style="`height: 60%;background-color: ${colors[index]}`">
         <div class="absolute-right q-pr-sm" style="top:-30px">
           <q-avatar size="60px">
             <img :src="data.user.perfil" />
@@ -15,8 +15,12 @@
           <div class="text-subtitle2">{{data.type}}</div>
         </div>
 
-        <div class="q-pa-lg text-h5 text-bold">
+        <div class="q-px-lg q-pt-lg q-pb-xl text-h5 text-bold">
           {{ data.title }}
+        </div>
+
+        <div class="absolute-bottom q-pa-sm">
+          <q-btn round dense color="black" icon="add" />
         </div>
       </q-card-section>
     </q-card>
