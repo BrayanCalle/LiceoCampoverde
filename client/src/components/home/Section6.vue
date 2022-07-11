@@ -1,20 +1,52 @@
 <template>
   <div class="">
-    <div class="row justify-end">
-      <q-parallax
-        class=""
-        :speed="0.9"
-      >
-        <template v-slot:media>
-          <img src="home/liceo-campoverde.jpg" style="width:50%">
-        </template>
+    <!-- <div class="row justify-end bg-transparent img_cover">
+      <div class="col-8 full-height">
+        <img src="home/F-servicios.svg" class="full-height" />
+      </div>
+    </div> -->
 
-        <template v-slot:content>
-          <div class="column items-center">
-            <div class="text-h3 text-white text-center">hola</div>
-          </div>
-        </template>
-      </q-parallax>
+    <!-- <q-page-sticky position="top" :offset="[18, 18]" style="z-index:40">
+      <q-btn fab icon="add" color="accent" />
+    </q-page-sticky> -->
+
+    <div class="window-height row">
+      <div class="col-4 column justify-center items-center">
+        <div class="text-center">Img 1</div>
+      </div>
+      <div class="col-8">
+        <div class="paralax_section block1">
+          <!-- <img src="home/F-servicios.svg" class="full-height" /> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="window-height row">
+      <div class="col-4 column justify-center items-center">
+        <div class="text-center">Img 2</div>
+      </div>
+      <div class="col-8">
+        <div class="paralax_section block2">
+        </div>
+      </div>
+    </div>
+
+    <div class="window-height row">
+      <div class="col-4 column justify-center items-center">
+        <div class="text-center">Img 3</div>
+      </div>
+      <div class="col-8">
+        <div class="paralax_section block3">
+        </div>
+      </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'section-6',
+  components: {
+  }
+}
+</script>
