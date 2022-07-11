@@ -107,7 +107,7 @@ export default {
   name: 'section-4',
   data () {
     return {
-      change: 3
+      change: 1
     }
   }
 }
