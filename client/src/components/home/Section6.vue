@@ -3,7 +3,7 @@
     <div class="absolute-full web_element">
       <div class="row justify-end bg-transparent img_cover">
         <div class="col-8">
-          <q-img src="home/F-servicios.svg" class="fit" />
+          <q-img src="home/F-servicios.svg" style="height:100vh" />
         </div>
       </div>
     </div>

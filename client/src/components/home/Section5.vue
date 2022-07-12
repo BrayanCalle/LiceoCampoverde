@@ -40,8 +40,9 @@
         </div>
       </q-card>
     </div> -->
+
     <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 column justify-center items-center q-py-md full-height">
-      <q-card flat class="contenedor_section5 no-wrap border_radius height_auto width_auto"
+      <q-card flat class="border_radius height_auto width_auto"
         :class="change === 1 ? 'card_left_section5' : change === 2 ? 'card_right_section5' : 'card_up_section5'">
         <div v-if="change < 3" class="row justify-center border_radius fit">
           <div class="col-6 row justify-end contenedor_section5 width_auto height_auto">

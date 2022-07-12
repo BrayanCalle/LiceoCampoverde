@@ -33,6 +33,15 @@
   background-image: url('/home/bachillerato-campus-moderno.jpg');
 }
 
+.circulo {
+	width: 50%;
+  height: 0;
+  padding-bottom: 50%;
+  -moz-border-radius: 100%; 
+  -webkit-border-radius: 100%; 
+  border-radius: 50%;
+}
+
 // Estilos de espacios
 .padding_section4 {
   padding: 30px 50px;
@@ -58,10 +67,11 @@
   z-index: 0;
   .img {
     height: 100%;
+    width: 100%
   }
   .texto_encima{
     position: absolute;
-    bottom: 70px;
+    bottom: 55px;
   }
 }
 .video_carrusel {
