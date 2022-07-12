@@ -951,6 +951,11 @@
     height: 50%;
 }
 
+.parte-abajo--section8 .row{
+    display: flex;
+    justify-content:center;
+}
+
 .container-pb-parte-izquierda-parte-arriba--section8{
     display: flex;
     align-items: flex-end;
@@ -1007,6 +1012,7 @@
     margin-bottom: 0px;
     color: $gris;
     font-weight: 900;
+    height: 143%;
 }
 
 .container-cap-parte-derecha-parte-arriba--section8 > p > span{
