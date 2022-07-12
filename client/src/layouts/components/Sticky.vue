@@ -1,6 +1,6 @@
 <template>
   <div>
-    <q-page-sticky position="bottom-right" :offset="[0, 50]">
+    <q-page-sticky position="bottom-right" :offset="[0, 50]" style="z-index: 1">
       <div v-if="!seeMenu" class="row no-wrap items-center sticky_style cursor-pointer"
         @click="seeMenu = true">
         <img src="home/rostro.svg" class="icon_avatar">
