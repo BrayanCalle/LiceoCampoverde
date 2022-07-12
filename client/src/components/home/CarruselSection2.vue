@@ -10,9 +10,10 @@
         v-model="slide"
         swipeable
         animated
-        control-color="white"
+        infinite
         navigation
-        padding
+        autoplay
+        control-color="white"
         height="90%"
         class="text-white absolute-full bg-transparent border_radius"
       >

@@ -17,7 +17,7 @@
         <div>
           <div class="column items-center q-gutter-y-xs q-py-lg">
             <q-input dense borderless v-model="form.name" label="Nombre y apellido" label-color="indigo-8"
-              style="background: #8CAEF9;width:60%;border-radius:10px" class="q-px-sm">
+              class="q-px-sm campos_form">
               <template v-slot:prepend>
                 <q-avatar square>
                   <img src="iconInfo/I-user.svg">
@@ -25,7 +25,7 @@
               </template>
             </q-input>
             <q-input dense borderless v-model="form.email" type="email" placeholder="mimailprincipal@mail.com" label-color="indigo-8"
-              style="background: #8CAEF9;width:60%;border-radius:10px" class="q-px-sm">
+              class="q-px-sm campos_form">
               <template v-slot:prepend>
                 <q-avatar square>
                   <img src="iconInfo/I-correo-morado.svg">
@@ -33,20 +33,20 @@
               </template>
             </q-input>
             <q-input dense borderless v-model="form.phone" label="WhatsApp" label-color="indigo-8"
-              style="background: #8CAEF9;width:60%;border-radius:10px" class="q-px-sm">
+              class="q-px-sm campos_form">
               <template v-slot:prepend>
                 <q-icon name="whatsapp" color="accent" />
               </template>
             </q-input>
             <q-select dense borderless v-model="form.selection" :options="['Opción 1', 'Opción 2']"
               label="Escoge una opción" label-color="indigo-8"
-              style="background: #8CAEF9;width:60%;border-radius:10px" class="q-px-sm">
+              class="q-px-sm campos_form">
               <template v-slot:prepend>
                 <q-icon name="dashboard" color="accent" />
               </template>
             </q-select>
             <q-input dense borderless v-model="form.comment" type="textarea" label="Escribe aqui tu mensaje" label-color="indigo-8"
-              style="background: #8CAEF9;width:60%;border-radius:10px" class="q-px-sm">
+              class="q-px-sm campos_form">
               <template v-slot:prepend>
                 <q-icon name="send" color="accent" />
               </template>

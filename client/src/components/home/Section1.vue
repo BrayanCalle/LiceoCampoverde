@@ -8,14 +8,8 @@
 
       <div class="row justify-center items-end col-xs-2 col-sm-4 col-md-4 col-lg-4">
         <div class="text_section1_mobile column items-center">
-          <transition
-            appear
-            enter-active-class="animated rotateIn"
-            leave-active-class="animated fadeOut"
-          >
           <div class="text-h5 text-weight-bolder text-center cursor-pointer border_blue_rounded q-px-md">Educamos</div>
-          </transition>
-          <div @mouseenter="change = true" @mouseout=" change = false">
+          <div>
             <div v-if="!change" class="text-h5 text-weight-bolder text-center">
               Desde otro <br> punto de vista
             </div>
@@ -40,8 +34,15 @@ export default {
   name: 'section-1',
   data () {
     return {
-      change: false
+      change: false,
+      timeCounter: null
     }
+  },
+  created () {
+    this.timeCounter = setInterval(this.change = !this.change, 5000)
+  },
+  beforeDestroy () {
+    clearInterval(this.timeCounter)
   }
 }
 </script>
