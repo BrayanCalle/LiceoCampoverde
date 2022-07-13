@@ -3,6 +3,9 @@
     <q-avatar class="fit cursor-pointer" clickable v-ripple
       @click="videoModal = true">
       <img src="home/video-bachillerato-quito.png" class="fit">
+      <div class="absolute-full flex flex-center">
+        <img src="home/icons-video.svg" style="width:25%" />
+      </div>
     </q-avatar>
 
     <q-dialog v-model="videoModal" persistent>
