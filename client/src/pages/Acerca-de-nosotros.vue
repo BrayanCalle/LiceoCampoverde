@@ -272,8 +272,7 @@
                         <q-expansion-item class="sabermas-texto-derecha-parte-izquierda--section6" dense dense-toggle
                             expand-separator expand-icon-class="text-dark" v-model="expandeddos" label="Saber más">
                             <q-card>
-                                <q-card-section
-                                    class="texto-interno-sabermas-texto-derecha-parte-izquierda--section6">
+                                <q-card-section class="texto-interno-sabermas-texto-derecha-parte-izquierda--section6">
                                     Estos procesos son: la creatividad, solución de problemas, razonamiento, toma de
                                     decisiones y evaluación. Además, los estudiantes están intrínsecamente motivados
                                     para aprender por la naturaleza significativa de aprendizaje ambiental y
@@ -350,7 +349,7 @@
         <!-- Section 8 -->
         <section class="window-height section8">
             <div class="parte-arriba--section8">
-               <div class="parte-izquierda-parte-arriba--section8">
+                <div class="parte-izquierda-parte-arriba--section8">
                     <div class="setentaporciento row">
                         <div class="col-6 container-pb-parte-izquierda-parte-arriba--section8">
                             <p>P<span>B</span></p>
@@ -360,15 +359,15 @@
                                 Perfil del<br>Bachiller
                             </p>
                             <div class="container-pdb-imagen-mas">
-                                    <div class="imagen-mas">
-                                        <img src="../../public/Figuras/+.svg" alt="">
-                                    </div>
+                                <div class="imagen-mas">
+                                    <img src="../../public/Figuras/+.svg" alt="">
+                                </div>
                             </div>
                         </div>
 
                     </div>
-               </div>
-               <div class="parte-derecha-parte-arriba--section8">
+                </div>
+                <div class="parte-derecha-parte-arriba--section8">
                     <div class="setentaporciento">
                         <div class="container-titulo-parte-derecha-parte-arriba--section8">
                             <p class="titulo-parte-derecha-parte-arriba--section8">
@@ -390,7 +389,7 @@
                             </div>
                         </div>
                     </div>
-               </div>
+                </div>
             </div>
             <div class="parte-abajo--section8">
                 <div class="setentaporciento row container-contenido-parte-abajo--section8">
@@ -405,6 +404,29 @@
                     <div class="col-4 contenido-parte-abajo-parte-derecha--section8">
                         <p>C<span>C</span></p>
                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section 8 -->
+        <section class="window-height section9">
+            <div class="q-pt-lg container">
+                <p class="titulo--section9">
+                    <span>Aprobación</span><br>
+                    ministerial de costo<br>de pensiones
+                </p>
+                <div class="resolucion-de-costos">
+                    <img src="../assets/Icon/I-download-doc.svg" width="64px" height="64px" alt="">
+                    <p>Resolución de<br>costos 2021</p>
+                </div>
+                <div class="container-texto-section9">
+                    <p class="texto-section9">
+                        Los padres y madres de familia de Liceo Campoverde deben cancelar los valores por concepto de
+                        <span>pensiones los 5 primeros días</span> de cada mes de acuerdo al contrato firmado durante el período de
+                        matriculación.
+                    </p>
+                </div>
+                <div class="container-imagen-section9">
+                    <img src="../assets/img/Figuras/F-N-6.svg" alt="">
                 </div>
             </div>
         </section>
@@ -1117,6 +1139,75 @@
 
 .contenido-parte-abajo-parte-derecha--section8 > p > span{
     font-size: 120px;
+}
+
+// < =================== Sección9 =================== >
+
+.section9{
+    background-color: $gris;
+}
+
+.titulo--section9{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 900;
+    padding-left: 270px;
+    padding-top: 100px;
+}
+
+.titulo--section9 > span{
+    height: fit-content;
+    padding: 0px 22px;
+    border-radius: 33px;
+    background: transparent;
+    border: 7px solid $celeste;
+    width: fit-content;
+    line-height: 65px;
+}
+
+.container-imagen-section9{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-imagen-section9 > img{
+    width: 80%;
+    height: auto;
+}
+
+.section9 > .container > p{
+    position: absolute;
+}
+
+.resolucion-de-costos{
+    position: absolute;
+    padding-left: 55em;
+    padding-top: 7em;
+}
+.resolucion-de-costos > img{
+    width: 100%;
+}
+
+.resolucion-de-costos > p  {
+    color: white;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 900;
+}
+
+.container-texto-section9{
+    position: absolute;
+    padding-left: 30em;
+    padding-top: 27em;
+    width: 45em;
+}
+
+.texto-section9{
+    font-size: 15px;
 }
 
 </style>
