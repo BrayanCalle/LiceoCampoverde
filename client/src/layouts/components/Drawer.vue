@@ -79,7 +79,7 @@ export default {
       menu: [
         {
           label: 'Acerca de nosotros',
-          ruta: '',
+          ruta: 'acerca-de-nosotros',
           image: 'iconInfo/I-m1.svg'
         },
         {
