@@ -10,7 +10,7 @@
         <div class="text_section1_mobile column items-center">
           <div class="text-h5 text-weight-bolder text-center cursor-pointer border_blue_rounded q-px-md">Educamos</div>
           <div>
-            <div v-if="!change" class="text-h5 text-weight-bolder text-center">
+            <div v-if="change" class="text-h5 text-weight-bolder text-center">
               Desde otro <br> punto de vista
             </div>
             <div v-else class="text-h5 text-weight-bolder text-center">
@@ -34,12 +34,17 @@ export default {
   name: 'section-1',
   data () {
     return {
-      change: false,
-      timeCounter: null
+      change: true,
+      timeCounter: ''
     }
   },
   created () {
-    this.timeCounter = setInterval(this.change = !this.change, 5000)
+    this.timeCounter = setInterval(this.activeChange, 5000)
+  },
+  methods: {
+    activeChange () {
+      this.change = !this.change
+    }
   },
   beforeDestroy () {
     clearInterval(this.timeCounter)
