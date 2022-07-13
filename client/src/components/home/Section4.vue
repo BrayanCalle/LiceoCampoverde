@@ -6,7 +6,12 @@
       </div>
       <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 img">
         <div class="card fit text-white text-bold text_zise">
-          <div>Nuestra <br> infraestructura <br> es parte de <br> nuestra <br><b class="bg-accent q-px-sm">esencia</b></div>
+          <div>
+            Nuestra <br>
+            infraestructura <br class="web_element"> es <br class="mobile_element">
+            parte de <br class="web_element"> nuestra <br>
+            <b class="bg-accent q-px-sm">esencia</b>
+          </div>
           <q-chip color="accent" text-color="white">
             Tour Virtual 360
           </q-chip>
