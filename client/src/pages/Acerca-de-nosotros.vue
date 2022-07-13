@@ -385,12 +385,14 @@
                </div>
             </div>
             <div class="parte-abajo--section8">
-                <div class="row">
-                    <div class="col-4">
-                        <img src="" alt="">
+                <div class="setentaporciento row container-contenido-parte-abajo--section8">
+                    <div class="contenido-parte-abajo--section8 col-4">
+                        <div class="imagen-mas">
+                            <img src="" alt="">
+                        </div>
                         <p>Código de<br>convivencia</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 contenido-parte-abajo-parte-derecha--section8">
                         <p>C<span>C</span></p>
                     </div>
                 </div>
@@ -949,6 +951,9 @@
 .parte-abajo--section8{
     background-color: $verde;
     height: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .parte-abajo--section8 .row{
@@ -1022,6 +1027,50 @@
 
 .container-contenido-parte-derecha-parte-arriba--section8{
     height: 65%
+}
+
+.container-contenido-parte-abajo--section8{
+    height: 70%;
+}
+
+.contenido-parte-abajo--section8{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-parte-abajo--section8 > img{
+    height:50%;
+    background-color: $amarillo;
+}
+
+.contenido-parte-abajo--section8 > p{
+    height:50%;
+    background-color: $celeste;
+    margin: 0px;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 900;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.contenido-parte-abajo-parte-derecha--section8{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.contenido-parte-abajo-parte-derecha--section8 > p{
+    font-size: 240px;
+    margin-bottom: 0px;
+    color: #E5E1D3;
+    font-weight: 900;
+    height: 117%;
+}
+
+.contenido-parte-abajo-parte-derecha--section8 > p > span{
+    font-size: 120px;
 }
 
 </style>
