@@ -6,7 +6,7 @@
       <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 q-pa-md">
         <div class="menu_blog">
           <div class="q-pb-md">
-            <q-input dense filled v-model="search" placeholder="Buscar..." >
+            <q-input dense borderless v-model="search" placeholder="Buscar..." class="bg-grey-3 q-px-md" style="border-radius:20px" >
               <template v-slot:append>
                 <q-icon name="search" />
               </template>
