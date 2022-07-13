@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row">
-      <div class="col-12 col-sm-6 col-md-6 section-form relative-position">
+      <div class="col-12 col-sm-6 col-md-6 section-form relative-position q-py-md">
         <h4 class="text-weight-bolder"><span class="bg-secondary text-white">Educamos </span><br/> para el mundo<br/> de mañana</h4>
         <img width="60%" src="/figuras/F-6.svg" alt="imagen"/>
         <p class="text-h5 text-weight-bolder text-right q-pt-lg">
@@ -9,7 +9,7 @@
         </p>
       </div>
 
-      <div class="col-12 col-sm-6 col-md-6 fondo_gris">
+      <div class="col-12 col-sm-6 col-md-6 fondo_gris q-py-md">
         <div class="row items-end q-gutter-x-md">
           <img width="30%" src="/figuras/F-2.svg" alt="imagen"/>
           <img src="/home/rostro.svg" alt="rostro"/>
