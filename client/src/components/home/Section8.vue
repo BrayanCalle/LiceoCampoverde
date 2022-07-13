@@ -30,45 +30,45 @@ export default {
       data: [
         {
           id: '1',
-          image: 'home/prekinder-campus-moderno.jpg',
+          image: 'blog/blog-1.png',
           date: '10/10/2022',
           type: 'Desarrollo',
           user: {
             name: 'Frida Campo',
-            perfil: 'home/video-bachillerato-quito.png'
+            perfil: 'blog/blog-2.png'
           },
           title: 'La importancia del tiempo libre para el buen desarrollo'
         },
         {
           id: '2',
-          image: 'home/bachillerato-campus-moderno.jpg',
+          image: 'blog/blog-3.png',
           date: '10/10/2022',
           type: 'Creatividad',
           user: {
             name: 'Marco Polo',
-            perfil: 'home/video-bachillerato-quito.png'
+            perfil: 'blog/blog-5.png'
           },
           title: 'Juegos para un fin de samana en casa'
         },
         {
           id: '3',
-          image: 'home/bachillerato-campus-moderno.jpg',
+          image: 'blog/blog-4.png',
           date: '10/10/2022',
           type: 'Tutoriales',
           user: {
             name: 'Marco Polo',
-            perfil: 'home/video-bachillerato-quito.png'
+            perfil: 'blog/blog-5.png'
           },
           title: 'Como armar tu mochila para este 2022'
         },
         {
           id: '4',
-          image: 'home/escuela-campus-moderno.jpg',
+          image: 'blog/blog-1.png',
           date: '10/10/2022',
           type: 'Clases',
           user: {
             name: 'Frida Campo',
-            perfil: 'home/video-bachillerato-quito.png'
+            perfil: 'blog/blog-2.png'
           },
           title: 'La importancia del tiempo libre para el buen desarrollo'
         }

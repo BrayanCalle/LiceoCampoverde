@@ -2,7 +2,7 @@
   <div class="height_section2 row">
     <div class="col-12 q-pa-md column items-start text-h4 text-bold">
       <div>Somos Liceo</div>
-      <div class="border_green q-ml-md q-px-sm">Campo Verde</div>
+      <div class="border_green q-px-sm">Campo Verde</div>
     </div>
 
     <div class="col-12 column justify-center" style="height: 60%">

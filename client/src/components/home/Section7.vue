@@ -38,7 +38,7 @@
                 <q-icon name="whatsapp" color="accent" />
               </template>
             </q-input>
-            <q-select dense borderless v-model="form.selection" :options="['Opción 1', 'Opción 2']"
+            <q-select dense borderless v-model="form.selection" :options="['Campito', 'E. Básica', 'Bachillerato']"
               label="Escoge una opción" label-color="indigo-8"
               class="q-px-sm campos_form">
               <template v-slot:prepend>
