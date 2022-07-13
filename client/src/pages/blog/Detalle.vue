@@ -3,30 +3,89 @@
     <div class="row justify-center full-width items-start">
       <q-card flat class="full-width" style="height:auto">
         <q-card-section class="row justify-center">
-          <div class="col-xs-12 col-sm-7 col-md-4 col-lg-4">
+          <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
             <q-img :src="data.image" class="full-height full-width" style="border-bottom-right-radius: 100%;"/>
           </div>
 
-          <q-card-section class="col-xs-12 col-sm-7 col-md-8 col-lg-8 q-pb-lg q-pl-xl column justify-between"
+          <q-card-section class="col-xs-12 col-sm-9 col-md-8 col-lg-8 q-pb-lg q-pl-xl column justify-between"
             :style="`background-color:${data.color}`">
-            <div class="absolute-bottom-left q-pr-sm" style="left:-30px; bottom: 10px">
+            <div class="absolute-bottom-left q-pr-sm web_element" style="left:-30px; bottom: 10px">
               <q-avatar size="60px">
                 <img :src="data.user.perfil" />
               </q-avatar>
             </div>
 
-            <div class="text-subtitle2">{{data.type}}</div>
+            <!-- Solo se muestra en movil -->
+            <div class="mobile_element">
+              <div class="absolute-top-right column items-end q-pr-sm" style="top:-30px; right: 10px">
+                <q-avatar size="60px">
+                  <img :src="data.user.perfil" />
+                </q-avatar>
+              </div>
+              <div class="text-right q-pt-lg">
+                <div class="font_small">{{data.user.name}} || {{data.date}}</div>
+                <div class="text-subtitle2">{{data.type}}</div>
+              </div>
+            </div>
+
+            <!-- Solo se muestra en web -->
+            <div class="text-subtitle2 web_element">{{data.type}}</div>
 
             <div>
               <div class="q-pr-lg q-py-md text-h5 text-bold">{{ data.title }}</div>
-              <div class="font_small">{{data.user.name}} || {{data.date}}</div>
+              <!-- Solo se muestra en web -->
+              <div class="font_small web_element">{{data.user.name}} || {{data.date}}</div>
             </div>
           </q-card-section>
         </q-card-section>
       </q-card>
     </div>
 
-    <div class="q-py-lg">{{lorem}}</div>
+    <div class="q-py-lg">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur quis sem tellus. Morbi rhoncus ligula ac lacus luctus, in varius ex tincidunt. Sed viverra augue in sagittis volutpat. Proin luctus rhoncus mi. Nunc velit velit, tempus et augue vel, venenatis sodales libero.
+    </div>
+
+    <div class="text-h4 text-weight-bolder q-pb-lg">Título ejemplo</div>
+    <div class="q-pb-lg">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
+    </div>
+
+    <div class="q-pb-lg text-weight-bolder text-h5">Subtítulo ejemplo</div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
+    </p>
+
+    <div class="text-center text-h5 text-weight-bolder q-pt-lg">
+      “Ejemplo cita o texto para <br>
+      resaltar o darle prioridad de <br>
+      lectura lorem ipsum dolor,”
+    </div>
+    <div class="text-center text-caption">Lorem ipsum autor</div>
+
+    <div class="q-py-lg">Listado de texto</div>
+    <div class="q-pb-lg">
+      <b>- Lorem ipsum:</b> dolor sit amet, consectetur adipiscing elit. <br>
+      <b>- Suspendisse:</b> vel ultrices diam, quis semper mauris. <br>
+      <b>- Maecenas:</b> condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Vestibulum an.
+    </div>
+
+    <img src="blog/blogIn-1.jpg" width="100%" />
+
+    <div class="q-py-lg text-weight-bolder text-h5">Subtítulo ejemplo</div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
+    </p>
+
+    <div class="row no-wrap items-center q-py-md">
+            <div class="text-caption text-bold q-pr-md">Compartir</div>
+            <img src="iconInfo/share-option.png" style="width:30px" class="cursor-pointer" @click="share = true" />
+          </div>
 
     <q-separator />
 
@@ -38,19 +97,25 @@
         <blog-card :data="arrayExample[index]" :index="index" />
       </div>
     </div>
+
+    <q-dialog v-model="share" persistent>
+            <share-data @close="share = false" />
+          </q-dialog>
   </div>
 </template>
 
 <script>
 import BlogCard from '../../components/blog/BlogElement.vue'
+import ShareData from '../../components/ShareData.vue'
 export default {
   name: 'blog-detalle',
   components: {
-    BlogCard
+    BlogCard,
+    ShareData
   },
   data () {
     return {
-      lorem: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nemo expedita officia molestias perspiciatis neque inventore explicabo quibusdam velit molestiae, deleniti consequuntur commodi, dolorum quisquam exercitationem aspernatur repellendus tempore? Obcaecati?',
+      share: false,
       data: {},
       arrayExample: [
         {
