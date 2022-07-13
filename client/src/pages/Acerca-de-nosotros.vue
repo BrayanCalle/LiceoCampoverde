@@ -359,7 +359,11 @@
                             <p>
                                 Perfil del<br>Bachiller
                             </p>
-                            <img src="" alt="">
+                            <div class="container-pdb-imagen-mas">
+                                    <div class="imagen-mas">
+                                        <img src="../../public/Figuras/+.svg" alt="">
+                                    </div>
+                            </div>
                         </div>
 
                     </div>
@@ -373,7 +377,11 @@
                         </div>
                         <div class="row container-contenido-parte-derecha-parte-arriba--section8">
                             <div class="col-3">
-                                <img src="" alt="">
+                                <div class="container-cap-imagen-mas">
+                                    <div class="imagen-mas">
+                                        <img src="../../public/Figuras/+.svg" alt="">
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-9 container-cap-parte-derecha-parte-arriba--section8">
                                 <p>
@@ -387,8 +395,10 @@
             <div class="parte-abajo--section8">
                 <div class="setentaporciento row container-contenido-parte-abajo--section8">
                     <div class="contenido-parte-abajo--section8 col-4">
-                        <div class="imagen-mas">
-                            <img src="" alt="">
+                        <div class="container-imagen-mas">
+                            <div class="imagen-mas">
+                                <img src="../../public/Figuras/+.svg" alt="">
+                            </div>
                         </div>
                         <p>Código de<br>convivencia</p>
                     </div>
@@ -923,7 +933,7 @@
 
 .setentaporciento{
     width: 70%;
-    border: 1px solid $morado;
+    // border: 1px solid $morado;
 }
 
 .parte-arriba--section8{
@@ -984,18 +994,26 @@
     padding-bottom: 0px;
 }
 
-.container-pdb-parte-izquierda-parte-arriba--section8{
+.container-pdb-parte-izquierda-parte-arriba--section8 > p{
     font-size: 30px;
     line-height: 32px;
     font-weight: 900;
     color: white;
-    height: 50%;
-    background-color: $red;
+    height: 35%;
+}
+
+.container-pdb-parte-izquierda-parte-arriba--section8 > div{
+    height: 65%;
+    padding-top: 10px;
+}
+
+.container-pdb-imagen-mas{
+    display: flex;
+    align-items: flex-start;
 }
 
 .container-titulo-parte-derecha-parte-arriba--section8{
     height: 35%;
-    background-color: $morado;
 }
 
 .titulo-parte-derecha-parte-arriba--section8{
@@ -1010,6 +1028,12 @@
     align-items: flex-end;
     justify-content: flex-start;
     height: 100%;
+}
+
+.container-cap-imagen-mas{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 25px;
 }
 
 .container-cap-parte-derecha-parte-arriba--section8 > p{
@@ -1037,15 +1061,37 @@
     display: flex;
     flex-direction: column;
 }
+.container-imagen-mas{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.contenido-parte-abajo--section8 > img{
-    height:50%;
+.imagen-mas{
     background-color: $amarillo;
+    border-radius: 50%;
+    border: 0.125rem solid white;
+    background-color: $gris-oscuro;
+    vertical-align: top;
+    width: 4.5em;
+    height: 4.5em;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.imagen-mas:hover{
+    background-color: $negro;
+}
+
+.imagen-mas > img{
+    height: 50%;
+    width: auto;
 }
 
 .contenido-parte-abajo--section8 > p{
     height:50%;
-    background-color: $celeste;
     margin: 0px;
     font-size: 30px;
     line-height: 32px;
