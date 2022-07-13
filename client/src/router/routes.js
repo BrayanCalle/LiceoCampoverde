@@ -1,14 +1,53 @@
-
 const routes = [
   {
     path: '/',
+    redirect: '/home',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/Index.vue') },
-      { path: 'acerca-de-nosotros', component: () => import('pages/Acerca-de-nosotros.vue') }
+      {
+        path: '/home',
+        name: 'home',
+        component: () => import('pages/Home.vue')
+      },
+      {
+        path: 'acerca-de-nosotros',
+        component: () => import('pages/Acerca-de-nosotros.vue')
+      },
+      {
+        path: '/blog',
+        redirect: '/blog',
+        component: () => import('layouts/LayoutBlog.vue'),
+        children: [
+          {
+            path: '/blog',
+            name: 'blog',
+            component: () => import('pages/blog/Blog.vue')
+          },
+          {
+            path: '/blog/:id',
+            name: 'blog-detail',
+            component: () => import('pages/blog/Detalle.vue'),
+            meta: { compartir: true }
+          }
+        ]
+      }
     ]
   },
-
+  {
+    path: '/campito',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: '',
+        name: 'campito',
+        component: () => import('pages/Campito.vue')
+      }
+    ]
+  },
+  {
+    path: '/',
+    redirect: '/home'
+  },
   // Always leave this as last one,
   // but you can also remove it
   {

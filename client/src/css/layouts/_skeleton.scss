@@ -1,0 +1,79 @@
+// Layouts skeleton
+
+// Estilos de bordes
+.border_bottom_left {
+  border-bottom-left-radius: 25px;
+}
+.border_bottom_right {
+  border-bottom-right-radius: 25px;
+}
+.border_left_radius {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.border_radius {
+  border-radius: 100%;
+}
+.border_right_blog {
+  border-bottom-right-radius: 100px;
+}
+
+// Estilos de tamaño
+.font_small {
+  font-size: 10px;
+}
+.icon_footer {
+  width: 20px;
+}
+.height_auto {
+  height:auto;
+  max-height:100%
+}
+.width_auto {
+  width:auto;
+  max-width:100%
+}
+
+// Estilos de posicionamiento
+.close_drawer {
+  position: absolute;
+  z-index: 100;
+  margin-left: -12px;
+}
+.sticky_style {
+  height: 60px;
+  z-index: 100;
+  .icon_avatar {
+    height: 90%;
+    margin-right: -20px;
+    z-index: 20;
+  };
+  .card {
+    height: 100%;
+    width: 120px;
+    padding-left: 30px;
+  }
+  .menu {
+    width: 130px;
+    padding-left: 13px;
+    margin-top: -200px
+  }
+}
+
+// Estilos de responsividad
+.web_element {
+  width: auto
+}
+@media only screen and (max-width: 600px) {
+  .web_element {
+    display: none !important;
+  }
+}
+.mobile_element {
+  width: auto
+}
+@media only screen and (min-width: 601px) {
+  .mobile_element {
+    display: none !important;
+  }
+}

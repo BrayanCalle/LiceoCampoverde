@@ -79,3 +79,19 @@ $blanco: #FFFFFF;
     max-width: 1320px;
   }
 }
+
+// Layouts
+@import 'layouts/skin';
+@import 'layouts/skeleton';
+
+// Home
+@import 'home/skin';
+@import 'home/skeleton';
+
+// Campito
+@import 'campito/skin';
+@import 'campito/skeleton';
+
+// Blog
+@import 'blog/skin';
+@import 'blog/skeleton';

@@ -1,0 +1,259 @@
+// Home skeleton
+
+// Parallax de la seccion 6
+.paralax_section {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 70% 100%;
+  background-position: right top;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  max-width: 100%;
+  width: 100% !important;
+  .img_in {
+    visibility: hidden;
+  }
+}
+.img_cover {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height:100vh;
+  z-index: 1;
+}
+.block1 {
+  background-image: url('/home/prekinder-campus-moderno.jpg');
+}
+.block2 {
+  background-image: url('/home/escuela-campus-moderno.jpg');
+}
+.block3 {
+  background-image: url('/home/bachillerato-campus-moderno.jpg');
+}
+
+// Estilos de forma
+.campos_form {
+  background: #8CAEF9;
+  width:60%;
+  border-radius:10px
+}
+.size_carrusel {
+  height: 500px;
+  width: 500px
+}
+
+// Estilos de espacios
+.padding_section4 {
+  padding: 30px 50px;
+  .img {
+    padding: 10px;
+  }
+  .card {
+    padding: 30px 20px;
+    background-color: #2FAD62;
+  }
+}
+.text_zise {
+  font-size: calc(1.5em + 1.5vw)
+}
+
+// Estilos de posicionamiento
+.margin_top_all {
+  margin-top: -72px;
+}
+.contenedor{
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+  .img {
+    height: 100%;
+    width: 100%
+  }
+  .texto_encima{
+    position: absolute;
+    bottom: 55px;
+  }
+}
+.video_carrusel {
+  position: absolute;
+  z-index: 3;
+  top: -40px;
+  right: 0%;
+  width: 130px;
+  height: 130px;
+}
+.video_mobile {
+  width: 300px;
+  height: 300px;
+}
+.contenedor_section5 {
+  position: relative;
+  display: inline-block;
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: calc(1.5em + 1.5vw)
+  }
+}
+.card_up_section5 {
+  background-color: #8CAEF9;
+  .element_hidden {
+    visibility: hidden;
+  }
+}
+.card_left_section5 {
+  background-color: white;
+  .element_hidden {
+    visibility: hidden;
+  }
+}
+.card_right_section5 {
+  background-color: #EF5A37;;
+  .element_hidden {
+    visibility: hidden;
+  }
+}
+
+// Estilos de responsividad
+.height_mobile_section1 {
+  height: 100vh
+}
+@media only screen and (max-width: 500px) {
+  .height_mobile_section1 {
+    height: 60vh
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+  .height_mobile_section1 {
+    height: 85vh
+  }
+}
+.height_section2 {
+  height: 100vh;
+  .card {
+    display: flex;
+    justify-content: left;
+    height: 100%
+  }
+}
+@media only screen and (min-width: 599px) and (max-width: 826px) {
+  .height_section2 {
+    height: 100vh;
+    .card {
+      height: 50vh;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      display: flex;
+      justify-content: left;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .height_section2 {
+    height: auto;
+    .card {
+      height: 300px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .padding_section4 {
+    padding: 0%;
+    .img {
+      padding: 0%;
+    }
+    .card {
+      padding: 30px 30px;
+    }
+  }
+}
+.height_section3 {
+  height: 100vh
+}
+@media only screen and (max-width: 860px) {
+  .size_carrusel {
+    height: 400px;
+    width: 400px
+  }
+  .contenedor{
+    padding-top: 120px;
+    .img {
+      height: 600px;
+    }
+  }
+  .height_section3 {
+    height: auto
+  }
+}
+.text_section1_mobile {
+  width: 100%
+}
+@media only screen and (max-width: 700px) {
+  .size_carrusel {
+    height: 350px;
+    width: 350px
+  }
+  .text_section1_mobile {
+    position: absolute;
+    top: 120px
+  }
+}
+.web_change_img {
+  width: auto
+}
+@media only screen and (max-width: 500px) {
+  .web_change_img {
+    display: none !important;
+  }
+}
+.mobile_change_img {
+  width: auto
+}
+@media only screen and (min-width: 500px) {
+  .mobile_change_img {
+    display: none !important;
+  }
+}
+.web_img_section3 {
+  width: auto
+}
+@media only screen and (max-width: 860px) {
+  .web_img_section3 {
+    display: none !important;
+  }
+}
+.mobile_img_section3 {
+  width: auto
+}
+@media only screen and (min-width: 861px) {
+  .mobile_img_section3 {
+    display: none !important;
+  }
+}
+.order_img {
+  order: 0
+}
+@media only screen and (max-width: 599px) {
+  .size_carrusel {
+    height: auto;
+    width: 100%
+  }
+  .order_img {
+    order: 1
+  }
+  .paralax_section {
+    background-size: 100% 100%;
+    height: 50vh;
+    max-width: 100%;
+    width: 100% !important;
+    .img_in {
+      visibility: visible;
+    }
+  }
+}
