@@ -83,24 +83,42 @@
     </p>
 
     <div class="row no-wrap items-center q-py-md">
-            <div class="text-caption text-bold q-pr-md">Compartir</div>
-            <img src="iconInfo/share-option.png" style="width:30px" class="cursor-pointer" @click="share = true" />
-          </div>
+      <div class="text-caption text-bold q-pr-md">Compartir</div>
+      <img src="iconInfo/share-option.png" style="width:30px" class="cursor-pointer" @click="share = true" />
+    </div>
 
     <q-separator />
 
-    <div class="q-pt-lg text-h4 text-weight-bolder">Temas relacionados</div>
+    <div class="q-py-lg text-weight-bolder" style="font-size: calc(1.5em + 1.5vw)">Temas relacionados</div>
 
-    <div class="row">
+    <!-- Solo se muestra en web -->
+    <div class="row web_element">
       <div v-for="(item, index) in 3" :key="index"
         class="col-xs-12 col-sm-6 col-md-4 col-lg-4 row justify-center padding_blog">
-        <blog-card :data="arrayExample[index]" :index="index" />
+        <blog-card :data="arrayExample[index]" />
       </div>
     </div>
 
+    <!-- Solo se muestra en movil -->
+    <div class="q-pb-md mobile_element">
+      <q-carousel
+        v-model="slide"
+        swipeable
+        animated
+        control-color="grey-8"
+        navigation
+        padding
+        height="100%"
+      >
+        <q-carousel-slide :name="index + 1" v-for="(item, index) in 3" :key="index">
+          <blog-card :data="arrayExample[index]" />
+        </q-carousel-slide>
+      </q-carousel>
+    </div>
+
     <q-dialog v-model="share" persistent>
-            <share-data @close="share = false" />
-          </q-dialog>
+      <share-data @close="share = false" />
+    </q-dialog>
   </div>
 </template>
 
@@ -116,6 +134,7 @@ export default {
   data () {
     return {
       share: false,
+      slide: 1,
       data: {},
       arrayExample: [
         {

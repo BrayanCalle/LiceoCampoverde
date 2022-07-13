@@ -8,7 +8,7 @@
     <div class="row justify-around">
       <div v-for="(item, index) in data" :key="index"
         class="col-xs-9 col-sm-5 col-md-3 col-lg-3 row justify-center q-pa-md">
-        <blog-card :data="item" :index="index" />
+        <blog-card :data="item" />
       </div>
     </div>
 

@@ -3,7 +3,7 @@
     <div class="row">
       <div v-for="(item, index) in data" :key="index"
         class="col-xs-12 col-sm-6 col-md-4 col-lg-4 row justify-center padding_blog">
-        <blog-card :data="item" :index="index" />
+        <blog-card :data="item" />
       </div>
     </div>
 
