@@ -13,7 +13,9 @@
         :max="3"
         color="grey-8"
         active-color="primary"
+        input-style="background-color: #6B645F"
         round
+        direction-links
       />
     </div>
   </div>
