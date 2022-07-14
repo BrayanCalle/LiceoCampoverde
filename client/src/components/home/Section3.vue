@@ -8,7 +8,7 @@
     <!-- Imagen que se muestra en pantalla pequeña -->
     <div class="col-12 row justify-center mobile_img_section3 full-height">
       <div class="contenedor full-height">
-        <img src="/home/colegio-trilingue-en-cumbaya-quito-liceo.jpg" class="img" />
+        <img src="home/colegio-trilingue-en-cumbaya-quito-liceo.jpg" class="img" />
         <div class="text-black text-h4 text-center texto_encima full-width">Centrados en el <br><b>estudiante</b></div>
       </div>
     </div>
@@ -37,7 +37,7 @@
 
     <div class="col-6 row justify-center web_img_section3 full-height">
       <div class="contenedor full-height">
-        <img src="/home/colegio-trilingue-en-cumbaya-quito-liceo.jpg" class="img" />
+        <img src="home/colegio-trilingue-en-cumbaya-quito-liceo.jpg" class="img" />
         <div class="text-black text-h4 text-center texto_encima full-width">Centrados en el <br><b class=" my-font-ultra">estudiante</b></div>
       </div>
     </div>
