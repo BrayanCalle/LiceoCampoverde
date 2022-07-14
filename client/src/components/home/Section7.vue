@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <div class="col-12 col-sm-6 col-md-6 contenedor_section7">
-      <div class="text-weight-bolder text-h4 q-pa-md">
+      <div class="my-font-ultra text-weight-bolder text-h4 q-pa-md">
         <span class="bg-secondary text-white">Educamos </span><br/>
         para el mundo<br/>
         de mañana
@@ -9,7 +9,7 @@
 
       <div class="column items-end full-width">
         <q-img src="/figuras/F-6.svg" alt="imagen" class="img_responsive">
-          <div class="text-weight-bolder text-white text-right absolute-full bg-transparent text_responsive">
+          <div class=" my-font-ultra text-weight-bolder text-white text-right absolute-full bg-transparent text_responsive">
             Permítenos <br>
             mostrarte lo <br>
             que podemos <br>

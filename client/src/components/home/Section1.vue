@@ -8,12 +8,12 @@
 
       <div class="row justify-center items-end col-xs-2 col-sm-4 col-md-4 col-lg-4">
         <div class="text_section1_mobile column items-center">
-          <div class="text-h5 text-weight-bolder text-center cursor-pointer border_blue_rounded q-px-md">Educamos</div>
+          <div class="text-h5 text-weight-bolder text-center cursor-pointer border_blue_rounded q-px-md my-font-ultra">Educamos</div>
           <div>
-            <div v-if="change" class="text-h5 text-weight-bolder text-center">
+            <div v-if="change" class="text-h5 text-weight-bolder text-center my-font-ultra">
               Desde otro <br> punto de vista
             </div>
-            <div v-else class="text-h5 text-weight-bolder text-center">
+            <div v-else class="text-h5 text-weight-bolder text-center my-font-ultra">
               en inglés, <br> español y francés
             </div>
           </div>

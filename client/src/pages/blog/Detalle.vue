@@ -24,15 +24,15 @@
               </div>
               <div class="text-right q-pt-lg">
                 <div class="font_small">{{data.user.name}} || {{data.date}}</div>
-                <div class="text-subtitle2">{{data.type}}</div>
+                <div class="text-subtitle2  my-font-bold">{{data.type}}</div>
               </div>
             </div>
 
             <!-- Solo se muestra en web -->
-            <div class="text-subtitle2 web_element">{{data.type}}</div>
+            <div class="text-subtitle2 web_element my-font-bold">{{data.type}}</div>
 
             <div>
-              <div class="q-pr-lg q-py-md text-h5 text-bold">{{ data.title }}</div>
+              <div class="q-pr-lg q-py-md text-h5 text-bold my-font-bold">{{ data.title }}</div>
               <!-- Solo se muestra en web -->
               <div class="font_small web_element">{{data.user.name}} || {{data.date}}</div>
             </div>
@@ -41,16 +41,16 @@
       </q-card>
     </div>
 
-    <div class="q-py-lg">
+    <div class="q-py-lg" >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur quis sem tellus. Morbi rhoncus ligula ac lacus luctus, in varius ex tincidunt. Sed viverra augue in sagittis volutpat. Proin luctus rhoncus mi. Nunc velit velit, tempus et augue vel, venenatis sodales libero.
     </div>
 
-    <div class="text-h4 text-weight-bolder q-pb-lg">Título ejemplo</div>
+    <div class="text-h4 text-weight-bolder my-font-ultra q-pb-lg">Título ejemplo</div>
     <div class="q-pb-lg">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
     </div>
 
-    <div class="q-pb-lg text-weight-bolder text-h5">Subtítulo ejemplo</div>
+    <div class="q-pb-lg text-weight-bolder my-font-bold text-h5">Subtítulo ejemplo</div>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
     </p>
@@ -61,7 +61,7 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
     </p>
 
-    <div class="text-center text-h5 text-weight-bolder q-pt-lg">
+    <div class="text-center text-h5 my-font-bold text-weight-bolder q-pt-lg">
       “Ejemplo cita o texto para <br>
       resaltar o darle prioridad de <br>
       lectura lorem ipsum dolor,”
@@ -70,26 +70,28 @@
 
     <div class="q-py-lg">Listado de texto</div>
     <div class="q-pb-lg">
-      <b>- Lorem ipsum:</b> dolor sit amet, consectetur adipiscing elit. <br>
-      <b>- Suspendisse:</b> vel ultrices diam, quis semper mauris. <br>
-      <b>- Maecenas:</b> condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Vestibulum an.
+      <b class="my-font-bold">- Lorem ipsum:</b> dolor sit amet, consectetur adipiscing elit. <br>
+      <b class="my-font-bold">- Suspendisse:</b> vel ultrices diam, quis semper mauris. <br>
+      <b class="my-font-bold">- Maecenas:</b> condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Vestibulum an.
     </div>
 
     <img src="blog/blogIn-1.jpg" width="100%" />
 
-    <div class="q-py-lg text-weight-bolder text-h5">Subtítulo ejemplo</div>
+    <div class="q-py-lg text-weight-bolder my-font-bold text-h5">Subtítulo ejemplo</div>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
     </p>
 
     <div class="row no-wrap items-center q-py-md">
-      <div class="text-caption text-bold q-pr-md">Compartir</div>
-      <img src="iconInfo/share-option.png" style="width:30px" class="cursor-pointer" @click="share = true" />
+      <div class="text-caption text-bold my-font-bold q-pr-md">Compartir</div>
+      <div class="fondo_amarillo q-pa-sm" style="border-bottom-right-radius: 100%">
+        <img src="iconInfo/share-option.png" style="width:20px" class="cursor-pointer" @click="share = true" />
+      </div>
     </div>
 
     <q-separator />
 
-    <div class="q-py-lg text-weight-bolder" style="font-size: calc(1.5em + 1.5vw)">Temas relacionados</div>
+    <div class="q-py-lg text-weight-bolder my-font-ultra" style="font-size: calc(1.5em + 1.5vw)">Temas relacionados</div>
 
     <!-- Solo se muestra en web -->
     <div class="row web_element">
