@@ -5,7 +5,7 @@
         <img src="bachillerato/colegio-quito-cumbaya-espacios.jpg" class="fit" />
       </div>
       <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 img">
-        <div class="card fit text-white text-bold text_zise">
+        <div class="card fit text-white text-bold text_zise my-font-ultra">
           <div>
             Nuestra <br>
             infraestructura <br class="web_element"> es <br class="mobile_element">

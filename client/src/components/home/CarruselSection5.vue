@@ -23,7 +23,7 @@
           leave-active-class="animated rollOut"
         >
           <div class="col-6 flex flex-center bg-white">
-            <div class=" text-weight-bolder text-h4 text-center">HUMANO</div>
+            <div class="my-font-ultra text-weight-bolder text-h4 text-center">HUMANO</div>
           </div>
         </transition>
       </q-carousel-slide>
@@ -45,7 +45,7 @@
             enter-active-class="animated rotateInDownLeft"
             leave-active-class="animated rollOut"
           >
-            <div class="absolute text-weight-bolder text-h4 text-center">
+            <div class="absolute text-weight-bolder text-h4 text-center my-font-ultra">
               PROYECTOS <br>
               ESCOLARES
             </div>
@@ -60,7 +60,7 @@
             enter-active-class="animated rotateInDownLeft"
             leave-active-class="animated rollOut"
           >
-            <div class=" text-weight-bolder text-h5 text-center">
+            <div class="my-font-ultra text-weight-bolder text-h5 text-center">
               COLLEGE <br>
               BOARD <br>
               + <br>
