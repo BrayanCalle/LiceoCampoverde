@@ -1,6 +1,6 @@
 <template>
   <div class="height_section2 row">
-    <div class="col-12 q-pa-md column items-start text-h4 text-bold">
+    <div class="col-12 q-pa-md column items-start text-h4 text-bold my-font-ultra">
       <div>Somos Liceo</div>
       <div class="border_green q-px-sm">Campo Verde</div>
     </div>

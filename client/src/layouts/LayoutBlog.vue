@@ -6,7 +6,7 @@
       <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 q-pa-md">
         <div class="menu_blog">
           <div class="q-pb-md">
-            <q-input dense filled v-model="search" placeholder="Buscar..." >
+            <q-input dense borderless v-model="search" placeholder="Buscar..." class="bg-grey-3 q-px-md" style="border-radius:20px" >
               <template v-slot:append>
                 <q-icon name="search" />
               </template>
@@ -16,11 +16,11 @@
           <q-card flat>
             <!-- Se muestra en pantalla grande -->
             <div class="bg-grey-3 q-pt-md web_element">
-              <div class="text-h6 text-weight-bolder q-px-md">Recursos</div>
+              <div class="text-h6 text-weight-bolder my-font-ultra q-px-md">Recursos</div>
               <q-item clickable v-ripple dense v-for="(item, index1) in recursos" :key="index1">
                 <div class="row no-wrap items-center">
                   <q-icon name="network_cell" size="xs" :style="`color: ${item.color ? item.color : 'grey'}`" />
-                  <div class="text-caption q-pl-sm">{{item.name}}</div>
+                  <div class="text-caption q-pl-sm my-font-bold">{{item.name}}</div>
                 </div>
               </q-item>
             </div>
@@ -33,7 +33,7 @@
                 <q-item clickable v-ripple dense v-for="(item, index1) in recursos" :key="index1">
                   <div class="row no-wrap items-center">
                     <q-icon name="network_cell" size="xs" :style="`color: ${item.color ? item.color : 'grey'}`" />
-                    <div class="text-caption q-pl-sm">{{item.name}}</div>
+                    <div class="text-caption q-pl-sm my-font-bold">{{item.name}}</div>
                   </div>
                 </q-item>
               </q-card>
@@ -41,11 +41,11 @@
 
             <!-- Se muestra en pantalla grande -->
             <div class="bg-grey-3 q-pb-md web_element">
-              <div class="text-h6 text-weight-bolder q-px-md q-pt-xl">Categorías</div>
+              <div class="text-h6 text-weight-bolder q-px-md q-pt-xl my-font-ultra">Categorías</div>
               <q-item clickable v-ripple dense v-for="(item, index2) in categories" :key="index2">
                 <div class="row no-wrap items-center">
                   <q-icon name="network_cell" size="xs" :style="`color: ${item.color ? item.color : 'grey'}`" />
-                  <div class="text-caption q-pl-sm">{{item.name}}</div>
+                  <div class="text-caption q-pl-sm my-font-bold">{{item.name}}</div>
                 </div>
               </q-item>
             </div>
@@ -58,7 +58,7 @@
                 <q-item clickable v-ripple dense v-for="(item, index1) in categories" :key="index1">
                   <div class="row no-wrap items-center">
                     <q-icon name="network_cell" size="xs" :style="`color: ${item.color ? item.color : 'grey'}`" />
-                    <div class="text-caption q-pl-sm">{{item.name}}</div>
+                    <div class="text-caption q-pl-sm my-font-bold">{{item.name}}</div>
                   </div>
                 </q-item>
               </q-card>
@@ -66,8 +66,10 @@
           </q-card>
 
           <div v-if="$route.meta.compartir" class="row no-wrap items-center q-py-md">
-            <div class="text-caption text-bold q-pr-md">Compartir</div>
-            <img src="iconInfo/share-option.png" style="width:30px" class="cursor-pointer" @click="share = true" />
+            <div class="text-caption text-bold q-pr-md my-font-bold">Compartir</div>
+            <div class="fondo_amarillo q-pa-sm" style="border-bottom-right-radius: 100%">
+              <img src="iconInfo/share-option.png" style="width:20px" class="cursor-pointer" @click="share = true" />
+            </div>
           </div>
 
           <q-dialog v-model="share" persistent>

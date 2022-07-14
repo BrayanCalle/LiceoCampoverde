@@ -99,6 +99,29 @@
     font-size: calc(1.5em + 1.5vw)
   }
 }
+.contenedor_section6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .text_responsive {
+    font-size: 1.8rem;
+  }
+}
+.contenedor_section7 {
+  display: grid;
+  justify-items: center;
+  align-content: start;
+  width: 100%;
+  .img_responsive {
+    width:70%;
+    height: auto
+  }
+  .text_responsive {
+    padding-right:20%;
+    padding-top:10%;
+    font-size: calc(1em + 1.5vw)
+  }
+}
 .card_up_section5 {
   background-color: #8CAEF9;
   .element_hidden {
@@ -240,6 +263,27 @@
   order: 0
 }
 @media only screen and (max-width: 599px) {
+  .contenedor_section6 {
+    justify-content: left;
+    .text_responsive {
+      font-size: 1.5rem;
+    }
+  }
+  .contenedor_section7 {
+    justify-items: left;
+    .img_responsive {
+      width:100%;
+      height: auto
+    }
+    .text_responsive {
+      padding-right:10%;
+      padding-top:15%;
+      font-size: calc(1.5em + 1.5vw)
+    }
+  }
+  .campos_form {
+    width:90%;
+  }
   .size_carrusel {
     height: auto;
     width: 100%

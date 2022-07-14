@@ -3,7 +3,7 @@
     <div class="row">
       <div v-for="(item, index) in data" :key="index"
         class="col-xs-12 col-sm-6 col-md-4 col-lg-4 row justify-center padding_blog">
-        <blog-card :data="item" :index="index" />
+        <blog-card :data="item" />
       </div>
     </div>
 
@@ -13,7 +13,9 @@
         :max="3"
         color="grey-8"
         active-color="primary"
+        input-style="background-color: #6B645F"
         round
+        direction-links
       />
     </div>
   </div>
@@ -35,6 +37,7 @@ export default {
           image: 'blog/blog-1.png',
           date: '10/10/2022',
           type: 'Desarrollo',
+          color: '#E5E1D3',
           user: {
             name: 'Frida Campo',
             perfil: 'blog/blog-2.png'
@@ -46,6 +49,7 @@ export default {
           image: 'blog/blog-3.png',
           date: '10/10/2022',
           type: 'Creatividad',
+          color: '#F9D938',
           user: {
             name: 'Marco Polo',
             perfil: 'blog/blog-5.png'
@@ -57,6 +61,7 @@ export default {
           image: 'blog/blog-4.png',
           date: '10/10/2022',
           type: 'Tutoriales',
+          color: '#8CAEF9',
           user: {
             name: 'Marco Polo',
             perfil: 'blog/blog-5.png'
@@ -68,11 +73,72 @@ export default {
           image: 'blog/blog-1.png',
           date: '10/10/2022',
           type: 'Clases',
+          color: '#EF5A37',
           user: {
             name: 'Frida Campo',
             perfil: 'blog/blog-2.png'
           },
           title: 'La importancia del tiempo libre para el buen desarrollo'
+        },
+        {
+          id: '5',
+          image: 'blog/blog-1.png',
+          date: '10/10/2022',
+          type: 'Desarrollo',
+          color: '#E5E1D3',
+          user: {
+            name: 'Marco Polo',
+            perfil: 'blog/blog-5.png'
+          },
+          title: 'Juegos para un fin de semana en casa'
+        },
+        {
+          id: '6',
+          image: 'blog/blog-4.png',
+          date: '10/10/2022',
+          type: 'Comunidad',
+          color: '#2FAD62',
+          user: {
+            name: 'Marco Polo',
+            perfil: 'blog/blog-5.png'
+          },
+          title: 'Como armar tu mochila para este 2022'
+        },
+        {
+          id: '7',
+          image: 'blog/blog-1.png',
+          date: '10/10/2022',
+          type: 'Desarrollo',
+          color: '#E5E1D3',
+          user: {
+            name: 'Frida Campo',
+            perfil: 'blog/blog-2.png'
+          },
+          title: 'La importancia del tiempo libre para el buen desarrollo'
+        },
+        {
+          id: '8',
+          image: 'blog/blog-3.png',
+          date: '10/10/2022',
+          type: 'Creatividad',
+          color: '#F9D938',
+          user: {
+            name: 'Marco Polo',
+            perfil: 'blog/blog-5.png'
+          },
+          title: 'Juegos para un fin de samana en casa'
+        },
+        {
+          id: '9',
+          image: 'blog/blog-4.png',
+          date: '10/10/2022',
+          type: 'Tutoriales',
+          color: '#8CAEF9',
+          user: {
+            name: 'Marco Polo',
+            perfil: 'blog/blog-5.png'
+          },
+          title: 'Como armar tu mochila para este 2022'
         }
       ]
     }

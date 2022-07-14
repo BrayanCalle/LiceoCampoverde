@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="q-pa-lg column items-start text-h4 text-weight-bolder">
+    <div class="my-font-ultra q-pa-lg column items-start text-h4 text-weight-bolder">
       <div>Blog y</div>
       <div class="bg-primary q-px-md">eventos</div>
     </div>
@@ -8,7 +8,7 @@
     <div class="row justify-around">
       <div v-for="(item, index) in data" :key="index"
         class="col-xs-9 col-sm-5 col-md-3 col-lg-3 row justify-center q-pa-md">
-        <blog-card :data="item" :index="index" />
+        <blog-card :data="item" />
       </div>
     </div>
 
@@ -33,6 +33,7 @@ export default {
           image: 'blog/blog-1.png',
           date: '10/10/2022',
           type: 'Desarrollo',
+          color: '#E5E1D3',
           user: {
             name: 'Frida Campo',
             perfil: 'blog/blog-2.png'
@@ -44,6 +45,7 @@ export default {
           image: 'blog/blog-3.png',
           date: '10/10/2022',
           type: 'Creatividad',
+          color: '#F9D938',
           user: {
             name: 'Marco Polo',
             perfil: 'blog/blog-5.png'
@@ -55,6 +57,7 @@ export default {
           image: 'blog/blog-4.png',
           date: '10/10/2022',
           type: 'Tutoriales',
+          color: '#8CAEF9',
           user: {
             name: 'Marco Polo',
             perfil: 'blog/blog-5.png'
@@ -66,6 +69,7 @@ export default {
           image: 'blog/blog-1.png',
           date: '10/10/2022',
           type: 'Clases',
+          color: '#EF5A37',
           user: {
             name: 'Frida Campo',
             perfil: 'blog/blog-2.png'
