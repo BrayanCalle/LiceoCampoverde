@@ -10,6 +10,21 @@ const routes = [
         component: () => import('pages/Home.vue')
       },
       {
+        path: '/campito',
+        name: 'campito',
+        component: () => import('pages/Campito.vue')
+      },
+      {
+        path: '/basic',
+        name: 'basic',
+        component: () => import('pages/Basic.vue')
+      },
+      {
+        path: '/bachiller',
+        name: 'bachiller',
+        component: () => import('pages/Bachillerato.vue')
+      },
+      {
         path: '/blog',
         redirect: '/blog',
         component: () => import('layouts/LayoutBlog.vue'),
@@ -29,12 +44,12 @@ const routes = [
       }
     ]
   },
-  {
+  /*  {
     path: '/campito',
     component: () => import('layouts/MainLayout.vue'),
     children: [
       {
-        path: '',
+        path: '/campito',
         name: 'campito',
         component: () => import('pages/Campito.vue')
       }
@@ -63,7 +78,7 @@ const routes = [
         component: () => import('pages/Bachillerato.vue')
       }
     ]
-  },
+  }, */
   {
     path: '/',
     redirect: '/home'

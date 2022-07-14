@@ -46,7 +46,7 @@
 
             <!-- Se muestra si no es expandible -->
             <q-item v-else clickable v-ripple :class="selecItem === item ? 'text-accent' : 'text-grey-8'"
-              @click="selecItem = item, item.ruta ? $router.push(item.ruta) : ''">
+              @click="selecItem = item, item.ruta ? $router.push({ name: item.ruta }) : ''">
               <q-item-section avatar>
                 <q-avatar size="30px">
                   <img :src="item.image">
@@ -138,7 +138,7 @@ export default {
         },
         {
           label: 'Blog',
-          ruta: '/blog',
+          ruta: 'blog',
           image: 'iconInfo/I-m4.svg'
         },
         {
