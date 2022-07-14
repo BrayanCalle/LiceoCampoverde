@@ -46,6 +46,18 @@ const routes = [
     ]
   },
   {
+    path: '/bachiller',
+    redirect: '/bachiller',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: '/bachiller',
+        name: 'bachiller',
+        component: () => import('pages/Bachillerato.vue')
+      }
+    ]
+  },
+  {
     path: '/',
     redirect: '/home'
   },

@@ -96,6 +96,10 @@ $blanco: #FFFFFF;
 @import 'blog/skin';
 @import 'blog/skeleton';
 
+// Bachiletaro
+@import 'bachillerato/skin';
+@import 'bachillerato/skeleton';
+
 @font-face {
   font-family: gotham_bold;
   src: url(./fonts/Gotham-Bold.otf);
@@ -118,3 +122,4 @@ $blanco: #FFFFFF;
 .my-font-ultra {
     font-family: 'gotham_ultra';
 }
+
