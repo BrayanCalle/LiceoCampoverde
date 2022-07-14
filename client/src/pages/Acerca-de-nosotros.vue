@@ -1,491 +1,492 @@
 <template>
     <q-page>
-        <section class="banner-acerca-de-nosotros">
-            <div class="container-texto-banner--acerca-de-nosotros">
-                <p class="texto-banner--acerca-de-nosotros">
-                    Acerca de <br> nosotros, <br>nuestra <span>motivación</span>
-                </p>
-            </div>
-            <div class="container-imagen-banner--acerca-de-nosotros">
-                <img src="../assets/img/Figuras/F-N-1.svg" alt="">
-            </div>
-        </section>
-        <!-- Sección 2 Misión -->
-        <section class="seccion2--acerca-de-nosotros">
-            <div class="mitad-izquierda-seccion2--acerca-de-nosotros">
-                <div class="mitad-arriba-mitad-izquierda-seccion2--acerca-de-nosotros">
-                    <div class="container-texto-mitad-arriba-mitad-izquierda-seccion2--acerca-de-nosotros">
-                        <div class="container-mision">
-                            <div class="mision">Misión</div>
-                        </div>
-                        <div class="container-educamos">
-                            <p>Educamos desde <br> otro punto de <br> vista.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros">
-                    <div class="container-texto--mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros">
-                        <p>
-                            Principios <br>
-                            <span>educativos</span>
-                        </p>
-                        <ul>
-                            <li>1. Partir del nivel de desarrollo del estudiante.</li>
-                            <li>2. Asegurar la construcción de aprendizajes significativos.</li>
-                            <li>3. Aprender a aprender.</li>
-                            <li>4. Modificar los esquemas de conocimiento.</li>
-                            <li>5. Realizar una intensa actividad por parte del alumno.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="mitad-derecha-seccion2--acerca-de-nosotros">
-                <div class="container-vision">
-                    <div class="container-vision-titulo">
-                        <p>Visión</p>
-                    </div>
-                    <div class="container-vision-texto">
-                        <p>Ser, para el año 2023, una institución valorada por su prestigio educativo,
-                            reconocida por su constante innovación didáctica.
-                        </p>
-                        <p>
-                            El desarrollo de sus prácticas educativas bajo un marco metodológico diferenciador,
-                            unificado, compartido y coordinado para la formación permanente de individuos que
-                            trascienden y transforman los ámbitos personales, sociales, ambientales y culturales
-                            en los que se desenvuelvan.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Section 3 -->
-        <section class="window-height section3">
-            <div class="container">
-                <div class="titulo-section3 q-pt-xl">
-                    <p>Valores <br> vinculados al</p>
-                    <p>aprendizaje</p>
-                </div>
-                <div class="cuerpo-section3">
-                    <div class="container-imagen-cuerpo-section3">
-                        <!-- <img src="../assets/img/Figuras/F-N-2.svg" alt=""> -->
-                    </div>
-                    <div class="container-carousel">
-                        <div class="q-pa-md">
-                            <div class="title-slider">
-                                Educamos:
-                            </div>
-                            <q-carousel infinite autoplay v-model="slide" swipeable animated
-                                :navigation-position="navPos" navigation padding
-                                class="bg-black text-white carousel-cuadrado">
-                                <q-carousel-slide name="style" class="column no-wrap flex-center">
-                                    <div class="q-mt-md text-center texto-slider">
-                                        Con sentido de <br>trascendencia.
-                                    </div>
-                                </q-carousel-slide>
-                                <q-carousel-slide name="tv" class="column no-wrap flex-center">
-                                    <div class="q-mt-md text-center texto-slider">
-                                        Con responsabilidad social y ambiental.
-                                    </div>
-                                </q-carousel-slide>
-                                <q-carousel-slide name="layers" class="column no-wrap flex-center">
-                                    <div class="q-mt-md text-center texto-slider">
-                                        Para aprender continuamente.
-                                    </div>
-                                </q-carousel-slide>
-                                <q-carousel-slide name="map" class="column no-wrap flex-center">
-                                    <div class="q-mt-md text-center texto-slider">
-                                        Para la autonomía y la autodeterminación.
-                                    </div>
-                                </q-carousel-slide>
-                            </q-carousel>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <!-- Sección 4 -->
-        <section class="section-4 q-pa-xl">
-            <div class="container">
-                <div class="mitad-arriba--section-4">
-                    <p class="titulo--section-4">
-                        Valores <br> <span>corporativos</span>
+        <div class="main">
+            <section class="banner-acerca-de-nosotros">
+                <div class="container-texto-banner--acerca-de-nosotros">
+                    <p class="texto-banner--acerca-de-nosotros">
+                        Acerca de <br> nosotros, <br>nuestra <span>motivación</span>
                     </p>
                 </div>
-                <div class="mitad-abajo--section-4 ">
-                    <div class="container q-pa-xl">
-                        <div class="row q-pa-md">
-                            <div class="col-md-4 conatainer-texto--section-4">
-                                <p>
-                                    Responsabilidad, <b>ética, honestidad y transparencia,</b> como
-                                    el nivel más alto de compromiso y de profesionalidad.
-                                </p>
+                <div class="container-imagen-banner--acerca-de-nosotros">
+                    <img src="../assets/img/Figuras/F-N-1.svg" alt="">
+                </div>
+            </section>
+            <!-- Sección 2 Misión -->
+            <section class="seccion2--acerca-de-nosotros">
+                <div class="mitad-izquierda-seccion2--acerca-de-nosotros">
+                    <div class="mitad-arriba-mitad-izquierda-seccion2--acerca-de-nosotros">
+                        <div class="container-texto-mitad-arriba-mitad-izquierda-seccion2--acerca-de-nosotros">
+                            <div class="container-mision">
+                                <div class="mision">Misión</div>
                             </div>
-                            <div
-                                class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
-                                <div id="circulo1" class="circulo-numeros--section-4">
-                                    <p>1.</p>
-                                </div>
-                            </div>
-                            <div
-                                class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
-                                <div id="circulo2" class="circulo-numeros--section-4">
-                                    <p>2.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 conatainer-texto--section-4">
-                                <p>
-                                    Actualización y formación continua, investigación
-                                    pedagógica e innovación
-                                </p>
-                            </div>
-                        </div>
-                        <!-- Fila 2 -->
-                        <div class="row q-pa-md">
-                            <div class="col-md-4 conatainer-texto--section-4">
-                                <p>
-                                    Reconocimiento y <b>respeto por la diversidad</b> para
-                                    garantizar las mismas oportunidades de aprendizaje.
-                                </p>
-                            </div>
-                            <div
-                                class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
-                                <div id="circulo3" class="circulo-numeros--section-4">
-                                    <p>3.</p>
-                                </div>
-                            </div>
-                            <div
-                                class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
-                                <div id="circulo4" class="circulo-numeros--section-4">
-                                    <p>4.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 conatainer-texto--section-4">
-                                <p>
-                                    Calidad en procesos para asegurar el cumplimiento de los objetivos de la
-                                    organización con <b>eficiencia, eficacia y pertinencia.</b>
-                                </p>
-                            </div>
-                        </div>
-                        <!-- Fila 3 -->
-                        <div class="row q-pa-md">
-                            <div class="col-md-4 conatainer-texto--section-4">
-                                <p>
-                                    <b>Calidez y buen trato,</b> condiciones imprescindibles
-                                    en toda relación humana.
-                                </p>
-                            </div>
-                            <div
-                                class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
-                                <div id="circulo5" class="circulo-numeros--section-4">
-                                    <p>5.</p>
-                                </div>
-                            </div>
-                            <div
-                                class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
-                                <div id="circulo6" class="circulo-numeros--section-4">
-                                    <p>6.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 conatainer-texto--section-4">
-                                <p>
-                                    <b>Solidaridad</b> para una convivencia cordial mediante la <b>participación activa,
-                                        respetuosa y eficaz</b> en la sociedad.
-                                </p>
+                            <div class="container-educamos">
+                                <p>Educamos desde <br> otro punto de <br> vista.</p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <!-- Section 5 -->
-        <section class="window-height section5">
-            <div class="container">
-                <div class="container-parte-izquierda--section5">
-                    <div class="parte-izquierda--section5">
-                        <img src="../assets/img/Figuras/F-N-3.svg" alt="">
-                    </div>
-                </div>
-                <div class="container-parte-derecha--section5">
-                    <div class="parte-derecha--section5">
-                        <div class="parte-arriba-parte-derecha--section5">
-                            <p class="titulo-parte-derecha--section5">Idiomas</p>
-                            <p class="texto-parte-derecha--section5">
-                                Los idiomas extranjeros cobran auge ya que la internacionalización, así como el
-                                desarrollo científico y
-                                tecnológico, exigen que los estudiantes adquieran herramientas para enfrentar
-                                los retos de la globalización.
+                    <div class="mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros">
+                        <div class="container-texto--mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros">
+                            <p>
+                                Principios <br>
+                                <span>educativos</span>
                             </p>
-                        </div>
-                        <div class="parte-abajo-parte-derecha--section5">
-                            <p class="titulo-parte-abajo-parte-derecha--section5"><b>Nuestros estudiantes egresan
-                                    preparados en tres idiomas:</b></p>
                             <ul>
-                                <li>Español (C2)*</li>
-                                <li>Inglés (Bilingüe, B2-C1)*</li>
-                                <li>Francés (Suficiencia B1-B2)</li>
+                                <li>1. Partir del nivel de desarrollo del estudiante.</li>
+                                <li>2. Asegurar la construcción de aprendizajes significativos.</li>
+                                <li>3. Aprender a aprender.</li>
+                                <li>4. Modificar los esquemas de conocimiento.</li>
+                                <li>5. Realizar una intensa actividad por parte del alumno.</li>
                             </ul>
-                            <p>*Cuadro común europeo de uso de Lenguas</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Section 6 -->
-        <section class="window-height section6">
-            <div class="parte-izquierda--section6">
-                <div class="row">
-                    <p class="titulo-parte-izquierda--section6">Modelo <br> <span>pedagógico</span></p>
-                </div>
-                <div class="row">
-                    <div class="col-7 container-texto-izquierda-parte-izquierda--section6">
-                        <p>
-                            Partimos de la individualidad y el respeto a la diversidad, en consecuencia el Sistema
-                            Campoverde se basa en un modelo centrado en el estudiante y grupos colaborativos que
-                            recoge diferentes metodologías.
-                        </p>
-                        <q-expansion-item class="sabermas-texto-izquierda-parte-izquierda--section6" dense dense-toggle
-                            expand-separator expand-icon-class="text-dark" v-model="expanded" label="Saber más">
-                            <q-card>
-                                <q-card-section
-                                    class="texto-interno-sabermas-texto-izquierda-parte-izquierda--section6">
-                                    En esta concepción el estudiante es responsable de su proceso de aprendizaje, debe
-                                    buscar información e interactuar con los contenidos de su curso, desarrollar un
-                                    juicio crítico y tener la iniciativa de aprender continuamente lo que sea esencial
-                                    para cumplir con las intenciones educativas; los estudiantes realizan actividades
-                                    con otros compañeros y entre ellos construyen experiencias de aprendizaje que
-                                    enriquecen los contenidos y el desarrollo de habilidades como el uso de tecnologías,
-                                    trabajo en equipo, discusión de ideas, síntesis, análisis y juicios críticos, etc.,
-                                    asimismo los estudiantes realizan actividades, bien con miembros de la comunidad
-                                    institucional como fuera de ella que les permite enriquecer sus experiencias de
-                                    aprendizaje, el desarrollo de habilidades sociales y ejercitar su compromiso de
-                                    responsabilidad socio-ambiental.
-                                </q-card-section>
-                            </q-card>
-                        </q-expansion-item>
-                    </div>
-                    <div class="col-5 container-texto-derecha-parte-izquierda--section6">
-                        <p>
-                            El aprendizaje constructivo implica que todas las actividades del estudiante
-                            involucran procesos cognitivos activos.
-                        </p>
-                        <q-expansion-item class="sabermas-texto-derecha-parte-izquierda--section6" dense dense-toggle
-                            expand-separator expand-icon-class="text-dark" v-model="expandeddos" label="Saber más">
-                            <q-card>
-                                <q-card-section class="texto-interno-sabermas-texto-derecha-parte-izquierda--section6">
-                                    Estos procesos son: la creatividad, solución de problemas, razonamiento, toma de
-                                    decisiones y evaluación. Además, los estudiantes están intrínsecamente motivados
-                                    para aprender por la naturaleza significativa de aprendizaje ambiental y
-                                    actividades.
-                                </q-card-section>
-                            </q-card>
-                        </q-expansion-item>
-                    </div>
-                </div>
-            </div>
-            <div class="parte-derecha--section6">
-                <img src="../assets/img/Figuras/F-N-4.svg" alt="">
-            </div>
-        </section>
-        <!-- Section 7 -->
-        <section class="window-height section7">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                        <div>
-                            <p class="titulos--section7">
-                                Fortalezas individuales desarrollo afectivo
+                <div class="mitad-derecha-seccion2--acerca-de-nosotros">
+                    <div class="container-vision">
+                        <div class="container-vision-titulo">
+                            <p>Visión</p>
+                        </div>
+                        <div class="container-vision-texto">
+                            <p>Ser, para el año 2023, una institución valorada por su prestigio educativo,
+                                reconocida por su constante innovación didáctica.
                             </p>
-                            <ul class="textos--section7">
-                                <li>Enfoque constructivista</li>
-                                <li>Metacognición</li>
-                                <li>Aprendizaje significativo<br>(conocimientos previos y motivación)</li>
-                                <li>Pensamiento critico</li>
-                                <li>Pensamiento divergente (creatividad)</li>
-                            </ul>
-                        </div>
-                        <div class="q-mt-lg">
-                            <p class="titulos--section7">
-                                Rol protagónico<br>desarrollo sustentable
+                            <p>
+                                El desarrollo de sus prácticas educativas bajo un marco metodológico diferenciador,
+                                unificado, compartido y coordinado para la formación permanente de individuos que
+                                trascienden y transforman los ámbitos personales, sociales, ambientales y culturales
+                                en los que se desenvuelvan.
                             </p>
-                            <ul class="textos--section7">
-                                <li>Enfoque constructivista social</li>
-                                <li>Globalización y transversalidad</li>
-                                <li>Aprendizaje basado en proyectos</li>
-                                <li>Investigación</li>
-                                <li>Resolución de problemas</li>
-                                <li>Tic's aplicadas a la educación </li>
-                            </ul>
                         </div>
                     </div>
-                    <div class="col-4 container-imagen--section7">
-                        <img src="../assets/img/Figuras/F-N-7.svg" alt="">
+                </div>
+            </section>
+            <!-- Section 3 -->
+            <section class="window-height section3">
+                <div class="container">
+                    <div class="titulo-section3 q-pt-xl">
+                        <p>Valores <br> vinculados al</p>
+                        <p>aprendizaje</p>
                     </div>
-                    <div class="col-4 columna-container-parte-derecha--section7">
-                        <div class="container-parte-derecha--section7">
+                    <div class="cuerpo-section3">
+                        <div class="container-imagen-cuerpo-section3">
+                            <!-- <img src="../assets/img/Figuras/F-N-2.svg" alt=""> -->
+                        </div>
+                        <div class="container-carousel">
+                            <div class="q-pa-md">
+                                <div class="title-slider">
+                                    Educamos:
+                                </div>
+                                <q-carousel infinite autoplay v-model="slide" swipeable animated
+                                    :navigation-position="navPos" navigation padding
+                                    class="bg-black text-white carousel-cuadrado">
+                                    <q-carousel-slide name="style" class="column no-wrap flex-center">
+                                        <div class="q-mt-md text-center texto-slider">
+                                            Con sentido de <br>trascendencia.
+                                        </div>
+                                    </q-carousel-slide>
+                                    <q-carousel-slide name="tv" class="column no-wrap flex-center">
+                                        <div class="q-mt-md text-center texto-slider">
+                                            Con responsabilidad social y ambiental.
+                                        </div>
+                                    </q-carousel-slide>
+                                    <q-carousel-slide name="layers" class="column no-wrap flex-center">
+                                        <div class="q-mt-md text-center texto-slider">
+                                            Para aprender continuamente.
+                                        </div>
+                                    </q-carousel-slide>
+                                    <q-carousel-slide name="map" class="column no-wrap flex-center">
+                                        <div class="q-mt-md text-center texto-slider">
+                                            Para la autonomía y la autodeterminación.
+                                        </div>
+                                    </q-carousel-slide>
+                                </q-carousel>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- Sección 4 -->
+            <section class="section-4 q-pa-xl">
+                <div class="container">
+                    <div class="mitad-arriba--section-4">
+                        <p class="titulo--section-4">
+                            Valores <br> <span>corporativos</span>
+                        </p>
+                    </div>
+                    <div class="mitad-abajo--section-4 ">
+                        <div class="container q-pa-xl">
+                            <div class="row q-pa-md">
+                                <div class="col-md-4 conatainer-texto--section-4">
+                                    <p>
+                                        Responsabilidad, <b>ética, honestidad y transparencia,</b> como
+                                        el nivel más alto de compromiso y de profesionalidad.
+                                    </p>
+                                </div>
+                                <div
+                                    class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
+                                    <div id="circulo1" class="circulo-numeros--section-4">
+                                        <p>1.</p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
+                                    <div id="circulo2" class="circulo-numeros--section-4">
+                                        <p>2.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 conatainer-texto--section-4">
+                                    <p>
+                                        Actualización y formación continua, investigación
+                                        pedagógica e innovación
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Fila 2 -->
+                            <div class="row q-pa-md">
+                                <div class="col-md-4 conatainer-texto--section-4">
+                                    <p>
+                                        Reconocimiento y <b>respeto por la diversidad</b> para
+                                        garantizar las mismas oportunidades de aprendizaje.
+                                    </p>
+                                </div>
+                                <div
+                                    class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
+                                    <div id="circulo3" class="circulo-numeros--section-4">
+                                        <p>3.</p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
+                                    <div id="circulo4" class="circulo-numeros--section-4">
+                                        <p>4.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 conatainer-texto--section-4">
+                                    <p>
+                                        Calidad en procesos para asegurar el cumplimiento de los objetivos de la
+                                        organización con <b>eficiencia, eficacia y pertinencia.</b>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Fila 3 -->
+                            <div class="row q-pa-md">
+                                <div class="col-md-4 conatainer-texto--section-4">
+                                    <p>
+                                        <b>Calidez y buen trato,</b> condiciones imprescindibles
+                                        en toda relación humana.
+                                    </p>
+                                </div>
+                                <div
+                                    class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
+                                    <div id="circulo5" class="circulo-numeros--section-4">
+                                        <p>5.</p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
+                                    <div id="circulo6" class="circulo-numeros--section-4">
+                                        <p>6.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 conatainer-texto--section-4">
+                                    <p>
+                                        <b>Solidaridad</b> para una convivencia cordial mediante la <b>participación activa,
+                                            respetuosa y eficaz</b> en la sociedad.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Section 5 -->
+            <section class="window-height section5">
+                <div class="container">
+                    <div class="container-parte-izquierda--section5">
+                        <div class="parte-izquierda--section5">
+                            <img src="../assets/img/Figuras/F-N-3.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="container-parte-derecha--section5">
+                        <div class="parte-derecha--section5">
+                            <div class="parte-arriba-parte-derecha--section5">
+                                <p class="titulo-parte-derecha--section5">Idiomas</p>
+                                <p class="texto-parte-derecha--section5">
+                                    Los idiomas extranjeros cobran auge ya que la internacionalización, así como el
+                                    desarrollo científico y
+                                    tecnológico, exigen que los estudiantes adquieran herramientas para enfrentar
+                                    los retos de la globalización.
+                                </p>
+                            </div>
+                            <div class="parte-abajo-parte-derecha--section5">
+                                <p class="titulo-parte-abajo-parte-derecha--section5"><b>Nuestros estudiantes egresan
+                                        preparados en tres idiomas:</b></p>
+                                <ul>
+                                    <li>Español (C2)*</li>
+                                    <li>Inglés (Bilingüe, B2-C1)*</li>
+                                    <li>Francés (Suficiencia B1-B2)</li>
+                                </ul>
+                                <p>*Cuadro común europeo de uso de Lenguas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Section 6 -->
+            <section class="window-height section6">
+                <div class="parte-izquierda--section6">
+                    <div class="row">
+                        <p class="titulo-parte-izquierda--section6">Modelo <br> <span>pedagógico</span></p>
+                    </div>
+                    <div class="row">
+                        <div class="col-7 container-texto-izquierda-parte-izquierda--section6">
+                            <p>
+                                Partimos de la individualidad y el respeto a la diversidad, en consecuencia el Sistema
+                                Campoverde se basa en un modelo centrado en el estudiante y grupos colaborativos que
+                                recoge diferentes metodologías.
+                            </p>
+                            <q-expansion-item class="sabermas-texto-izquierda-parte-izquierda--section6" dense dense-toggle
+                                expand-separator expand-icon-class="text-dark" v-model="expanded" label="Saber más">
+                                <q-card>
+                                    <q-card-section
+                                        class="texto-interno-sabermas-texto-izquierda-parte-izquierda--section6">
+                                        En esta concepción el estudiante es responsable de su proceso de aprendizaje, debe
+                                        buscar información e interactuar con los contenidos de su curso, desarrollar un
+                                        juicio crítico y tener la iniciativa de aprender continuamente lo que sea esencial
+                                        para cumplir con las intenciones educativas; los estudiantes realizan actividades
+                                        con otros compañeros y entre ellos construyen experiencias de aprendizaje que
+                                        enriquecen los contenidos y el desarrollo de habilidades como el uso de tecnologías,
+                                        trabajo en equipo, discusión de ideas, síntesis, análisis y juicios críticos, etc.,
+                                        asimismo los estudiantes realizan actividades, bien con miembros de la comunidad
+                                        institucional como fuera de ella que les permite enriquecer sus experiencias de
+                                        aprendizaje, el desarrollo de habilidades sociales y ejercitar su compromiso de
+                                        responsabilidad socio-ambiental.
+                                    </q-card-section>
+                                </q-card>
+                            </q-expansion-item>
+                        </div>
+                        <div class="col-5 container-texto-derecha-parte-izquierda--section6">
+                            <p>
+                                El aprendizaje constructivo implica que todas las actividades del estudiante
+                                involucran procesos cognitivos activos.
+                            </p>
+                            <q-expansion-item class="sabermas-texto-derecha-parte-izquierda--section6" dense dense-toggle
+                                expand-separator expand-icon-class="text-dark" v-model="expandeddos" label="Saber más">
+                                <q-card>
+                                    <q-card-section class="texto-interno-sabermas-texto-derecha-parte-izquierda--section6">
+                                        Estos procesos son: la creatividad, solución de problemas, razonamiento, toma de
+                                        decisiones y evaluación. Además, los estudiantes están intrínsecamente motivados
+                                        para aprender por la naturaleza significativa de aprendizaje ambiental y
+                                        actividades.
+                                    </q-card-section>
+                                </q-card>
+                            </q-expansion-item>
+                        </div>
+                    </div>
+                </div>
+                <div class="parte-derecha--section6">
+                    <img src="../assets/img/Figuras/F-N-4.svg" alt="">
+                </div>
+            </section>
+            <!-- Section 7 -->
+            <section class="window-height section7">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
                             <div>
-                                <p class="titulos--section7">Rol protagónico desarrollo del Ecuador y el mundo</p>
+                                <p class="titulos--section7">
+                                    Fortalezas individuales desarrollo afectivo
+                                </p>
                                 <ul class="textos--section7">
-                                    <li>Enfoques: histórico, cultural y constructivista </li>
-                                    <li>Aprendizaje en colaboración</li>
-                                    <li>Espacios de proyección social</li>
-                                    <li>Estrategias de diferenciación e inclusión</li>
+                                    <li>Enfoque constructivista</li>
+                                    <li>Metacognición</li>
+                                    <li>Aprendizaje significativo<br>(conocimientos previos y motivación)</li>
+                                    <li>Pensamiento critico</li>
+                                    <li>Pensamiento divergente (creatividad)</li>
                                 </ul>
                             </div>
                             <div class="q-mt-lg">
-                                <p class="titulos--section7">Identidad y cultura</p>
+                                <p class="titulos--section7">
+                                    Rol protagónico<br>desarrollo sustentable
+                                </p>
                                 <ul class="textos--section7">
-                                    <li>Enfoques: histórico y Cultural</li>
-                                    <li>Globalización: bilingüismo </li>
-                                    <li>Investigación para la difusión</li>
-                                    <li>Modelo de comunicación efectiva</li>
+                                    <li>Enfoque constructivista social</li>
+                                    <li>Globalización y transversalidad</li>
+                                    <li>Aprendizaje basado en proyectos</li>
+                                    <li>Investigación</li>
+                                    <li>Resolución de problemas</li>
+                                    <li>Tic's aplicadas a la educación </li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Section 8 -->
-        <section class="window-height section8">
-            <div class="parte-arriba--section8">
-                <div class="parte-izquierda-parte-arriba--section8">
-                    <div class="setentaporciento row">
-                        <div class="col-6 container-pb-parte-izquierda-parte-arriba--section8">
-                            <p>P<span>B</span></p>
+                        <div class="col-4 container-imagen--section7">
+                            <img src="../assets/img/Figuras/F-N-7.svg" alt="">
                         </div>
-                        <div class="col-6 container-pdb-parte-izquierda-parte-arriba--section8">
-                            <p>
-                                Perfil del<br>Bachiller
-                            </p>
-                            <div class="container-pdb-imagen-mas">
-                                <div class="imagen-mas">
-                                    <img src="../../public/Figuras/+.svg" alt="">
+                        <div class="col-4 columna-container-parte-derecha--section7">
+                            <div class="container-parte-derecha--section7">
+                                <div>
+                                    <p class="titulos--section7">Rol protagónico desarrollo del Ecuador y el mundo</p>
+                                    <ul class="textos--section7">
+                                        <li>Enfoques: histórico, cultural y constructivista </li>
+                                        <li>Aprendizaje en colaboración</li>
+                                        <li>Espacios de proyección social</li>
+                                        <li>Estrategias de diferenciación e inclusión</li>
+                                    </ul>
+                                </div>
+                                <div class="q-mt-lg">
+                                    <p class="titulos--section7">Identidad y cultura</p>
+                                    <ul class="textos--section7">
+                                        <li>Enfoques: histórico y Cultural</li>
+                                        <li>Globalización: bilingüismo </li>
+                                        <li>Investigación para la difusión</li>
+                                        <li>Modelo de comunicación efectiva</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
-                <div class="parte-derecha-parte-arriba--section8">
-                    <div class="setentaporciento">
-                        <div class="container-titulo-parte-derecha-parte-arriba--section8">
-                            <p class="titulo-parte-derecha-parte-arriba--section8">
-                                College<br>Admissions<br>Profile
-                            </p>
-                        </div>
-                        <div class="row container-contenido-parte-derecha-parte-arriba--section8">
-                            <div class="col-3">
-                                <div class="container-cap-imagen-mas">
+            </section>
+            <!-- Section 8 -->
+            <section class="window-height section8">
+                <div class="parte-arriba--section8">
+                    <div class="parte-izquierda-parte-arriba--section8">
+                        <div class="setentaporciento row">
+                            <div class="col-6 container-pb-parte-izquierda-parte-arriba--section8">
+                                <p>P<span>B</span></p>
+                            </div>
+                            <div class="col-6 container-pdb-parte-izquierda-parte-arriba--section8">
+                                <p>
+                                    Perfil del<br>Bachiller
+                                </p>
+                                <div class="container-pdb-imagen-mas">
                                     <div class="imagen-mas">
                                         <img src="../../public/Figuras/+.svg" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-9 container-cap-parte-derecha-parte-arriba--section8">
-                                <p>
-                                    C<span>AP</span>
+
+                        </div>
+                    </div>
+                    <div class="parte-derecha-parte-arriba--section8">
+                        <div class="setentaporciento">
+                            <div class="container-titulo-parte-derecha-parte-arriba--section8">
+                                <p class="titulo-parte-derecha-parte-arriba--section8">
+                                    College<br>Admissions<br>Profile
                                 </p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="parte-abajo--section8">
-                <div class="setentaporciento row container-contenido-parte-abajo--section8">
-                    <div class="contenido-parte-abajo--section8 col-4">
-                        <div class="container-imagen-mas">
-                            <div class="imagen-mas">
-                                <img src="../../public/Figuras/+.svg" alt="">
+                            <div class="row container-contenido-parte-derecha-parte-arriba--section8">
+                                <div class="col-3">
+                                    <div class="container-cap-imagen-mas">
+                                        <div class="imagen-mas">
+                                            <img src="../../public/Figuras/+.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-9 container-cap-parte-derecha-parte-arriba--section8">
+                                    <p>
+                                        C<span>AP</span>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <p>Código de<br>convivencia</p>
-                    </div>
-                    <div class="col-4 contenido-parte-abajo-parte-derecha--section8">
-                        <p>C<span>C</span></p>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Section 9 -->
-        <section class="window-height section9">
-            <div class="q-pt-lg container">
-                <p class="titulo--section9">
-                    <span>Aprobación</span><br>
-                    ministerial de costo<br>de pensiones
-                </p>
-                <div class="resolucion-de-costos">
-                    <img src="../assets/Icon/I-download-doc.svg" width="64px" height="64px" alt="">
-                    <p>Resolución de<br>costos 2021</p>
+                <div class="parte-abajo--section8">
+                    <div class="setentaporciento row container-contenido-parte-abajo--section8">
+                        <div class="contenido-parte-abajo--section8 col-4">
+                            <div class="container-imagen-mas">
+                                <div class="imagen-mas">
+                                    <img src="../../public/Figuras/+.svg" alt="">
+                                </div>
+                            </div>
+                            <p>Código de<br>convivencia</p>
+                        </div>
+                        <div class="col-4 contenido-parte-abajo-parte-derecha--section8">
+                            <p>C<span>C</span></p>
+                        </div>
+                    </div>
                 </div>
-                <div class="container-texto-section9">
-                    <p class="texto-section9">
-                        Los padres y madres de familia de Liceo Campoverde deben cancelar los valores por concepto de
-                        <span>pensiones los 5 primeros días</span> de cada mes de acuerdo al contrato firmado durante el
-                        período de
-                        matriculación.
+            </section>
+            <!-- Section 9 -->
+            <section class="window-height section9">
+                <div class="q-pt-lg container">
+                    <p class="titulo--section9">
+                        <span>Aprobación</span><br>
+                        ministerial de costo<br>de pensiones
                     </p>
-                </div>
-                <div class="container-imagen-section9">
-                    <img src="../assets/img/Figuras/F-N-6.svg" alt="">
-                </div>
-            </div>
-        </section>
-        <!-- Section 10 -->
-        <section class="section10">
-            <div class="container">
-                <p class="titulo--section10">
-                    Herramientas<br>
-                    <span>tecnológicas</span>
-                </p>
-                <div class="row fila-texto--section10">
-                    <div class="col-10 container-texto--section10">
-                        <p class="texto--section10">
-                            Nuestras herramientas tecnológicas para estudiantes desde segundo de básica en adelante incluyen el
-                            uso de software (App) efectivo y entretenido en las áreas de matemáticas, lenguaje, literatura e
-                            inglés entre ellos contamos con:
+                    <div class="resolucion-de-costos">
+                        <img src="../assets/Icon/I-download-doc.svg" width="64px" height="64px" alt="">
+                        <p>Resolución de<br>costos 2021</p>
+                    </div>
+                    <div class="container-texto-section9">
+                        <p class="texto-section9">
+                            Los padres y madres de familia de Liceo Campoverde deben cancelar los valores por concepto de
+                            <span>pensiones los 5 primeros días</span> de cada mes de acuerdo al contrato firmado durante el
+                            período de
+                            matriculación.
                         </p>
                     </div>
+                    <div class="container-imagen-section9">
+                        <img src="../assets/img/Figuras/F-N-6.svg" alt="">
+                    </div>
                 </div>
-                <div class="row fila-marcas--section10">
-                    <div class="col-md-1"></div>
-                    <div class="col-6 col-md-2">
-                        <img src="../assets/img/Logo/Logo-RazK.jpg" alt="">
+            </section>
+            <!-- Section 10 -->
+            <section class="section10">
+                <div class="container">
+                    <p class="titulo--section10">
+                        Herramientas<br>
+                        <span>tecnológicas</span>
+                    </p>
+                    <div class="row fila-texto--section10">
+                        <div class="col-12 col-md-10 container-texto--section10">
+                            <p class="texto--section10">
+                                Nuestras herramientas tecnológicas para estudiantes desde segundo de básica en adelante incluyen el
+                                uso de software (App) efectivo y entretenido en las áreas de matemáticas, lenguaje, literatura e
+                                inglés entre ellos contamos con:
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-6 col-md-2">
-                        <img src="../assets/img/Logo/Logo-Aleks.jpg" alt="">
+                    <div class="row fila-marcas--section10">
+                        <div class="col-md-1"></div>
+                        <div class="col-6 col-md-2">
+                            <img src="../assets/img/Logo/Logo-RazK.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="../assets/img/Logo/Logo-Aleks.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="../assets/img/Logo/Logo-matif.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="../assets/img/Logo/Logo-Cambridge.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="../assets/img/Logo/Logo-Zoom.jpg" alt="">
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-1"></div>
+                        <div class="col-6 col-md-2">
+                            <img src="../assets/img/Logo/Logo-myon.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="../assets/img/Logo/Logo-nearpod.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="../assets/img/Logo/Logo-classkick.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="../assets/img/Logo/Logo-deltamath.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="../assets/img/Logo/Logo-googl-class.jpg" alt="">
+                        </div>
+                        <div class="col-md-1"></div>
                     </div>
-                    <div class="col-6 col-md-2">
-                        <img src="../assets/img/Logo/Logo-matif.jpg" alt="">
-                    </div>
-                    <div class="col-6 col-md-2">
-                        <img src="../assets/img/Logo/Logo-Cambridge.jpg" alt="">
-                    </div>
-                    <div class="col-6 col-md-2">
-                        <img src="../assets/img/Logo/Logo-Zoom.jpg" alt="">
-                    </div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-6 col-md-2">
-                        <img src="../assets/img/Logo/Logo-myon.jpg" alt="">
-                    </div>
-                    <div class="col-6 col-md-2">
-                        <img src="../assets/img/Logo/Logo-nearpod.jpg" alt="">
-                    </div>
-                    <div class="col-6 col-md-2">
-                        <img src="../assets/img/Logo/Logo-classkick.jpg" alt="">
-                    </div>
-                    <div class="col-6 col-md-2">
-                        <img src="../assets/img/Logo/Logo-deltamath.jpg" alt="">
-                    </div>
-                    <div class="col-6 col-md-2">
-                        <img src="../assets/img/Logo/Logo-googl-class.jpg" alt="">
-                    </div>
-                    <div class="col-md-1"></div>
                 </div>
-            </div>
-        </section>
-
+            </section>
+        </div>
     </q-page>
 </template>
 
@@ -510,13 +511,13 @@
 }
 
 .texto-banner--acerca-de-nosotros{
-    letter-spacing: 0px;
-    width: 504px;
-    height: 371.46px;
+    letter-spacing: 0em;
+    width: 31.5em;
+    height: 23.2162em;
     font-family: Gotham;
     font-weight: 900;
-    font-size: 62px;
-    line-height: 60px;
+    font-size: 3.875em;
+    line-height: 3.75em;
     text-align: left;
 
 }
@@ -573,12 +574,12 @@
     height: 50%;
 }
 .container-educamos >p{
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 1.25em;
+    line-height: 1.6875em;
 }
 
 .mitad-arriba-mitad-izquierda-seccion2--acerca-de-nosotros > p{
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .container-texto--mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros{
@@ -593,12 +594,12 @@
 .mision{
     width: fit-content;
     height: fit-content;
-    padding: 0px 22px;
+    padding: 0em 1.375em;
     font-weight: 900;
-    font-size: 35px;
-    border-radius: 33px;
+    font-size: 2.1875em;
+    border-radius: 2.0625em;
     background: transparent;
-    border: 7px solid $morado;
+    border: 0.4375em solid $morado;
 }
 
 .mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros{
@@ -611,27 +612,27 @@
 
 .container-texto--mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros > p{
     font-weight: 900;
-    font-size: 35px;
+    font-size: 2.1875em;
 }
 
 .container-texto--mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros > p > span{
     height: fit-content;
-    padding: 0px 22px;
+    padding: 0px 1.375em;
     font-weight: 900;
-    font-size: 35px;
-    border-radius: 33px;
+    font-size: 2.1875em;
+    border-radius: 2.0625em;
     background: transparent;
-    border: 7px solid #8255A5;
+    border: 0.4375em solid #8255A5;
     width: fit-content;
 }
 
 .container-texto--mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros > ul{
-    padding-left: 0px;
+    padding-left: 0em;
 }
 
 .container-texto--mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros > ul > li{
-    font-size: 16px;
-    line-height: 27px;
+    font-size: 1em;
+    line-height: 1.6875em;
     list-style: none;
 }
 
@@ -656,12 +657,12 @@
 
 .container-vision-titulo > p{
     height: fit-content;
-    padding: 0px 22px;
+    padding: 0em 1.375em;
     font-weight: 900;
-    font-size: 35px;
-    border-radius: 33px;
+    font-size: 2.1875em;
+    border-radius: 2.0625em;
     background: transparent;
-    border: 7px solid #8255A5;
+    border: 0.4375em solid #8255A5;
     width: fit-content;
 }
 
@@ -671,13 +672,13 @@
 
 .container-vision-texto > p:nth-child(1){
     height: 35%;
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 1.25em;
+    line-height: 1.6875em;
 }
 
 .container-vision-texto > p:nth-child(2){
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1em;
+    line-height: 1.25em;
 }
 
 // Section 3
@@ -687,20 +688,20 @@
 }
 
 .titulo-section3 > p:first-child{
-    font-size: 35px;
+    font-size: 2.1875em;
     font-weight: 900;
-    line-height: 40px;
-    margin-bottom: 10px;
+    line-height: 2.5em;
+    margin-bottom: 0.625em;
 }
 
 .titulo-section3 > p:nth-child(2){
-    font-size: 35px;
+    font-size: 2.1875em;
     font-weight: 900;
     height: fit-content;
-    padding: 0px 22px;
-    border-radius: 0px;
+    padding: 0em 1.375em;
+    border-radius: 0em;
     background: transparent;
-    border: 7px solid $verde;
+    border: 0.4375em solid $verde;
     width: fit-content;
 }
 
@@ -724,25 +725,25 @@
 }
 
 .carousel-cuadrado{
-    width: 300px;
-    height: 150px;
-    padding: 10px 35px;
+    width: 18.75em;
+    height: 9.375em;
+    padding: 0.625em 2.1875em;
 }
 
 .title-slider{
     color: white;
     text-align: left;
-    padding-left: 44px;
-    font-size: 35px;
+    padding-left: 2.75em;
+    font-size: 2.1875em;
 }
 
 .slide-individual{
-    padding-bottom: 10px;
+    padding-bottom: 0.625em;
 }
 
 .texto-slider{
-    font-size: 20px;
-    margin-bottom: 27px;
+    font-size: 1.25em;
+    margin-bottom: 1.6875em;
 }
 
 // < =================== Sección4 =================== >
@@ -753,19 +754,19 @@
 }
 
 .titulo--section-4{
-    font-size: 35px;
+    font-size: 2.1875em;
     font-weight: 900;
-    line-height: 40px;
+    line-height: 2.5em;
 }
 
 .titulo--section-4 > span{
     background-color: #F9D938;
-    padding: 0 10px;
+    padding: 0 0.625em;
 }
 
 .circulo-numeros--section-4{
-    width: 190px;
-    height: 190px;
+    width: 11.875em;
+    height: 11.875em;
     border-radius: 50%;
     background-color: red;
     display: flex;
@@ -812,7 +813,7 @@
 }
 
 .circulo-numeros--section-4 > p{
-    font-size: 100px;
+    font-size: 6.25em;
 }
 
 .conatainer-texto--section-4{
@@ -822,8 +823,8 @@
 }
 
 .conatainer-texto--section-4 > p{
-    font-size: 20px;
-    padding: 0 85px;
+    font-size: 1.25em;
+    padding: 0 5.3125em;
 }
 
 // < =================== Sección5 =================== >
@@ -862,30 +863,30 @@
 }
 
 .parte-abajo-parte-derecha--section5 > ul > li{
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 .titulo-parte-derecha--section5{
     width: fit-content;
-    font-size: 32px;
+    font-size: 2em;
     height: fit-content;
-    padding: 0px 22px;
+    padding: 0em 1.375em;
     font-weight: 900;
-    font-size: 35px;
-    border-radius: 33px;
+    font-size: 2.1875em;
+    border-radius: 2.0625em;
     background: transparent;
-    border: 7px solid #8255A5;
+    border: 0.4375em solid #8255A5;
 }
 
 .texto-parte-derecha--section5{
-    font-size: 26px;
-    line-height: 27px;
+    font-size: 1.625em;
+    line-height: 1.6875em;
     margin-top: 2em;
 }
 
 .titulo-parte-abajo-parte-derecha--section5{
-    font-size: 28px;
-    line-height: 28px;
+    font-size: 1.75em;
+    line-height: 1.75em;
 }
 
 .parte-abajo-parte-derecha--section5{
@@ -915,24 +916,24 @@
 }
 
 .titulo-parte-izquierda--section6{
-    font-size: 40px;
-    line-height: 54px;
+    font-size: 2.5em;
+    line-height: 3.375em;
     color: white;
     font-weight: 900;
 }
 
 .titulo-parte-izquierda--section6 > span{
     height: fit-content;
-    padding: 0px 22px;
-    border-radius: 33px;
+    padding: 0em 1.375em;
+    border-radius: 2.0625em;
     background: transparent;
-    border: 7px solid $amarillo;
+    border: 0.4375em solid $amarillo;
     width: fit-content;
 }
 
 .container-texto-izquierda-parte-izquierda--section6 > p:first-child{
-    font-size: 26px;
-    line-height: 28px;
+    font-size: 1.625em;
+    line-height: 1.75em;
     padding-right: 13%;
 }
 
@@ -941,35 +942,35 @@
 }
 
 .container-texto-derecha-parte-izquierda--section6 > p:first-child{
-    font-size: 26px;
-    line-height: 28px;
+    font-size: 1.625em;
+    line-height: 1.75em;
 }
 
 .sabermas-texto-izquierda-parte-izquierda--section6{
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: 900;
 }
 
 .texto-interno-sabermas-texto-izquierda-parte-izquierda--section6{
     background-color: $verde;
-    font-size: 15px;
+    font-size: 0.9375em;
     font-weight: normal;
 }
 
 .q-expansion-item--expanded {
-    border:1px solid $verde;
+    border:0.0625em solid $verde;
     border-color: $verde;
     background-color: $verde;
 }
 
 .sabermas-texto-derecha-parte-izquierda--section6{
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: 900;
 }
 
 .texto-interno-sabermas-texto-derecha-parte-izquierda--section6{
     background-color: $verde;
-    font-size: 15px;
+    font-size: 0.9375em;
     font-weight: normal;
 }
 
@@ -980,13 +981,13 @@
 }
 
 .titulos--section7{
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 1.875em;
+    line-height: 1.875em;
     font-weight: 900;
 }
 
 .textos--section7 > li{
-    font-size: 18px
+    font-size: 1.125em;
 }
 
 .container-parte-derecha--section7{
@@ -1056,7 +1057,7 @@
 }
 
 .container-pb-parte-izquierda-parte-arriba--section8 > p{
-    font-size: 240px;
+    font-size: 15em;
     height: fit-content;
     margin-bottom: 0px;
     color: $gris;
@@ -1066,14 +1067,14 @@
 }
 
 .container-pb-parte-izquierda-parte-arriba--section8 > p > span{
-    font-size: 120px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    font-size: 7.5em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
 }
 
 .container-pdb-parte-izquierda-parte-arriba--section8 > p{
-    font-size: 30px;
-    line-height: 32px;
+    font-size: 1.875em;
+    line-height: 2em;
     font-weight: 900;
     color: white;
     height: 35%;
@@ -1081,7 +1082,7 @@
 
 .container-pdb-parte-izquierda-parte-arriba--section8 > div{
     height: 65%;
-    padding-top: 10px;
+    padding-top: 0.625em;
 }
 
 .container-pdb-imagen-mas{
@@ -1094,8 +1095,8 @@
 }
 
 .titulo-parte-derecha-parte-arriba--section8{
-    font-size: 30px;
-    line-height: 32px;
+    font-size: 1.875em;
+    line-height: 2em;
     font-weight: 900;
     color: white;
 }
@@ -1110,20 +1111,20 @@
 .container-cap-imagen-mas{
     display: flex;
     justify-content: flex-start;
-    padding-top: 25px;
+    padding-top: 1.5625em;
 }
 
 .container-cap-parte-derecha-parte-arriba--section8 > p{
-    font-size: 240px;
-    margin-bottom: 0px;
+    font-size: 15em;
+    margin-bottom: 0em;
     color: $gris;
     font-weight: 900;
     height: 143%;
 }
 
 .container-cap-parte-derecha-parte-arriba--section8 > p > span{
-    font-size: 120px;
-    margin-bottom: 0px;
+    font-size: 7.5em;
+    margin-bottom: 0em;
 }
 
 .container-contenido-parte-derecha-parte-arriba--section8{
@@ -1148,7 +1149,7 @@
 .imagen-mas{
     background-color: $amarillo;
     border-radius: 50%;
-    border: 0.125rem solid white;
+    border: 0.125em solid white;
     background-color: $gris-oscuro;
     vertical-align: top;
     width: 4.5em;
@@ -1169,9 +1170,9 @@
 
 .contenido-parte-abajo--section8 > p{
     height:50%;
-    margin: 0px;
-    font-size: 30px;
-    line-height: 32px;
+    margin: 0em;
+    font-size: 1.875em;
+    line-height: 2em;
     font-weight: 900;
     color: white;
     display: flex;
@@ -1185,15 +1186,15 @@
 }
 
 .contenido-parte-abajo-parte-derecha--section8 > p{
-    font-size: 240px;
-    margin-bottom: 0px;
+    font-size: 15em;
+    margin-bottom: 0em;
     color: #E5E1D3;
     font-weight: 900;
     height: 117%;
 }
 
 .contenido-parte-abajo-parte-derecha--section8 > p > span{
-    font-size: 120px;
+    font-size: 7.5em;
 }
 
 // < =================== Sección9 =================== >
@@ -1203,21 +1204,21 @@
 }
 
 .titulo--section9{
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 2.5em;
+    line-height: 2.5em;
     font-weight: 900;
-    padding-left: 270px;
-    padding-top: 100px;
+    padding-left: 16.875em;
+    padding-top: 6.25em;
 }
 
 .titulo--section9 > span{
     height: fit-content;
-    padding: 0px 22px;
-    border-radius: 33px;
+    padding: 0em 1.375em;
+    border-radius: 2.0625em;
     background: transparent;
-    border: 7px solid $celeste;
+    border: 0.4375em solid $celeste;
     width: fit-content;
-    line-height: 65px;
+    line-height: 4.0625em;
 }
 
 .container-imagen-section9{
@@ -1247,10 +1248,10 @@
 
 .resolucion-de-costos > p  {
     color: white;
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 1.75em;
+    line-height: 2em;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 0.9375em;
     font-weight: 900;
 }
 
@@ -1262,7 +1263,7 @@
 }
 
 .texto-section9{
-    font-size: 15px;
+    font-size: 0.9375em;
 }
 
 // < =================== Sección10 =================== >
@@ -1275,20 +1276,20 @@
 }
 
 .titulo--section10{
-    font-size:40px;
-    line-height: 45px;
+    font-size:2.5em;
+    line-height: 2.8125em;
     font-weight: 900;
 }
 
 .titulo--section10 > span{
     background-color: $verde-limon;
-    padding: 0 10px;
+    padding: 0 0.625em;
 }
 
 .texto--section10{
-    font-size: 22px;
-    line-height: 28px;
-    margin: 20px 0px;
+    font-size: 1.375em;
+    line-height: 1.75em;
+    margin: 1.25em 0em;
 }
 
 .fila-texto--section10{
@@ -1308,13 +1309,19 @@
 .fila-marcas--section10 > div{
     height: fit-content;
     width: fit-content;
-    padding: 0px 10px;
+    padding: 0em 0.625em;
 }
 
 .fila-marcas--section10 > div > img{
-    width: 170px;
-    padding: 0 10px;
+    width: 10.625em;
+    padding: 0 0.625em;
     height: auto;
+}
+
+@media (min-width: 576px) {
+    .main{
+        font-size: 14px;
+    }
 }
 
 </style>
