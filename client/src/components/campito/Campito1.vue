@@ -4,7 +4,7 @@
        <h2 class="space-line text-weight-bolder q-pl-xs-md">Respetamos  la niñez, el juego y el
           <span class="bg-info text-white q-my-xl">aprendizaje</span>
        </h2>
-      <div class="">
+      <div class="campito-logo">
         <q-img style="max-width: 80%; height: auto;" src="/logo/Logo-Campito.svg" alt="imagen"/>
       </div>
       </div>
