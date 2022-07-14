@@ -11,10 +11,10 @@
       height="100%"
       style="border-radius:100%"
     >
-      <q-carousel-slide :name="1" img-src="/img/desplazamiento.png" />
-      <q-carousel-slide :name="2" img-src="/img/desplazamiento.png" />
-      <q-carousel-slide :name="3" img-src="/img/desplazamiento.png" />
-      <q-carousel-slide :name="4" img-src="/img/desplazamiento.png" />
+      <q-carousel-slide :name="1" img-src="img/desplazamiento.png" />
+      <q-carousel-slide :name="2" img-src="img/desplazamiento.png" />
+      <q-carousel-slide :name="3" img-src="img/desplazamiento.png" />
+      <q-carousel-slide :name="4" img-src="img/desplazamiento.png" />
     </q-carousel>
   </div>
 </template>

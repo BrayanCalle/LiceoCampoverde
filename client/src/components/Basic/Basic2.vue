@@ -10,7 +10,7 @@
         </p>
       </div>
       <div class="col-12 col-md-6 q-pt-xl">
-        <img style="max-width: 100%; height: auto;" src="/figuras/F-C-3.svg" alt="imagen"/>
+        <img style="max-width: 100%; height: auto;" src="figuras/F-C-3.svg" alt="imagen"/>
       </div>
     </div>
    <div class="height_section2 row">

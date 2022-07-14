@@ -10,7 +10,7 @@
         </p>
       </div>
       <div class="col-12 col-md-6 q-pt-xl">
-        <img style="max-width: 100%; height: auto;" src="/figuras/F-C-3.svg" alt="imagen"/>
+        <img style="max-width: 100%; height: auto;" src="figuras/F-C-3.svg" alt="imagen"/>
       </div>
     </div>
    <div class="height_section2 row">
@@ -25,7 +25,7 @@
             <img src="figuras/F-C-phone-3.svg" class="full-height" />
           </div>
           <div class="full-height">
-            <img src="/bachillerato/B-3.png" class="full-height" />
+            <img src="bachillerato/B-3.png" class="full-height" />
           </div>
         </div>
         <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 card">

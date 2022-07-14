@@ -10,7 +10,7 @@
             </button>
             </div>
             <div class="col-6 bg-primary q-p-sm">
-              <img width="100%" style="margin: auto ; display: flex;" src="/figuras/F-C-5.svg" alt="imagen"/>
+              <img width="100%" style="margin: auto ; display: flex;" src="figuras/F-C-5.svg" alt="imagen"/>
             </div>
             <div class="col-6 bg-white text-center relative-position">
               <h3>Menú Campito</h3>
@@ -19,7 +19,7 @@
             </button>
             </div>
             <div class="col-6 bg-primary">
-              <img width="100%" style="margin: auto ; display: flex;" src="/figuras/F-C-6.svg" alt="imagen"/>
+              <img width="100%" style="margin: auto ; display: flex;" src="figuras/F-C-6.svg" alt="imagen"/>
             </div>
           </div>
         </div><br/>
@@ -32,7 +32,7 @@
             </button>
             </div>
             <div class="col-6 bg-primary">
-              <img width="85%" style="margin: auto ; display: flex;" src="/figuras/F-C-9.svg" alt="imagen"/>
+              <img width="85%" style="margin: auto ; display: flex;" src="figuras/F-C-9.svg" alt="imagen"/>
             </div>
              <div class="col-6 bg-white text-center relative-position">
               <h3>Idiomas</h3>
@@ -41,7 +41,7 @@
             </button>
             </div>
             <div class="col-6 bg-primary">
-              <img width="100%" style="margin: auto ; display: flex;" src="/figuras/F-C-7.svg" alt="imagen"/>
+              <img width="100%" style="margin: auto ; display: flex;" src="figuras/F-C-7.svg" alt="imagen"/>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@
     <div class="row q-py-xl">
       <div class="q-px-xl col-12 col-md-6 relative-position">
         <p class="text-educate text-h5 text-weight-bold">Educamos<br/> para el <br/>mundo<br/> de mañana</p>
-        <img width="100%" height="100%" src="/figuras/F-B-1.svg" alt="imagen"/>
+        <img width="100%" height="100%" src="figuras/F-B-1.svg" alt="imagen"/>
       </div>
       <div class="col-12 col-md-6 text_we_educate">
         <p class="text-h3 text-white text-weight-bold">

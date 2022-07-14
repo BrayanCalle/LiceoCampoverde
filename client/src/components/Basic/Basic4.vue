@@ -32,9 +32,9 @@
               height="100%"
               style="border-radius:100%"
             >
-              <q-carousel-slide :name="1" img-src="/img/EC-8.png" />
-              <q-carousel-slide :name="2" img-src="/img/desplazamiento.png" />
-              <q-carousel-slide :name="3" img-src="/img/EC-8.png" />
+              <q-carousel-slide :name="1" img-src="img/EC-8.png" />
+              <q-carousel-slide :name="2" img-src="img/desplazamiento.png" />
+              <q-carousel-slide :name="3" img-src="img/EC-8.png" />
             </q-carousel>
           </div>
         </div>
@@ -48,7 +48,7 @@
         </div>
         <div class="col-12 col-md-6 text-center q-px-xl q-py-xl relative-position">
           <tour class="tour-play"/>
-          <img width="100%" height="100%" src="/figuras/Enmascarar.png" alt="img"/>
+          <img width="100%" height="100%" src="figuras/Enmascarar.png" alt="img"/>
         </div>
       </div>
     </section>

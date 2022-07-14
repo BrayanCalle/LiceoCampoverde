@@ -6,7 +6,7 @@
         </div>
         <div class="col-12 col-md-6 text-center q-px-xl q-py-xl relative-position">
           <tour class="tour-play"/>
-          <img width="100%" height="100%" src="/figuras/Enmascarar.png" alt="img"/>
+          <img width="100%" height="100%" src="figuras/Enmascarar.png" alt="img"/>
         </div>
     </div>
     <div class="row bg-dark q-py-xl">

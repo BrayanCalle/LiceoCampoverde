@@ -2,7 +2,7 @@
   <div>
     <q-avatar class="fit cursor-pointer" clickable v-ripple
       @click="videoModal = true">
-      <img src="/figuras/+.svg" class="fit">
+      <img src="figuras/+.svg" class="fit">
     </q-avatar>
 
     <q-dialog v-model="videoModal" persistent style="width: 100%" >
@@ -15,7 +15,7 @@
             <p class="text-h4">Horario</p>
           </div>
           <div class="col-6 bg-info">
-            <img width="80%" height="100%" src="/figuras/F-C-5.svg" alt="imagen"/>
+            <img width="80%" height="100%" src="figuras/F-C-5.svg" alt="imagen"/>
           </div>
         </div>
         <div class="row">

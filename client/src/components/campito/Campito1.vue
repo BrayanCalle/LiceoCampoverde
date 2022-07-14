@@ -5,7 +5,7 @@
           <span class="bg-info text-white q-my-xl">aprendizaje</span>
        </h2>
       <div class="campito-logo">
-        <q-img style="max-width: 80%; height: auto;" src="/logo/Logo-Campito.svg" alt="imagen"/>
+        <q-img style="max-width: 80%; height: auto;" src="logo/Logo-Campito.svg" alt="imagen"/>
       </div>
       </div>
       <div class="col-12 col-md-6">
@@ -13,8 +13,8 @@
           <p class="circle-text text-white text-weight-bolder">
             Educamos para el mundo de mañana
           </p>
-          <q-img style="max-width: 100%; height: auto;" src="/figuras/F-C-1.svg" alt="imagen"/>
-          <img class="img-childrens" style="max-width: 50%; height: auto;" src="/img/C-1.png" alt="imagen"/>
+          <q-img style="max-width: 100%; height: auto;" src="figuras/F-C-1.svg" alt="imagen"/>
+          <img class="img-childrens" style="max-width: 50%; height: auto;" src="img/C-1.png" alt="imagen"/>
         </div>
       </div>
     </div>

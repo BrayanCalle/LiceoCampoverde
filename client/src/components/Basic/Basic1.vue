@@ -10,8 +10,8 @@
           <p class="circle-text text-white text-weight-bolder">
             Educamos para el mundo de mañana
           </p>
-          <q-img style="max-width: 100%; height: auto;" src="/figuras/F-C-1.svg" alt="imagen"/>
-          <img class="img-childrens" style="max-width: 50%; height: auto;" src="/img/EB-1.png" alt="imagen"/>
+          <q-img style="max-width: 100%; height: auto;" src="figuras/F-C-1.svg" alt="imagen"/>
+          <img class="img-childrens" style="max-width: 50%; height: auto;" src="img/EB-1.png" alt="imagen"/>
         </div>
       </div>
     </div>

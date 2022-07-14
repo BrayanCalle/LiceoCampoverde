@@ -2,7 +2,7 @@
    <section>
     <div class="row">
       <div class="col-12 col-md-6">
-        <img width="100%" src="/bachillerato/B-4.png" alt="imagen"/>
+        <img width="100%" src="bachillerato/B-4.png" alt="imagen"/>
       </div>
       <div class="col-12 col-md-6">
         <div class="q-px-xl q-py-xl ">
