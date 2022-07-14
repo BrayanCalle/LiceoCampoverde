@@ -84,7 +84,9 @@
 
     <div class="row no-wrap items-center q-py-md">
       <div class="text-caption text-bold q-pr-md">Compartir</div>
-      <img src="iconInfo/share-option.png" style="width:30px" class="cursor-pointer" @click="share = true" />
+      <div class="fondo_amarillo q-pa-sm" style="border-bottom-right-radius: 100%">
+        <img src="iconInfo/share-option.png" style="width:20px" class="cursor-pointer" @click="share = true" />
+      </div>
     </div>
 
     <q-separator />
