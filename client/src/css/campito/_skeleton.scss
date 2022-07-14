@@ -16,6 +16,9 @@
 
 .margin {
   padding: 0rem 3rem;
+  .campito-logo {
+    padding-top: 8rem;
+  }
 }
 
 .img-childrens {
@@ -49,6 +52,9 @@
 
 .text-appearance {
   padding: 4rem;
+  h3{
+    width: 80%;
+  }
 }
 
 //Campito 4
@@ -94,14 +100,18 @@
     padding: 6rem;
   }
 }
-
+.play-video {
+  position: absolute;
+  top: 8rem;
+  left: 8rem;
+}
 //Campito5
 .bar-text {
   text-align: right;
   padding: 5rem;
 }
 .texto-encima{
-  padding: 2rem;
+  padding: 4rem;
 }
 //Campito6
 .schedule{
@@ -118,6 +128,24 @@
   text-decoration: none;
   border: 1px solid #FFFFFF;
   padding: 0rem 1rem;
+}
+
+.campito_list {
+  list-style: none;
+  padding: 0rem;
+}
+
+.tour-play {
+  position: absolute;
+  top: 12rem;
+  left: 18rem;
+}
+.calendary {
+  text-align: center;
+  > div {
+    padding-top: 1rem;
+    margin: auto;
+  }
 }
 
 //Campito7
@@ -179,6 +207,11 @@
     display: flex;
   }
 }
+.face {
+  position: absolute;
+  top: 3rem;
+  left: 14rem;
+}
 @media only screen and (max-width: 600px) {
   .circle-text {
     top: 1rem;
@@ -237,5 +270,10 @@
   //campito6
   .section-forms {
     display: none;
+  }
+  .tour-play {
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
   }
 }

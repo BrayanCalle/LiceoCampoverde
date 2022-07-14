@@ -6,7 +6,7 @@
             <div class="col-6 bg-white text-center relative-position">
               <h3>Horario</h3>
             <button class="butons" style="background-color: #6B645F;">
-              <img width="100%"  src="/figuras/+.svg" alt="imagen"/>
+              <modal-horario/>
             </button>
             </div>
             <div class="col-6 bg-primary q-p-sm">
@@ -15,7 +15,7 @@
             <div class="col-6 bg-white text-center relative-position">
               <h3>Menú Campito</h3>
             <button class="butons" style="background-color: #6B645F;">
-              <img width="100%"  src="/figuras/+.svg" alt="imagen"/>
+              <modal-calendario/>
             </button>
             </div>
             <div class="col-6 bg-primary">
@@ -28,7 +28,7 @@
             <div class="col-6 bg-white text-center relative-position">
               <h4>Calendario de actividades </h4>
             <button class="butons" style="background-color: #6B645F;">
-              <img width="100%"  src="/figuras/+.svg" alt="imagen"/>
+              <modal-calendario/>
             </button>
             </div>
             <div class="col-6 bg-primary">
@@ -37,7 +37,7 @@
              <div class="col-6 bg-white text-center relative-position">
               <h3>Idiomas</h3>
             <button class="butons" style="background-color: #6B645F;">
-              <img width="100%"  src="/figuras/+.svg" alt="imagen"/>
+              <modal-idiomas/>
             </button>
             </div>
             <div class="col-6 bg-primary">
@@ -46,39 +46,23 @@
           </div>
         </div>
       </div>
-
-      <div class="section-forms">
-        <div class="row">
-          <div class="col-12 col-md-6 section-form relative-position">
-            <h4 class="text-weight-bold"><span class="bg-secondary text-white">Educamos </span><br/> para el mundo<br/> de mañana</h4>
-            <img width="60%" src="/figuras/F-6.svg" alt="imagen"/>
-            <p class="text-h4">
-              Permítenos mostrarte lo que podemos hacer por tu hijo
-            </p>
-          </div>
-          <div class="col-12 col-md-6" style="background-color: #E5E1D3;">
-            <img width="30%" src="/figuras/F-2.svg" alt="imagen"/>
-            <form class="form">
-              <input type="text" placeholder="Nombre y apellido"/>
-              <input type="email" placeholder="mimailprincipal@mail.com" />
-              <input type="number" placeholder="WhatsApp" />
-              <select>
-                <option>Escoge una opción</option>
-                <option value="saab">Saab</option>
-                <option value="mercedes">Mercedes</option>
-                <option value="audi">Audi</option>
-              </select>
-              <textarea name="" id="" cols="20" rows="5" placeholder="Escribe aquí tu mensaje …."></textarea>
-              <button>Solicitar una cita</button>
-            </form>
-          </div>
-        </div>
-      </div>
+      <section-7/>
     </section>
 </template>
 
 <script>
+import Section7 from '../home/Section7'
+import ModalIdiomas from './ModalIdiomas.vue'
+import ModalCalendario from './ModalCalendario.vue'
+import ModalHorario from './ModalHorario.vue'
+
 export default {
-  name: 'campito-6'
+  name: 'campito-6',
+  components: {
+    Section7,
+    ModalIdiomas,
+    ModalCalendario,
+    ModalHorario
+  }
 }
 </script>

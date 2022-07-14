@@ -5,7 +5,7 @@
       </div>
       <div class="col-7">
         <h2 class="text-top text-weight-bolder">
-          <span class="bg-positive text-white q-my-xl">Campito</span>  <br/>recibimos a niños de <br/>2 a 4 años de edad
+          <span class="bg-positive q-my-xl">Campito</span>  <br/>recibimos a niños de <br/>2 a 4 años de edad
         </h2>
       </div>
        <div class="board">
