@@ -88,15 +88,15 @@ export default {
           items: [
             {
               label: 'Campito',
-              ruta: ''
+              ruta: 'campito'
             },
             {
               label: 'Educación Básica',
-              ruta: ''
+              ruta: 'basic'
             },
             {
               label: 'Bachillerato',
-              ruta: ''
+              ruta: 'bachiller'
             }
           ]
         },

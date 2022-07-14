@@ -2,7 +2,7 @@
   <div>
     <q-avatar class="fit cursor-pointer" clickable v-ripple
       @click="videoModal = true">
-      <img src="/figuras/icons-video.svg" class="fit">
+      <img src="figuras/icons-video.svg" class="fit">
     </q-avatar>
 
     <q-dialog v-model="videoModal" persistent>

@@ -1,22 +1,22 @@
 <template>
     <section>
       <div class="row bg-info relative-position q-py-md">
-        <div class="col-12 col-md-3 bar-te">
-          <h3 class="bar-text text-weight-bold text-white">Juegos</h3>
+        <div class="col-12 col-md-4 bar-te">
+          <h3 class="bar-text text-weight-bold text-dark">Laboratorios</h3>
         </div>
         <div class="col-12 col-md-4">
-         <coursel-campito/>
+          <coursel-basic/>
         </div>
         <div class="col-12 col-md-4 text-circle">
           <h5 class="texto-encima">
-            Los niños pueden jugar y aprender en amplias áreas verdes con juegos, cascada y arenero.
+            Experimentamos en los laboratorios de música, arte, computación, ciencias y en nuestra Biblioteca.
           </h5>
         </div>
       </div>
       <div class="row bg-secondary relative-position q-py-md">
         <div class="col-12 col-md-4 text-circle">
           <h5 class="texto-encima">
-            Tenemos mucho espacio al aire libre, que junto a la granja y huerto aportan para un buen desarrollo psicomotor de nuestros niños.
+            Nos divertimos en los juegos de equilibrio, canchas de fútbol, básquetbol y en nuestra pista de atletismo.
           </h5>
         </div>
         <div class="col-12 col-md-4">
@@ -26,23 +26,23 @@
               v-model="slide"
               navigation
               infinite
-              :auto="auto"
-              @mouseenter="auto = false"
-              @mouseleave="auto = true"
+              :autoplay="autoplay"
+              @mouseenter="autoplay = false"
+              @mouseleave="autoplay = true"
               height="100%"
               style="border-radius:100%"
             >
-              <q-carousel-slide :name="1" img-src="img/desplazamiento.png" />
+              <q-carousel-slide :name="1" img-src="img/EC-8.png" />
               <q-carousel-slide :name="2" img-src="img/desplazamiento.png" />
-              <q-carousel-slide :name="3" img-src="img/desplazamiento.png" />
+              <q-carousel-slide :name="3" img-src="img/EC-8.png" />
             </q-carousel>
           </div>
         </div>
          <div class="col-12 col-md-3 bar-te">
-          <h3 class="bar-text text-weight-bold text-white">Naturaleza</h3>
+          <h3 class="bar-text text-weight-bold text-dark">Espacios recreativos</h3>
         </div>
       </div>
-      <div class="row">
+        <div class="row">
         <div class="col-12 col-md-6 q-px-xl q-px-md">
           <h3 class="text-justify q-px-xl q-py-xl text-weight-bold" >Tour <br/><span class="bg-secondary">virtual</span></h3>
         </div>
@@ -56,19 +56,19 @@
 
 <script>
 import { ref } from 'vue'
-import Tour from './Tour.vue'
-import CourselCampito from './CourselCampito.vue'
+import Tour from '../campito/Tour.vue'
+import CourselBasic from './CourselBasic.vue'
 
 export default {
-  name: 'campito-5',
+  name: 'basic-4',
   components: {
     Tour,
-    CourselCampito
+    CourselBasic
   },
   setup () {
     return {
       slide: ref(1),
-      auto: ref(false)
+      autoplay: ref(false)
     }
   }
 }

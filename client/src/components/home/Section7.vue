@@ -8,7 +8,7 @@
       </div>
 
       <div class="column items-end full-width">
-        <q-img src="/figuras/F-6.svg" alt="imagen" class="img_responsive">
+        <q-img src="figuras/F-6.svg" alt="imagen" class="img_responsive">
           <div class=" my-font-ultra text-weight-bolder text-white text-right absolute-full bg-transparent text_responsive">
             Permítenos <br>
             mostrarte lo <br>
@@ -22,9 +22,9 @@
 
     <div class="col-12 col-sm-6 col-md-6 fondo_gris">
       <div class="row items-end">
-        <img height="160px" src="/figuras/F-2.svg" alt="imagen"/>
+        <img height="160px" src="figuras/F-2.svg" alt="imagen"/>
         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 row justify-center">
-          <img src="/home/rostro.svg" alt="rostro"/>
+          <img src="home/rostro.svg" alt="rostro"/>
         </div>
       </div>
 

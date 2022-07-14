@@ -4,7 +4,7 @@
     <p class="text-h2 text-weight-bold">Formamos<br/> <span class="bg-warning">agentes</span> de cambio e impacto social</p>
    </div>
    <div class="col-12 col-md-6 relative-position">
-    <img src="/bachillerato/B-1.png" alt="imagen"/>
+    <img src="bachillerato/B-1.png" alt="imagen"/>
    </div>
   </div>
 </template>

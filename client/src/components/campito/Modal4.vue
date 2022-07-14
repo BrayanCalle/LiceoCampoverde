@@ -1,26 +1,24 @@
 <template>
   <div>
     <q-avatar class="fit cursor-pointer" clickable v-ripple
-      @click="modal = true">
+      @click="videoModal = true">
       <img src="figuras/+.svg" class="fit">
     </q-avatar>
 
-    <q-dialog v-model="modal" persistent>
-      <div flat class="bg-transparent" style="max-width: 100% !important;">
-        <div class="buttom_close_video row justify-end">
-          <q-btn round icon="clear" color="black" @click="modal = false" />
+    <q-dialog v-model="videoModal" persistent style="width: 100%" >
+      <q-card flat class="relative-postion" style="height:auto; max-width: 80%; width: 100%;">
+        <div class="row justify-end q-pa-sm icons_modal">
+          <q-btn round icon="clear" color="black" @click="videoModal = false" />
         </div>
-
-        <div class="bg-white" style="width:100%; height:90%">
-         <div class="row" style="height: 40vh;">
-          <div class="col-6 q-px-xl q-py-xl" style="height: 100%;">
-            <p class="text-h4 text-weight-bold text-center q-py-xl">Idiomas</p>
+        <div class="row">
+          <div class="col-6 q-px-xl q-py-xl text-center">
+            <p class="text-h4">Horario</p>
           </div>
-          <div class="col-6 bg-primary" style="height: 100%;">
-            <img width="100%" height="100%" src="/figuras/F-C-7.svg" alt="imagen"/>
+          <div class="col-6 bg-info">
+            <img width="50%" style="margin: auto ; display: flex;" src="figuras/F-C-9.svg" alt="imagen"/>
           </div>
-         </div>
-         <div class="row q-py-sm">
+        </div>
+        <div class="row q-py-sm">
           <div class="col-3">
             <p class="text-h5 q-px-xl text-weight-bold">Nuestros estudiantes egresan preparados en tres idiomas:</p>
           </div>
@@ -47,18 +45,17 @@
           </div>
           <p class="text-h6 text-weight-light q-px-xl">*Cuadro común europeo de uso de Lenguas</p>
          </div>
-        </div>
-      </div>
+      </q-card>
     </q-dialog>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'modal-idiomas',
+  name: 'modal-4',
   data () {
     return {
-      modal: false
+      videoModal: false
     }
   }
 }

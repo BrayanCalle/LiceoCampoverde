@@ -46,6 +46,18 @@ const routes = [
     ]
   },
   {
+    path: '/basic',
+    redirect: '/basic',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: '/basic',
+        name: 'basic',
+        component: () => import('pages/Basic.vue')
+      }
+    ]
+  },
+  {
     path: '/bachiller',
     redirect: '/bachiller',
     component: () => import('layouts/MainLayout.vue'),
