@@ -1,16 +1,7 @@
 <template>
     <q-page>
         <div class="main">
-            <section class="banner-acerca-de-nosotros">
-                <div class="container-texto-banner--acerca-de-nosotros">
-                    <p class="texto-banner--acerca-de-nosotros">
-                        Acerca de <br> nosotros, <br>nuestra <span>motivación</span>
-                    </p>
-                </div>
-                <div class="container-imagen-banner--acerca-de-nosotros">
-                    <img src="../assets/img/Figuras/F-N-1.svg" alt="">
-                </div>
-            </section>
+            <seccion1adn />
             <!-- Sección 2 Misión -->
             <section class="seccion2--acerca-de-nosotros">
                 <div class="mitad-izquierda-seccion2--acerca-de-nosotros">
@@ -440,7 +431,7 @@
                         <span>tecnológicas</span>
                     </p>
                     <div class="row fila-texto--section10">
-                        <div class="col-12 col-md-10 container-texto--section10">
+                        <div class="col-12col-md-10 container-texto--section10">
                             <p class="texto--section10">
                                 Nuestras herramientas tecnológicas para estudiantes desde segundo de básica en adelante incluyen el
                                 uso de software (App) efectivo y entretenido en las áreas de matemáticas, lenguaje, literatura e
@@ -493,50 +484,6 @@
 <style lang="scss" scoped >
 @import 'src/css/app.scss';
 
-.banner-acerca-de-nosotros{
-    height:100%;
-    width:100%;
-    display: flex;
-}
-.container-texto-banner--acerca-de-nosotros{
-    width: 50%;
-    justify-content: flex-end;
-    align-items: center;
-    display: flex;
-}
-
-.container-texto-banner--acerca-de-nosotros{
-    font-family:  Gotham;
-    color: $negro;
-}
-
-.texto-banner--acerca-de-nosotros{
-    letter-spacing: 0em;
-    width: 31.5em;
-    height: 23.2162em;
-    font-family: Gotham;
-    font-weight: 900;
-    font-size: 3.875em;
-    line-height: 3.75em;
-    text-align: left;
-
-}
-
-.texto-banner--acerca-de-nosotros > span{
-    background-color: $amarillo;
-}
-
-.container-imagen-banner--acerca-de-nosotros{
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-    height: 100vh;
-}
-
-.container-imagen-banner--acerca-de-nosotros > img{
-    width: 100%;
-    height: 100%;
-}
 // Sección 2
 .seccion2--acerca-de-nosotros{
     display: flex;
@@ -574,12 +521,12 @@
     height: 50%;
 }
 .container-educamos >p{
-    font-size: 1.25em;
-    line-height: 1.6875em;
+    font-size: 20px;
+    line-height: 27px;
 }
 
 .mitad-arriba-mitad-izquierda-seccion2--acerca-de-nosotros > p{
-    font-size: 1.25em;
+    font-size: 20px;
 }
 
 .container-texto--mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros{
@@ -594,12 +541,12 @@
 .mision{
     width: fit-content;
     height: fit-content;
-    padding: 0em 1.375em;
+    padding: 0px 22px;
     font-weight: 900;
-    font-size: 2.1875em;
-    border-radius: 2.0625em;
+    font-size: 35px;
+    border-radius: 33px;
     background: transparent;
-    border: 0.4375em solid $morado;
+    border: 7px solid $morado;
 }
 
 .mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros{
@@ -612,27 +559,27 @@
 
 .container-texto--mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros > p{
     font-weight: 900;
-    font-size: 2.1875em;
+    font-size: 35px;
 }
 
 .container-texto--mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros > p > span{
     height: fit-content;
-    padding: 0px 1.375em;
+    padding: 0px 22px;
     font-weight: 900;
-    font-size: 2.1875em;
-    border-radius: 2.0625em;
+    font-size: 35px;
+    border-radius: 33px;
     background: transparent;
-    border: 0.4375em solid #8255A5;
+    border: 7px solid #8255A5;
     width: fit-content;
 }
 
 .container-texto--mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros > ul{
-    padding-left: 0em;
+    padding-left: 0px;
 }
 
 .container-texto--mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros > ul > li{
-    font-size: 1em;
-    line-height: 1.6875em;
+    font-size: 16px;
+    line-height: 27px;
     list-style: none;
 }
 
@@ -657,12 +604,12 @@
 
 .container-vision-titulo > p{
     height: fit-content;
-    padding: 0em 1.375em;
+    padding: 0px 22px;
     font-weight: 900;
-    font-size: 2.1875em;
-    border-radius: 2.0625em;
+    font-size: 35px;
+    border-radius: 33px;
     background: transparent;
-    border: 0.4375em solid #8255A5;
+    border: 7px solid #8255A5;
     width: fit-content;
 }
 
@@ -672,13 +619,13 @@
 
 .container-vision-texto > p:nth-child(1){
     height: 35%;
-    font-size: 1.25em;
-    line-height: 1.6875em;
+    font-size: 20px;
+    line-height: 27px;
 }
 
 .container-vision-texto > p:nth-child(2){
-    font-size: 1em;
-    line-height: 1.25em;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 // Section 3
@@ -688,20 +635,20 @@
 }
 
 .titulo-section3 > p:first-child{
-    font-size: 2.1875em;
+    font-size: 35px;
     font-weight: 900;
-    line-height: 2.5em;
-    margin-bottom: 0.625em;
+    line-height: 40px;
+    margin-bottom: 10px;
 }
 
 .titulo-section3 > p:nth-child(2){
-    font-size: 2.1875em;
+    font-size: 35px;
     font-weight: 900;
     height: fit-content;
-    padding: 0em 1.375em;
-    border-radius: 0em;
+    padding: 0px 22px;
+    border-radius: 0px;
     background: transparent;
-    border: 0.4375em solid $verde;
+    border: 7px solid $verde;
     width: fit-content;
 }
 
@@ -725,25 +672,25 @@
 }
 
 .carousel-cuadrado{
-    width: 18.75em;
-    height: 9.375em;
-    padding: 0.625em 2.1875em;
+    width: 300px;
+    height: 150px;
+    padding: 10px 35px;
 }
 
 .title-slider{
     color: white;
     text-align: left;
-    padding-left: 2.75em;
-    font-size: 2.1875em;
+    padding-left: 44px;
+    font-size: 35px;
 }
 
 .slide-individual{
-    padding-bottom: 0.625em;
+    padding-bottom: 10px;
 }
 
 .texto-slider{
-    font-size: 1.25em;
-    margin-bottom: 1.6875em;
+    font-size: 20px;
+    margin-bottom: 27px;
 }
 
 // < =================== Sección4 =================== >
@@ -754,19 +701,19 @@
 }
 
 .titulo--section-4{
-    font-size: 2.1875em;
+    font-size: 35px;
     font-weight: 900;
-    line-height: 2.5em;
+    line-height: 40px;
 }
 
 .titulo--section-4 > span{
     background-color: #F9D938;
-    padding: 0 0.625em;
+    padding: 0 10px;
 }
 
 .circulo-numeros--section-4{
-    width: 11.875em;
-    height: 11.875em;
+    width: 190px;
+    height: 190px;
     border-radius: 50%;
     background-color: red;
     display: flex;
@@ -813,7 +760,7 @@
 }
 
 .circulo-numeros--section-4 > p{
-    font-size: 6.25em;
+    font-size: 100px;
 }
 
 .conatainer-texto--section-4{
@@ -823,8 +770,8 @@
 }
 
 .conatainer-texto--section-4 > p{
-    font-size: 1.25em;
-    padding: 0 5.3125em;
+    font-size: 20px;
+    padding: 0 85px;
 }
 
 // < =================== Sección5 =================== >
@@ -863,30 +810,30 @@
 }
 
 .parte-abajo-parte-derecha--section5 > ul > li{
-    font-size: 1.5em;
+    font-size: 24px;
 }
 
 .titulo-parte-derecha--section5{
     width: fit-content;
-    font-size: 2em;
+    font-size: 32px;
     height: fit-content;
-    padding: 0em 1.375em;
+    padding: 0px 22px;
     font-weight: 900;
-    font-size: 2.1875em;
-    border-radius: 2.0625em;
+    font-size: 35px;
+    border-radius: 33px;
     background: transparent;
-    border: 0.4375em solid #8255A5;
+    border: 7px solid #8255A5;
 }
 
 .texto-parte-derecha--section5{
-    font-size: 1.625em;
-    line-height: 1.6875em;
+    font-size: 26px;
+    line-height: 27px;
     margin-top: 2em;
 }
 
 .titulo-parte-abajo-parte-derecha--section5{
-    font-size: 1.75em;
-    line-height: 1.75em;
+    font-size: 28px;
+    line-height: 28px;
 }
 
 .parte-abajo-parte-derecha--section5{
@@ -916,24 +863,24 @@
 }
 
 .titulo-parte-izquierda--section6{
-    font-size: 2.5em;
-    line-height: 3.375em;
+    font-size: 40px;
+    line-height: 54px;
     color: white;
     font-weight: 900;
 }
 
 .titulo-parte-izquierda--section6 > span{
     height: fit-content;
-    padding: 0em 1.375em;
-    border-radius: 2.0625em;
+    padding: 0px 22px;
+    border-radius: 33px;
     background: transparent;
-    border: 0.4375em solid $amarillo;
+    border: 7px solid $amarillo;
     width: fit-content;
 }
 
 .container-texto-izquierda-parte-izquierda--section6 > p:first-child{
-    font-size: 1.625em;
-    line-height: 1.75em;
+    font-size: 26px;
+    line-height: 28px;
     padding-right: 13%;
 }
 
@@ -942,35 +889,35 @@
 }
 
 .container-texto-derecha-parte-izquierda--section6 > p:first-child{
-    font-size: 1.625em;
-    line-height: 1.75em;
+    font-size: 26px;
+    line-height: 28px;
 }
 
 .sabermas-texto-izquierda-parte-izquierda--section6{
-    font-size: 1.75em;
+    font-size: 28px;
     font-weight: 900;
 }
 
 .texto-interno-sabermas-texto-izquierda-parte-izquierda--section6{
     background-color: $verde;
-    font-size: 0.9375em;
+    font-size: 15px;
     font-weight: normal;
 }
 
 .q-expansion-item--expanded {
-    border:0.0625em solid $verde;
+    border:1px solid $verde;
     border-color: $verde;
     background-color: $verde;
 }
 
 .sabermas-texto-derecha-parte-izquierda--section6{
-    font-size: 1.75em;
+    font-size: 28px;
     font-weight: 900;
 }
 
 .texto-interno-sabermas-texto-derecha-parte-izquierda--section6{
     background-color: $verde;
-    font-size: 0.9375em;
+    font-size: 15px;
     font-weight: normal;
 }
 
@@ -981,13 +928,13 @@
 }
 
 .titulos--section7{
-    font-size: 1.875em;
-    line-height: 1.875em;
+    font-size: 30px;
+    line-height: 30px;
     font-weight: 900;
 }
 
 .textos--section7 > li{
-    font-size: 1.125em;
+    font-size: 18px
 }
 
 .container-parte-derecha--section7{
@@ -1002,6 +949,10 @@
 .container-imagen--section7{
     display: flex;
     align-items: center;
+}
+
+.container-imagen--section7 > img{
+    width: 100%;
 }
 
 // < =================== Sección8 =================== >
@@ -1057,7 +1008,7 @@
 }
 
 .container-pb-parte-izquierda-parte-arriba--section8 > p{
-    font-size: 15em;
+    font-size: 240px;
     height: fit-content;
     margin-bottom: 0px;
     color: $gris;
@@ -1067,14 +1018,14 @@
 }
 
 .container-pb-parte-izquierda-parte-arriba--section8 > p > span{
-    font-size: 7.5em;
-    margin-bottom: 0em;
-    padding-bottom: 0em;
+    font-size: 120px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .container-pdb-parte-izquierda-parte-arriba--section8 > p{
-    font-size: 1.875em;
-    line-height: 2em;
+    font-size: 30px;
+    line-height: 32px;
     font-weight: 900;
     color: white;
     height: 35%;
@@ -1082,7 +1033,7 @@
 
 .container-pdb-parte-izquierda-parte-arriba--section8 > div{
     height: 65%;
-    padding-top: 0.625em;
+    padding-top: 10px;
 }
 
 .container-pdb-imagen-mas{
@@ -1095,8 +1046,8 @@
 }
 
 .titulo-parte-derecha-parte-arriba--section8{
-    font-size: 1.875em;
-    line-height: 2em;
+    font-size: 30px;
+    line-height: 32px;
     font-weight: 900;
     color: white;
 }
@@ -1111,20 +1062,20 @@
 .container-cap-imagen-mas{
     display: flex;
     justify-content: flex-start;
-    padding-top: 1.5625em;
+    padding-top: 25px;
 }
 
 .container-cap-parte-derecha-parte-arriba--section8 > p{
-    font-size: 15em;
-    margin-bottom: 0em;
+    font-size: 240px;
+    margin-bottom: 0px;
     color: $gris;
     font-weight: 900;
     height: 143%;
 }
 
 .container-cap-parte-derecha-parte-arriba--section8 > p > span{
-    font-size: 7.5em;
-    margin-bottom: 0em;
+    font-size: 120px;
+    margin-bottom: 0px;
 }
 
 .container-contenido-parte-derecha-parte-arriba--section8{
@@ -1149,7 +1100,7 @@
 .imagen-mas{
     background-color: $amarillo;
     border-radius: 50%;
-    border: 0.125em solid white;
+    border: 0.125rem solid white;
     background-color: $gris-oscuro;
     vertical-align: top;
     width: 4.5em;
@@ -1170,9 +1121,9 @@
 
 .contenido-parte-abajo--section8 > p{
     height:50%;
-    margin: 0em;
-    font-size: 1.875em;
-    line-height: 2em;
+    margin: 0px;
+    font-size: 30px;
+    line-height: 32px;
     font-weight: 900;
     color: white;
     display: flex;
@@ -1186,15 +1137,15 @@
 }
 
 .contenido-parte-abajo-parte-derecha--section8 > p{
-    font-size: 15em;
-    margin-bottom: 0em;
+    font-size: 240px;
+    margin-bottom: 0px;
     color: #E5E1D3;
     font-weight: 900;
     height: 117%;
 }
 
 .contenido-parte-abajo-parte-derecha--section8 > p > span{
-    font-size: 7.5em;
+    font-size: 120px;
 }
 
 // < =================== Sección9 =================== >
@@ -1204,21 +1155,21 @@
 }
 
 .titulo--section9{
-    font-size: 2.5em;
-    line-height: 2.5em;
+    font-size: 40px;
+    line-height: 40px;
     font-weight: 900;
-    padding-left: 16.875em;
-    padding-top: 6.25em;
+    padding-left: 270px;
+    padding-top: 100px;
 }
 
 .titulo--section9 > span{
     height: fit-content;
-    padding: 0em 1.375em;
-    border-radius: 2.0625em;
+    padding: 0px 22px;
+    border-radius: 33px;
     background: transparent;
-    border: 0.4375em solid $celeste;
+    border: 7px solid $celeste;
     width: fit-content;
-    line-height: 4.0625em;
+    line-height: 65px;
 }
 
 .container-imagen-section9{
@@ -1248,10 +1199,10 @@
 
 .resolucion-de-costos > p  {
     color: white;
-    font-size: 1.75em;
-    line-height: 2em;
+    font-size: 28px;
+    line-height: 32px;
     text-align: center;
-    margin-top: 0.9375em;
+    margin-top: 15px;
     font-weight: 900;
 }
 
@@ -1263,7 +1214,7 @@
 }
 
 .texto-section9{
-    font-size: 0.9375em;
+    font-size: 15px;
 }
 
 // < =================== Sección10 =================== >
@@ -1276,20 +1227,20 @@
 }
 
 .titulo--section10{
-    font-size:2.5em;
-    line-height: 2.8125em;
+    font-size:40px;
+    line-height: 45px;
     font-weight: 900;
 }
 
 .titulo--section10 > span{
     background-color: $verde-limon;
-    padding: 0 0.625em;
+    padding: 0 10px;
 }
 
 .texto--section10{
-    font-size: 1.375em;
-    line-height: 1.75em;
-    margin: 1.25em 0em;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 20px 0px;
 }
 
 .fila-texto--section10{
@@ -1309,27 +1260,26 @@
 .fila-marcas--section10 > div{
     height: fit-content;
     width: fit-content;
-    padding: 0em 0.625em;
+    padding: 0px 10px;
 }
 
 .fila-marcas--section10 > div > img{
-    width: 10.625em;
-    padding: 0 0.625em;
+    width: 170px;
+    padding: 0 10px;
     height: auto;
-}
-
-@media (min-width: 576px) {
-    .main{
-        font-size: 14px;
-    }
 }
 
 </style>
 
 <script>
 import { ref } from 'vue'
+import Seccion1adn from '../components/acerca-de-nosotros/seccion1adn.vue'
 
 export default {
+  name: 'acerca-de-nosotros',
+  components: {
+    Seccion1adn
+  },
   setup () {
     return {
       expanded: ref(false),
