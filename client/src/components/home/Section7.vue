@@ -67,8 +67,7 @@
             </template>
           </q-input>
            <div class="row justify-center q-pt-md">
-            <q-btn rounded no-caps label="Solicitar una cita" type="submit" color="accent" class="buttom_accent my-font-bold"
-              @click="form = {}"/>
+            <q-btn rounded no-caps label="Solicitar una cita" type="submit" color="accent" class="buttom_accent my-font-bold"/>
           </div>
         </q-form>
       </div>

@@ -21,13 +21,13 @@ $mensaje .= "Provincia de interes: " . $provincia . " \r\n";
 $mensaje .= "Telefono: " . $telefono . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
-$para = 'info@dominio.com';
+$para = 'maeep154@gmail.com';
 $asunto = 'Mensaje desde dominio.com/pagina';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
 
 echo'<script type="text/javascript">
         alert("Mensaje enviado");
-        window.location.href="pagina.html";
+        window.location.href="index.html";
         </script>';
 ?>
