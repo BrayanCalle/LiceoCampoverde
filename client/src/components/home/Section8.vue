@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="my-font-ultra q-pa-lg column items-start title_1">
+    <div class="my-font-ultra column items-start title_1 padding_title">
       <div>Blog y</div>
       <div class="bg-primary q-px-md">eventos</div>
     </div>
 
-    <div class="row justify-around">
+    <div class="row justify-around" style="padding-left:10em; padding-right:10em">
       <div v-for="(item, index) in data" :key="index"
-        class="col-xs-9 col-sm-5 col-md-3 col-lg-3 row justify-center q-pa-md">
+        class="col-xs-9 col-sm-5 col-md-3 col-lg-3 row justify-center" style="padding:1em">
         <blog-card :data="item" />
       </div>
     </div>

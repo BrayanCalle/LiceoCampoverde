@@ -8,7 +8,7 @@
   border: 3px solid #81A3EE;
 }
 .border_blue_green {
-  border: 3px solid #38B062;
+  border: 0.1em solid #38B062;
 }
 .border_blue_rounded {
   border: 0.2em solid #81A3EE;
@@ -38,6 +38,9 @@
 }
 .text_title_small {
   font-size: calc(0.4em + 2vw);
+}
+.text_blog_content {
+  font-size: calc(0.4em + 1.5vw);
 }
 .text_section_3 {
   font-size: calc(0.4em + 1vw);

@@ -53,7 +53,7 @@
     padding: 10px;
   }
   .card {
-    padding: 30px 20px;
+    padding: 1em;
     background-color: #2FAD62;
   }
 }
@@ -62,7 +62,10 @@
   padding-top: 30px;
 }
 .text_zise {
-  font-size: calc(1.5em + 2vw)
+  font-size: calc(1em + 1.6vw)
+}
+.padding_title {
+  padding: 1em;
 }
 
 // Estilos de posicionamiento

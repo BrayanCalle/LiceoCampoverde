@@ -1,6 +1,6 @@
 <template>
   <div class="height_section2 row">
-    <div class="col-12 q-pa-lg column items-start title_1 my-font-ultra">
+    <div class="col-12 column items-start title_1 my-font-ultra padding_title" >
       <div>Somos Liceo</div>
       <div class="border_green_home q-px-sm">Campo Verde</div>
     </div>
