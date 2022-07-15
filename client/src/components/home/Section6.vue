@@ -13,7 +13,7 @@
         <div class="title_1">
           <div class=" my-font-ultra bg-secondary text-white q-px-md">Campito</div>
           <div class="my-font-ultra">2-4 años</div>
-          <q-chip class="my-font-ultra" color="secondary" text-color="white" icon-right="add" clickable size="0.37em">
+          <q-chip class="my-font q-px-xl text-weight-regular" style="font-size: 20px;" color="secondary" text-color="white" icon-right="add" clickable size="0.37em">
             Conocer
           </q-chip>
         </div>
@@ -30,7 +30,7 @@
         <div class="title_1 my-font-ultra">
           <div>Educación <br><b class="bg-primary text-white q-px-md">básica</b></div>
           <div>5-15 años</div>
-          <q-chip color="primary" text-color="white" icon-right="add" clickable size="0.37em">
+          <q-chip color="primary" class="my-font q-px-xl text-weight-regular" style="font-size: 20px;" text-color="white" icon-right="add" clickable size="0.37em">
             Conocer
           </q-chip>
         </div>
@@ -47,7 +47,7 @@
         <div class=" my-font-ultra title_1">
           <div class="bg-accent text-white q-px-md">Bachillerato</div>
           <div>16-18 años</div>
-          <q-chip color="accent" text-color="white" icon-right="add" clickable size="0.37em">
+          <q-chip class="my-font q-px-xl text-weight-regular" style="font-size: 20px;" color="accent" text-color="white" icon-right="add" clickable size="0.37em">
             Conocer
           </q-chip>
         </div>

@@ -12,7 +12,7 @@
             parte de <br class="web_element"> nuestra <br>
             <b class="bg-accent q-px-sm">esencia</b>
           </div>
-          <q-chip color="accent" text-color="white" size="0.3em">
+          <q-chip color="accent" text-color="white" size="0.3em" @click="openLink" clickable>
             Tour Virtual 360
           </q-chip>
         </div>
@@ -34,3 +34,13 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    openLink () {
+      window.open('https://guiap.com/folio/liceo-campoverde/', '_blank')
+    }
+  }
+}
+</script>

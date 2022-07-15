@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-12 col-sm-6 col-md-6 contenedor_section7">
       <div class="my-font-ultra title_1 padding_section7">
-        <span class="bg-secondary text-white">Educamos </span><br/>
+        <span class="bg-secondary text-white q-px-md">Educamos </span><br/>
         para el mundo<br/>
         de mañana
       </div>
@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <div class="col-12 col-sm-6 col-md-6 fondo_gris">
+    <div class="col-12 col-sm-6 col-md-6 fondo_gris q-pt-xl">
       <div class="row items-end">
         <img src="figuras/F-2.svg" alt="imagen" style="width:calc(11vw + 11vh)"/>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 row justify-center">

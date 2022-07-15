@@ -42,7 +42,7 @@
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 column items-center justify-center full-height q-pt-xl web_img_section3">
+    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 column items-start justify-center full-height q-pt-xl web_img_section3">
       <div class="text_section_3 column justify-between">
         <div class="pb_bottom">Respetamos los <br> diversos <b class=" my-font-ultra">ritmos <br> de aprendizaje</b></div>
         <div class="pb_bottom"><b class=" my-font-ultra">Fomentamos</b> el <br> respeto, la <br> tolerancia y <br>diversidad</div>

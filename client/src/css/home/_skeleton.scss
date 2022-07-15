@@ -40,9 +40,9 @@
   border-radius:10px;
 }
 .size_carrusel {
-  height: 60em;
+  height: 64em;
   max-height: 90%;
-  width: 60em;
+  width: 64em;
   max-width: 90%;
 }
 
@@ -59,13 +59,13 @@
 }
 .padding_section7 {
   padding-bottom: 30px;
-  padding-top: 30px;
+  padding-top: 97px;
 }
 .text_zise {
   font-size: calc(1em + 1.6vw)
 }
 .padding_title {
-  padding: 1em;
+  padding: 1em 2em;
 }
 
 // Estilos de posicionamiento
@@ -154,6 +154,10 @@
 @media only screen and (max-width: 500px) {
   .height_mobile_section1 {
     height: 60vh
+  }
+
+  .padding_title {
+    padding: 1em;
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 900px) {
