@@ -15,10 +15,10 @@
         autoplay
         control-color="white"
         height="95%"
-        class="text-white absolute-full bg-transparent border_radius"
+        class="text-white absolute-full bg-transparent border_radius text_carrusel_black"
       >
         <q-carousel-slide :name="1" class="flex flex-center">
-          <div class="text-h5 my-font-ultra">
+          <div class="text_1 my-font-ultra">
             Tenemos un <br>
             espíritu <br>
             comprometido <br>
@@ -26,7 +26,7 @@
           </div>
         </q-carousel-slide>
         <q-carousel-slide :name="2" class="flex flex-center">
-          <div class="text-subtitle1 my-font-ultra ">
+          <div class="text_2 my-font-ultra ">
             Tomamos acción <br>
             para educar a <br>
             personas con valores, <br>
