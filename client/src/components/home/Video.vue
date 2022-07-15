@@ -19,6 +19,7 @@
           src="https://www.youtube.com/embed/94_ZnUUF8ZI?autoplay=1"
           frameborder="0"
           allowfullscreen
+          allow="autoplay"
         ></iframe>
       </q-card>
     </q-dialog>
