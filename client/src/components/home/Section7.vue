@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <div class="col-12 col-sm-6 col-md-6 contenedor_section7">
-      <div class="my-font-ultra text-weight-bolder text-h4 q-pa-md">
+      <div class="my-font-ultra title_1 padding_section7">
         <span class="bg-secondary text-white">Educamos </span><br/>
         para el mundo<br/>
         de mañana
@@ -9,7 +9,7 @@
 
       <div class="column items-end full-width">
         <q-img src="figuras/F-6.svg" alt="imagen" class="img_responsive">
-          <div class=" my-font-ultra text-weight-bolder text-white text-right absolute-full bg-transparent text_responsive">
+          <div class=" my-font-ultra text-white text-right absolute-full bg-transparent text_responsive">
             Permítenos <br>
             mostrarte lo <br>
             que podemos <br>
@@ -22,9 +22,9 @@
 
     <div class="col-12 col-sm-6 col-md-6 fondo_gris">
       <div class="row items-end">
-        <img height="160px" src="figuras/F-2.svg" alt="imagen"/>
-        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 row justify-center">
-          <img src="home/rostro.svg" alt="rostro"/>
+        <img src="figuras/F-2.svg" alt="imagen" style="width:calc(11vw + 11vh)"/>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 row justify-center">
+          <img src="home/rostro.svg" alt="rostro" style="width:calc(6vw + 6vh)"/>
         </div>
       </div>
 

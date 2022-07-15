@@ -15,7 +15,7 @@
           <div class="text-subtitle2">{{data.type}}</div>
         </div>
 
-        <div class="q-px-md q-pt-lg q-pb-xl text-h5 text-bold">
+        <div class="q-px-md q-pt-lg q-pb-xl text-h5 my-font-bold">
           {{ data.title }}
         </div>
 

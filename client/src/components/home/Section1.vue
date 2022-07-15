@@ -7,18 +7,18 @@
       </div>
 
       <div class="row justify-center items-end col-xs-2 col-sm-4 col-md-4 col-lg-4">
-        <div class="text_section1_mobile column items-center">
-          <div class="text-h5 text-weight-bolder text-center cursor-pointer border_blue_rounded q-px-md my-font-ultra">Educamos</div>
+        <div class="text_section1_mobile column items-center title_1 my-font-ultra">
+          <div class="text-center cursor-pointer border_blue_rounded q-px-xl">Educamos</div>
           <div>
-            <div v-if="change" class="text-h5 text-weight-bolder text-center my-font-ultra">
+            <div v-if="change" class="text-center">
               Desde otro <br> punto de vista
             </div>
-            <div v-else class="text-h5 text-weight-bolder text-center my-font-ultra">
+            <div v-else class="text-center">
               en inglés, <br> español y francés
             </div>
           </div>
         </div>
-        <img src="figuras/F-5.svg" style="width:300px" class="self-end" />
+        <img src="figuras/F-5.svg" style="width: calc(30em + 2.6vw); max-width:90vw" class="self-end" />
       </div>
 
       <div class="row justify-end col-xs-5 col-sm-4 col-md-4 col-lg-4">

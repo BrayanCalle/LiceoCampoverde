@@ -37,11 +37,13 @@
 .campos_form {
   background: #8CAEF9;
   width:60%;
-  border-radius:10px
+  border-radius:10px;
 }
 .size_carrusel {
-  height: 500px;
-  width: 500px
+  height: 60em;
+  max-height: 90%;
+  width: 60em;
+  max-width: 90%;
 }
 
 // Estilos de espacios
@@ -55,8 +57,12 @@
     background-color: #2FAD62;
   }
 }
+.padding_section7 {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
 .text_zise {
-  font-size: calc(1.5em + 1.5vw)
+  font-size: calc(1.5em + 2vw)
 }
 
 // Estilos de posicionamiento
@@ -73,7 +79,7 @@
   }
   .texto_encima{
     position: absolute;
-    bottom: 55px;
+    bottom: 8vh;
   }
 }
 .video_carrusel {
@@ -103,9 +109,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  .text_responsive {
-    font-size: 1.8rem;
-  }
 }
 .contenedor_section7 {
   display: grid;
@@ -113,13 +116,13 @@
   align-content: start;
   width: 100%;
   .img_responsive {
-    width:70%;
+    width:75%;
     height: auto
   }
   .text_responsive {
     padding-right:20%;
     padding-top:10%;
-    font-size: calc(1em + 1.5vw)
+    font-size: calc(0.4em + 2.4vw);
   }
 }
 .card_up_section5 {
@@ -263,11 +266,12 @@
   order: 0
 }
 @media only screen and (max-width: 599px) {
+  .padding_section7 {
+    padding-top: 70px;
+    padding-left: 30px;
+  }
   .contenedor_section6 {
     justify-content: left;
-    .text_responsive {
-      font-size: 1.5rem;
-    }
   }
   .contenedor_section7 {
     justify-items: left;

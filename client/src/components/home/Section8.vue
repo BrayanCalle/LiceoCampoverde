@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="my-font-ultra q-pa-lg column items-start text-h4 text-weight-bolder">
+    <div class="my-font-ultra q-pa-lg column items-start title_1">
       <div>Blog y</div>
       <div class="bg-primary q-px-md">eventos</div>
     </div>

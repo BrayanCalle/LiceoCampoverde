@@ -6,7 +6,6 @@
 
     <q-page-container>
       <router-view />
-      {{drawer}}
       <sticky />
     </q-page-container>
 
