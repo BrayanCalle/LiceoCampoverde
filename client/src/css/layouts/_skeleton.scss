@@ -33,6 +33,12 @@
   width:auto;
   max-width:100%
 }
+.size_logo {
+  .logo {
+    width: calc(1em + 8vw);
+    cursor:pointer
+  }
+}
 
 // Estilos de posicionamiento
 .close_drawer {
