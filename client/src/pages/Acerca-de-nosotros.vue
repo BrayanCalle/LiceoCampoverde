@@ -2,8 +2,8 @@
     <q-page>
         <div class="main">
             <seccion1adn />
-            <!-- <seccion2adn />
-            <seccion3adn />
+            <seccion2adn />
+            <!--<seccion3adn />
             <seccion4adn />
             <seccion5adn />
             <seccion6adn />
@@ -31,7 +31,7 @@
 
 <script>
 import Seccion1adn from '../components/acerca-de-nosotros/seccion1adn.vue'
-// import Seccion2adn from '../components/acerca-de-nosotros/seccion2adn.vue'
+import Seccion2adn from '../components/acerca-de-nosotros/seccion2adn.vue'
 // import Seccion3adn from '../components/acerca-de-nosotros/seccion3adn.vue'
 // import Seccion4adn from '../components/acerca-de-nosotros/seccion4adn.vue'
 // import Seccion5adn from '../components/acerca-de-nosotros/seccion5adn.vue'
@@ -44,8 +44,8 @@ import Seccion1adn from '../components/acerca-de-nosotros/seccion1adn.vue'
 export default {
   name: 'acerca-de-nosotros',
   components: {
-    Seccion1adn
-    // Seccion2adn,
+    Seccion1adn,
+    Seccion2adn
     // Seccion3adn,
     // Seccion4adn,
     // Seccion5adn,
