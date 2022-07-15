@@ -1,47 +1,47 @@
 <template>
-    <section class="">
-      <div class="bg-accent schedule row q-gutter-x-xl justify-center">
+   <section class="">
+      <div class="bg-accent schedule row q-gutter-x-xl justify-center my-font-bold padding_top">
         <div class="col-12 col-md-5">
           <div class="row q-gutter-y-md ">
-            <div class="col-6 bg-white text-center relative-position">
-              <h3>Horario</h3>
+            <div class="col-6 bg-white text-center relative-position" style="height: 13.4rem;">
+              <h4>Horario</h4>
             <button class="butons" style="background-color: #6B645F;">
               <modal-1/>
             </button>
             </div>
             <div class="col-6 bg-primary q-p-sm">
-              <img width="100%" style="margin: auto ; display: flex;" src="figuras/F-C-5.svg" alt="imagen"/>
+              <img width="95%" height="100%" style="margin: auto ; display: flex;" src="figuras/F-C-5.svg" alt="imagen"/>
             </div>
-            <div class="col-6 bg-white text-center relative-position">
-              <h3>Menú Campito</h3>
+            <div class="col-6 bg-white text-center relative-position" style="height: 13.4rem;" >
+              <h4>Menú</h4>
             <button class="butons" style="background-color: #6B645F;">
               <modal-3/>
             </button>
             </div>
             <div class="col-6 bg-primary">
-              <img width="100%" style="margin: auto ; display: flex;" src="figuras/F-C-6.svg" alt="imagen"/>
+              <img width="100%" height="100%" style="margin: auto ; display: flex;" src="figuras/F-C-6.svg" alt="imagen"/>
             </div>
           </div>
-        </div><br/>
+        </div>
         <div class="col-12 col-md-5">
           <div class="row q-gutter-y-md relative-position">
-            <div class="col-6 bg-white text-center relative-position">
-              <h4>Calendario de actividades </h4>
+            <div class="col-6 bg-white text-center relative-position" style="height: 13.4rem;">
+              <h5>Calendario de actividades </h5>
             <button class="butons" style="background-color: #6B645F;">
               <modal-2/>
             </button>
             </div>
             <div class="col-6 bg-primary">
-              <img width="85%" style="margin: auto ; display: flex;" src="figuras/F-C-9.svg" alt="imagen"/>
+              <img width="80%" height="100%" style="margin: auto ; display: flex;" src="figuras/F-C-9.svg" alt="imagen"/>
             </div>
-             <div class="col-6 bg-white text-center relative-position">
-              <h3>Idiomas</h3>
+             <div class="col-6 bg-white text-center relative-position" style="height: 13.4rem;">
+              <h4>Idiomas</h4>
             <button class="butons" style="background-color: #6B645F;">
               <modal-4/>
             </button>
             </div>
             <div class="col-6 bg-primary">
-              <img width="100%" style="margin: auto ; display: flex;" src="figuras/F-C-7.svg" alt="imagen"/>
+              <img width="100%" height="100%"  style="margin: auto ; display: flex;" src="figuras/F-C-7.svg" alt="imagen"/>
             </div>
           </div>
         </div>

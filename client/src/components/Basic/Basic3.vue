@@ -10,18 +10,18 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-4 infrastructure">
-          <p class="text-h3 text-weight-bold">
-            Calidad, espacio, <span class="bg-positive q-px-sm text-white">diseño</span> y construcción
+        <div class="col-12 col-md-5 infrastructure">
+          <p class="text-h3 text-weight-bold my-font-ultra">
+            Calidad, espacio, <span class="bg-positive q-px-sm text-white q-px-md ">diseño</span> y construcción
           </p>
         </div>
-        <div class="col-12 col-md-8 bg-warning relative-position infrastructure__circle">
+        <div class="col-12 col-md-7 bg-warning relative-position infrastructure__circle">
           <div class="row">
             <div class="col-12 col-md-6 circle">
               <img width="100%" src="img/EB-3.png" alt="alt"/>
             </div>
-            <div class="col-12 col-md-6 ">
-              <h2 class="text-weight-bold">Infraestructura</h2>
+            <div class="col-12 col-md-6 "><br/><br/>
+              <h4 class="text-weight-bold q-mt-xl q-pt-xl text-center my-font-bold">Infraestructura</h4>
             </div>
             <div class="col-12 col-md-6 text-circle">
               <p class="text-h5">

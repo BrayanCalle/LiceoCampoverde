@@ -15,7 +15,7 @@
             <p class="text-h4">Horario</p>
           </div>
           <div class="col-6 bg-dark">
-            <p class="q-pl-xl text-h1 lyrics_modal">H</p>
+            <p class="q-pl-xl text-h1 lyrics_modal H">H</p>
           </div>
         </div>
         <div class="row">

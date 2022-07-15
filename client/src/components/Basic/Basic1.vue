@@ -1,13 +1,13 @@
 <template>
     <div class="row relative-position">
       <div class="col-12 col-md-6 q-pa-md margin">
-       <h2 style="padding: 5rem 0rem;" class="space-line text-weight-bolder q-pl-xs-md">Aprendizaje basado en
-          <span class="bg-positive text-white q-my-xl">proyectos</span>
+       <h2 style="padding: 10rem 0rem;" class="my-font-ultra space-line my-font-bold text-weight-bolder q-pl-xs-md">Aprendizaje basado en
+          <span style="background-color: #c6d33a;" class="text-white q-my-xl q-px-md q-py-xs">proyectos</span>
        </h2>
       </div>
       <div class="col-12 col-md-6">
         <div class="relative-position">
-          <p class="circle-text text-white text-weight-bolder">
+          <p class="circle-text text-white text-weight-bolder my-font-ultra">
             Educamos para el mundo de mañana
           </p>
           <q-img style="max-width: 100%; height: auto;" src="figuras/F-C-1.svg" alt="imagen"/>

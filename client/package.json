@@ -14,6 +14,7 @@
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "quasar": "^1.0.0",
+    "vue-carousel-3d": "^1.0.1",
     "vue-i18n": "^8.0.0"
   },
   "devDependencies": {
@@ -25,7 +26,8 @@
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-vue": "^9.0.0",
-    "eslint-webpack-plugin": "^2.0.0"
+    "eslint-webpack-plugin": "^2.0.0",
+    "vue-concise-slider": "^4.2.5"
   },
   "browserslist": [
     "ie >= 11",

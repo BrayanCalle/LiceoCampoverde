@@ -1,27 +1,27 @@
 <template>
     <section>
-      <div class="row relative-position">
+      <div class="row relative-position q-py-xl">
         <div class="action-video">
           <img src="figuras/half-circle.svg"/>
           <div class="circle relative-position">
             <video-home class="play-video" />
-            <img src="home/video-bachillerato-quito.png" alt="alt"/>
+            <img src="img/Enmascarar.png" alt="alt"/>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-4 infrastructure">
-          <p class="text-h3 text-weight-bold">
-            Los niños pueden jugar y aprender en <span class="bg-positive q-px-sm text-white">nuestras</span> áreas
+        <div class="col-12 col-md-5 infrastructure">
+          <p class="text-h3 text-weight-bold my-font-ultra">
+            Los niños pueden jugar y aprender en <span style="background-color: #2fad62; line-height: 3.5rem;" class="q-px-md q-py-xs text-white">nuestras</span> áreas
           </p>
         </div>
-        <div class="col-12 col-md-8 bg-warning relative-position infrastructure__circle">
+        <div style="background-color: #F9D938;" class="col-12 col-md-7 relative-position infrastructure__circle">
           <div class="row">
             <div class="col-12 col-md-6 circle">
               <img width="100%" src="img/C-3.png" alt="alt"/>
             </div>
-            <div class="col-12 col-md-6 ">
-              <h2 class="text-weight-bold">Infraestructura</h2>
+            <div class="col-12 col-md-6 "><br/><br/>
+              <h4 class="text-weight-bold q-mt-xl q-pt-xl text-center my-font-bold">Infraestructura</h4>
             </div>
             <div class="col-12 col-md-6 text-circle">
               <p class="text-h5">
