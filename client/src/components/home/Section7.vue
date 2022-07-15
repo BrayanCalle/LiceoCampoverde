@@ -23,8 +23,8 @@
     <div class="col-12 col-sm-6 col-md-6 fondo_gris q-pt-xl">
       <div class="row items-end">
         <img src="figuras/F-2.svg" alt="imagen" style="height:30vh"/>
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 row justify-center">
-          <img src="home/rostro.svg" alt="rostro" style="height:20vh"/>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 row justify-center q-mt-xl">
+          <img src="home/rostro.svg" alt="rostro" style="height:calc(15vh + 1vw)"/>
         </div>
       </div>
 

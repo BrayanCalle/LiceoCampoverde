@@ -2,10 +2,10 @@
 
 // Estilos de bordes
 .border_bottom_left {
-  border-bottom-left-radius: 3em;
+  border-bottom-left-radius: calc(1em + 2.5vw);
 }
 .border_bottom_right {
-  border-bottom-right-radius: 3em;
+  border-bottom-right-radius: calc(1em + 2.5vw);
 }
 .border_left_radius {
   border-top-left-radius: 40px;
@@ -42,9 +42,9 @@
   max-width:100%
 }
 .size_logo {
-  padding: 1.3em;
+  padding: 1vw 2vw;
   .logo {
-    width: calc(1.5em + 10vw);
+    width: 20vh;
     cursor:pointer
   }
 }

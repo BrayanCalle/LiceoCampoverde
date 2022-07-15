@@ -12,7 +12,7 @@
             parte de <br class="web_element"> nuestra <br>
             <b class="bg-accent q-px-sm">esencia</b>
           </div>
-          <q-chip color="accent" text-color="white" size="0.3em" @click="openLink" clickable>
+          <q-chip color="accent" text-color="white" size="calc(0.3em + 0.6vh)" @click="openLink" clickable>
             Tour Virtual 360
           </q-chip>
         </div>
