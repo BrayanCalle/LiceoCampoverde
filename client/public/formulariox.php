@@ -21,7 +21,7 @@ $mensaje .= "Provincia de interes: " . $provincia . " \r\n";
 $mensaje .= "Telefono: " . $telefono . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
-$para = 'maeep154@gmail.com';
+$para = 'info@dominio.com';
 $asunto = 'Mensaje desde dominio.com/pagina';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
