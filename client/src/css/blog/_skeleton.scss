@@ -12,11 +12,17 @@
 .padding_blog {
   padding: 10px 15px;
 }
+.text_blog_content {
+  font-size: calc(0.4em + 1.5vw);
+}
 
 // Estilos responsives
 @media only screen and (max-width: 600px) {
   .padding_blog {
     padding: 30px;
+  }
+  .text_blog_content {
+    font-size: 1.5em;
   }
   .menu_blog {
     height:auto;
