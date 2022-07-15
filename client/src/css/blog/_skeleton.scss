@@ -12,9 +12,6 @@
 .padding_blog {
   padding: 10px 15px;
 }
-.text_blog_content {
-  font-size: calc(0.4em + 1.5vw);
-}
 
 // Estilos de tamaño
 .avatar_size {
@@ -23,6 +20,9 @@
 }
 .icon_add_blog {
   font-size: 2vh;
+}
+.text_blog_content {
+  font-size: calc(0.4em + 1.5vw);
 }
 
 // Estilos responsives

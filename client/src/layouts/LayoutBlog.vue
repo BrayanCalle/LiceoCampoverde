@@ -16,18 +16,18 @@
           <q-card flat>
             <!-- Se muestra en pantalla grande -->
             <div class="bg-grey-3 q-pt-md web_element">
-              <div class="text-h6 text-weight-bolder my-font-ultra q-px-md">Recursos</div>
+              <div class="text_blog_content my-font-ultra q-px-md">Recursos</div>
               <q-item clickable v-ripple dense v-for="(item, index1) in recursos" :key="index1">
                 <div class="row no-wrap items-center">
-                  <q-icon name="network_cell" size="xs" :style="`color: ${item.color ? item.color : 'grey'}`" />
-                  <div class="text-caption q-pl-sm my-font-bold">{{item.name}}</div>
+                  <q-icon name="network_cell" size="calc(1em + 1vh)" :style="`color: ${item.color ? item.color : 'grey'}`" />
+                  <div class="font_small_caption q-pl-sm my-font-bold">{{item.name}}</div>
                 </div>
               </q-item>
             </div>
             <!-- Solo se muestra en pantalla movil -->
             <q-expansion-item
               label="Recursos"
-              class="text-h6 text-weight-bolder bg-grey-3 mobile_element q-mb-md"
+              class="text-h6 my-font-ultra bg-grey-3 mobile_element q-mb-md"
             >
               <q-card class="bg-grey-3">
                 <q-item clickable v-ripple dense v-for="(item, index1) in recursos" :key="index1">
@@ -41,18 +41,18 @@
 
             <!-- Se muestra en pantalla grande -->
             <div class="bg-grey-3 q-pb-md web_element">
-              <div class="text-h6 text-weight-bolder q-px-md q-pt-xl my-font-ultra">Categorías</div>
+              <div class="text_blog_content q-px-md q-pt-xl my-font-ultra">Categorías</div>
               <q-item clickable v-ripple dense v-for="(item, index2) in categories" :key="index2">
                 <div class="row no-wrap items-center">
-                  <q-icon name="network_cell" size="xs" :style="`color: ${item.color ? item.color : 'grey'}`" />
-                  <div class="text-caption q-pl-sm my-font-bold">{{item.name}}</div>
+                  <q-icon name="network_cell" size="calc(1em + 1vh)" :style="`color: ${item.color ? item.color : 'grey'}`" />
+                  <div class="font_small_caption q-pl-sm my-font-bold">{{item.name}}</div>
                 </div>
               </q-item>
             </div>
             <!-- Solo se muestra en pantalla movil -->
             <q-expansion-item
               label="Categorías"
-              class="text-h6 text-weight-bolder bg-grey-3 mobile_element"
+              class="text-h6 my-font-ultra bg-grey-3 mobile_element"
             >
               <q-card class="bg-grey-3">
                 <q-item clickable v-ripple dense v-for="(item, index1) in categories" :key="index1">

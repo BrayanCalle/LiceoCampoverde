@@ -36,9 +36,10 @@
 // Estilos de forma
 .campos_form {
   background: #8CAEF9;
-  size: 5vh;
-  width:60%;
+  width:70%;
+  padding: calc(0.2em + 0.2vh) 2vh;
   border-radius:10px;
+  font-size: 2vh
 }
 .size_carrusel {
   height: 64em;
@@ -48,7 +49,7 @@
 }
 .buttom_accent {
   font-size: 2vh;
-  padding: 0 5vw;
+  padding: 0 3vw;
 }
 
 // Estilos de espacios
@@ -299,6 +300,8 @@
   }
   .campos_form {
     width:90%;
+    padding: auto;
+    font-size: auto
   }
   .size_carrusel {
     height: auto;
