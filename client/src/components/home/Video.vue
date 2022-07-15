@@ -8,15 +8,18 @@
       </div>
     </q-avatar>
 
-    <q-dialog v-model="videoModal" persistent>
-      <q-card style="height:50%; width: 100%">
-        <div class="row justify-end q-pa-sm absolute-top-right" style="z-index: 1">
-          <q-btn round icon="clear" color="black" @click="videoModal = false" />
-        </div>
-
-        <video width="100%" height="100%" controls>
-          <source src="https://www.youtube.com/watch?v=94_ZnUUF8ZI&ab_channel=LiceoCampoverde" type="video/mp4">
-        </video>
+    <q-dialog v-model="videoModal" full-width>
+      <div class="row justify-end q-pa-sm absolute-top-right" style="z-index: 99">
+        <q-btn round icon="clear" color="black" @click="videoModal = false" />
+      </div>
+      <q-card style="height:100%; width: 100%">
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/94_ZnUUF8ZI?autoplay=1"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
       </q-card>
     </q-dialog>
   </div>
