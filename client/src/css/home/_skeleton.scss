@@ -36,6 +36,7 @@
 // Estilos de forma
 .campos_form {
   background: #8CAEF9;
+  size: 5vh;
   width:60%;
   border-radius:10px;
 }
@@ -44,6 +45,10 @@
   max-height: 90%;
   width: 64em;
   max-width: 90%;
+}
+.buttom_accent {
+  font-size: 2vh;
+  padding: 0 5vw;
 }
 
 // Estilos de espacios
@@ -59,13 +64,13 @@
 }
 .padding_section7 {
   padding-bottom: 30px;
-  padding-top: 97px;
+  padding-top: 1vh;
 }
 .text_zise {
   font-size: calc(1em + 1.6vw)
 }
 .padding_title {
-  padding: 1em 2.5em;
+  padding: 1em 10vw;
 }
 
 // Estilos de posicionamiento
@@ -274,7 +279,7 @@
 }
 @media only screen and (max-width: 599px) {
   .padding_section7 {
-    padding-top: 70px;
+    padding-top: 0.9em;
     padding-left: 30px;
   }
   .contenedor_section6 {

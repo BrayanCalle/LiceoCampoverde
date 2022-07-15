@@ -30,8 +30,9 @@
       </q-carousel>
     </div>
 
-    <div class="row justify-center q-py-lg">
-      <q-btn no-caps rounded color="accent" size="md" label="Visitar blog" class="q-px-lg" :to="{ name: 'blog' }" />
+    <div class="row justify-center" style="padding: 10vh 0">
+      <q-btn no-caps rounded color="accent" label="Visitar blog" class="buttom_accent my-font-bold"
+        :to="{ name: 'blog' }" />
     </div>
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div class="row">
-    <div class="col-12 col-sm-6 col-md-6 contenedor_section7">
-      <div class="my-font-ultra title_1 padding_section7">
+    <div class="col-12 col-sm-6 col-md-6 contenedor_section7 q-pt-xl">
+      <div class="my-font-ultra title_1 padding_section7" style="height: 30vh">
         <span class="bg-secondary text-white q-px-md">Educamos </span><br/>
         para el mundo<br/>
         de mañana
@@ -22,9 +22,9 @@
 
     <div class="col-12 col-sm-6 col-md-6 fondo_gris q-pt-xl">
       <div class="row items-end">
-        <img src="figuras/F-2.svg" alt="imagen" style="width:calc(11vw + 11vh)"/>
+        <img src="figuras/F-2.svg" alt="imagen" style="height:30vh"/>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 row justify-center">
-          <img src="home/rostro.svg" alt="rostro" style="width:calc(6vw + 6vh)"/>
+          <img src="home/rostro.svg" alt="rostro" style="height:20vh"/>
         </div>
       </div>
 
@@ -66,7 +66,7 @@
         </q-input>
 
         <div class="row justify-center q-pt-md">
-          <q-btn rounded dense no-caps label="Solicitar una cita" type="submit" color="accent" class="q-px-md"
+          <q-btn rounded dense no-caps label="Solicitar una cita" type="submit" color="accent" class="buttom_accent my-font-bold"
             @click="form = {}"/>
         </div>
       </div>

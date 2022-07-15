@@ -1,6 +1,6 @@
 <template>
   <div>
-    <q-card flat class="bg-grey-3 q-py-md border_bottom_left border_bottom_right q-px-md row justify-between size_logo">
+    <q-card flat class="fondo_gris_claro border_bottom_left border_bottom_right row justify-between size_logo">
       <img src="logo/liceo-campoverde-cumbaya.svg" class="logo"
         @click="$router.push({ name: 'home' })" />
 
