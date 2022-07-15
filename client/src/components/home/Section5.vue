@@ -1,5 +1,5 @@
 <template>
-  <div class="row justify-center items-center height_section2 fondo_amarillo">
+  <div class="row justify-around items-center height_section2 fondo_amarillo">
     <div class="col-xs-12 col-sm-5 col-md-auto col-lg-auto q-pa-lg">
       <div class="title_1 my-font-ultra">
         Educamos <br class="web_element">
@@ -17,7 +17,7 @@
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 column justify-center items-center q-pb-md full-height">
+    <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6 column justify-center items-center q-pb-md full-height">
       <carrusel />
     </div>
   </div>

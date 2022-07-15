@@ -4,7 +4,9 @@
       <img src="figuras/F-4.svg" class="fit"/>
 
       <!-- Video solo en vista web -->
-      <video-home class="video_carrusel web_element" />
+      <div class="video_carrusel web_element">
+        <video-home />
+      </div>
 
       <q-carousel
         v-model="slide"

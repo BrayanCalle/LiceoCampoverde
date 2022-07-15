@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="fit">
     <q-avatar class="fit cursor-pointer" clickable v-ripple
       @click="videoModal = true">
       <img src="home/video-bachillerato-quito.png" class="fit">

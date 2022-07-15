@@ -90,8 +90,8 @@
   z-index: 3;
   top: -40px;
   right: 0%;
-  width: 130px;
-  height: 130px;
+  width: calc(5em + 4vw);
+  height: calc(5em + 4vw);
 }
 .video_mobile {
   width: 300px;
@@ -210,10 +210,10 @@
   height: 100vh
 }
 @media only screen and (max-width: 860px) {
-  .size_carrusel {
+  /* .size_carrusel {
     height: 400px;
     width: 400px
-  }
+  } */
   .contenedor{
     padding-top: 120px;
     .img {
@@ -228,10 +228,10 @@
   width: 100%
 }
 @media only screen and (max-width: 700px) {
-  .size_carrusel {
+  /* .size_carrusel {
     height: 350px;
     width: 350px
-  }
+  } */
   .text_section1_mobile {
     position: absolute;
     top: 120px
