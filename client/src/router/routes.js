@@ -20,6 +20,11 @@ const routes = [
         component: () => import('pages/Admisiones.vue')
       },
       {
+        path: '/inscripcion',
+        name: 'inscripcion',
+        component: () => import('pages/Inscripcion.vue')
+      },
+      {
         path: '/blog',
         redirect: '/blog',
         component: () => import('layouts/LayoutBlog.vue'),
