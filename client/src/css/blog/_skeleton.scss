@@ -28,6 +28,11 @@
 .text_blog_content {
   font-size: calc(0.4em + 1.5vw);
 }
+.input_buscar {
+  padding: calc(0.1em + 0.1vw) 2vh;
+  border-radius:20px;
+  font-size: 2vh
+}
 
 // Estilos responsives
 @media only screen and (max-width: 600px) {
@@ -50,5 +55,9 @@
   .icon_add_blog {
     width: auto;
     height: auto;
+  }
+  .input_buscar {
+    padding: auto;
+    font-size: auto
   }
 }
