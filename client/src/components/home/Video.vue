@@ -9,12 +9,13 @@
     </q-avatar>
 
     <q-dialog v-model="videoModal" persistent>
-      <q-card flat class="bg-grey-5" style="height:50%; width: 60%">
-        <div class="row justify-end q-pa-sm" style="position: absolute; top: 0; right: 0; z-index: 1">
+      <q-card style="height:50%; width: 100%">
+        <div class="row justify-end q-pa-sm absolute-top-right" style="z-index: 1">
           <q-btn round icon="clear" color="black" @click="videoModal = false" />
         </div>
+
         <video width="100%" height="100%" controls>
-          <source src="https://www.youtube.com/watch?v=94_ZnUUF8ZI" type="video/mp4">
+          <source src="https://www.youtube.com/watch?v=94_ZnUUF8ZI&ab_channel=LiceoCampoverde" type="video/mp4">
         </video>
       </q-card>
     </q-dialog>

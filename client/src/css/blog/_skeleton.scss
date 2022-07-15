@@ -14,6 +14,10 @@
 }
 
 // Estilos de tamaño
+.size_card_blog {
+  height: 100%;
+  width: 20vw;
+}
 .avatar_size {
   width: 5vw;
   height: 5vw
@@ -27,6 +31,9 @@
 
 // Estilos responsives
 @media only screen and (max-width: 600px) {
+  .size_card_blog {
+    width: 100%;
+  }
   .padding_blog {
     padding: 30px;
   }

@@ -8,7 +8,7 @@
     <!-- Solo se muestra en web -->
     <div class="row justify-around web_element" style="padding-left:10em; padding-right:10em">
       <div v-for="(item, index) in data" :key="index"
-        class="col-xs-12 col-sm-6 col-md-3 col-lg-3 row justify-center padding_blog">
+        class="col-xs-12 col-sm-6 col-md-6 col-lg-3 row justify-center padding_blog">
         <blog-card :data="item" />
       </div>
     </div>

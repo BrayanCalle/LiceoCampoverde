@@ -3,8 +3,9 @@
     <div class="col-12 col-sm-6 col-md-6 contenedor_section7 q-pt-xl">
       <div class="my-font-ultra title_1 padding_section7" style="height: 30vh">
         <span class="bg-secondary text-white q-px-md">Educamos </span><br/>
-        para el mundo<br/>
-        de mañana
+        seres<br/>
+        humanos <br>
+        auténticos.
       </div>
 
       <div class="column items-end full-width">

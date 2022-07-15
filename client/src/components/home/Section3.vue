@@ -1,8 +1,13 @@
 <template>
   <div class="row justify-between height_section3 fondo_naranja text-white">
-    <div class="absolute padding_title column items-start title_1 my-font-ultra" style="z-index:20">
-      <div>Nuestra</div>
-      <div class="bg-white text_naranja q-px-sm">metodología</div>
+    <div class="position_title_section3 padding_title title_1 my-font-ultra">
+      <div class="text_title">
+        <div>Nuestra</div>
+        <div class="bg-white text_naranja q-px-sm">metodología</div>
+      </div>
+      <div class="row justify-center">
+        <img src="logo/F2C®.png" style="height:15vh" />
+      </div>
     </div>
 
     <!-- Imagen que se muestra en pantalla pequeña -->

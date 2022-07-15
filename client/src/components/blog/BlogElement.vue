@@ -1,6 +1,6 @@
 <template>
   <div>
-    <q-card flat class="full-height" @click="$router.push({ name: 'blog-detail', params: { id: data.id } })">
+    <q-card flat class="size_card_blog" @click="$router.push({ name: 'blog-detail', params: { id: data.id } })">
       <q-img :src="data.image" style="height:40%;border-bottom-right-radius: 100%; cursor:pointer"/>
 
       <q-card-section class="q-pb-lg" :style="`height: 60%;background-color: ${data.color}`">

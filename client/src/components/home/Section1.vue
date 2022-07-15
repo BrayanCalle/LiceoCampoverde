@@ -8,13 +8,15 @@
 
       <div class="row justify-center items-end col-xs-2 col-sm-4 col-md-4 col-lg-4">
         <div class="text_section1_mobile column items-center title_1 my-font-ultra">
-          <div class="text-center cursor-pointer border_blue_rounded q-px-xl">Educamos</div>
           <div>
-            <div v-if="change" class="text-center">
-              Desde otro <br> punto de vista
-            </div>
-            <div v-else class="text-center">
-              en inglés, <br> español y francés
+            <div class="cursor-pointer">Educamos <br> seres <br> humanos</div>
+            <div>
+              <div v-if="change" class="fondo_amarillo">
+                que sienten.
+              </div>
+              <div v-else>
+                <b class="fondo_amarillo">que piensan</b> <br> con libertad.
+              </div>
             </div>
           </div>
         </div>
@@ -39,7 +41,7 @@ export default {
     }
   },
   created () {
-    this.timeCounter = setInterval(this.activeChange, 5000)
+    this.timeCounter = setInterval(this.activeChange, 3000)
   },
   methods: {
     activeChange () {

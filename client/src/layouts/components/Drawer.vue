@@ -9,7 +9,7 @@
   >
     <div class="fit q-pl-xs border_left_radius">
       <div class="close_drawer q-pt-lg">
-        <q-btn round dense size="sm" color="black" icon="clear" @click="$emit('close')"  />
+        <q-btn round dense class="" color="black" icon="clear" @click="$emit('close')"  />
       </div>
 
       <q-card class="fit border_left_radius bg-white q-pa-sm">
