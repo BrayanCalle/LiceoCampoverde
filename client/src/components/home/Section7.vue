@@ -30,7 +30,7 @@
       </div>
 
       <div class="q-py-lg">
-        <form class="column items-center q-gutter-y-xs full-width" action="formulariox.php" method="post">
+        <q-form class="column items-center q-gutter-y-xs full-width" action="formulariox.php" method="post">
           <q-input borderless name="nombre" v-model="form.name" placeholder="Nombre y apellido"
             class="q-px-sm campos_form">
             <template v-slot:prepend>
@@ -70,7 +70,7 @@
             <q-btn rounded no-caps label="Solicitar una cita" type="submit" color="accent" class="buttom_accent my-font-bold"
               @click="form = {}"/>
           </div>
-        </form>
+        </q-form>
       </div>
     </div>
   </div>
