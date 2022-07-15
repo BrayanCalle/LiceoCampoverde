@@ -80,6 +80,9 @@
     padding-left: 1vw;
   }
 }
+.padding_footer_img {
+  padding-left: 7vw;
+}
 
 // Estilos de responsividad
 .web_element {
@@ -121,6 +124,9 @@
     .logo {
       width: 15vh;
     }
+  }
+  .padding_footer_img {
+    padding-left: 0;
   }
 }
 .mobile_element {

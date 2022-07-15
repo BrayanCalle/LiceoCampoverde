@@ -34,7 +34,7 @@
 
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column items-center justify-center full-height q-pt-xl web_img_section3">
       <div class="text_section_3 column justify-between">
-        <div class="pb_bottom">Transformamos y <br> mejoramos <b class=" my-font-ultra">la <br> educación</b></div>
+        <div class="pb_bottom"><b class=" my-font-ultra">Free to Create®</b><br>define eso que<br>nos hace únicos.</div>
         <div class="pb_bottom"><b class=" my-font-ultra">Motivamos e <br> impulsamos</b> al <br> desarrollo de <br> nuestros estudiantes</div>
         <div class="pb_bottom">Metodologías <br> activas y <b class=" my-font-ultra">trabajo <br> colaborativo</b></div>
       </div>

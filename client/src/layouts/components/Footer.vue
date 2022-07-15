@@ -1,7 +1,7 @@
 <template>
   <q-footer flat class="fondo_blue_dark" style="padding-top: 4vh">
     <div class="row justify-around items-start icon_footer">
-      <div class="row justify-center items-start q-pb-lg col-xs-1 col-sm-1 col-md-1 col-lg-1">
+      <div class="row justify-center items-start q-pb-lg col-xs-1 col-sm-1 col-md-1 col-lg-1 padding_footer_img">
         <img src="logo/liceo-campoverde-garderia.svg" style="height:15vh" />
       </div>
 
