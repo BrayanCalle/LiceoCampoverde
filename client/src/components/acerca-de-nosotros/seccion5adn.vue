@@ -99,6 +99,32 @@
 .parte-abajo-parte-derecha--section5{
     margin-top: 3em;
 }
+
+@media (max-width: 768px) {
+
+    .section5{
+        height: 100% !important;
+    }
+    .section5 > .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-parte-izquierda--section5{
+        width: 100%;
+    }
+
+    .container-parte-derecha--section5{
+        width: 100%;
+    }
+
+    .container-parte-izquierda--section5{
+        height: 76vh;
+    }
+
+    .section5 > .container{
+        height: 100%;
+    }
+}
 </style>
 
 <script>

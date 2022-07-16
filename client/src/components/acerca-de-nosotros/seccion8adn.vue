@@ -58,6 +58,55 @@
                 </div>
             </div>
         </div>
+        <!-- Dispositivo móvil -->
+        <div class="mv-pdb">
+            <div class="row">
+                <div class="col-6 mv-letrap">
+                    <p>P</p>
+                </div>
+                <div class="col-6 mv-texto-pdb">
+                    <p>Perfil del Bachiller</p>
+                    <div class="imagen-mas">
+                        <img src="../../../public/Figuras/+.svg" alt="">
+                    </div>
+                    <p class="mv-letrab">B</p>
+                </div>
+            </div>
+        </div>
+        <!-- Seccion College Admissions Profile  -->
+        <div class="mv-cap">
+            <div class="row">
+                <div class="col-6 mv-letrac-cap">
+                    <p>C</p>
+                </div>
+                <div class="col-6 mv-texto-pdb">
+                    <p>
+                        College Admissions Profile
+                    </p>
+                    <div class="imagen-mas">
+                        <img src="../../../public/Figuras/+.svg" alt="">
+                    </div>
+                    <p class="mv-letraa-cap">A</p>
+                </div>
+            </div>
+        </div>
+        <!-- Código de Convivencia -->
+        <div class="mv-cdc">
+            <div class="row">
+                <div class="col-6 mv-letrac-cap">
+                    <p>C</p>
+                </div>
+                <div class="col-6 mv-texto-pdb">
+                    <p>
+                        Código de Convivencia
+                    </p>
+                    <div class="imagen-mas">
+                        <img src="../../../public/Figuras/+.svg" alt="">
+                    </div>
+                    <p class="mv-letrac-cdc">C</p>
+                </div>
+            </div>
+        </div>
     </section>
 </template>
 
@@ -250,6 +299,118 @@
 
 .contenido-parte-abajo-parte-derecha--section8 > p > span{
     font-size: 120px;
+}
+
+@media (max-width:768px) {
+
+    .section8{
+        height: 100% !important;
+    }
+
+    .parte-arriba--section8{
+        display: none;
+    }
+
+    .parte-abajo--section8{
+        display: none;
+    }
+
+    .mv-pdb{
+        background-color: $celeste;
+        height: 50vh;
+    }
+
+    .mv-letrap{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .mv-letrap > p{
+        font-size: 409px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: -33px;
+        font-weight: 900;
+        color: $gris;
+    }
+
+    .mv-texto-pdb{
+        padding-top: 68px;
+    }
+
+    .mv-texto-pdb > p:first-child{
+        font-size: 27px;
+        color: white;
+        line-height: 30px;
+        font-weight: 900;
+        margin-left: 45px;
+    }
+
+    .imagen-mas{
+        width: 6.5em;
+        height: 6.5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mv-letrab{
+        font-size: 228px;
+        font-weight: 900;
+        color: #e5e1d3;
+        margin-top: -38px;
+        margin-left: 18px;
+    }
+    // CAP
+
+    .mv-cap{
+        background-color: $azul-oscuro;
+        height: 50vh;
+    }
+
+    .mv-letrac-cap{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .mv-letrac-cap > p{
+        font-size: 409px;
+        margin: 0px;
+        margin-top: -10px;
+        padding: 0px;
+        margin-left: -33px;
+        font-weight: 900;
+        color: $gris;
+    }
+
+    .mv-letraa-cap{
+        font-size: 228px;
+        font-weight: 900;
+        color: #e5e1d3;
+        margin-top: -69px;
+        margin-left: 18px;
+    }
+    // CDC
+    .mv-cdc{
+        background-color: $verde;
+        height: 50vh;
+    }
+
+    .mv-letrac-cdc{
+        font-size: 228px;
+        font-weight: 900;
+        color: #e5e1d3;
+        margin-top: -42px;
+        margin-left: 18px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .mv-pdb,
+    .mv-cap,
+    .mv-cdc{
+        display: none;
+    }
 }
 
 </style>

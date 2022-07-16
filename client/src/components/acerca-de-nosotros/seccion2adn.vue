@@ -347,7 +347,7 @@
         padding-left: 15px;
     }
 
-    .principios > .container{
+    .mv-principios > .container{
         padding: 70px 40px 70px 40px;
     }
 
@@ -362,6 +362,12 @@
         margin-bottom: 5px;
     }
 
+}
+
+@media (min-width: 768px) {
+    .mv-seccion2{
+        display: none;
+    }
 }
 
 </style>

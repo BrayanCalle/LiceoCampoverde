@@ -9,25 +9,25 @@
             <div class="mitad-abajo--section-4 ">
                 <div class="container q-pa-xl">
                     <div class="row q-pa-md">
-                        <div class="col-md-4 conatainer-texto--section-4">
+                        <div class="col-6 col-md-4 conatainer-texto--section-4">
                             <p>
                                 Responsabilidad, <b>ética, honestidad y transparencia,</b> como
                                 el nivel más alto de compromiso y de profesionalidad.
                             </p>
                         </div>
                         <div
-                            class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
+                            class="col-6 col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
                             <div id="circulo1" class="circulo-numeros--section-4">
                                 <p>1.</p>
                             </div>
                         </div>
                         <div
-                            class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
+                            class="col-6 col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
                             <div id="circulo2" class="circulo-numeros--section-4">
                                 <p>2.</p>
                             </div>
                         </div>
-                        <div class="col-md-4 conatainer-texto--section-4">
+                        <div class="col-6 col-md-4 conatainer-texto--section-4">
                             <p>
                                 Actualización y formación continua, investigación
                                 pedagógica e innovación
@@ -36,25 +36,25 @@
                     </div>
                     <!-- Fila 2 -->
                     <div class="row q-pa-md">
-                        <div class="col-md-4 conatainer-texto--section-4">
+                        <div class="col-6 col-md-4 conatainer-texto--section-4">
                             <p>
                                 Reconocimiento y <b>respeto por la diversidad</b> para
                                 garantizar las mismas oportunidades de aprendizaje.
                             </p>
                         </div>
                         <div
-                            class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
+                            class="col-6 col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
                             <div id="circulo3" class="circulo-numeros--section-4">
                                 <p>3.</p>
                             </div>
                         </div>
                         <div
-                            class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
+                            class="col-6 col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
                             <div id="circulo4" class="circulo-numeros--section-4">
                                 <p>4.</p>
                             </div>
                         </div>
-                        <div class="col-md-4 conatainer-texto--section-4">
+                        <div class="col-6 col-md-4 conatainer-texto--section-4">
                             <p>
                                 Calidad en procesos para asegurar el cumplimiento de los objetivos de la
                                 organización con <b>eficiencia, eficacia y pertinencia.</b>
@@ -63,25 +63,25 @@
                     </div>
                     <!-- Fila 3 -->
                     <div class="row q-pa-md">
-                        <div class="col-md-4 conatainer-texto--section-4">
+                        <div class="col-6 col-md-4 conatainer-texto--section-4">
                             <p>
                                 <b>Calidez y buen trato,</b> condiciones imprescindibles
                                 en toda relación humana.
                             </p>
                         </div>
                         <div
-                            class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
+                            class="col-6 col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-impares--section-4">
                             <div id="circulo5" class="circulo-numeros--section-4">
                                 <p>5.</p>
                             </div>
                         </div>
                         <div
-                            class="col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
+                            class="col-6 col-md-2 container-circulo-numeros--section-4 container-circulo-numeros-pares--section-4">
                             <div id="circulo6" class="circulo-numeros--section-4">
                                 <p>6.</p>
                             </div>
                         </div>
-                        <div class="col-md-4 conatainer-texto--section-4">
+                        <div class="col-6 col-md-4 conatainer-texto--section-4">
                             <p>
                                 <b>Solidaridad</b> para una convivencia cordial mediante la <b>participación activa,
                                     respetuosa y eficaz</b> en la sociedad.
@@ -175,6 +175,27 @@
     font-size: 20px;
     padding: 0 85px;
 }
+
+@media (max-width:768px) {
+    .section-4{
+        padding: 48px 0px;
+    }
+
+    .conatainer-texto--section-4 > p{
+        padding: 0px;
+    }
+
+    .circulo-numeros--section-4{
+        width: 160px;
+        height: 160px;
+    }
+
+    .circulo-numeros--section-4 > p{
+        font-weight: 900;
+    }
+
+}
+
 </style>
 
 <script>

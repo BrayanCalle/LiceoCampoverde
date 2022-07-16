@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="row fila-marcas--section10">
-                <div class="col-md-1"></div>
+                <div class="col-0 col-md-1"></div>
                 <div class="col-6 col-md-2">
                     <img src="../../assets/img/Logo/Logo-RazK.jpg" alt="">
                 </div>
@@ -32,8 +32,8 @@
                 <div class="col-6 col-md-2">
                     <img src="../../assets/img/Logo/Logo-Zoom.jpg" alt="">
                 </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-1"></div>
+                <div class="col-0 col-md-1"></div>
+                <div class="col-0 col-md-1"></div>
                 <div class="col-6 col-md-2">
                     <img src="../../assets/img/Logo/Logo-myon.jpg" alt="">
                 </div>
@@ -49,7 +49,40 @@
                 <div class="col-6 col-md-2">
                     <img src="../../assets/img/Logo/Logo-googl-class.jpg" alt="">
                 </div>
-                <div class="col-md-1"></div>
+                <div class="col-0 col-md-1"></div>
+            </div>
+            <!-- Movil -->
+            <div class="row mv-fila-marcas--section10">
+                <div class="col-6 col-md-2">
+                    <img src="../../assets/img/Logo/Logo-RazK.jpg" alt="">
+                </div>
+                <div class="col-6 col-md-2">
+                    <img src="../../assets/img/Logo/Logo-Aleks.jpg" alt="">
+                </div>
+                <div class="col-6 col-md-2">
+                    <img src="../../assets/img/Logo/Logo-matif.jpg" alt="">
+                </div>
+                <div class="col-6 col-md-2">
+                    <img src="../../assets/img/Logo/Logo-Cambridge.jpg" alt="">
+                </div>
+                <div class="col-6 col-md-2">
+                    <img src="../../assets/img/Logo/Logo-Zoom.jpg" alt="">
+                </div>
+                <div class="col-6 col-md-2">
+                    <img src="../../assets/img/Logo/Logo-myon.jpg" alt="">
+                </div>
+                <div class="col-6 col-md-2">
+                    <img src="../../assets/img/Logo/Logo-nearpod.jpg" alt="">
+                </div>
+                <div class="col-6 col-md-2">
+                    <img src="../../assets/img/Logo/Logo-classkick.jpg" alt="">
+                </div>
+                <div class="col-6 col-md-2">
+                    <img src="../../assets/img/Logo/Logo-deltamath.jpg" alt="">
+                </div>
+                <div class="col-6 col-md-2">
+                    <img src="../../assets/img/Logo/Logo-googl-class.jpg" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -107,6 +140,48 @@
     width: 170px;
     padding: 0 10px;
     height: auto;
+}
+
+@media (max-width:768px) {
+    .container-texto--section10{
+        padding-right: 14%;
+    }
+
+    .section10{
+        height: 100%;
+    }
+
+    .fila-marcas--section10{
+        display: none;
+    }
+
+    .mv-fila-marcas--section10{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .mv-fila-marcas--section10 > div{
+        height: fit-content;
+        width: fit-content;
+        padding: 0px 10px;
+    }
+
+    .mv-fila-marcas--section10 > div > img{
+        width: 170px;
+        padding: 0 10px;
+        height: auto;
+    }
+
+    .section10 > .container{
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .mv-fila-marcas--section10{
+        display: none;
+    }
 }
 </style>
 

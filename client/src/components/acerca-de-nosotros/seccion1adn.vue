@@ -91,7 +91,7 @@
         top: 10px;
         display: flex;
         width: 90%;
-        justify-content: end;
+        justify-content: flex-end;
     }
 
     .mv-texto-banner--acerca-de-nosotros{

@@ -9,6 +9,7 @@
                 <div class="container-imagen-cuerpo-section3">
                     <!-- <img src="../assets/img/Figuras/F-N-2.svg" alt=""> -->
                 </div>
+                <div class="mv-container-imagen-circulo"></div>
                 <div class="container-carousel">
                     <div class="q-pa-md">
                         <div class="title-slider">
@@ -71,20 +72,21 @@
 }
 
 .container-imagen-cuerpo-section3{
-    height: 100vh;
-    width: 82vw;
+    height: 64vh;
+    width: 64vw;
     position: absolute;
     background-image: url(../../assets/img/Figuras/F-N-2.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    margin-left: 9.5em;
 }
 
 .container-carousel{
     position: absolute;
     display: flex;
-    width: 72vw;
+    width: 66vw;
     justify-content: flex-end;
-    height: 60vh;
+    height: 50vh;
     align-items: flex-end;
 
 }
@@ -110,6 +112,63 @@
     font-size: 20px;
     margin-bottom: 27px;
 }
+
+@media (max-width:768px) {
+    .titulo-section3 > p:first-child{
+        font-size: 32px;
+        line-height: 30px;
+    }
+    .titulo-section3 > p:nth-child(2){
+        font-size: 28px;
+        padding: 0px 10px;
+    }
+
+    .container-imagen-cuerpo-section3{
+        margin-top: 30px;
+        background-image: url(../../assets/img/Figuras/F-N-P2.svg);
+        margin-left: 0px;
+    }
+
+    .container-imagen-cuerpo-section3{
+        width: 96vw;
+        position: relative;
+        height: 50vh;
+    }
+
+    .container-carousel{
+        height: fit-content;
+        position: absolute;
+        margin-top: -325px;
+        margin-right: auto;
+        margin-left: 90px;
+    }
+
+    .mv-container-imagen-circulo{
+        background-image: url(../../assets/img/Figuras/F-4.svg);
+        width: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 391px;
+    }
+
+    .section3{
+        height: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    .section > .container{
+        margin-bottom: 60px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .mv-container-imagen-circulo{
+        display: none;
+    }
+}
+
 </style>
 
 <script>

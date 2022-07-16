@@ -2,10 +2,13 @@
     <section class="window-height section6">
         <div class="parte-izquierda--section6">
             <div class="row">
-                <p class="titulo-parte-izquierda--section6">Modelo <br> <span>pedagógico</span></p>
+                <p class="col-9 col-md-12 titulo-parte-izquierda--section6">Modelo <br> <span>pedagógico</span></p>
+                <div class="col-3 col-md-12 mv-img">
+                    <img src="../../assets/img/Figuras/F-N-4.svg" alt="">
+                </div>
             </div>
             <div class="row">
-                <div class="col-7 container-texto-izquierda-parte-izquierda--section6">
+                <div class="col-12 col-md-7 container-texto-izquierda-parte-izquierda--section6">
                     <p>
                         Partimos de la individualidad y el respeto a la diversidad, en consecuencia el Sistema
                         Campoverde se basa en un modelo centrado en el estudiante y grupos colaborativos que
@@ -30,7 +33,7 @@
                         </q-card>
                     </q-expansion-item>
                 </div>
-                <div class="col-5 container-texto-derecha-parte-izquierda--section6">
+                <div class="col-12 col-md-5 container-texto-derecha-parte-izquierda--section6">
                     <p>
                         El aprendizaje constructivo implica que todas las actividades del estudiante
                         involucran procesos cognitivos activos.
@@ -134,6 +137,71 @@
     background-color: $verde;
     font-size: 15px;
     font-weight: normal;
+}
+
+@media (max-width:768px) {
+
+    .section6{
+        height: 100% !important;
+    }
+
+    .parte-izquierda--section6{
+        width: 100%;
+    }
+
+    .parte-derecha--section6{
+        display: none;
+    }
+    .parte-derecha--section6 > img{
+        height: 23%;
+    }
+
+    .mv-img > img{
+        height: 187px;
+        position: absolute;
+    }
+
+    .container-texto-izquierda-parte-izquierda--section6{
+        z-index: 2;
+    }
+
+    .container-texto-derecha-parte-izquierda--section6{
+        padding-left: 0px;
+        margin: 30px 0;
+    }
+
+    .parte-izquierda--section6{
+        padding-top: 50px;
+    }
+
+    .titulo-parte-izquierda--section6{
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+    .titulo-parte-izquierda--section6{
+        margin-bottom: 31px;
+    }
+
+    .container-texto-izquierda-parte-izquierda--section6 > p{
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 27px;
+    }
+
+    .container-texto-derecha-parte-izquierda--section6 > p{
+        font-size: 24px;
+        line-height: 28px;
+        padding-right: 8px;
+        font-weight: 500;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .mv-img{
+        display: none;
+    }
 }
 </style>
 
