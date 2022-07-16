@@ -80,7 +80,7 @@ export default {
       menu: [
         {
           label: 'Acerca de nosotros',
-          ruta: '',
+          ruta: 'acerca-de-nosotros',
           image: 'iconInfo/I-m1.svg'
         },
         {
@@ -129,12 +129,12 @@ export default {
         },
         {
           label: 'Formulario de inscripción',
-          ruta: '',
+          ruta: 'inscripcion',
           image: 'iconInfo/I-m5.svg'
         },
         {
           label: 'Admisiones',
-          ruta: '',
+          ruta: 'admisiones',
           image: 'iconInfo/I-m5.svg'
         },
         {

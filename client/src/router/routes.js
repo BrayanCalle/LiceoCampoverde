@@ -10,6 +10,21 @@ const routes = [
         component: () => import('pages/Home.vue')
       },
       {
+        path: '/acerca-de-nosotros',
+        name: 'acerca-de-nosotros',
+        component: () => import('pages/Acerca-de-nosotros.vue')
+      },
+      {
+        path: '/admisiones',
+        name: 'admisiones',
+        component: () => import('pages/Admisiones.vue')
+      },
+      {
+        path: '/inscripcion',
+        name: 'inscripcion',
+        component: () => import('pages/Inscripcion.vue')
+      },
+      {
         path: '/campito',
         name: 'campito',
         component: () => import('pages/Campito.vue')
