@@ -1,4 +1,4 @@
-// Cachillerato skeleton
+// Bachillerato skeleton
 
 // Estilos de bachillerato
 
@@ -8,7 +8,7 @@
     padding: 4rem;
   }
   p {
-    width: 52%;
+    width: 60%;
     line-height: 4.2rem;
   }
   img {
@@ -29,13 +29,14 @@
 .text-educate {
   position: absolute;
   top: 6rem;
-  left: 6rem;
+  left: 7rem;
 }
 
 .text-appearance {
-  padding: 4rem;
+  padding: 2rem 5rem;
   h3{
     width: 80%;
+    line-height: 4rem;
   }
 }
 
@@ -60,18 +61,25 @@
   }
 }
 
+.text_fortaleza {
+  width: 74%;
+}
+.block {
+  width: 100% !important;
+  text-align: left !important;
+}
 //Bachillerato 6
 .action-video {
-  padding: 2rem;
+  padding: 5rem 10rem;
   display: flex;
   justify-content: center;
   margin: auto;
   img {
-    width: 40%;
+    width: 50%;
   }
   .circle {
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -83,8 +91,8 @@
 
 .play-video {
   position: absolute;
-  top: 8rem;
-  left: 8rem;
+  top: 12rem;
+  left: 12rem;
 }
 
 .card_bachiller {
@@ -117,9 +125,18 @@
     padding-top: 5rem;
     font-weight: bolder;
     color: #FFFF;
-    &:hover {
-      color: #ef5a37;
-    }
+  }
+  .M:hover {
+    color: #f9d938;
+  }
+  .H:hover {
+    color: #ef5a37;
+  }
+  .A:hover {
+    color: #c6d33a;
+  }
+  .I:hover {
+    color: #8caef9;
   }
   .text_lyrics {
     padding-top: 7rem;
@@ -131,9 +148,6 @@
   font-weight: bolder;
   padding: 8rem 0rem 3rem 5rem;
   color: #E5E1D3;
-    &:hover {
-      color: #ef5a37;
-  }
 }
 .icons_modal {
   position: absolute;
@@ -226,6 +240,7 @@
   }
 
   .action-video {
+    padding: 3rem;
     display: block;
     justify-content: center;
     width: auto;
@@ -235,6 +250,11 @@
     .circle {
       width: 100%;
     }
+  }
+  .play-video {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
   }
 
   //Bachillerato 6

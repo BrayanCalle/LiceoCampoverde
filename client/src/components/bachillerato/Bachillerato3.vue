@@ -2,22 +2,18 @@
    <section>
      <div class="row relative-position" style="background-color: #E5E1D3;">
       <div class="col-12 col-md-6 text-appearance">
-        <h3 class="text-weight-bold">
-          En bachillerato aplicamos nuestro programa <span class="text-white bg-warning">Fortalezas</span> del Carácter
+        <h3 class="text-weight-bold my-font-ultra">
+          En bachillerato aplicamos nuestro programa <span class="text-white bg-warning q-px-md">Fortalezas</span> del Carácter
         </h3>
-        <p class="text-h4 text-weight-regular">
+        <p class="text-h5 text-weight-regula text_fortaleza">
           Brindamos una formación integral, la cual incluye desarrollo de destrezas y habilidades para el desenvolvimiento en el mundo actual y en su futuro.
         </p>
       </div>
       <div class="col-12 col-md-6 q-pt-xl">
         <img style="max-width: 100%; height: auto;" src="figuras/F-C-3.svg" alt="imagen"/>
       </div>
-    </div>
+    </div><br/><br/><br/><br/>
    <div class="height_section2 row">
-    <div class="col-12 q-pa-md column items-start text-h4 text-bold">
-      <div class="q-px-xl">Incentivamos el <br/> juego,la pasión</div>
-      <div class="q-mx-xl border_green q-px-sm">y el propósito</div>
-    </div>
     <div class="col-12 column justify-center" style="height: 60%">
       <div class="row justify-center items-center full-height">
         <div class="col-auto row justify-center items-center no-wrap card">

@@ -2,11 +2,10 @@
   <q-layout view="lHr lpr lfr">
     <header-web @menu="drawer = !drawer"/>
 
-    <drawer-data :drawer="drawer" @close="drawer = false" />
+    <drawer-data :drawer="drawer" @close="action()" />
 
     <q-page-container>
       <router-view />
-
       <sticky />
     </q-page-container>
 
@@ -30,6 +29,12 @@ export default {
   data () {
     return {
       drawer: false
+    }
+  },
+  methods: {
+    action () {
+      console.log('val')
+      this.drawer = false
     }
   }
 }

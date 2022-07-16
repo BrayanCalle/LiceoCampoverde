@@ -1,18 +1,18 @@
 <template>
    <section>
-    <div class="row">
-        <div class="col-12 col-md-6 q-px-xl q-px-md">
-          <h3 class="text-justify q-px-xl q-py-xl text-weight-bold" >Tour <br/><span class="bg-secondary">virtual</span></h3>
+     <div class="row">
+        <div class="col-12 col-md-5 q-px-xl q-px-md"><br/><br/>
+          <h3 class="text-justify q-px-xl q-py-xl text-weight-bold my-font-ultra" >Tour <br/><span style="background-color: #c6d33a;" class="q-px-md">virtual</span></h3>
         </div>
-        <div class="col-12 col-md-6 text-center q-px-xl q-py-xl relative-position">
+        <div class="col-12 col-md-7 text-center q-px-xl q-py-xl relative-position">
           <tour class="tour-play"/>
-          <img width="100%" height="100%" src="figuras/Enmascarar.png" alt="img"/>
+          <img width="100%" height="100%" style="border-radius: 4%;" src="figuras/Enmascarar.png" alt="img"/>
         </div>
-    </div>
+      </div>
     <div class="row bg-dark q-py-xl">
       <div class="col-12 col-md-6 q-py-xl bachiller_btn">
         <div class="card_schedule q-py-xl q-px-xl">
-          <p class="lyrics">H</p>
+          <p class="lyrics H">H</p>
           <div>
             <button>
               <modal-1/>
@@ -29,7 +29,7 @@
               <modal-2/>
              </button>
           </div><br/>
-          <p class="lyrics text_lyrics">A</p>
+          <p class="lyrics text_lyrics A">A</p>
         </div>
       </div>
       <div class="col-12 col-md-6 q-py-xl bachiller_btn ">
@@ -40,12 +40,12 @@
             </button>
             <p class="text-h5 text-weight-bold text-white q-pt-sm">Menú</p>
           </div>
-          <p class="lyrics">M</p>
+          <p class="lyrics M">M</p>
         </div>
       </div>
        <div class="col-12 col-md-6 q-py-xl bachiller_btn">
         <div class="card_schedule q-py-xl q-px-xl">
-          <p class="lyrics">I</p>
+          <p class="lyrics I">I</p>
           <div class="q-mx-xl">
             <button>
               <modal-4/>

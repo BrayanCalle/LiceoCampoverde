@@ -13,12 +13,51 @@
   padding: 10px 15px;
 }
 
+// Estilos de tamaño
+.size_card_blog {
+  height: 100%;
+  width: 20vw;
+}
+.avatar_size {
+  width: 5vw;
+  height: 5vw
+}
+.icon_add_blog {
+  font-size: 2vh;
+}
+.text_blog_content {
+  font-size: calc(0.4em + 1.5vw);
+}
+.input_buscar {
+  padding: calc(0.1em + 0.1vw) 2vh;
+  border-radius:20px;
+  font-size: 2vh
+}
+
 // Estilos responsives
 @media only screen and (max-width: 600px) {
+  .size_card_blog {
+    width: 100%;
+  }
   .padding_blog {
     padding: 30px;
   }
+  .text_blog_content {
+    font-size: 1.5em;
+  }
   .menu_blog {
     height:auto;
+  }
+  .avatar_size {
+    width: 15vw;
+    height: 15vw
+  }
+  .icon_add_blog {
+    width: auto;
+    height: auto;
+  }
+  .input_buscar {
+    padding: auto;
+    font-size: auto
   }
 }

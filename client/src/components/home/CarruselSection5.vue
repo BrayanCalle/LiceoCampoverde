@@ -23,7 +23,7 @@
           leave-active-class="animated rollOut"
         >
           <div class="col-6 flex flex-center bg-white">
-            <div class="my-font-ultra text-weight-bolder text-h4 text-center">HUMANO</div>
+            <div class="my-font-ultra title_1 text-center">HUMANO</div>
           </div>
         </transition>
       </q-carousel-slide>
@@ -35,7 +35,7 @@
             enter-active-class="animated rotateInDownLeft"
             leave-active-class="animated rollOut"
           >
-            <img src="home/schools-in-quito-cumbaya.png" class="full-height width_auto" />
+            <img src="home/schools-in-quito-cumbaya.png" class="full-height full-width" />
           </transition>
         </div>
         <div class="col-6 flex flex-center card_up_section5">
@@ -45,7 +45,7 @@
             enter-active-class="animated rotateInDownLeft"
             leave-active-class="animated rollOut"
           >
-            <div class="absolute text-weight-bolder text-h4 text-center my-font-ultra">
+            <div class="absolute title_1 text-center my-font-ultra">
               PROYECTOS <br>
               ESCOLARES
             </div>
@@ -60,7 +60,7 @@
             enter-active-class="animated rotateInDownLeft"
             leave-active-class="animated rollOut"
           >
-            <div class="my-font-ultra text-weight-bolder text-h5 text-center">
+            <div class="my-font-ultra text-center text_title_small">
               COLLEGE <br>
               BOARD <br>
               + <br>

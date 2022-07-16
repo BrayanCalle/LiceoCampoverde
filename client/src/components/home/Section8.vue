@@ -1,19 +1,38 @@
 <template>
   <div>
-    <div class="my-font-ultra q-pa-lg column items-start text-h4 text-weight-bolder">
+    <div class="my-font-ultra column items-start title_1 padding_title">
       <div>Blog y</div>
       <div class="bg-primary q-px-md">eventos</div>
     </div>
 
-    <div class="row justify-around">
+    <!-- Solo se muestra en web -->
+    <div class="row justify-around web_element" style="padding-left:10em; padding-right:10em">
       <div v-for="(item, index) in data" :key="index"
-        class="col-xs-9 col-sm-5 col-md-3 col-lg-3 row justify-center q-pa-md">
+        class="col-xs-12 col-sm-6 col-md-6 col-lg-3 row justify-center padding_blog">
         <blog-card :data="item" />
       </div>
     </div>
 
-    <div class="row justify-center q-py-lg">
-      <q-btn no-caps rounded color="accent" size="md" label="Visitar blog" class="q-px-lg" :to="{ name: 'blog' }" />
+    <!-- Solo se muestra en movil -->
+    <div class="q-py-md q-px-xl mobile_element">
+      <q-carousel
+        v-model="slide"
+        swipeable
+        animated
+        control-color="grey-8"
+        navigation
+        padding
+        height="100%"
+      >
+        <q-carousel-slide :name="index + 1" v-for="(item, index) in data" :key="index">
+          <blog-card :data="item" />
+        </q-carousel-slide>
+      </q-carousel>
+    </div>
+
+    <div class="row justify-center" style="padding: 10vh 0">
+      <q-btn no-caps rounded color="accent" label="Visitar blog" class="buttom_accent my-font-bold"
+        :to="{ name: 'blog' }" />
     </div>
   </div>
 </template>
@@ -27,6 +46,7 @@ export default {
   },
   data () {
     return {
+      slide: 1,
       data: [
         {
           id: '1',

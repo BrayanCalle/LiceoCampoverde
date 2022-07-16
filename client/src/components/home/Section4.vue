@@ -12,7 +12,7 @@
             parte de <br class="web_element"> nuestra <br>
             <b class="bg-accent q-px-sm">esencia</b>
           </div>
-          <q-chip color="accent" text-color="white">
+          <q-chip color="accent" text-color="white" size="calc(0.3em + 0.6vh)" @click="openModal = true" clickable>
             Tour Virtual 360
           </q-chip>
         </div>
@@ -32,5 +32,33 @@
         </div>
       </div>
     </div>
+
+    <q-dialog v-model="openModal" full-width>
+      <div class="row justify-end q-pa-sm absolute-top-right" style="z-index: 99">
+        <q-btn round icon="clear" color="black" @click="openModal = false" />
+      </div>
+      <q-card style="height:100%; width: 100%">
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://guiap.com/360/campoverde/">
+        </iframe>
+      </q-card>
+    </q-dialog>
   </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      openModal: false
+    }
+  },
+  methods: {
+    openLink () {
+      window.open('https://guiap.com/folio/liceo-campoverde/', '_blank')
+    }
+  }
+}
+</script>

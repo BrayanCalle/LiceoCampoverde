@@ -2,13 +2,13 @@
 
 //Contenedor
 .space-line {
-  line-height: 5rem;
+  line-height: 4.5rem;
 }
 
 .circle-text {
   font-size: calc(1em + 1vw);
-  top: 2rem;
-  padding: 3rem;
+  top: -2rem;
+  padding: 5rem;
   width: 52%;
   position: absolute;
   z-index: 10;
@@ -17,7 +17,7 @@
 .margin {
   padding: 0rem 3rem;
   .campito-logo {
-    padding-top: 8rem;
+    padding-top: 3rem;
   }
 }
 
@@ -33,13 +33,15 @@
 .text-top {
   font-size: 2.5rem;
 }
-
+.campito_title {
+  margin: 3rem 0rem 0rem 6.5rem;
+}
 .text-board {
   position: absolute;
   bottom: 7rem;
-  width: 48%;
-  right: 13rem;
-  font-size: 1.7rem;
+  width: 43%;
+  right: 14rem;
+  font-size: 1.5rem;
 }
 
 .board {
@@ -47,13 +49,14 @@
   position: absolute;
   bottom: 0rem;
   width: 60%;
-  right: 0rem;
+  right: 4rem;
 }
 
-.text-appearance {
-  padding: 4rem;
+.text-appearanc {
+  padding: 2rem 4rem;
   h3{
-    width: 80%;
+    width: 85%;
+    line-height: 4rem;
   }
 }
 
@@ -64,11 +67,11 @@
   justify-content: center;
   margin: auto;
   img {
-    width: 40%;
+    width: 50%;
   }
   .circle {
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -86,7 +89,8 @@
     }
   }
   p {
-    padding: 7rem;
+    padding: 8rem;
+    line-height: 3.5rem;
   }
 }
 .text-circle {
@@ -97,18 +101,18 @@
   border-radius: 50%;
   background: #FFFFFF;
   p{
-    padding: 6rem;
+    padding: 4rem;
   }
 }
 .play-video {
   position: absolute;
-  top: 8rem;
-  left: 8rem;
+  top: 10rem;
+  left: 10rem;
 }
 //Campito5
 .bar-text {
   text-align: right;
-  padding: 5rem;
+  padding: 9rem 5rem 0rem;
 }
 .texto-encima{
   padding: 4rem;
@@ -137,8 +141,8 @@
 
 .tour-play {
   position: absolute;
-  top: 12rem;
-  left: 18rem;
+  top: 14rem;
+  left: 22rem;
 }
 .calendary {
   text-align: center;
@@ -212,7 +216,19 @@
   top: 3rem;
   left: 14rem;
 }
+.text_fortaleza {
+  width: 74%;
+}
+.padding_top {
+  padding: 5rem;
+}
+.img_responsive {
+  height: 66vh;
+}
 @media only screen and (max-width: 600px) {
+  .img_responsive {
+    height: 50vh;
+  }
   .circle-text {
     top: 1rem;
     padding: 2rem;

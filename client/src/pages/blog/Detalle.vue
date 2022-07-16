@@ -91,7 +91,8 @@
 
     <q-separator />
 
-    <div class="q-py-lg text-weight-bolder my-font-ultra" style="font-size: calc(1.5em + 1.5vw)">Temas relacionados</div>
+    <div class="q-py-lg text-weight-bolder my-font-ultra"
+      style="font-size: calc(1.5em + 1.5vw)">Temas relacionados</div>
 
     <!-- Solo se muestra en web -->
     <div class="row web_element">

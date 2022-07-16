@@ -15,7 +15,7 @@
             <p class="text-h4 text-center text-weight-bold">Menú</p>
           </div>
           <div class="col-6 bg-dark">
-            <p class="q-pl-xl text-h1 lyrics_modal">M</p>
+            <p class="q-pl-xl text-h1 lyrics_modal M">M</p>
           </div>
         </div>
         <input type="date" class="q-py-sm q-px-sm" style="margin: auto; display: flex; justify-content: center;"/>

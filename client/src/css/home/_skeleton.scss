@@ -24,44 +24,59 @@
   z-index: 1;
 }
 .block1 {
-  background-image: url('/home/prekinder-campus-moderno.jpg');
+  background-image: url('../../../client/public/home/prekinder-campus-moderno.jpg');
 }
 .block2 {
-  background-image: url('/home/escuela-campus-moderno.jpg');
+  background-image: url('../../../client/public/home/escuela-campus-moderno.jpg');
 }
 .block3 {
-  background-image: url('/home/bachillerato-campus-moderno.jpg');
+  background-image: url('../../../client/public/home/bachillerato-campus-moderno.jpg');
 }
 
 // Estilos de forma
 .campos_form {
   background: #8CAEF9;
-  width:60%;
-  border-radius:10px
+  width:70%;
+  padding: calc(0.2em + 0.2vh) 2vh;
+  border-radius:10px;
+  font-size: 2vh
 }
 .size_carrusel {
-  height: 500px;
-  width: 500px
+  height: 64em;
+  max-height: 90%;
+  width: 64em;
+  max-width: 90%;
+}
+.buttom_accent {
+  font-size: 2vh;
+  padding: 0 3vw;
 }
 
 // Estilos de espacios
 .padding_section4 {
-  padding: 30px 50px;
+  padding: 10vh 10vw;
   .img {
     padding: 10px;
   }
   .card {
-    padding: 30px 20px;
+    padding: 1em;
     background-color: #2FAD62;
   }
 }
+.padding_section7 {
+  padding-bottom: 30px;
+  padding-top: 1vh;
+}
 .text_zise {
-  font-size: calc(1.5em + 1.5vw)
+  font-size: calc(1em + 1.6vw)
+}
+.padding_title {
+  padding: 1em 10vw;
 }
 
 // Estilos de posicionamiento
 .margin_top_all {
-  margin-top: -72px;
+  margin-top: -11vh;
 }
 .contenedor{
   position: relative;
@@ -73,7 +88,7 @@
   }
   .texto_encima{
     position: absolute;
-    bottom: 55px;
+    bottom: 8vh;
   }
 }
 .video_carrusel {
@@ -81,8 +96,8 @@
   z-index: 3;
   top: -40px;
   right: 0%;
-  width: 130px;
-  height: 130px;
+  width: calc(5em + 4vw);
+  height: calc(5em + 4vw);
 }
 .video_mobile {
   width: 300px;
@@ -103,9 +118,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  .text_responsive {
-    font-size: 1.8rem;
-  }
 }
 .contenedor_section7 {
   display: grid;
@@ -113,13 +125,13 @@
   align-content: start;
   width: 100%;
   .img_responsive {
-    width:70%;
+    width:75%;
     height: auto
   }
   .text_responsive {
     padding-right:20%;
     padding-top:10%;
-    font-size: calc(1em + 1.5vw)
+    font-size: calc(0.4em + 2.4vw);
   }
 }
 .card_up_section5 {
@@ -140,6 +152,18 @@
     visibility: hidden;
   }
 }
+.position_title_section3 {
+  position: absolute;
+  width: 100%;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .text_title {
+    display: grid;
+    justify-items: start;
+  }
+}
 
 // Estilos de responsividad
 .height_mobile_section1 {
@@ -148,6 +172,10 @@
 @media only screen and (max-width: 500px) {
   .height_mobile_section1 {
     height: 60vh
+  }
+
+  .padding_title {
+    padding: 1em;
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 900px) {
@@ -200,12 +228,7 @@
   height: 100vh
 }
 @media only screen and (max-width: 860px) {
-  .size_carrusel {
-    height: 400px;
-    width: 400px
-  }
   .contenedor{
-    padding-top: 120px;
     .img {
       height: 600px;
     }
@@ -218,10 +241,6 @@
   width: 100%
 }
 @media only screen and (max-width: 700px) {
-  .size_carrusel {
-    height: 350px;
-    width: 350px
-  }
   .text_section1_mobile {
     position: absolute;
     top: 120px
@@ -247,6 +266,12 @@
   width: auto
 }
 @media only screen and (max-width: 860px) {
+  .position_title_section3 {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-content: start;
+  }
   .web_img_section3 {
     display: none !important;
   }
@@ -263,11 +288,12 @@
   order: 0
 }
 @media only screen and (max-width: 599px) {
+  .padding_section7 {
+    padding-top: 0.9em;
+    padding-left: 30px;
+  }
   .contenedor_section6 {
     justify-content: left;
-    .text_responsive {
-      font-size: 1.5rem;
-    }
   }
   .contenedor_section7 {
     justify-items: left;
@@ -283,6 +309,8 @@
   }
   .campos_form {
     width:90%;
+    padding: auto;
+    font-size: auto
   }
   .size_carrusel {
     height: auto;
