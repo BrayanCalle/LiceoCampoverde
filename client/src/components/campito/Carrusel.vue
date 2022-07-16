@@ -15,7 +15,7 @@
         class="text-white absolute-full bg-transparent border_radius"
       >
         <q-carousel-slide :name="1" class="flex flex-center">
-          <div class="text-h5 text-weight-bolder my-font-ultra">
+          <div class="text-h4 text-weight-bolder my-font-ultra">
             Tenemos un <br>
             espíritu <br>
             comprometido <br>
