@@ -6,16 +6,17 @@
     flat
     :breakpoint="500"
     @hide="$emit('close')"
+    style="width: 50vw"
   >
     <div class="fit q-pl-xs border_left_radius">
       <div class="close_drawer q-pt-lg">
-        <q-btn round dense class="" color="black" icon="clear" @click="$emit('close')"  />
+        <q-btn round dense size="2vh" color="black" icon="clear" @click="$emit('close')"  />
       </div>
 
       <q-card class="fit border_left_radius bg-white q-pa-sm">
         <q-scroll-area class="fit">
           <div class="row justify-center q-py-md">
-            <q-img src="logo/Favicon-LiceoCampoVerde.svg" style="width:60px;" />
+            <q-img src="logo/Favicon-LiceoCampoVerde.svg" style="width:10vh;" />
           </div>
 
           <div v-for="(item, index) in menu" :key="index">
@@ -34,11 +35,11 @@
                   </q-avatar>
                 </q-item-section>
 
-                <q-item-section class="text-grey-8">{{item.label}}</q-item-section>
+                <q-item-section class="text-grey-8 font_small_caption">{{item.label}}</q-item-section>
               </template>
               <div v-for="(item2, index) in item.items" :key="index" class="q-pl-xl" :class="selecItem === item2 ? 'text-accent' : 'text-grey-8'">
                 <q-item clickable v-ripple @click="action(item2)">
-                  <q-item-section>
+                  <q-item-section class="font_small_caption">
                     {{ item2.label }}
                   </q-item-section>
                 </q-item>
@@ -53,7 +54,7 @@
                   <img :src="item.image">
                 </q-avatar>
               </q-item-section>
-              <q-item-section>
+              <q-item-section class="font_small_caption">
                 {{ item.label }}
               </q-item-section>
             </q-item>
@@ -161,9 +162,7 @@ export default {
     action (item) {
       this.selecItem = item
       this.$emit('close')
-      console.log(item)
       if (item.ruta) {
-        console.log('val2')
         this.$router.push({ name: item.ruta })
       }
     }

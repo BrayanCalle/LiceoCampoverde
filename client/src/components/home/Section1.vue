@@ -7,12 +7,12 @@
       </div>
 
       <div class="row justify-center items-end col-xs-2 col-sm-4 col-md-4 col-lg-4">
-        <div class="text_section1_mobile column items-center title_1 my-font-ultra">
-          <div>
+        <div class="text_section1_mobile column items-center justify-start title_1 my-font-ultra">
+          <div style="height: 20vh">
             <div class="cursor-pointer">Educamos <br> seres <br> humanos</div>
             <div>
               <div v-if="change" class="fondo_amarillo">
-                que sienten.
+                <b>que sienten.</b>
               </div>
               <div v-else>
                 <b class="fondo_amarillo">que piensan</b> <br> con libertad.

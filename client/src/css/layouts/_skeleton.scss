@@ -28,9 +28,11 @@
 .icon_footer {
   .otros {
     width: 1.5vw;
+    cursor: pointer
   }
   .facebook {
     width: 0.9vw;
+    cursor: pointer
   }
 }
 .height_auto {
@@ -60,7 +62,7 @@
 .close_drawer {
   position: absolute;
   z-index: 100;
-  margin-left: -12px;
+  margin-left: -2vh;
 }
 .sticky_style {
   height: 10vh;

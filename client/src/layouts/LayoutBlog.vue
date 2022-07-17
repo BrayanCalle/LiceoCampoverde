@@ -66,9 +66,9 @@
           </q-card>
 
           <div v-if="$route.meta.compartir" class="row no-wrap items-center q-py-md">
-            <div class="text-caption text-bold q-pr-md my-font-bold">Compartir</div>
-            <div class="fondo_amarillo q-pa-sm" style="border-bottom-right-radius: 100%">
-              <img src="iconInfo/share-option.png" style="width:20px" class="cursor-pointer" @click="share = true" />
+            <div class="font_small_caption q-pr-md my-font-bold">Compartir</div>
+            <div class="fondo_amarillo" style="border-bottom-right-radius: 100%; padding:1vh">
+              <img src="iconInfo/share-option.png" style="height:4vh" class="cursor-pointer" @click="share = true" />
             </div>
           </div>
 
@@ -82,7 +82,7 @@
 </template>
 
 <script>
-import ShareData from '../components/ShareData.vue'
+import ShareData from '../components/blog/ShareData.vue'
 export default {
   name: 'Layout-blog',
   components: {

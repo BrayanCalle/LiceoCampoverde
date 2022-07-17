@@ -35,7 +35,7 @@
 
     <q-dialog v-model="openModal" full-width>
       <div class="row justify-end q-pa-sm absolute-top-right" style="z-index: 99">
-        <q-btn round icon="clear" color="black" @click="openModal = false" />
+        <q-btn round icon="clear" color="black" size="1.5vh" @click="openModal = false" />
       </div>
       <q-card style="height:100%; width: 100%">
         <iframe

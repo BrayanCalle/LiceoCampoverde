@@ -7,32 +7,32 @@
             <q-img :src="data.image" class="full-height full-width" style="border-bottom-right-radius: 100%;"/>
           </div>
 
-          <q-card-section class="col-xs-12 col-sm-9 col-md-8 col-lg-8 q-pb-lg q-pl-xl column justify-between"
-            :style="`background-color:${data.color}`">
-            <div class="absolute-bottom-left q-pr-sm web_element" style="left:-30px; bottom: 10px">
-              <q-avatar size="60px">
+          <q-card-section class="col-xs-12 col-sm-9 col-md-8 col-lg-8 column justify-between padding_card_detalle"
+            :style="`background-color:${data.color};`">
+            <div class="absolute-bottom-left q-pr-sm web_element" style="left:-6vh; bottom: 2vh">
+              <q-avatar class="avatar_size">
                 <img :src="data.user.perfil" />
               </q-avatar>
             </div>
 
             <!-- Solo se muestra en movil -->
-            <div class="mobile_element">
-              <div class="absolute-top-right column items-end q-pr-sm" style="top:-30px; right: 10px">
-                <q-avatar size="60px">
+            <div class="mobile_element" style="padding-bottom: 7vh">
+              <div class="absolute-top-right column items-end q-pr-sm" style="top:-4vh; right: 2vh">
+                <q-avatar class="avatar_size">
                   <img :src="data.user.perfil" />
                 </q-avatar>
               </div>
               <div class="text-right q-pt-lg">
                 <div class="font_small">{{data.user.name}} || {{data.date}}</div>
-                <div class="text-subtitle2  my-font-bold">{{data.type}}</div>
+                <div class="font_small_caption  my-font-bold">{{data.type}}</div>
               </div>
             </div>
 
             <!-- Solo se muestra en web -->
-            <div class="text-subtitle2 web_element my-font-bold">{{data.type}}</div>
+            <div class="font_small_caption web_element my-font-bold">{{data.type}}</div>
 
             <div>
-              <div class="q-pr-lg q-py-md text-h5 text-bold my-font-bold">{{ data.title }}</div>
+              <div class="q-pb-lg text_blog_content my-font-bold">{{ data.title }}</div>
               <!-- Solo se muestra en web -->
               <div class="font_small web_element">{{data.user.name}} || {{data.date}}</div>
             </div>
@@ -41,35 +41,37 @@
       </q-card>
     </div>
 
-    <div class="q-py-lg" >
+    <div class="q-py-lg font_small_caption" >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur quis sem tellus. Morbi rhoncus ligula ac lacus luctus, in varius ex tincidunt. Sed viverra augue in sagittis volutpat. Proin luctus rhoncus mi. Nunc velit velit, tempus et augue vel, venenatis sodales libero.
     </div>
 
-    <div class="text-h4 text-weight-bolder my-font-ultra q-pb-lg">Título ejemplo</div>
-    <div class="q-pb-lg">
+    <div class="title_1 text-weight-bolder my-font-ultra q-pb-lg">Título ejemplo</div>
+    <div class="q-pb-lg font_small_caption">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
     </div>
 
-    <div class="q-pb-lg text-weight-bolder my-font-bold text-h5">Subtítulo ejemplo</div>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
-    </p>
+    <div class="q-pb-lg text-weight-bolder my-font-bold subtitle_detalle">Subtítulo ejemplo</div>
+    <div class="font_small_caption">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
+      </p>
+    </div>
 
-    <div class="text-center text-h5 my-font-bold text-weight-bolder q-pt-lg">
+    <div class="text-center subtitle_detalle my-font-bold text-weight-bolder q-pt-lg">
       “Ejemplo cita o texto para <br>
       resaltar o darle prioridad de <br>
       lectura lorem ipsum dolor,”
     </div>
-    <div class="text-center text-caption">Lorem ipsum autor</div>
+    <div class="text-center font_small_caption">Lorem ipsum autor</div>
 
-    <div class="q-py-lg">Listado de texto</div>
-    <div class="q-pb-lg">
+    <div class="q-py-lg font_small_caption">Listado de texto</div>
+    <div class="q-pb-lg font_small_caption">
       <b class="my-font-bold">- Lorem ipsum:</b> dolor sit amet, consectetur adipiscing elit. <br>
       <b class="my-font-bold">- Suspendisse:</b> vel ultrices diam, quis semper mauris. <br>
       <b class="my-font-bold">- Maecenas:</b> condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Vestibulum an.
@@ -77,15 +79,15 @@
 
     <img src="blog/blogIn-1.jpg" width="100%" />
 
-    <div class="q-py-lg text-weight-bolder my-font-bold text-h5">Subtítulo ejemplo</div>
-    <p>
+    <div class="q-py-lg text-weight-bolder my-font-bold subtitle_detalle">Subtítulo ejemplo</div>
+    <p class="font_small_caption">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ultrices diam, quis semper mauris. Maecenas condimentum condimentum dictum. Donec congue, ligula quis vestibulum sagittis, ante turpis feugiat urna, in dictum sem odio at enim. Morbi a consectetur orci, id lobortis magna. Vestibulum an.
     </p>
 
     <div class="row no-wrap items-center q-py-md">
-      <div class="text-caption text-bold my-font-bold q-pr-md">Compartir</div>
-      <div class="fondo_amarillo q-pa-sm" style="border-bottom-right-radius: 100%">
-        <img src="iconInfo/share-option.png" style="width:20px" class="cursor-pointer" @click="share = true" />
+      <div class="font_small_caption my-font-bold q-pr-md">Compartir</div>
+      <div class="fondo_amarillo" style="border-bottom-right-radius: 100%; padding:1vh">
+        <img src="iconInfo/share-option.png" style="height:4vh" class="cursor-pointer" @click="share = true" />
       </div>
     </div>
 
@@ -96,9 +98,9 @@
 
     <!-- Solo se muestra en web -->
     <div class="row web_element">
-      <div v-for="(item, index) in 3" :key="index"
+      <div v-for="(item, index) in otherData" :key="index"
         class="col-xs-12 col-sm-6 col-md-4 col-lg-4 row justify-center padding_blog">
-        <blog-card :data="arrayExample[index]" />
+        <blog-card :data="item" />
       </div>
     </div>
 
@@ -113,8 +115,8 @@
         padding
         height="100%"
       >
-        <q-carousel-slide :name="index + 1" v-for="(item, index) in 3" :key="index">
-          <blog-card :data="arrayExample[index]" />
+        <q-carousel-slide :name="index + 1" v-for="(item, index) in otherData" :key="index">
+          <blog-card :data="item" />
         </q-carousel-slide>
       </q-carousel>
     </div>
@@ -127,7 +129,7 @@
 
 <script>
 import BlogCard from '../../components/blog/BlogElement.vue'
-import ShareData from '../../components/ShareData.vue'
+import ShareData from '../../components/blog/ShareData.vue'
 export default {
   name: 'blog-detalle',
   components: {
@@ -139,7 +141,8 @@ export default {
       share: false,
       slide: 1,
       data: {},
-      arrayExample: [
+      otherData: [],
+      allData: [
         {
           id: '1',
           image: 'blog/blog-1.png',
@@ -268,7 +271,8 @@ export default {
   },
   methods: {
     getData (id) {
-      this.data = this.arrayExample.find(v => v.id === id)
+      this.data = this.allData.find(v => v.id === id)
+      this.otherData = this.allData.filter(v => v.id !== id).slice(0, 3)
     }
   }
 }

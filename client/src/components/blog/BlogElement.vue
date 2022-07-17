@@ -15,7 +15,7 @@
           <div class="font_small_caption my-font-bold">{{data.type}}</div>
         </div>
 
-        <div class="q-px-md q-pt-lg q-pb-xl text_blog_content my-font-bold">
+        <div class="q-px-md text_blog_content my-font-bold" style="padding-top: 7vh ; padding-bottom: 5vh">
           {{ data.title }}
         </div>
 
