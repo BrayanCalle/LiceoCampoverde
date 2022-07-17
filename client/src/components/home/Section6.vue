@@ -71,3 +71,14 @@ export default {
   }
 }
 </script>
+<style lang="scss" scoped>
+.block1 {
+  background-image: url('../../../public/home/prekinder-campus-moderno.jpg');
+}
+.block2 {
+  background-image: url('../../../public/home/escuela-campus-moderno.jpg');
+}
+.block3 {
+  background-image: url('../../../public/home/bachillerato-campus-moderno.jpg');
+}
+</style>
