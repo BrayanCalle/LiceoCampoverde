@@ -7,13 +7,12 @@
       </div>
     </div>
 
-    <div class="row justify-center q-py-lg">
+    <div class="row justify-center q-py-lg full-width">
       <q-pagination
         v-model="current"
         :max="3"
         color="grey-8"
         active-color="primary"
-        input-style="background-color: #6B645F"
         round
         direction-links
       />

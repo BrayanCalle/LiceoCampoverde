@@ -7,14 +7,17 @@
       </div>
 
       <div class="row justify-center items-end col-xs-2 col-sm-4 col-md-4 col-lg-4">
-        <div class="text_section1_mobile column items-center title_1 my-font-ultra">
-          <div>
+        <div class="text_section1_mobile column items-center justify-start title_1 my-font-ultra">
+          <div class="column items-start no-wrap zone_text_section1">
             <div class="cursor-pointer">Educamos <br> seres <br> humanos</div>
             <div>
-              <div v-if="change" class="fondo_amarillo">
-                que sienten.
+              <div v-if="change === 1" class="fondo_amarillo">
+                <b>auténticos.</b>
               </div>
-              <div v-else>
+              <div v-if="change === 2" class="fondo_amarillo">
+                <b>que sienten.</b>
+              </div>
+              <div v-if="change === 3">
                 <b class="fondo_amarillo">que piensan</b> <br> con libertad.
               </div>
             </div>
@@ -36,7 +39,7 @@ export default {
   name: 'section-1',
   data () {
     return {
-      change: true,
+      change: 1,
       timeCounter: ''
     }
   },
@@ -45,7 +48,7 @@ export default {
   },
   methods: {
     activeChange () {
-      this.change = !this.change
+      this.change = this.change === 3 ? 1 : this.change + 1
     }
   },
   beforeDestroy () {

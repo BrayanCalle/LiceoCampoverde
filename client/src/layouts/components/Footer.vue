@@ -34,18 +34,22 @@
         <div class="font_small"><b>información</b>@liceocampoverde.edu.ec</div>
       </div>
 
-      <div class="row justify-center items-center q-gutter-md col-xs-12 col-sm-3 col-md-1 col-lg-1">
+      <div class="row justify-center items-center q-gutter-x-md q-gutter-y-lg col-xs-12 col-sm-3 col-md-1 col-lg-1">
         <div class="row justify-center col-xs-2 col-sm-2 col-md-12 col-lg-12">
-          <img src="iconInfo/I-linkedin.svg" class="otros" />
+          <img src="iconInfo/I-linkedin.svg" class="otros"
+            @click="ir('https://www.linkedin.com/company/liceocampoverde/')" />
         </div>
         <div class="row justify-center col-xs-2 col-sm-2 col-md-12 col-lg-12">
-          <img src="iconInfo/I-facebook.svg" class="facebook" />
+          <img src="iconInfo/I-facebook.svg" class="facebook"
+            @click="ir('https://www.facebook.com/liceocampoverde/')" />
         </div>
         <div class="row justify-center col-xs-2 col-sm-2 col-md-12 col-lg-12">
-          <img src="iconInfo/I-instagram.svg" class="otros" />
+          <img src="iconInfo/I-instagram.svg" class="otros"
+            @click="ir('https://www.instagram.com/liceo_campoverde/')" />
         </div>
         <div class="row justify-center col-xs-2 col-sm-2 col-md-12 col-lg-12">
-          <img src="iconInfo/I-youtube.svg" class="otros" />
+          <img src="iconInfo/I-youtube.svg" class="otros"
+            @click="ir('https://www.youtube.com/channel/UCTW1lyvLIQ1MmXyQWIUtI3Q/videos')" />
         </div>
       </div>
 
@@ -56,3 +60,14 @@
     </div>
   </q-footer>
 </template>
+
+<script>
+import { openURL } from 'quasar'
+export default {
+  methods: {
+    ir (ruta) {
+      openURL(ruta)
+    }
+  }
+}
+</script>

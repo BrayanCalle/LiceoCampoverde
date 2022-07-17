@@ -12,6 +12,9 @@
 .padding_blog {
   padding: 10px 15px;
 }
+.padding_card_detalle {
+  padding: 3vh 7vh
+}
 
 // Estilos de tamaño
 .size_card_blog {
@@ -33,17 +36,27 @@
   border-radius:20px;
   font-size: 2vh
 }
+.subtitle_detalle {
+  font-size: calc(0.3em + 2vw);
+  line-height: 1.2em;
+}
 
 // Estilos responsives
 @media only screen and (max-width: 600px) {
   .size_card_blog {
     width: 100%;
   }
+  .subtitle_detalle {
+    font-size: 1.2em
+  }
   .padding_blog {
     padding: 30px;
   }
+  .padding_card_detalle {
+    padding: 3vh 2vh;
+  }
   .text_blog_content {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
   .menu_blog {
     height:auto;

@@ -23,15 +23,7 @@
   height:100vh;
   z-index: 1;
 }
-.block1 {
-  background-image: url('../../../client/public/home/prekinder-campus-moderno.jpg');
-}
-.block2 {
-  background-image: url('../../../client/public/home/escuela-campus-moderno.jpg');
-}
-.block3 {
-  background-image: url('../../../client/public/home/bachillerato-campus-moderno.jpg');
-}
+
 
 // Estilos de forma
 .campos_form {
@@ -72,6 +64,18 @@
 }
 .padding_title {
   padding: 1em 10vw;
+}
+.zone_text_section1 {
+  width: calc(17vw + 1vh);
+  height: 20vh;
+  white-space: nowrap;
+}
+.padding_section8 {
+  padding: 10vh;
+  .in_title {
+    padding-bottom: 5vh;
+    padding-left: 2vh
+  }
 }
 
 // Estilos de posicionamiento
@@ -291,6 +295,16 @@
   .padding_section7 {
     padding-top: 0.9em;
     padding-left: 30px;
+  }
+  .padding_section8 {
+  padding: 10vh 5vh 0 5vh;
+    .in_title {
+      padding-bottom: 1vh;
+      padding-left: 0
+    }
+  }
+  .zone_text_section1 {
+    width: calc(17vw + 15vh)
   }
   .contenedor_section6 {
     justify-content: left;
