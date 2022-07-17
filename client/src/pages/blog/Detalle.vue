@@ -86,8 +86,10 @@
 
     <div class="row no-wrap items-center q-py-md">
       <div class="font_small_caption my-font-bold q-pr-md">Compartir</div>
-      <div class="fondo_amarillo" style="border-bottom-right-radius: 100%; padding:1vh">
-        <img src="iconInfo/share-option.png" style="height:4vh" class="cursor-pointer" @click="share = true" />
+      <div class="cursor-pointer" :class="fondoShare" style="border-bottom-right-radius: 100%; padding:1vh"
+        @click="share = true" @mouseenter="fondoShare = 'fondo_naranja'" @mouseout="fondoShare = 'fondo_amarillo'">
+        <img src="iconInfo/share-option.png" style="height:4vh"
+          @mouseenter="fondoShare = 'fondo_naranja'" @mouseout="fondoShare = 'fondo_amarillo'" />
       </div>
     </div>
 
@@ -140,6 +142,7 @@ export default {
     return {
       share: false,
       slide: 1,
+      fondoShare: 'fondo_amarillo',
       data: {},
       otherData: [],
       allData: [

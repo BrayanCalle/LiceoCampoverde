@@ -67,8 +67,10 @@
 
           <div v-if="$route.meta.compartir" class="row no-wrap items-center q-py-md">
             <div class="font_small_caption q-pr-md my-font-bold">Compartir</div>
-            <div class="fondo_amarillo" style="border-bottom-right-radius: 100%; padding:1vh">
-              <img src="iconInfo/share-option.png" style="height:4vh" class="cursor-pointer" @click="share = true" />
+            <div class="cursor-pointer" :class="fondoShare" style="border-bottom-right-radius: 100%; padding:1vh"
+              @click="share = true" @mouseenter="fondoShare = 'fondo_naranja'" @mouseout="fondoShare = 'fondo_amarillo'">
+              <img src="iconInfo/share-option.png" style="height:4vh" class=""
+                @mouseenter="fondoShare = 'fondo_naranja'" @mouseout="fondoShare = 'fondo_amarillo'" />
             </div>
           </div>
 
@@ -91,6 +93,7 @@ export default {
   data () {
     return {
       share: false,
+      fondoShare: 'fondo_amarillo',
       search: '',
       recursos: [
         {

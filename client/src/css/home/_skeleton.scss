@@ -65,6 +65,18 @@
 .padding_title {
   padding: 1em 10vw;
 }
+.zone_text_section1 {
+  width: calc(17vw + 1vh);
+  height: 20vh;
+  white-space: nowrap;
+}
+.padding_section8 {
+  padding: 10vh;
+  .in_title {
+    padding-bottom: 5vh;
+    padding-left: 2vh
+  }
+}
 
 // Estilos de posicionamiento
 .margin_top_all {
@@ -283,6 +295,16 @@
   .padding_section7 {
     padding-top: 0.9em;
     padding-left: 30px;
+  }
+  .padding_section8 {
+  padding: 10vh 5vh 0 5vh;
+    .in_title {
+      padding-bottom: 1vh;
+      padding-left: 0
+    }
+  }
+  .zone_text_section1 {
+    width: calc(17vw + 15vh)
   }
   .contenedor_section6 {
     justify-content: left;

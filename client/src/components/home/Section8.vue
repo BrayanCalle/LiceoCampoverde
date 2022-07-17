@@ -1,20 +1,20 @@
 <template>
-  <div>
-    <div class="my-font-ultra column items-start title_1 padding_title">
+  <div class="padding_section8">
+    <div class="my-font-ultra column items-start title_1 in_title">
       <div>Blog y</div>
       <div class="bg-primary q-px-md">eventos</div>
     </div>
 
     <!-- Solo se muestra en web -->
-    <div class="row justify-around web_element" style="padding-left:10em; padding-right:10em">
+    <div class="row justify-around web_element">
       <div v-for="(item, index) in data" :key="index"
-        class="col-xs-12 col-sm-6 col-md-6 col-lg-3 row justify-center padding_blog">
+        class="col-xs-12 col-sm-3 col-md-3 col-lg-3 row justify-center padding_blog">
         <blog-card :data="item" />
       </div>
     </div>
 
     <!-- Solo se muestra en movil -->
-    <div class="q-py-md q-px-xl mobile_element">
+    <div class="q-py-md mobile_element">
       <q-carousel
         v-model="slide"
         swipeable
@@ -30,7 +30,7 @@
       </q-carousel>
     </div>
 
-    <div class="row justify-center" style="padding: 10vh 0">
+    <div class="row justify-center" style="padding: 5vh 0">
       <q-btn no-caps rounded color="accent" label="Visitar blog" class="buttom_accent my-font-bold"
         :to="{ name: 'blog' }" />
     </div>
