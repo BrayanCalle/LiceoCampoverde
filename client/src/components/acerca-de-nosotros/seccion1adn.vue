@@ -101,6 +101,10 @@
         margin-top: 30px;
     }
 
+    .mv-container-imagen-banner--acerca-de-nosotros > img{
+        width: 100%;
+    }
+
 }
 
 @media (min-width:768px) {

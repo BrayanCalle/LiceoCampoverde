@@ -104,6 +104,7 @@
 
 .container-texto-derecha-parte-izquierda--section6{
     padding-left: 8%;
+    z-index: 3;
 }
 
 .container-texto-derecha-parte-izquierda--section6 > p:first-child{
@@ -137,6 +138,12 @@
     background-color: $verde;
     font-size: 15px;
     font-weight: normal;
+}
+
+@media (max-width: 1025px) {
+    .parte-derecha--section6 > img{
+        width: 100%;
+    }
 }
 
 @media (max-width:768px) {

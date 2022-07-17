@@ -98,7 +98,7 @@
 @import 'src/css/app.scss';
 .section-4{
     height: 100%;
-    margin-top: 12em;
+    margin-top: 4em;
     background-color: #F2F2F2;
 }
 
@@ -174,6 +174,12 @@
 .conatainer-texto--section-4 > p{
     font-size: 20px;
     padding: 0 85px;
+}
+
+@media (max-width: 1025px) {
+    .section-4{
+        margin-top: 0em;
+    }
 }
 
 @media (max-width:768px) {

@@ -301,6 +301,24 @@
     font-size: 120px;
 }
 
+@media (max-width: 380px) {
+    .mv-letrap > p{
+        font-size: 369px !important;
+    }
+
+    .mv-letrab{
+        font-size: 190px !important;
+    }
+
+    .mv-letrac-cap > p{
+        font-size: 369px !important;
+    }
+
+    .mv-letraa-cap{
+        font-size: 190px !important;
+    }
+}
+
 @media (max-width:768px) {
 
     .section8{

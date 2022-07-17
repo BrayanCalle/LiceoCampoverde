@@ -100,6 +100,13 @@
     margin-top: 3em;
 }
 
+@media (max-width: 1025px) {
+    .container-parte-derecha--section5{
+        padding-right: 10px;
+        padding-left: 33px;
+    }
+}
+
 @media (max-width: 768px) {
 
     .section5{
