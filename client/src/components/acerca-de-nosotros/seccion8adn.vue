@@ -12,7 +12,7 @@
                         </p>
                         <div class="container-pdb-imagen-mas">
                             <div class="imagen-mas">
-                                <img src="Figuras/+.svg" alt="">
+                                <img src="figuras/+.svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@
                         <div class="col-3">
                             <div class="container-cap-imagen-mas">
                                 <div class="imagen-mas">
-                                    <img src="Figuras/+.svg" alt="">
+                                    <img src="figuras/+.svg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@
                 <div class="contenido-parte-abajo--section8 col-4">
                     <div class="container-imagen-mas">
                         <div class="imagen-mas">
-                            <img src="Figuras/+.svg" alt="">
+                            <img src="figuras/+.svg" alt="">
                         </div>
                     </div>
                     <p>Código de<br>convivencia</p>
@@ -67,7 +67,7 @@
                 <div class="col-6 mv-texto-pdb">
                     <p>Perfil del Bachiller</p>
                     <div class="imagen-mas">
-                        <img src="Figuras/+.svg" alt="">
+                        <img src="figuras/+.svg" alt="">
                     </div>
                     <p class="mv-letrab">B</p>
                 </div>
@@ -84,7 +84,7 @@
                         College Admissions Profile
                     </p>
                     <div class="imagen-mas">
-                        <img src="Figuras/+.svg" alt="">
+                        <img src="figuras/+.svg" alt="">
                     </div>
                     <p class="mv-letraa-cap">A</p>
                 </div>
@@ -101,7 +101,7 @@
                         Código de Convivencia
                     </p>
                     <div class="imagen-mas">
-                        <img src="Figuras/+.svg" alt="">
+                        <img src="figuras/+.svg" alt="">
                     </div>
                     <p class="mv-letrac-cdc">C</p>
                 </div>
