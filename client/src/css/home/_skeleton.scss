@@ -1,0 +1,345 @@
+// Home skeleton
+
+// Parallax de la seccion 6
+.paralax_section {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 70% 100%;
+  background-position: right top;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  max-width: 100%;
+  width: 100% !important;
+  .img_in {
+    visibility: hidden;
+  }
+}
+.img_cover {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height:100vh;
+  z-index: 1;
+}
+
+
+// Estilos de forma
+.campos_form {
+  background: #8CAEF9;
+  width:70%;
+  padding: calc(0.2em + 0.2vh) 2vh;
+  border-radius:10px;
+  font-size: 2vh
+}
+.size_carrusel {
+  height: 64em;
+  max-height: 90%;
+  width: 64em;
+  max-width: 90%;
+}
+.buttom_accent {
+  font-size: 2vh;
+  padding: 0 3vw;
+}
+
+// Estilos de espacios
+.padding_section4 {
+  padding: 10vh 10vw;
+  .img {
+    padding: 10px;
+  }
+  .card {
+    padding: 1em;
+    background-color: #2FAD62;
+  }
+}
+.padding_section7 {
+  padding-bottom: 30px;
+  padding-top: 1vh;
+}
+.text_zise {
+  font-size: calc(1em + 1.6vw)
+}
+.padding_title {
+  padding: 1em 10vw;
+}
+.zone_text_section1 {
+  width: calc(17vw + 1vh);
+  height: 20vh;
+  white-space: nowrap;
+}
+.padding_section8 {
+  padding: 10vh;
+  .in_title {
+    padding-bottom: 5vh;
+    padding-left: 2vh
+  }
+}
+
+// Estilos de posicionamiento
+.margin_top_all {
+  margin-top: -11vh;
+}
+.contenedor{
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+  .img {
+    height: 100%;
+    width: 100%
+  }
+  .texto_encima{
+    position: absolute;
+    bottom: 8vh;
+  }
+}
+.video_carrusel {
+  position: absolute;
+  z-index: 3;
+  top: -40px;
+  right: 0%;
+  width: calc(5em + 4vw);
+  height: calc(5em + 4vw);
+}
+.video_mobile {
+  width: 300px;
+  height: 300px;
+}
+.contenedor_section5 {
+  position: relative;
+  display: inline-block;
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: calc(1.5em + 1.5vw)
+  }
+}
+.contenedor_section6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor_section7 {
+  display: grid;
+  justify-items: center;
+  align-content: start;
+  width: 100%;
+  .img_responsive {
+    width:75%;
+    height: auto
+  }
+  .text_responsive {
+    padding-right:20%;
+    padding-top:10%;
+    font-size: calc(0.4em + 2.4vw);
+  }
+}
+.card_up_section5 {
+  background-color: #8CAEF9;
+  .element_hidden {
+    visibility: hidden;
+  }
+}
+.card_left_section5 {
+  background-color: white;
+  .element_hidden {
+    visibility: hidden;
+  }
+}
+.card_right_section5 {
+  background-color: #EF5A37;;
+  .element_hidden {
+    visibility: hidden;
+  }
+}
+.position_title_section3 {
+  position: absolute;
+  width: 100%;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .text_title {
+    display: grid;
+    justify-items: start;
+  }
+}
+
+// Estilos de responsividad
+.height_mobile_section1 {
+  height: 100vh
+}
+@media only screen and (max-width: 500px) {
+  .height_mobile_section1 {
+    height: 60vh
+  }
+
+  .padding_title {
+    padding: 1em;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+  .height_mobile_section1 {
+    height: 85vh
+  }
+}
+.height_section2 {
+  height: 100vh;
+  .card {
+    display: flex;
+    justify-content: left;
+    height: 100%
+  }
+}
+@media only screen and (min-width: 599px) and (max-width: 826px) {
+  .height_section2 {
+    height: 100vh;
+    .card {
+      height: 50vh;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      display: flex;
+      justify-content: left;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .height_section2 {
+    height: auto;
+    .card {
+      height: 300px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .padding_section4 {
+    padding: 0%;
+    .img {
+      padding: 0%;
+    }
+    .card {
+      padding: 30px 30px;
+    }
+  }
+}
+.height_section3 {
+  height: 100vh
+}
+@media only screen and (max-width: 860px) {
+  .contenedor{
+    .img {
+      height: 600px;
+    }
+  }
+  .height_section3 {
+    height: auto
+  }
+}
+.text_section1_mobile {
+  width: 100%
+}
+@media only screen and (max-width: 700px) {
+  .text_section1_mobile {
+    position: absolute;
+    top: 120px
+  }
+}
+.web_change_img {
+  width: auto
+}
+@media only screen and (max-width: 500px) {
+  .web_change_img {
+    display: none !important;
+  }
+}
+.mobile_change_img {
+  width: auto
+}
+@media only screen and (min-width: 500px) {
+  .mobile_change_img {
+    display: none !important;
+  }
+}
+.web_img_section3 {
+  width: auto
+}
+@media only screen and (max-width: 860px) {
+  .position_title_section3 {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-content: start;
+  }
+  .web_img_section3 {
+    display: none !important;
+  }
+}
+.mobile_img_section3 {
+  width: auto
+}
+@media only screen and (min-width: 861px) {
+  .mobile_img_section3 {
+    display: none !important;
+  }
+}
+.order_img {
+  order: 0
+}
+@media only screen and (max-width: 599px) {
+  .padding_section7 {
+    padding-top: 0.9em;
+    padding-left: 30px;
+  }
+  .padding_section8 {
+  padding: 10vh 5vh 0 5vh;
+    .in_title {
+      padding-bottom: 1vh;
+      padding-left: 0
+    }
+  }
+  .zone_text_section1 {
+    width: calc(17vw + 15vh)
+  }
+  .contenedor_section6 {
+    justify-content: left;
+  }
+  .contenedor_section7 {
+    justify-items: left;
+    .img_responsive {
+      width:100%;
+      height: auto
+    }
+    .text_responsive {
+      padding-right:10%;
+      padding-top:15%;
+      font-size: calc(1.5em + 1.5vw)
+    }
+  }
+  .campos_form {
+    width:90%;
+    padding: auto;
+    font-size: auto
+  }
+  .size_carrusel {
+    height: auto;
+    width: 100%
+  }
+  .order_img {
+    order: 1
+  }
+  .paralax_section {
+    background-size: 100% 100%;
+    height: 50vh;
+    max-width: 100%;
+    width: 100% !important;
+    .img_in {
+      visibility: visible;
+    }
+  }
+}

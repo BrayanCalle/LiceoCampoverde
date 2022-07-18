@@ -1,0 +1,78 @@
+// Colores
+$verde-limon: #C6D33A;
+$celeste: #4DA2E2;
+$azul-oscuro: #00446D;
+$gris: #E5E1D3;
+$negro: #000000;
+$gris-oscuro: #6B645F;
+$morado: #8255A5;
+$naranja: #EF5A37;
+$amarillo: #F9D938;
+$rosado: #FFA8B4;
+$verde: #2FAD62;
+$azul-claro: #8CAEF9;
+$blanco: #FFFFFF;
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+  }
+}

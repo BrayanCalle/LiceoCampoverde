@@ -1,0 +1,295 @@
+// Campito skeleton
+
+//Contenedor
+.space-line {
+  line-height: 4.5rem;
+}
+
+.circle-text {
+  font-size: calc(1em + 1vw);
+  top: -2rem;
+  padding: 5rem;
+  width: 52%;
+  position: absolute;
+  z-index: 10;
+}
+
+.margin {
+  padding: 0rem 3rem;
+  .campito-logo {
+    padding-top: 3rem;
+  }
+}
+
+.img-childrens {
+  height: auto;
+  position: absolute;
+  left: 0rem;
+  width: 50%;
+  bottom: 0rem;
+  max-width: 50%;
+}
+
+.text-top {
+  font-size: 2.5rem;
+}
+.campito_title {
+  margin: 3rem 0rem 0rem 6.5rem;
+}
+.text-board {
+  position: absolute;
+  bottom: 7rem;
+  width: 43%;
+  right: 14rem;
+  font-size: 1.5rem;
+}
+
+.board {
+  height: auto;
+  position: absolute;
+  bottom: 0rem;
+  width: 60%;
+  right: 4rem;
+}
+
+.text-appearanc {
+  padding: 2rem 4rem;
+  h3{
+    width: 85%;
+    line-height: 4rem;
+  }
+}
+
+//Campito 4
+.action-video {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  img {
+    width: 50%;
+  }
+  .circle {
+    width: 50%;
+    height: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    img {
+      width: 100%;
+    }
+  }
+}
+.infrastructure  {
+  &__circle {
+    padding: 1rem;
+    h2 {
+      padding-top: 5rem;
+      text-align: center;
+    }
+  }
+  p {
+    padding: 8rem;
+    line-height: 3.5rem;
+  }
+}
+.text-circle {
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #FFFFFF;
+  p{
+    padding: 4rem;
+  }
+}
+.play-video {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+}
+//Campito5
+.bar-text {
+  text-align: right;
+  padding: 9rem 5rem 0rem;
+}
+.texto-encima{
+  padding: 4rem;
+}
+//Campito6
+.schedule{
+  padding: 2rem;
+}
+.butons {
+  position: absolute;
+  top: 4rem;
+  color: #FFFFFF;
+  border-radius: 50%;
+  font-size: 3rem;
+  outline:none;
+  right: -2.5rem;
+  text-decoration: none;
+  border: 1px solid #FFFFFF;
+  padding: 0rem 1rem;
+}
+
+.campito_list {
+  list-style: none;
+  padding: 0rem;
+}
+
+.tour-play {
+  position: absolute;
+  top: 14rem;
+  left: 22rem;
+}
+.calendary {
+  text-align: center;
+  > div {
+    padding-top: 1rem;
+    margin: auto;
+  }
+}
+
+//Campito7
+.section-form {
+  h4{
+    float: right;
+    width: 60%;
+
+  }
+  img {
+    float: right;
+  }
+  p{
+    position: absolute;
+    right: 2rem;
+    top: 14rem;
+    width: 50%;
+    color: #FFFFFF;
+  }
+}
+.form {
+  padding: 4rem;
+  color: #FFFFFF;
+  input {
+    padding: 0.5rem;
+    width: 80%;
+    margin: 0.1rem 0rem;
+    border-radius: 8px;
+    background: #8CAEF9;
+    outline: none;
+    border: 1px solid #8CAEF9;
+  }
+  select {
+    padding: 0.5rem;
+    width: 80%;
+    margin: 0.1rem 0rem;
+    background: #8CAEF9;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #8CAEF9;
+  }
+  textarea {
+    padding: 0.5rem;
+    width: 80%;
+    border-radius: 8px;
+    margin: 0.1rem 0rem;
+    background: #8CAEF9;
+    outline: none;
+    border: 1px solid #8CAEF9;
+  }
+  button {
+    background-color: #8255A5;
+    color: #FFFFFF;
+    outline: none;
+    border: 1px solid #8255A5;
+    border-radius: 36px;
+    padding: 0.5rem 4rem;
+    font-size: 1rem;
+    display: flex;
+  }
+}
+.face {
+  position: absolute;
+  top: 3rem;
+  left: 14rem;
+}
+.text_fortaleza {
+  width: 74%;
+}
+.padding_top {
+  padding: 5rem;
+}
+.img_responsive {
+  height: 66vh;
+}
+@media only screen and (max-width: 600px) {
+  .img_responsive {
+    height: 50vh;
+  }
+  .circle-text {
+    top: 1rem;
+    padding: 2rem;
+  }
+  .margin {
+    padding: 0rem 1.5rem;
+  }
+  .text-top {
+    font-size: 1rem;
+  }
+  .text-board {
+    bottom: 4rem;
+    width: 48%;
+    right: 6rem;
+    font-size: 0.8rem;
+  }
+  .board {
+    height: auto;
+    position: relative;
+    bottom: 0rem;
+    width: 100%;
+    right: 0rem;
+  }
+  .text-appearance {
+    padding: 1rem;
+  }
+  //Campito 4
+  .action-video {
+    display: block;
+    justify-content: center;
+    width: auto;
+    img {
+      width: 100%;
+    }
+    .circle {
+      width: 100%;
+    }
+  }
+  .infrastructure {
+    p{
+      padding: 2rem;
+    }
+  }
+  .infrastructure__circle {
+    padding: 0;
+    h2 {
+      padding-top: 0rem;
+    }
+  }
+  //Campito5
+  .bar-text {
+    text-align: center;
+    padding: 0rem;
+  }
+  //campito6
+  .section-forms {
+    display: none;
+  }
+  .tour-play {
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
+  }
+}

@@ -1,0 +1,69 @@
+// app global css in SCSS form
+// breakpoint variable, from https://quasar.dev/style/breakpoints
+// Except the xs one because I think 600px is too small
+
+// Layouts
+@import 'layouts/skin';
+@import 'layouts/skeleton';
+
+// Home
+@import 'home/skin';
+@import 'home/skeleton';
+
+// Campito
+@import 'campito/skin';
+@import 'campito/skeleton';
+
+// Blog
+@import 'blog/skin';
+@import 'blog/skeleton';
+
+// Bachiletaro
+@import 'bachillerato/skin';
+@import 'bachillerato/skeleton';
+
+@font-face {
+  font-family: 'gotham_bold';
+  src: url(fonts/Gotham-Bold.otf);
+}
+
+.my-font-bold {
+  font-family: 'gotham_bold';
+}
+
+@font-face {
+  font-family: 'gotham';
+  src: url(fonts/Gotham-Book.otf);
+}
+
+.my-font {
+  font-family: 'gotham';
+}
+
+@font-face {
+  font-family: 'gotham_ultra';
+  src: url(fonts/Gotham-Black.otf);
+}
+
+.my-font-ultra {
+  font-family: 'gotham_ultra';
+}
+
+@font-face {
+  font-family: 'gotham_medium';
+  src: url(fonts/Gotham-Medium.otf);
+}
+
+.my-font-medium {
+  font-family: 'gotham_medium';
+}
+
+@font-face {
+  font-family: 'gotham_black';
+  src: url(fonts/Gotham-Black.otf);
+}
+
+.my-font-black {
+  font-family: 'gotham_black';
+}
+
