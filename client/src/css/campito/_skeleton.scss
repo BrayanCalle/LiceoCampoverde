@@ -38,10 +38,10 @@
 }
 .text-board {
   position: absolute;
-  bottom: 7rem;
+  bottom: 8rem;
   width: 43%;
   right: 14rem;
-  font-size: 1.5rem;
+  font-size: calc(0.8em + 0.8vw);
 }
 
 .board {
@@ -225,9 +225,13 @@
 .img_responsive {
   height: 66vh;
 }
+.circle_one {
+  padding: 0rem !important;
+}
+//Responsive web
 @media only screen and (max-width: 600px) {
   .img_responsive {
-    height: 50vh;
+    height: 64vh;
   }
   .circle-text {
     top: 1rem;
@@ -238,12 +242,6 @@
   }
   .text-top {
     font-size: 1rem;
-  }
-  .text-board {
-    bottom: 4rem;
-    width: 48%;
-    right: 6rem;
-    font-size: 0.8rem;
   }
   .board {
     height: auto;
@@ -287,9 +285,197 @@
   .section-forms {
     display: none;
   }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .text-responsive {
+    font-size: 2.5rem !important;
+  }
+  .padding_reponsive {
+    padding: 0rem 0.5rem;
+  }
+}
+@media (min-width: 900px) and (max-width: 1280px){
+  .campito_title {
+    position: absolute;
+    left: 24rem;
+    top: 0rem;
+  }
+  .text-circle {
+    p{
+      padding: 3rem;
+      font-size: 14px !important;
+    }
+  }
   .tour-play {
     position: absolute;
+    top: 12rem;
+    left: 17rem;
+  }
+  .coursel_responsive {
+    height: 58vh !important;
+  }
+  .two_text-circle {
+    font-size: 22px !important;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 990px){
+  .campito_title {
+    position: absolute;
+    left: 15rem;
+    top: 0rem;
+    h2 {
+      font-size: calc(1em + 1vw) !important;
+    }
+  }
+  .text-board {
+    bottom: 5rem;
+    width: 52%;
+    right: 6rem;
+    font-size: calc(0.7em + 0.7vw);
+  }
+  .text-circle {
+    p{
+      padding: 3rem;
+      font-size: 14px !important;
+    }
+  }
+  .coursel_responsive {
+    height: 100vh !important;
+  }
+  .tour-play {
+    position: absolute;
+    top: 12rem;
+    left: 17rem;
+  }
+}
+@media (min-width: 700px) and (max-width: 800px){
+	.campito_title {
+    position: absolute;
+    left: 15rem;
+    top: 0rem;
+    h2 {
+      font-size: calc(1em + 1vw) !important;
+    }
+  }
+  .text-board {
+    bottom: 5rem;
+    width: 52%;
+    right: 6rem;
+    font-size: calc(0.5em + 0.5vw);
+  }
+  .circle_one {
+    padding: 0rem 48px !important;
+  }
+  .tour-play {
+    position: absolute;
+    top: 12rem;
+    left: 17rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 700px){
+	.campito_title {
+    position: absolute;
+    left: 9rem;
+    top: 2rem;
+    h2 {
+      font-size: calc(1em + 1vw) !important;
+    }
+  }
+  .text-board {
+    bottom: 5rem;
+    width: 50%;
+    right: 6rem;
+    font-size: calc(0.4em + 0.4vw);
+  }
+  .circle_one {
+    padding: 0rem 48px !important;
+  }
+  .tour-play {
+    position: absolute;
+    top: 11rem;
+    left: 16rem;
+  }
+
+}
+
+@media (min-width: 500px) and (max-width: 600px){
+	.campito_title {
+    position: absolute;
+    left: 5rem;
+    top: 2rem;
+    h2 {
+      font-size: calc(1em + 1vw) !important;
+    }
+  }
+  .text-board {
+    bottom: 4rem;
+    width: 50%;
+    right: 7rem;
+  }
+  .text-circle {
+    p{
+      padding: 7rem;
+    }
+  }
+  .coursel_responsive {
+    height: 62vh !important;
+  }
+  .one_text-circle {
+    padding: 5rem;
+  }
+  .two_text-circle {
+    padding: 3rem !important;
+  }
+  .circle_one {
+    padding: 0rem 48px !important;
+  }
+  .tour-play {
+    position: absolute;
+    top: 9rem;
+    left: 12rem;
+  }
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+  .campito_title {
+    position: absolute;
+    left: 5rem;
+    top: 2rem;
+    h2 {
+      font-size: calc(1em + 1vw) !important;
+    }
+  }
+  .text-board {
+    bottom: 4rem;
+    width: 50%;
+    right: 6rem;
+    font-size: 12px;
+  }
+  .text-circle {
+    p{
+      padding: 5rem;
+    }
+  }
+  .circle_one {
+    padding: 0rem 48px !important;
+  }
+  .texto-encima {
+    padding: 3.8rem;
+    font-size: 1rem !important;
+  }
+  .two_text-circle {
+    padding: 3rem !important;
+  }
+  .coursel_responsive {
+    height: 50vh !important;
+  }
+  .tour-play {
     top: 8rem;
-    left: 8rem;
+    left: 10rem;
   }
 }

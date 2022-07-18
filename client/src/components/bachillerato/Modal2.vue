@@ -11,10 +11,10 @@
           <q-btn round icon="clear" color="black" @click="videoModal = false" />
         </div>
         <div class="row q-pb-sm">
-          <div class="col-6 q-px-xl q-py-xl text-center">
+          <div class="col-12 col-md-6 q-px-xl q-py-xl text-center">
             <p class="text-h4 text-center text-weight-bold">Calendario <br/>de actividades</p>
           </div>
-          <div class="col-6 bg-dark">
+          <div class="col-12 col-md-6 bg-dark">
             <p class="q-pl-xl text-h1 lyrics_modal A">A</p>
           </div>
         </div>

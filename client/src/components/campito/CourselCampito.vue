@@ -1,5 +1,5 @@
 <template>
- <div style="height: 66vh;">
+ <div style="height: 66vh;" class="coursel_responsive">
     <q-carousel
       animated
       v-model="slide"

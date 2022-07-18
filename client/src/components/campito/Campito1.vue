@@ -1,7 +1,7 @@
 <template>
     <div class="row relative-position">
-      <div class="col-12 col-md-6 q-pa-md margin">
-       <h2 class="space-line text-weight-bolder q-pl-xs-md my-font-ultra">Respetamos <br/> la niñez, el <br/>juego y el
+      <div data-aos="fade-up" class="col-12 col-md-6 q-pa-md margin">
+       <h2 class="text-responsive space-line text-weight-bolder q-pl-xs-md my-font-ultra">Respetamos <br/> la niñez, el <br/>juego y el
           <span style="background: #4da2e2;" class="text-white q-my-xl q-px-md q-py-xs">aprendizaje</span>
        </h2>
       <div class="campito-logo">

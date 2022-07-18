@@ -16,7 +16,7 @@
    <div class="row">
     <div class="text-appearanc col-12 q-pa-md column items-start text-h4 text-bold my-font-ultra">
       <div class="text-h3">Incentivamos el<br/> juego, la pasión</div>
-      <div class="text-h3 border_green q-px-sm my-font-bold">y el propósito</div>
+      <div class="text-h3 border_green q-px-sm my-font-ultra">y el propósito</div>
     </div>
     <div class="col-12 column justify-center q-pb-xl" style="height: 80%">
       <div class="row justify-center items-center full-height q-pt-xl">

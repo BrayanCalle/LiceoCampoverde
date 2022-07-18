@@ -91,8 +91,8 @@
 
 .play-video {
   position: absolute;
-  top: 12rem;
-  left: 12rem;
+  top: 11rem;
+  left: 11rem;
 }
 
 .card_bachiller {
@@ -275,7 +275,63 @@
   .section-forms {
     display: none;
   }
+  .lyrics_modal {
+    padding: 8rem 0rem 3rem 2rem;
+    font-size: 18rem;
+  }
 
 }
 
 
+@media (min-width: 600px) and (max-width: 700px){
+  .action-video {
+    padding: 2rem;
+    margin: auto;
+    img {
+      width: 50%;
+    }
+  }
+  .play-video {
+    position: absolute;
+    top: 4rem;
+    left: 5rem;
+ }
+}
+
+@media (min-width: 700px) and (max-width: 800px){
+  .action-video {
+    padding: 2rem;
+    margin: auto;
+    img {
+      width: 50%;
+    }
+  }
+  .play-video {
+    position: absolute;
+    top: 5rem;
+    left: 6rem;
+ }
+}
+
+@media (min-width: 800px) and (max-width: 900px){
+  .action-video {
+    padding: 2rem;
+    margin: auto;
+    img {
+      width: 50%;
+    }
+  }
+  .play-video {
+    position: absolute;
+    top: 7rem;
+    left: 8rem;
+ }
+}
+
+@media (min-width: 500px) and (max-width: 600px){
+  .play-video {
+    position: absolute;
+    top: 7rem;
+    left: 8rem;
+ }
+}
