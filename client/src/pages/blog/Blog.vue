@@ -1,19 +1,21 @@
 <template>
-  <div class="column justify-between">
-    <div class="row">
+  <div class="column justify-between items-center">
+    <div class="row full-width">
       <div v-for="(item, index) in data" :key="index"
         class="col-xs-12 col-sm-6 col-md-4 col-lg-4 row justify-center padding_blog">
         <blog-card :data="item" />
       </div>
     </div>
 
-    <div class="row justify-center q-py-lg full-width">
+    <div class="flex flex-center q-py-lg full-width">
       <q-pagination
         v-model="current"
         :max="3"
         color="grey-8"
         active-color="primary"
         round
+        size="2vh"
+        padding="0.1em 0.7em"
         direction-links
       />
     </div>
