@@ -1,10 +1,9 @@
 <template>
-  <div v-on:wheel="change" id="carruselId" class="fit column justify-center items-center">
+  <div class="fit column justify-center items-center">
+    <!-- v-on:wheel="change" -->
     <q-carousel
-      v-model="slide"
-      swipeable
+      v-model="valSlide"
       animated
-      infinite
       class="border_radius bg-transparent size_carrusel"
     >
       <q-carousel-slide :name="1" class="row no-wrap q-pa-none" >
@@ -85,15 +84,25 @@
 
 <script>
 export default {
+  props: {
+    slide: {
+      type: Number,
+      default: 1
+    }
+  },
   data () {
     return {
-      slide: 1
+      valSlide: 1
+    }
+  },
+  watch: {
+    slide: {
+      handler (value) {
+        this.valSlide = value
+      }
     }
   },
   methods: {
-    change () {
-      this.slide = this.slide === 3 ? this.slide = 1 : this.slide + 1
-    }
   }
 }
 </script>
