@@ -1,18 +1,18 @@
 <template>
     <section class="window-height section9">
         <div class="q-pt-lg container">
-            <p class="titulo--section9">
+            <p class="titulo--section9 my-font-black">
                 <span>Aprobación</span><br>
                 ministerial de costo<br>de pensiones
             </p>
             <div class="resolucion-de-costos">
                 <img src="../../assets/Icon/I-download-doc.svg" width="64px" height="64px" alt="">
-                <p>Resolución de<br>costos 2021</p>
+                <p class="my-font-medium">Resolución de<br>costos 2021</p>
             </div>
             <div class="container-texto-section9">
-                <p class="texto-section9">
+                <p class="texto-section9 my-font">
                     Los padres y madres de familia de Liceo Campoverde deben cancelar los valores por concepto de
-                    <span>pensiones los 5 primeros días</span> de cada mes de acuerdo al contrato firmado durante el
+                    <b>pensiones los 5 primeros días</b> de cada mes de acuerdo al contrato firmado durante el
                     período de
                     matriculación.
                 </p>
@@ -25,21 +25,21 @@
         <div class="mv-container-imagen-rosada">
             <img src="../../assets/img/Figuras/F-N-P3.svg" alt="">
         </div>
-        <p class="mv-texto-section9">
+        <p class="mv-texto-section9 my-font">
             Los padres y madres de familia de Liceo Campoverde deben cancelar los valores por concepto de <b>pensiones los
             5 primeros días</b> de cada mes de acuerdo al contrato firmado durante el período de matriculación.
         </p>
         <div class="container-mv-circulo-seccion9">
             <div class="mv-circulo-seccion9">
                 <img src="../../assets/Icon/I-download-doc.svg" width="64px" height="64px" alt="">
-                <p>Resolución de<br>Costos 2021</p>
+                <p class="my-font-medium">Resolución de<br>Costos 2021</p>
             </div>
         </div>
     </section>
 </template>
 
 <style lang="scss" scoped>
-@import 'src/css/app.scss';
+@import 'src/css/colores.scss';
 
 .section9{
     background-color: $gris;
@@ -49,7 +49,7 @@
     font-size: 40px;
     line-height: 40px;
     font-weight: 900;
-    padding-left: 270px;
+    padding-left: 110px;
     padding-top: 100px;
 }
 
@@ -81,8 +81,8 @@
 
 .resolucion-de-costos{
     position: absolute;
-    padding-left: 55em;
-    padding-top: 7em;
+    padding-left: 763px;
+    padding-top: 105px;
 }
 .resolucion-de-costos > img{
     width: 100%;
@@ -99,13 +99,27 @@
 
 .container-texto-section9{
     position: absolute;
-    padding-left: 30em;
-    padding-top: 27em;
-    width: 45em;
+    padding-left: 435px;
+    padding-top: 362px;
+    width: 630px;
 }
 
 .texto-section9{
     font-size: 15px;
+}
+
+@media (max-width: 1025px) {
+    .container-texto-section9{
+        padding-left: 355px;
+        padding-top: 416px;
+        width: 560px;
+    }
+
+    .resolucion-de-costos{
+        padding-left: 630px;
+        padding-top: 187px;
+    }
+
 }
 
 @media (max-width:768px) {
@@ -150,6 +164,7 @@
 
     .mv-container-imagen-rosada > img{
         position: absolute;
+        width: 100%;
     }
 
     .mv-circulo-seccion9{
@@ -197,6 +212,13 @@
         display: none;
     }
 }
+
+@media (max-width:376px) {
+    .mv-texto-section9{
+        padding: 20px 85px 116px 40px;
+    }
+}
+
 </style>
 
 <script>

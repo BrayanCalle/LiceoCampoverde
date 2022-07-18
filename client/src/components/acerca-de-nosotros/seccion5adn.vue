@@ -9,8 +9,8 @@
             <div class="container-parte-derecha--section5">
                 <div class="parte-derecha--section5">
                     <div class="parte-arriba-parte-derecha--section5">
-                        <p class="titulo-parte-derecha--section5">Idiomas</p>
-                        <p class="texto-parte-derecha--section5">
+                        <p class="titulo-parte-derecha--section5 my-font-black">Idiomas</p>
+                        <p class="texto-parte-derecha--section5 my-font-medium">
                             Los idiomas extranjeros cobran auge ya que la internacionalización, así como el
                             desarrollo científico y
                             tecnológico, exigen que los estudiantes adquieran herramientas para enfrentar
@@ -18,14 +18,14 @@
                         </p>
                     </div>
                     <div class="parte-abajo-parte-derecha--section5">
-                        <p class="titulo-parte-abajo-parte-derecha--section5"><b>Nuestros estudiantes egresan
+                        <p class="titulo-parte-abajo-parte-derecha--section5 my-font-black"><b>Nuestros estudiantes egresan
                                 preparados en tres idiomas:</b></p>
-                        <ul>
+                        <ul class="my-font">
                             <li>Español (C2)*</li>
                             <li>Inglés (Bilingüe, B2-C1)*</li>
                             <li>Francés (Suficiencia B1-B2)</li>
                         </ul>
-                        <p>*Cuadro común europeo de uso de Lenguas</p>
+                        <p class="my-font">*Cuadro común europeo de uso de Lenguas</p>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import 'src/css/app.scss';
+@import 'src/css/colores.scss';
 .section5 > .container{
     display: flex;
     height: 100vh;
@@ -98,6 +98,13 @@
 
 .parte-abajo-parte-derecha--section5{
     margin-top: 3em;
+}
+
+@media (max-width: 1025px) {
+    .container-parte-derecha--section5{
+        padding-right: 10px;
+        padding-left: 33px;
+    }
 }
 
 @media (max-width: 768px) {

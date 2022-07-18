@@ -4,10 +4,10 @@
             <div class="parte-izquierda-parte-arriba--section8">
                 <div class="setentaporciento row">
                     <div class="col-6 container-pb-parte-izquierda-parte-arriba--section8">
-                        <p>P<span>B</span></p>
+                        <p class="my-font-black">P<span>B</span></p>
                     </div>
                     <div class="col-6 container-pdb-parte-izquierda-parte-arriba--section8">
-                        <p>
+                        <p class="my-font-bold">
                             Perfil del<br>Bachiller
                         </p>
                         <div class="container-pdb-imagen-mas">
@@ -22,7 +22,7 @@
             <div class="parte-derecha-parte-arriba--section8">
                 <div class="setentaporciento">
                     <div class="container-titulo-parte-derecha-parte-arriba--section8">
-                        <p class="titulo-parte-derecha-parte-arriba--section8">
+                        <p class="titulo-parte-derecha-parte-arriba--section8 my-font-bold">
                             College<br>Admissions<br>Profile
                         </p>
                     </div>
@@ -35,7 +35,7 @@
                             </div>
                         </div>
                         <div class="col-9 container-cap-parte-derecha-parte-arriba--section8">
-                            <p>
+                            <p class="my-font-black">
                                 C<span>AP</span>
                             </p>
                         </div>
@@ -51,10 +51,10 @@
                             <img src="figuras/+.svg" alt="">
                         </div>
                     </div>
-                    <p>Código de<br>convivencia</p>
+                    <p class="my-font-bold">Código de<br>convivencia</p>
                 </div>
                 <div class="col-4 contenido-parte-abajo-parte-derecha--section8">
-                    <p>C<span>C</span></p>
+                    <p class="my-font-black">C<span>C</span></p>
                 </div>
             </div>
         </div>
@@ -62,14 +62,14 @@
         <div class="mv-pdb">
             <div class="row">
                 <div class="col-6 mv-letrap">
-                    <p>P</p>
+                    <p class="my-font-black">P</p>
                 </div>
                 <div class="col-6 mv-texto-pdb">
-                    <p>Perfil del Bachiller</p>
+                    <p class="my-font-bold">Perfil del Bachiller</p>
                     <div class="imagen-mas">
                         <img src="figuras/+.svg" alt="">
                     </div>
-                    <p class="mv-letrab">B</p>
+                    <p class="mv-letrab my-font-black">B</p>
                 </div>
             </div>
         </div>
@@ -77,16 +77,16 @@
         <div class="mv-cap">
             <div class="row">
                 <div class="col-6 mv-letrac-cap">
-                    <p>C</p>
+                    <p class="my-font-black">C</p>
                 </div>
                 <div class="col-6 mv-texto-pdb">
-                    <p>
+                    <p class="my-font-bold">
                         College Admissions Profile
                     </p>
                     <div class="imagen-mas">
                         <img src="figuras/+.svg" alt="">
                     </div>
-                    <p class="mv-letraa-cap">A</p>
+                    <p class="mv-letraa-cap my-font-black">A</p>
                 </div>
             </div>
         </div>
@@ -94,16 +94,16 @@
         <div class="mv-cdc">
             <div class="row">
                 <div class="col-6 mv-letrac-cap">
-                    <p>C</p>
+                    <p class="my-font-black">C</p>
                 </div>
                 <div class="col-6 mv-texto-pdb">
-                    <p>
+                    <p class="my-font-bold">
                         Código de Convivencia
                     </p>
                     <div class="imagen-mas">
                         <img src="figuras/+.svg" alt="">
                     </div>
-                    <p class="mv-letrac-cdc">C</p>
+                    <p class="mv-letrac-cdc my-font-black">C</p>
                 </div>
             </div>
         </div>
@@ -111,7 +111,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import 'src/css/app.scss';
+@import 'src/css/colores.scss';
 
 .setentaporciento{
     width: 70%;
@@ -299,6 +299,24 @@
 
 .contenido-parte-abajo-parte-derecha--section8 > p > span{
     font-size: 120px;
+}
+
+@media (max-width: 380px) {
+    .mv-letrap > p{
+        font-size: 369px !important;
+    }
+
+    .mv-letrab{
+        font-size: 190px !important;
+    }
+
+    .mv-letrac-cap > p{
+        font-size: 369px !important;
+    }
+
+    .mv-letraa-cap{
+        font-size: 190px !important;
+    }
 }
 
 @media (max-width:768px) {

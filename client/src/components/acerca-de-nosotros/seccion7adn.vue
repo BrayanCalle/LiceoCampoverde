@@ -4,10 +4,10 @@
             <div class="row">
                 <div class="col-12 col-md-4">
                     <div>
-                        <p class="titulos--section7">
+                        <p class="titulos--section7 my-font-black">
                             Fortalezas individuales desarrollo afectivo
                         </p>
-                        <ul class="textos--section7">
+                        <ul class="textos--section7 my-font">
                             <li>Enfoque constructivista</li>
                             <li>Metacognición</li>
                             <li>Aprendizaje significativo<br>(conocimientos previos y motivación)</li>
@@ -16,10 +16,10 @@
                         </ul>
                     </div>
                     <div class="q-mt-lg">
-                        <p class="titulos--section7">
+                        <p class="titulos--section7 my-font-black">
                             Rol protagónico<br>desarrollo sustentable
                         </p>
-                        <ul class="textos--section7">
+                        <ul class="textos--section7 my-font">
                             <li>Enfoque constructivista social</li>
                             <li>Globalización y transversalidad</li>
                             <li>Aprendizaje basado en proyectos</li>
@@ -35,8 +35,8 @@
                 <div class="col-12 col-md-4 columna-container-parte-derecha--section7">
                     <div class="container-parte-derecha--section7">
                         <div>
-                            <p class="titulos--section7">Rol protagónico desarrollo del Ecuador y el mundo</p>
-                            <ul class="textos--section7">
+                            <p class="titulos--section7 my-font-black">Rol protagónico desarrollo del Ecuador y el mundo</p>
+                            <ul class="textos--section7 my-font">
                                 <li>Enfoques: histórico, cultural y constructivista </li>
                                 <li>Aprendizaje en colaboración</li>
                                 <li>Espacios de proyección social</li>
@@ -44,8 +44,8 @@
                             </ul>
                         </div>
                         <div class="q-mt-lg">
-                            <p class="titulos--section7">Identidad y cultura</p>
-                            <ul class="textos--section7">
+                            <p class="titulos--section7 my-font-black">Identidad y cultura</p>
+                            <ul class="textos--section7 my-font">
                                 <li>Enfoques: histórico y Cultural</li>
                                 <li>Globalización: bilingüismo </li>
                                 <li>Investigación para la difusión</li>
@@ -60,7 +60,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import 'src/css/app.scss';
+@import 'src/css/colores.scss';
 
 .section7{
     display: flex;
@@ -70,7 +70,6 @@
 .titulos--section7{
     font-size: 30px;
     line-height: 30px;
-    font-weight: 900;
 }
 
 .textos--section7 > li{

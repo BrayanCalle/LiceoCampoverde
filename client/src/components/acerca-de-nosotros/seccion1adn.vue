@@ -1,7 +1,7 @@
 <template>
     <section class="banner-acerca-de-nosotros">
         <div class="container-texto-banner--acerca-de-nosotros">
-            <p class="texto-banner--acerca-de-nosotros">
+            <p class="texto-banner--acerca-de-nosotros my-font-black">
                 Acerca de <br> nosotros, <br>nuestra<br><span>motivación</span>
             </p>
         </div>
@@ -13,7 +13,7 @@
             <img src="../../assets/img/Figuras/F-N-P1.svg" alt="">
         </div>
         <div class="mv-container-texto-banner--acerca-de-nosotros">
-            <p class="mv-texto-banner--acerca-de-nosotros">
+            <p class="mv-texto-banner--acerca-de-nosotros my-font-black">
                 Acerca de <br> nosotros, <br>nuestra<br><span>motivación</span>
             </p>
         </div>
@@ -21,7 +21,7 @@
 </template>
 
 <style lang="scss" scoped >
-@import 'src/css/app.scss';
+@import 'src/css/colores.scss';
 
 .banner-acerca-de-nosotros{
     height:100%;
@@ -36,7 +36,6 @@
 }
 
 .container-texto-banner--acerca-de-nosotros{
-    font-family:  Gotham;
     color: $negro;
 }
 
@@ -44,7 +43,6 @@
     letter-spacing: 0px;
     width: 504px;
     height: 371.46px;
-    font-family: Gotham;
     font-weight: 900;
     font-size: 62px;
     line-height: 60px;
@@ -99,6 +97,10 @@
         font-weight: 900;
         line-height: 35px;
         margin-top: 30px;
+    }
+
+    .mv-container-imagen-banner--acerca-de-nosotros > img{
+        width: 100%;
     }
 
 }

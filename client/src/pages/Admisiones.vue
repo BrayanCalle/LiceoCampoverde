@@ -3,8 +3,8 @@
     <section class="section1">
       <div class="container">
         <div class="parte-izquierda--section1">
-          <p class="titulo-parte-izquierda--section1">Admisiones</p>
-          <p class="texto-parte-izquierda--section1">
+          <p class="titulo-parte-izquierda--section1 my-font-black">Admisiones</p>
+          <p class="texto-parte-izquierda--section1 my-font">
             Según el nivel al que aplica el aspirante, hasta el 01 de septiembre del año de admisión, los postulantes
             deben haber cumplido con estos requisitos de edad para el ingreso:
           </p>
@@ -12,13 +12,13 @@
         <div class="parte-derecha--section1">
           <div class="row">
             <div class="col-12 col-md-4 columnas-derecha">
-              <p class="titulo-parte-derecha--section1 titulo-campito-parte-derecha--section1">Campito</p>
-              <p class="subtitulo-parte-derecha--section1">2-4 años</p>
-              <q-expansion-item class="bg-secondary text-white cuadro-expansion" dense dense-toggle
+              <p class="titulo-parte-derecha--section1 titulo-campito-parte-derecha--section1 my-font-black">Campito</p>
+              <p class="subtitulo-parte-derecha--section1 my-font-black">2-4 años</p>
+              <q-expansion-item class="bg-secondary text-white cuadro-expansion my-font-medium" dense dense-toggle
                 expand-separator expand-icon-class="text-white" v-model="expanded" label="Ver todos los años">
                 <q-card>
                   <q-card-section class="text-dark">
-                    <ul class="texto-interno-desplegable">
+                    <ul class="texto-interno-desplegable my-font">
                       <li><b>2 años,</b> para Inicial I</li>
                       <li><b>3 años,</b> para Inicial II</li>
                       <li><b>4 años,</b> para Inicial II (Pre Kinder)</li>
@@ -28,13 +28,13 @@
               </q-expansion-item>
             </div>
             <div class="col-12 col-md-4 columnas-derecha">
-              <p class="titulo-parte-derecha--section1 titulo-basica-parte-derecha--section1">E.G. Básica</p>
-              <p class="subtitulo-parte-derecha--section1">5-14 años</p>
-              <q-expansion-item class="bg-primary text-white cuadro-expansion" dense dense-toggle
+              <p class="titulo-parte-derecha--section1 titulo-basica-parte-derecha--section1 my-font-black">E.G. Básica</p>
+              <p class="subtitulo-parte-derecha--section1 my-font-black">5-14 años</p>
+              <q-expansion-item class="bg-primary text-white cuadro-expansion my-font-medium" dense dense-toggle
                 expand-separator expand-icon-class="text-white" v-model="expandedbasica" label="Ver todos los años">
                 <q-card>
                   <q-card-section class="text-dark">
-                    <ul class="texto-interno-desplegable">
+                    <ul class="texto-interno-desplegable my-font">
                       <li><b>5 años,</b> para Primer Año de Educación Básica (Kinder)</li>
                       <li><b>6 años,</b> para Segundo Año de Educación Básica</li>
                       <li><b>7 años,</b> para Tercer Año de Educación Básica</li>
@@ -51,13 +51,13 @@
               </q-expansion-item>
             </div>
             <div class="col-12 col-md-4 columnas-derecha">
-              <p class="titulo-parte-derecha--section1 titulo-bachillerato-parte-derecha--section1">Bachillerato</p>
-              <p class="subtitulo-parte-derecha--section1">15-17 años</p>
-              <q-expansion-item class="bg-accent text-white cuadro-expansion" dense dense-toggle
+              <p class="titulo-parte-derecha--section1 titulo-bachillerato-parte-derecha--section1 my-font-black">Bachillerato</p>
+              <p class="subtitulo-parte-derecha--section1 my-font-black">15-17 años</p>
+              <q-expansion-item class="bg-accent text-white cuadro-expansion my-font-medium" dense dense-toggle
                 expand-separator expand-icon-class="text-white" v-model="expandedbachillerato" label="Ver todos los años">
                 <q-card>
                   <q-card-section class="text-dark">
-                    <ul class="texto-interno-desplegable">
+                    <ul class="texto-interno-desplegable my-font">
                       <li><b>15 años,</b> para Primer Año de Bachillerato</li>
                       <li><b>16 años,</b> para Segundo Año de Bachillerato</li>
                       <li><b>17 años,</b> para Tercer Año de Bachillerato</li>
@@ -76,7 +76,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import 'src/css/app.scss';
+@import 'src/css/colores.scss';
 
 .section1 > .container{
   display: flex;

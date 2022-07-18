@@ -30,7 +30,7 @@
       </div>
 
       <div class="q-py-lg">
-        <q-form class="column items-center q-gutter-y-xs full-width" action="formulariox.php" method="post">
+        <q-form class="column items-center q-gutter-y-xs full-width" action="formularioseccion7.php" method="post">
           <q-input borderless name="nombre" v-model="form.name" placeholder="Nombre y apellido"
             class="q-px-sm campos_form">
             <template v-slot:prepend>
@@ -53,7 +53,7 @@
               <q-icon name="whatsapp" color="accent" />
             </template>
           </q-input>
-          <q-select borderless v-model="form.selection" :options="['Campito', 'E. Básica', 'Bachillerato']"
+          <q-select borderless v-model="form.selection" name="opcion[]" :options="['Campito', 'E. Básica', 'Bachillerato']"
             label="Escoge una opción"
             class="q-px-sm campos_form">
             <template v-slot:prepend>
