@@ -1,16 +1,16 @@
 <template>
     <section class="window-height section9">
         <div class="q-pt-lg container">
-            <p class="titulo--section9">
+            <p class="titulo--section9 my-font-black">
                 <span>Aprobación</span><br>
                 ministerial de costo<br>de pensiones
             </p>
             <div class="resolucion-de-costos">
                 <img src="../../assets/Icon/I-download-doc.svg" width="64px" height="64px" alt="">
-                <p>Resolución de<br>costos 2021</p>
+                <p class="my-font-medium">Resolución de<br>costos 2021</p>
             </div>
             <div class="container-texto-section9">
-                <p class="texto-section9">
+                <p class="texto-section9 my-font">
                     Los padres y madres de familia de Liceo Campoverde deben cancelar los valores por concepto de
                     <b>pensiones los 5 primeros días</b> de cada mes de acuerdo al contrato firmado durante el
                     período de
@@ -25,21 +25,21 @@
         <div class="mv-container-imagen-rosada">
             <img src="../../assets/img/Figuras/F-N-P3.svg" alt="">
         </div>
-        <p class="mv-texto-section9">
+        <p class="mv-texto-section9 my-font">
             Los padres y madres de familia de Liceo Campoverde deben cancelar los valores por concepto de <b>pensiones los
             5 primeros días</b> de cada mes de acuerdo al contrato firmado durante el período de matriculación.
         </p>
         <div class="container-mv-circulo-seccion9">
             <div class="mv-circulo-seccion9">
                 <img src="../../assets/Icon/I-download-doc.svg" width="64px" height="64px" alt="">
-                <p>Resolución de<br>Costos 2021</p>
+                <p class="my-font-medium">Resolución de<br>Costos 2021</p>
             </div>
         </div>
     </section>
 </template>
 
 <style lang="scss" scoped>
-@import 'src/css/app.scss';
+@import 'src/css/colores.scss';
 
 .section9{
     background-color: $gris;

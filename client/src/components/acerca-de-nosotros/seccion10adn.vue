@@ -1,13 +1,13 @@
 <template>
     <section class="section10">
         <div class="container">
-            <p class="titulo--section10">
+            <p class="titulo--section10 my-font-black">
                 Herramientas<br>
                 <span>tecnológicas</span>
             </p>
             <div class="row fila-texto--section10">
                 <div class="col-12col-md-10 container-texto--section10">
-                    <p class="texto--section10">
+                    <p class="texto--section10 my-font">
                         Nuestras herramientas tecnológicas para estudiantes desde segundo de básica en adelante incluyen
                         el
                         uso de software (App) efectivo y entretenido en las áreas de matemáticas, lenguaje, literatura e
@@ -89,7 +89,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import 'src/css/app.scss';
+@import 'src/css/colores.scss';
 
 .section10{
     height: 95vh;

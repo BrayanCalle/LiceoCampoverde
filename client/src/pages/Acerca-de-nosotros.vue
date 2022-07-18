@@ -16,7 +16,7 @@
 </template>
 
 <style lang="scss" scoped >
-@import 'src/css/app.scss';
+@import 'src/css/colores.scss';
 
 // Sección 2
 // Section 3
