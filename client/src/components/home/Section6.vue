@@ -13,8 +13,8 @@
         <div class="title_1">
           <div class=" my-font-ultra bg-secondary text-white q-px-md">Campito</div>
           <div class="my-font-ultra">2-4 años</div>
-          <q-chip class="my-font text-weight-regular" style="font-size: 2vh;" color="secondary" text-color="white" icon-right="add"
-            clickable>
+          <q-chip class="my-font text-weight-regular cursor-pointer" style="font-size: 2vh; z-index:99" color="secondary"
+            text-color="white" icon-right="add" clickable @click="$router.push({ name: 'campito' })">
             Conocer
           </q-chip>
         </div>
@@ -31,8 +31,8 @@
         <div class="title_1 my-font-ultra">
           <div>Educación <br><b class="bg-primary text-white q-px-md">básica</b></div>
           <div>5-15 años</div>
-          <q-chip color="primary" class="my-font text-weight-regular" style="font-size: 2vh;" text-color="white" icon-right="add"
-            clickable>
+          <q-chip color="primary" class="my-font text-weight-regular cursor-pointer" style="font-size: 2vh; z-index:99"
+            text-color="white" icon-right="add" clickable @click="$router.push({ name: 'basic' })">
             Conocer
           </q-chip>
         </div>
@@ -49,8 +49,8 @@
         <div class=" my-font-ultra title_1">
           <div class="bg-accent text-white q-px-md">Bachillerato</div>
           <div>16-18 años</div>
-          <q-chip class="my-font text-weight-regular" style="font-size: 2vh;" color="accent" text-color="white" icon-right="add"
-            clickable>
+          <q-chip class="my-font text-weight-regular cursor-pointer" style="font-size: 2vh; z-index:99" color="accent"
+            text-color="white" icon-right="add" clickable @click="$router.push({ name: 'bachiller' })">
             Conocer
           </q-chip>
         </div>
