@@ -1,12 +1,12 @@
 <template>
     <section class="banner-acerca-de-nosotros">
         <div class="container-texto-banner--acerca-de-nosotros">
-            <p class="texto-banner--acerca-de-nosotros my-font-black">
+            <p class="texto-banner--acerca-de-nosotros my-font-black" data-aos="zoom-in" data-aos-duration="1500" >
                 Acerca de <br> nosotros, <br>nuestra<br><span>motivación</span>
             </p>
         </div>
         <div class="container-imagen-banner--acerca-de-nosotros">
-            <img src="../../assets/img/Figuras/F-N-1.svg" alt="">
+            <img src="../../assets/img/Figuras/F-N-1.svg" data-aos="fade-down" alt="">
         </div>
         <!-- Movil -->
         <div class="mv-container-imagen-banner--acerca-de-nosotros">
