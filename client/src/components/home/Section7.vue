@@ -25,7 +25,7 @@
       <div class="row items-end">
         <img src="figuras/F-2.svg" alt="imagen" style="height:30vh"/>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 row justify-center q-mt-xl">
-          <img src="home/rostro.svg" alt="rostro" style="height:calc(15vh + 1vw)"/>
+          <img src="iconInfo/I-rostro.gif" alt="rostro" style="height:calc(15vh + 1vw)"/>
         </div>
       </div>
 

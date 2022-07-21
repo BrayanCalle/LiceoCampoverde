@@ -2,18 +2,21 @@
   <q-layout view="lHr lpr lfr">
     <header-web @menu="drawer = !drawer"/>
 
-    <drawer-data :drawer="drawer" @close="action()" />
+    <drawer-data :drawer="drawer" @go="goTo()" @close="action()" />
 
     <q-page-container>
       <router-view />
-      <sticky />
+      <sticky @go="goTo()" />
     </q-page-container>
-
-    <footer-data />
+    <div ref="footer">
+      <footer-data />
+    </div>
   </q-layout>
 </template>
 
 <script>
+import { scroll } from 'quasar'
+const { getScrollTarget, animScrollTo } = scroll
 import HeaderWeb from 'layouts/components/HeaderWeb'
 import FooterData from 'layouts/components/Footer'
 import DrawerData from 'layouts/components/Drawer'
@@ -33,8 +36,14 @@ export default {
   },
   methods: {
     action () {
-      console.log('val')
       this.drawer = false
+    },
+    goTo () {
+      const target = getScrollTarget(this.$refs.footer)
+      const offset = this.$refs.footer.offsetTop
+      setTimeout(() => {
+        animScrollTo(target, offset, 1000)
+      }, 300)
     }
   }
 }
