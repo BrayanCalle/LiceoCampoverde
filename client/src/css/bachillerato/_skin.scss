@@ -14,3 +14,13 @@
 .text_naranja {
   color: #EF5A37;
 }
+
+@media only screen and (max-width: 600px) {
+  .text-responsive {
+    font-size: 2.5rem !important;
+    line-height: 3.2rem !important;
+  }
+  .box-responsive {
+    padding: 0rem !important;
+  }
+}

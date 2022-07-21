@@ -1,6 +1,6 @@
 <template>
     <section>
-      <div class="row bg-info relative-position q-py-md q-px-xl">
+      <div class="row bg-info relative-position circle_one">
         <div class="col-12 col-md-4 bar-te">
           <h3 class="bar-text text-weight-bold text-dark my-font-ultra">Laboratorios</h3>
         </div>
@@ -8,22 +8,21 @@
           <coursel-basic/>
         </div>
         <div class="col-12 col-md-4 text-circle">
-          <h5 class="texto-encima">
+          <h5 class="texto-encima one_text-circle">
             Experimentamos en los laboratorios de música, arte, computación, ciencias y en nuestra Biblioteca.
           </h5>
         </div>
       </div>
-      <div class="row bg-secondary relative-position q-py-md q-px-xl">
+      <div class="row bg-secondary relative-position circle_one">
          <div class="col-12 col-md-4">
-          <div style="height: 60vh;">
+          <div style="height: 60vh;" class="coursel_responsive">
             <q-carousel
-              animated
               v-model="slide"
-              navigation
+              swipeable
+              animated
               infinite
-              :autoplay="autoplay"
-              @mouseenter="autoplay = false"
-              @mouseleave="autoplay = true"
+              navigation
+              autoplay
               height="100%"
               style="border-radius:100%"
             >
@@ -34,7 +33,7 @@
           </div>
         </div>
         <div class="col-12 col-md-4 text-circle">
-          <h5 class="texto-encima">
+          <h5 class="texto-encima two_text-circle">
             Nos divertimos en los juegos de equilibrio, canchas de fútbol, básquetbol y en nuestra pista de atletismo.
           </h5>
         </div>

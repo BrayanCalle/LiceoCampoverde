@@ -1,13 +1,12 @@
 <template>
-    <div style="height: 60vh;">
+    <div style="height: 60vh;" class="coursel_responsive">
       <q-carousel
-        animated
         v-model="slide"
-        navigation
+        swipeable
+        animated
         infinite
-        :autoplay="autoplay"
-        @mouseenter="autoplay = false"
-        @mouseleave="autoplay = true"
+        navigation
+        autoplay
         height="100%"
         style="border-radius:100%"
       >

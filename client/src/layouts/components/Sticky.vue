@@ -21,7 +21,7 @@
               <q-item-section class="font_small">Contactanos</q-item-section>
             </q-item>
 
-            <q-item clickable v-ripple class="text-white bg-green">
+            <q-item @click="openLink()" clickable v-ripple class="text-white bg-green">
               <q-item-section class="font_small">WhatsApp</q-item-section>
             </q-item>
           </q-list>
@@ -32,11 +32,18 @@
 </template>
 
 <script>
+import { openURL } from 'quasar'
+
 export default {
   name: 'Sticky',
   data () {
     return {
       seeMenu: false
+    }
+  },
+  methods: {
+    openLink () {
+      openURL('https://api.whatsapp.com/send?phone=593999595539&app=facebook&entry_point=page_cta&fbclid=IwAR2-4F2ZGGI2aYVm4252AAnJ8WSky7y-PJkUztaZzcvP5v2GQVrT9Mrxea0')
     }
   }
 }

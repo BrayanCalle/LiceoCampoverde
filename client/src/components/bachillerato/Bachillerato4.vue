@@ -16,7 +16,7 @@
         </div>
         <div class="bachillerato_four">
           <div class="">
-              <q-btn-dropdown label="AP Program" >
+              <q-btn-dropdown class="my-font-bold" label="AP Program" >
                 <q-list >
                   <q-item clickable v-close-popup>
                     <q-item-section>
@@ -29,7 +29,7 @@
               </q-btn-dropdown>
           </div>
           <div class="">
-              <q-btn-dropdown label="Ciudadanía">
+              <q-btn-dropdown class="my-font-bold" label="Ciudadanía">
                 <q-list>
                   <q-item clickable v-close-popup>
                     <q-item-section>
@@ -42,7 +42,7 @@
               </q-btn-dropdown>
           </div>
           <div class="">
-              <q-btn-dropdown label="Carácter">
+              <q-btn-dropdown class="my-font-bold" label="Carácter">
                 <q-list>
                   <q-item clickable v-close-popup>
                     <q-item-section>
@@ -55,7 +55,7 @@
               </q-btn-dropdown>
           </div>
            <div class="">
-              <q-btn-dropdown label="Intercambios">
+              <q-btn-dropdown  class="my-font-bold" label="Intercambios">
                 <q-list>
                   <q-item clickable v-close-popup>
                     <q-item-section>

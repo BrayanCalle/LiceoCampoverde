@@ -11,15 +11,15 @@
           <q-btn round icon="clear" color="black" @click="videoModal = false" />
         </div>
         <div class="row">
-          <div class="col-6 q-px-xl q-py-xl text-center">
+          <div class="col-12 col-md-6 q-px-xl q-py-xl text-center">
             <p class="text-h4">Horario</p>
           </div>
-          <div class="col-6 bg-dark">
+          <div class="col-12 col-md-6 bg-dark">
             <p class="q-pl-xl text-h1 lyrics_modal H">H</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-4 q-px-xl q-py-xl text-justify">
+          <div class="col-12 col-md-4 q-px-xl q-py-xl text-justify">
             <p class="text-h5 text-weight-bold">
               Hora de ingreso:
             </p>
@@ -27,7 +27,7 @@
               7:40
             </p>
           </div>
-          <div class="col-4 q-px-xl q-py-xl text-justify">
+          <div class="col-12 col-md-4 q-px-xl q-py-xl text-justify">
             <p class="text-h5 text-weight-bold">
               Hora de ingreso:
             </p>

@@ -40,6 +40,11 @@ const routes = [
         component: () => import('pages/Bachillerato.vue')
       },
       {
+        path: '/admisiones',
+        name: 'admisiones',
+        component: () => import('pages/Admisiones.vue')
+      },
+      {
         path: '/blog',
         redirect: '/blog',
         component: () => import('layouts/LayoutBlog.vue'),
