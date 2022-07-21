@@ -9,7 +9,7 @@
         <img src="iconInfo/I-direccion.svg" class="otros" />
         <div class="font_small my-font-bold">Dirección</div>
         <div class="font_small text-center q-py-sm">Av. Simón Bolivar Km. 2½, via <br> a Nayón. SEctor Tanda, tras la <br> Casa de la Selección</div>
-        <q-btn rounded no-caps dense color="accent" label="Admisiones" class="buttom_accent" />
+        <q-btn rounded no-caps dense color="accent"  label="Admisiones" class="buttom_accent" href="/#/admisiones" />
       </div>
 
       <div class="column items-center text-center q-px-md q-pb-lg col-xs-12 col-sm-3 col-md-2 col-lg-2">

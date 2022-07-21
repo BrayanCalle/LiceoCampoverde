@@ -70,11 +70,11 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.generoa" name="genero-alumno" label="Género" label-color="indigo-8"
+                            <q-input dense borderless v-model="form.generoa" name="identificacion-alumno" label="Cédula" label-color="indigo-8"
                                 class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
-                                        <img src="../assets/Icon/I-genero.svg">
+                                        <img src="../assets/Icon/I-pasaporte.svg">
                                     </q-avatar>
                                 </template>
                             </q-input>

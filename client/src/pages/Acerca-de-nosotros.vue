@@ -6,7 +6,7 @@
             <seccion3adn />
             <seccion4adn />
             <seccion5adn />
-            <seccion6adn />
+            <seccion6adn id="modelopedagogico"/>
             <seccion7adn />
             <seccion8adn />
             <seccion9adn />
