@@ -1,6 +1,6 @@
 <template>
     <section>
-      <div class="row bg-info relative-position q-py-md">
+      <div class="row bg-info relative-position q-py-xl ">
         <div class="col-12 col-md-3 bar-te">
           <h3 class="bar-text text-weight-bold text-white my-font-ultra">Juegos</h3>
         </div>
@@ -8,14 +8,14 @@
          <coursel-campito/>
         </div>
         <div class="col-12 col-md-4 text-circle">
-          <h5 class="texto-encima">
+          <h5 class="texto-encima one_text-circle">
             Los niños pueden jugar y aprender en amplias áreas verdes con juegos, cascada y arenero.
           </h5>
         </div>
       </div>
-      <div class="row bg-secondary relative-position q-py-md q-px-xl">
+      <div class="row bg-secondary relative-position q-py-xl circle_one">
          <div class="col-12 col-md-4">
-          <div style="height: 60vh;">
+          <div style="height: 62vh;" class="coursel_responsive">
             <q-carousel
               animated
               v-model="slide"
@@ -34,7 +34,7 @@
           </div>
         </div>
         <div class="col-12 col-md-4 text-circle">
-          <h5 class="texto-encima">
+          <h5 class="texto-encima two_text-circle">
             Tenemos mucho espacio al aire libre, que junto a la granja y huerto aportan para un buen desarrollo psicomotor de nuestros niños.
           </h5>
         </div>

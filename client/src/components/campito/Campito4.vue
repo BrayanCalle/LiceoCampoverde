@@ -15,7 +15,7 @@
             Los niños pueden jugar y aprender en <span style="background-color: #2fad62; line-height: 3.5rem;" class="q-px-md q-py-xs text-white">nuestras</span> áreas
           </p>
         </div>
-        <div style="background-color: #F9D938;" class="col-12 col-md-7 relative-position infrastructure__circle">
+        <div style="background-color: #ffd800;" class="col-12 col-md-7 relative-position infrastructure__circle">
           <div class="row">
             <div class="col-12 col-md-6 circle">
               <img width="100%" src="img/C-3.png" alt="alt"/>

@@ -11,22 +11,22 @@
           <q-btn round icon="clear" color="black" @click="videoModal = false" />
         </div>
         <div class="row">
-          <div class="col-6 q-px-xl q-py-xl text-center">
+          <div class="col-12 col-md-6 q-px-xl q-py-xl text-center">
             <p class="text-h4">Idiomas</p>
           </div>
-          <div class="col-6 bg-dark">
+          <div class="col-12 col-md-6 bg-dark">
             <p class="q-pl-xl text-h1 lyrics_modal I">I</p>
           </div>
         </div>
         <div class="row q-py-sm">
-          <div class="col-3">
+          <div class="col-12 col-md-3">
             <p class="text-h5 q-px-xl text-weight-bold">Nuestros estudiantes egresan preparados en tres idiomas:</p>
           </div>
-          <div class="col-3">
+          <div class="col-12 col-md-3">
             <p class="text-weight-bold">Español <span  style="display: block; font-weight: 400;">(C2)*</span></p>
             <p>Capacitado para realizar tareas complejas de trabajo y estudio en el idioma español.</p>
           </div>
-          <div class="col-3">
+          <div class="col-12 col-md-3">
             <p class="text-weight-bold">Inglés <span style="display: block; font-weight: 400;">(Bilingüe, B2-C1)*</span></p>
             <p>Capacitado para realizar tareas complejas de trabajo y estudio en el idioma inglés.</p>
             <p class="text-weight-bold">Porcentaje de clases en inglés:</p>
@@ -37,7 +37,7 @@
               <li><span class="text-weight-bold">Bachillerato:</span> 70% inglés - 30% español</li>
             </ul>
           </div>
-          <div class="col-3">
+          <div class="col-12 col-md-3">
             <p class="text-weight-bold">Francés <span style="display: block; font-weight: 400;">
               (Suficiencia B1-B2)
             </span></p>

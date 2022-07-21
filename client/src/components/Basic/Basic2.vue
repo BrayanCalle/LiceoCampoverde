@@ -13,22 +13,23 @@
         <img style="max-width: 100%; height: auto;" src="figuras/F-C-3.svg" alt="imagen"/>
       </div>
     </div>
-   <div class="row q-mb-xl">
+   <div class="row height_section2 q-my-xl">
     <div class="text-appearance col-12 q-px-xl q-py-xl column items-start text-h4 text-weight-bold my-font-ultra">
       <div>Mejores <br/>metodologías <br/> </div>
       <div style="border: 3px solid #81A3EE;" class="q-px-sm">a nivel mundial</div>
     </div>
-    <div class="col-12 column justify-center q-pt-xl" style="height: 60%">
-      <div class="row justify-center items-center full-height">
+    <div class="column justify-center full-width" style="height: 60%">
+      <div class="row justify-center items-center fit">
         <div class="col-auto row justify-center items-center no-wrap card">
           <div class="full-height">
             <img src="figuras/F-C-phone-3.svg" class="full-height" />
           </div>
           <div class="full-height">
-            <img src="img/EB-2.png" class="img_responsive" />
+            <img src="img/EB-2.png" class="full-height" />
           </div>
         </div>
-        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 card">
+
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 full-height">
           <carrusel class="fit" />
         </div>
       </div>
