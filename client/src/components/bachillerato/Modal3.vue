@@ -20,7 +20,7 @@
         </div>
         <input type="date" class="q-py-sm q-px-sm" style="margin: auto; display: flex; justify-content: center;"/>
         <div class="row">
-          <div class="col-12 col-md-6 q-px-xl text-justify">
+          <div class="col-12 q-px-xl text-justify">
             <coursel-1/>
           </div>
         </div>
