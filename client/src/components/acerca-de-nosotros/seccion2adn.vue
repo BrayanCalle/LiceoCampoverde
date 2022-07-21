@@ -4,20 +4,20 @@
             <div class="mitad-arriba-mitad-izquierda-seccion2--acerca-de-nosotros">
                 <div class="container-texto-mitad-arriba-mitad-izquierda-seccion2--acerca-de-nosotros">
                     <div class="container-mision">
-                        <div class="mision my-font-black">Misión</div>
+                        <div class="mision my-font-black" data-aos="fade-right" data-aos-duration="1000">Misión</div>
                     </div>
                     <div class="container-educamos">
-                        <p class="my-font-medium">Educamos desde <br> otro punto de <br> vista.</p>
+                        <p class="my-font-medium" data-aos="fade-right" data-aos-duration="1750">Educamos desde <br> otro punto de <br> vista.</p>
                     </div>
                 </div>
             </div>
             <div class="mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros">
                 <div class="container-texto--mitad-abajo-mitad-izquierda-seccion2--acerca-de-nosotros">
-                    <p class="my-font-black">
+                    <p class="my-font-black" data-aos="fade-right" data-aos-duration="1000">
                         Principios <br>
                         <span>educativos</span>
                     </p>
-                    <ul class="my-font">
+                    <ul class="my-font" data-aos="fade-right" data-aos-duration="1500">
                         <li>1. Partir del nivel de desarrollo del estudiante.</li>
                         <li>2. Asegurar la construcción de aprendizajes significativos.</li>
                         <li>3. Aprender a aprender.</li>
@@ -30,13 +30,13 @@
         <div class="mitad-derecha-seccion2--acerca-de-nosotros">
             <div class="container-vision">
                 <div class="container-vision-titulo">
-                    <p class="my-font-black">Visión</p>
+                    <p class="my-font-black" data-aos="fade-left" data-aos-duration="1000">Visión</p>
                 </div>
                 <div class="container-vision-texto ">
-                    <p class="my-font-medium">Ser, para el año 2023, una institución valorada por su prestigio educativo,
+                    <p class="my-font-medium" data-aos="fade-left" data-aos-duration="1500">Ser, para el año 2023, una institución valorada por su prestigio educativo,
                         reconocida por su constante innovación didáctica.
                     </p>
-                    <p class="my-font">
+                    <p class="my-font" data-aos="fade-left" data-aos-duration="1750">
                         El desarrollo de sus prácticas educativas bajo un marco metodológico diferenciador,
                         unificado, compartido y coordinado para la formación permanente de individuos que
                         trascienden y transforman los ámbitos personales, sociales, ambientales y culturales
@@ -48,18 +48,18 @@
         <div class="mv-seccion2">
             <div class="mv-mision">
                 <div class="container">
-                    <p class="titulo-mision my-font-black">Misión</p>
-                    <p class="mb-cero texto-mision my-font-medium">Educamos<br> desde otro<br> punto de vista.</p>
+                    <p class="titulo-mision my-font-black" data-aos="fade-right" data-aos-duration="1500">Misión</p>
+                    <p class="mb-cero texto-mision my-font-medium" data-aos="fade-right" data-aos-duration="1750">Educamos<br> desde otro<br> punto de vista.</p>
                 </div>
             </div>
             <div class="mv-vision">
                 <div class="container">
-                    <p class="titulo-vision my-font-black">Visión</p>
-                    <p class="texto-vision my-font-medium">
+                    <p class="titulo-vision my-font-black" data-aos="fade-right" data-aos-duration="1000">Visión</p>
+                    <p class="texto-vision my-font-medium" data-aos="fade-right" data-aos-duration="1500">
                         <b>Ser, para el año 2023, una institución valorada por su prestigio educativo,
                         reconocida por su constante innovación didáctica.</b>
                     </p>
-                    <p class="mb-cero texto-vision my-font">
+                    <p class="mb-cero texto-vision my-font" data-aos="fade-right" data-aos-duration="1750">
                         El desarrollo de sus prácticas educativas bajo un marco metodológico diferenciador, unificado,
                         compartido y coordinado para la formación permanente de individuos que trascienden y transforman
                         los ámbitos personales, sociales, ambientales y culturales en los que se desenvuelvan.
@@ -68,10 +68,10 @@
             </div>
             <div class="mv-principios">
                 <div class="container">
-                    <p class="titulo-principios my-font-black">
+                    <p class="titulo-principios my-font-black" data-aos="fade-right" data-aos-duration="1000">
                         Principios<br><span>educativos</span>
                     </p>
-                    <ul class="mb-cero texto-principios my-font">
+                    <ul class="mb-cero texto-principios my-font" data-aos="fade-right" data-aos-duration="1500">
                         <li>1. Partir del nivel de desarrollo del estudiante.</li>
                         <li>2. Asegurar la construcción de aprendizajes significativos.</li>
                         <li>3. Aprender a aprender.</li>

@@ -2,7 +2,7 @@
     <section class="window-height section7">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4" data-aos="fade-right" data-aos-duration="1500">
                     <div>
                         <p class="titulos--section7 my-font-black">
                             Fortalezas individuales desarrollo afectivo
@@ -33,7 +33,7 @@
                     <img src="../../assets/img/Figuras/F-N-7.svg" alt="">
                 </div>
                 <div class="col-12 col-md-4 columna-container-parte-derecha--section7">
-                    <div class="container-parte-derecha--section7">
+                    <div class="container-parte-derecha--section7" data-aos="fade-left" data-aos-duration="1500">
                         <div>
                             <p class="titulos--section7 my-font-black">Rol protagónico desarrollo del Ecuador y el mundo</p>
                             <ul class="textos--section7 my-font">
