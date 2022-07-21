@@ -1,7 +1,7 @@
 <template>
     <section class="window-height section3">
         <div class="container">
-            <div class="titulo-section3 q-pt-xl my-font-black">
+            <div class="titulo-section3 q-pt-xl my-font-black" data-aos="fade-right" data-aos-duration="1500">
                 <p>Valores <br> vinculados al</p>
                 <p>aprendizaje</p>
             </div>

@@ -5,7 +5,7 @@ $fechanacimientoalumno = $_POST['fechanacimiento-alumno'];
 $lugarnacimientoalumno = $_POST['lugarnacimiento-alumno'];
 $domicilioalumno = $_POST['domicilio-alumno'];
 $gradoalumno = $_POST['grado-alumno'];
-$generoalumno = $_POST['genero-alumno'];
+$cedulaalumno = $_POST['identificacion-alumno'];
 $edadalumno = $_POST['edadal-alumno'];
 $paisalumno = $_POST['paisalumno'];
 // Datos del Padre
@@ -44,7 +44,7 @@ $mensaje = "La fecha de nacimiento del alumno es: " . $fechanacimientoalumno . "
 $mensaje = "El lugar del nacimiento del alumno es: " . $lugarnacimientoalumno . ",\r\n";
 $mensaje = "El domicilio del alumno es: " . $domicilioalumno . ",\r\n";
 $mensaje = "El grado o el curso al que postula el alumno es: " . $gradoalumno . ",\r\n";
-$mensaje = "El genero del alumno es: " . $generoalumno . ",\r\n";
+$mensaje = "El número de identificacion del alumno es: " . $cedulaalumno . ",\r\n";
 $mensaje = "La edad del alumno es: " . $edadalumno . ",\r\n";
 $mensaje = "La pais del alumno es: " . $paisalumno . ",\r\n";
 // Mensaje Padre
@@ -73,13 +73,13 @@ $mensaje = "El email de la madre es: " . $emailmadre . ",\r\n";
 $mensaje = "El telefono de trabajo de la madre es: " . $telefonotrabajomadre . ",\r\n";
 
 
-$para = 'brayanj041998@gmail.com';
+$para = 'infonueva@liceocampoverde.edu.ec';
 $asunto = 'Mensaje desde liceocampoverde.edu.ec/inscripcion';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
 
-echo'<script type="text/javascript">
-        alert("Mensaje enviado");
-        window.location.href="https://www.liceocampoverde.edu.ec/campoverde_v2/#/inscripcion";
-        </script>';
+// echo'<script type="text/javascript">
+//         alert("Mensaje enviado");
+//         window.location.href="https://www.liceocampoverde.edu.ec/campoverde_v2/#/inscripcion";
+//         </script>';
 ?>

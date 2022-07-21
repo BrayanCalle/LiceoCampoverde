@@ -11,9 +11,11 @@
                             Perfil del<br>Bachiller
                         </p>
                         <div class="container-pdb-imagen-mas">
-                            <div class="imagen-mas">
-                                <img src="figuras/+.svg" alt="">
-                            </div>
+                            <a href="https://www.liceocampoverde.edu.ec/recursos-liceo/PERFIL-DE-SALIDA-B.jpg" target="_blank">
+                                <div class="imagen-mas">
+                                    <img src="figuras/+.svg" alt="">
+                                </div>
+                            </a>
                         </div>
                     </div>
 
@@ -29,9 +31,11 @@
                     <div class="row container-contenido-parte-derecha-parte-arriba--section8">
                         <div class="col-3">
                             <div class="container-cap-imagen-mas">
-                                <div class="imagen-mas">
-                                    <img src="figuras/+.svg" alt="">
-                                </div>
+                                <a href="https://www.liceocampoverde.edu.ec/recursos-liceo/college-admissions-profile-2020-3.pdf" target="_blank">
+                                    <div class="imagen-mas">
+                                        <img src="figuras/+.svg" alt="">
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col-9 container-cap-parte-derecha-parte-arriba--section8">
@@ -47,9 +51,11 @@
             <div class="setentaporciento row container-contenido-parte-abajo--section8">
                 <div class="contenido-parte-abajo--section8 col-4">
                     <div class="container-imagen-mas">
-                        <div class="imagen-mas">
-                            <img src="figuras/+.svg" alt="">
-                        </div>
+                        <a href="https://www.liceocampoverde.edu.ec/recursos-liceo/CÓDIGO-DE-CONVIVENCIA_-JUNTOS-APRENDEMOS-Y-NOS-CUIDAMOS-_-2021-2022_SEMIPRESENCIAL-_-FINAL-comprimido.pdf" target="_blank">
+                            <div class="imagen-mas">
+                                <img src="figuras/+.svg" alt="">
+                            </div>
+                        </a>
                     </div>
                     <p class="my-font-bold">Código de<br>convivencia</p>
                 </div>
@@ -66,9 +72,11 @@
                 </div>
                 <div class="col-6 mv-texto-pdb">
                     <p class="my-font-bold">Perfil del Bachiller</p>
-                    <div class="imagen-mas">
-                        <img src="figuras/+.svg" alt="">
-                    </div>
+                    <a href="https://www.liceocampoverde.edu.ec/recursos-liceo/PERFIL-DE-SALIDA-B.jpg" target="_blank">
+                        <div class="imagen-mas">
+                            <img src="figuras/+.svg" alt="">
+                        </div>
+                    </a>
                     <p class="mv-letrab my-font-black">B</p>
                 </div>
             </div>
@@ -83,9 +91,11 @@
                     <p class="my-font-bold">
                         College Admissions Profile
                     </p>
-                    <div class="imagen-mas">
-                        <img src="figuras/+.svg" alt="">
-                    </div>
+                    <a href="https://www.liceocampoverde.edu.ec/recursos-liceo/college-admissions-profile-2020-3.pdf" target="_blank">
+                        <div class="imagen-mas">
+                            <img src="figuras/+.svg" alt="">
+                        </div>
+                    </a>
                     <p class="mv-letraa-cap my-font-black">A</p>
                 </div>
             </div>
@@ -100,9 +110,11 @@
                     <p class="my-font-bold">
                         Código de Convivencia
                     </p>
-                    <div class="imagen-mas">
-                        <img src="figuras/+.svg" alt="">
-                    </div>
+                    <a href="https://www.liceocampoverde.edu.ec/recursos-liceo/CÓDIGO-DE-CONVIVENCIA_-JUNTOS-APRENDEMOS-Y-NOS-CUIDAMOS-_-2021-2022_SEMIPRESENCIAL-_-FINAL-comprimido.pdf" target="_blank">
+                        <div class="imagen-mas">
+                            <img src="figuras/+.svg" alt="">
+                        </div>
+                    </a>
                     <p class="mv-letrac-cdc my-font-black">C</p>
                 </div>
             </div>

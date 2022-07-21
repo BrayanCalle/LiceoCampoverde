@@ -1,19 +1,19 @@
 <template>
     <section class="banner-acerca-de-nosotros">
         <div class="container-texto-banner--acerca-de-nosotros">
-            <p class="texto-banner--acerca-de-nosotros my-font-black" data-aos="zoom-in" data-aos-duration="1500" >
+            <p class="texto-banner--acerca-de-nosotros my-font-black" data-aos="fade-right" data-aos-duration="1500" >
                 Acerca de <br> nosotros, <br>nuestra<br><span>motivación</span>
             </p>
         </div>
         <div class="container-imagen-banner--acerca-de-nosotros">
-            <img src="../../assets/img/Figuras/F-N-1.svg" data-aos="fade-down" alt="">
+            <img src="../../assets/img/Figuras/F-N-1.svg" data-aos="fade-up-left" data-aos-duration="1500" alt="">
         </div>
         <!-- Movil -->
         <div class="mv-container-imagen-banner--acerca-de-nosotros">
-            <img src="../../assets/img/Figuras/F-N-P1.svg" alt="">
+            <img src="../../assets/img/Figuras/F-N-P1.svg" alt="" data-aos="fade-up-left" data-aos-duration="1500">
         </div>
         <div class="mv-container-texto-banner--acerca-de-nosotros">
-            <p class="mv-texto-banner--acerca-de-nosotros my-font-black">
+            <p class="mv-texto-banner--acerca-de-nosotros my-font-black" data-aos="fade-left" data-aos-duration="1500">
                 Acerca de <br> nosotros, <br>nuestra<br><span>motivación</span>
             </p>
         </div>
