@@ -30,44 +30,46 @@
       </div>
 
       <div class="q-py-lg">
-        <q-form class="column items-center q-gutter-y-xs full-width" action="formularioseccion7.php" method="post">
-          <q-input borderless name="nombre" v-model="form.name" placeholder="Nombre y apellido"
-            class="q-px-sm campos_form">
+        <q-form class="column items-center q-gutter-y-xs full-width"
+          action="formularioseccion7.php" method="post">
+          <q-input borderless name="nombre" ref="nombre" v-model="form.name" placeholder="Nombre y apellido"
+            class="q-px-sm campos_form" lazy-rules :rules="[rules.required]">
             <template v-slot:prepend>
               <q-avatar square>
                 <img src="iconInfo/I-user.svg">
               </q-avatar>
             </template>
           </q-input>
-          <q-input borderless v-model="form.email" name="email" type="email" placeholder="mimailprincipal@mail.com"
-            class="q-px-sm campos_form">
+          <q-input borderless v-model="form.email" ref="email" name="email" type="email" placeholder="mimailprincipal@mail.com"
+            class="q-px-sm campos_form" lazy-rules :rules="[rules.required]">
             <template v-slot:prepend>
               <q-avatar square>
                 <img src="iconInfo/I-correo-morado.svg">
               </q-avatar>
             </template>
           </q-input>
-          <q-input borderless v-model="form.phone" name="telefono" placeholder="WhatsApp"
-            class="q-px-sm campos_form">
+          <q-input borderless v-model="form.phone" ref="telefono" name="telefono" placeholder="WhatsApp"
+            class="q-px-sm campos_form" lazy-rules :rules="[rules.required]">
             <template v-slot:prepend>
               <q-icon name="whatsapp" color="accent" />
             </template>
           </q-input>
-          <q-select borderless v-model="form.selection" name="opcion[]" :options="['Campito', 'E. Básica', 'Bachillerato']"
-            label="Escoge una opción"
+          <q-select borderless v-model="form.selection" ref="opcion" name="opcion[]" :options="['Campito', 'E. Básica', 'Bachillerato']"
+            label="Escoge una opción" lazy-rules :rules="[rules.required]"
             class="q-px-sm campos_form">
             <template v-slot:prepend>
               <q-icon name="dashboard" color="accent" />
             </template>
           </q-select>
-          <q-input name="comentario" borderless v-model="form.comment" type="textarea" placeholder="Escribe aqui tu mensaje"
-            class="q-px-sm campos_form">
+          <q-input ref="comentario" name="comentario" borderless v-model="form.comment" type="textarea" placeholder="Escribe aqui tu mensaje"
+            class="q-px-sm campos_form" lazy-rules :rules="[rules.required]">
             <template v-slot:prepend>
               <q-icon name="send" color="accent" />
             </template>
           </q-input>
            <div class="row justify-center q-pt-md">
-            <q-btn rounded no-caps label="Solicitar una cita" type="submit" color="accent" class="buttom_accent my-font-bold"/>
+            <q-btn rounded no-caps label="Solicitar una cita" type="submit" color="accent"
+              class="buttom_accent my-font-bold" />
           </div>
         </q-form>
       </div>
@@ -82,8 +84,13 @@ export default {
   },
   data () {
     return {
-      form: {}
+      form: {},
+      rules: {
+        required: (value) => !!value || ''
+      }
     }
+  },
+  methods: {
   }
 }
 </script>
