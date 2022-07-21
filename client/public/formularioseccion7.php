@@ -25,8 +25,8 @@ $asunto = 'Mensaje desde liceocampoverde.edu.ec/formulario';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
 
-// echo'<script type="text/javascript">
-//         alert("Mensaje enviado");
-//         window.location.href="https://www.liceocampoverde.edu.ec/campoverde_v2/#/home";
-//         </script>';
+echo'<script type="text/javascript">
+        alert("Mensaje enviado");
+        window.location.href="https://www.liceocampoverde.edu.ec/campoverde_v2/#/home";
+        </script>';
 ?>
