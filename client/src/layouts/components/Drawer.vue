@@ -166,6 +166,9 @@ export default {
     },
     action (item) {
       this.selecItem = item
+      if (item.label === 'Contáctanos') {
+        this.$emit('go')
+      }
       this.$emit('close')
       if (item.ruta) {
         this.$router.push({ name: item.ruta })

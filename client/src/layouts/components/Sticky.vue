@@ -13,11 +13,11 @@
         <img src="home/rostro-clic.svg" class="icon_avatar" @click="seeMenu = false">
         <div class="q-pa-sm menu my-font-bold">
           <q-list bordered separator>
-            <q-item clickable v-ripple class="text-white bg-accent">
+            <q-item clickable @click="$router.push({ name: 'admisiones' })" v-ripple class="text-white bg-accent">
               <q-item-section class="font_small">Admisiones</q-item-section>
             </q-item>
 
-            <q-item clickable v-ripple class="text-white bg-blue">
+            <q-item clickable @click="$emit('go')" v-ripple class="text-white bg-blue">
               <q-item-section class="font_small">Contactanos</q-item-section>
             </q-item>
 
