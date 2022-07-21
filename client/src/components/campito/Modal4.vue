@@ -12,14 +12,14 @@
         </div>
         <div class="row">
           <div class="col-6 q-px-xl q-py-xl text-center">
-            <p class="text-h4">Horario</p>
+            <p class="text-h4">Idioma</p>
           </div>
           <div class="col-12 col-md-6 bg-info">
             <img width="50%" style="margin: auto ; display: flex;" src="figuras/F-C-9.svg" alt="imagen"/>
           </div>
         </div>
         <div class="row q-py-sm padding_reponsive">
-          <div class="col-3 col-12">
+          <div class="col-md-3 col-12">
             <p class="text-h5 q-px-xl text-weight-bold">Nuestros estudiantes egresan preparados en tres idiomas:</p>
           </div>
           <div class="col-md-3 col-12">

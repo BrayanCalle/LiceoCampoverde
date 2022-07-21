@@ -1,5 +1,5 @@
 <template>
-   <section>
+   <section  >
      <div class="row relative-position bg-primary">
       <div class="col-12 col-md-6 text-appearanc">
         <h3 class="text-weight-bold my-font-ultra">
@@ -13,22 +13,23 @@
         <img style="width: 100%; height: 100%;" src="figuras/F-C-3.svg" alt="imagen"/>
       </div>
     </div>
-   <div class="row">
+   <div class="row height_section2 q-my-xl">
     <div class="text-appearanc col-12 q-pa-md column items-start text-h4 text-bold my-font-ultra">
       <div class="text-h3">Incentivamos el<br/> juego, la pasión</div>
       <div class="text-h3 border_green q-px-sm my-font-ultra">y el propósito</div>
     </div>
-    <div class="col-12 column justify-center q-pb-xl" style="height: 80%">
-      <div class="row justify-center items-center full-height q-pt-xl">
+     <div class="column justify-center full-width" style="height: 60%">
+      <div class="row justify-center items-center fit">
         <div class="col-auto row justify-center items-center no-wrap card">
           <div class="full-height">
             <img src="figuras/F-C-phone-3.svg" class="full-height" />
           </div>
           <div class="full-height">
-            <img src="img/C-2.png" class="img_responsive" />
+            <img src="img/C-2.png" class="full-height" />
           </div>
         </div>
-        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 card">
+
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 full-height">
           <carrusel class="fit" />
         </div>
       </div>

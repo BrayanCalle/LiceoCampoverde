@@ -1,6 +1,6 @@
 <template>
     <section>
-      <div class="row bg-info relative-position q-py-md circle_one q-px-xl">
+      <div class="row bg-info relative-position q-py-xl ">
         <div class="col-12 col-md-3 bar-te">
           <h3 class="bar-text text-weight-bold text-white my-font-ultra">Juegos</h3>
         </div>
@@ -13,9 +13,9 @@
           </h5>
         </div>
       </div>
-      <div class="row bg-secondary relative-position q-py-md q-px-xl">
+      <div class="row bg-secondary relative-position q-py-xl circle_one">
          <div class="col-12 col-md-4">
-          <div style="height: 60vh;" class="coursel_responsive">
+          <div style="height: 62vh;" class="coursel_responsive">
             <q-carousel
               animated
               v-model="slide"

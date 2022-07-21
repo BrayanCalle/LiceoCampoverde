@@ -12,10 +12,10 @@
       <div class="col-12 col-md-6 q-pt-xl">
         <img style="max-width: 100%; height: auto;" src="figuras/F-C-3.svg" alt="imagen"/>
       </div>
-    </div><br/><br/><br/><br/>
+    </div>
    <div class="height_section2 row">
-    <div class="col-12 column justify-center" style="height: 60%">
-      <div class="row justify-center items-center full-height">
+    <div class="column justify-center full-width" style="height: 60%">
+      <div class="row justify-center items-center fit" style="margin-top: 14rem;">
         <div class="col-auto row justify-center items-center no-wrap card">
           <div class="full-height">
             <img src="figuras/F-C-phone-3.svg" class="full-height" />
@@ -24,7 +24,8 @@
             <img src="bachillerato/B-3.png" class="full-height" />
           </div>
         </div>
-        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 card">
+
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 full-height">
           <carrusel class="fit" />
         </div>
       </div>
