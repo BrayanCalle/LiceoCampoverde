@@ -1,13 +1,13 @@
 <template>
     <section class="section10">
         <div class="container">
-            <p class="titulo--section10 my-font-black">
+            <p class="titulo--section10 my-font-black" data-aos="fade-right" data-aos-duration="1500">
                 Herramientas<br>
                 <span>tecnológicas</span>
             </p>
             <div class="row fila-texto--section10">
                 <div class="col-12col-md-10 container-texto--section10">
-                    <p class="texto--section10 my-font">
+                    <p class="texto--section10 my-font" data-aos="fade-right" data-aos-duration="1750">
                         Nuestras herramientas tecnológicas para estudiantes desde segundo de básica en adelante incluyen
                         el
                         uso de software (App) efectivo y entretenido en las áreas de matemáticas, lenguaje, literatura e

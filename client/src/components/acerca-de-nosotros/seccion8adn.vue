@@ -3,16 +3,16 @@
         <div class="parte-arriba--section8">
             <div class="parte-izquierda-parte-arriba--section8">
                 <div class="setentaporciento row">
-                    <div class="col-6 container-pb-parte-izquierda-parte-arriba--section8">
+                    <div class="col-6 container-pb-parte-izquierda-parte-arriba--section8" data-aos="fade-right" data-aos-duration="1500">
                         <p class="my-font-black">P<span>B</span></p>
                     </div>
                     <div class="col-6 container-pdb-parte-izquierda-parte-arriba--section8">
-                        <p class="my-font-bold">
+                        <p class="my-font-bold" data-aos="fade-left" data-aos-duration="1500">
                             Perfil del<br>Bachiller
                         </p>
                         <div class="container-pdb-imagen-mas">
                             <a href="https://www.liceocampoverde.edu.ec/recursos-liceo/PERFIL-DE-SALIDA-B.jpg" target="_blank">
-                                <div class="imagen-mas">
+                                <div class="imagen-mas" data-aos="fade-left" data-aos-duration="1500">
                                     <img src="figuras/+.svg" alt="">
                                 </div>
                             </a>
@@ -24,7 +24,7 @@
             <div class="parte-derecha-parte-arriba--section8">
                 <div class="setentaporciento">
                     <div class="container-titulo-parte-derecha-parte-arriba--section8">
-                        <p class="titulo-parte-derecha-parte-arriba--section8 my-font-bold">
+                        <p class="titulo-parte-derecha-parte-arriba--section8 my-font-bold" data-aos="fade-right" data-aos-duration="1500">
                             College<br>Admissions<br>Profile
                         </p>
                     </div>
@@ -32,14 +32,14 @@
                         <div class="col-3">
                             <div class="container-cap-imagen-mas">
                                 <a href="https://www.liceocampoverde.edu.ec/recursos-liceo/college-admissions-profile-2020-3.pdf" target="_blank">
-                                    <div class="imagen-mas">
+                                    <div class="imagen-mas" data-aos="fade-right" data-aos-duration="1500">
                                         <img src="figuras/+.svg" alt="">
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-9 container-cap-parte-derecha-parte-arriba--section8">
-                            <p class="my-font-black">
+                            <p class="my-font-black" data-aos="fade-left" data-aos-duration="1500">
                                 C<span>AP</span>
                             </p>
                         </div>
@@ -52,15 +52,15 @@
                 <div class="contenido-parte-abajo--section8 col-4">
                     <div class="container-imagen-mas">
                         <a href="https://www.liceocampoverde.edu.ec/recursos-liceo/CÓDIGO-DE-CONVIVENCIA_-JUNTOS-APRENDEMOS-Y-NOS-CUIDAMOS-_-2021-2022_SEMIPRESENCIAL-_-FINAL-comprimido.pdf" target="_blank">
-                            <div class="imagen-mas">
+                            <div class="imagen-mas" data-aos="fade-right" data-aos-duration="1500">
                                 <img src="figuras/+.svg" alt="">
                             </div>
                         </a>
                     </div>
-                    <p class="my-font-bold">Código de<br>convivencia</p>
+                    <p class="my-font-bold" data-aos="fade-right" data-aos-duration="1500">Código de<br>convivencia</p>
                 </div>
                 <div class="col-4 contenido-parte-abajo-parte-derecha--section8">
-                    <p class="my-font-black">C<span>C</span></p>
+                    <p class="my-font-black" data-aos="fade-left" data-aos-duration="1500">C<span>C</span></p>
                 </div>
             </div>
         </div>

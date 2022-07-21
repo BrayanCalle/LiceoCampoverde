@@ -3,13 +3,13 @@
     <section class="section1">
       <div class="container">
         <div class="parte-izquierda--section1">
-          <p class="titulo-parte-izquierda--section1 my-font-black">Admisiones</p>
-          <p class="texto-parte-izquierda--section1 my-font">
+          <p class="titulo-parte-izquierda--section1 my-font-black" data-aos="fade-right" data-aos-duration="1500">Admisiones</p>
+          <p class="texto-parte-izquierda--section1 my-font" data-aos="fade-right" data-aos-duration="2000">
             Según el nivel al que aplica el aspirante, hasta el 01 de septiembre del año de admisión, los postulantes
             deben haber cumplido con estos requisitos de edad para el ingreso:
           </p>
         </div>
-        <div class="parte-derecha--section1">
+        <div class="parte-derecha--section1" data-aos="fade-left" data-aos-duration="2000">
           <div class="row">
             <div class="col-12 col-md-4 columnas-derecha">
               <p class="titulo-parte-derecha--section1 titulo-campito-parte-derecha--section1 my-font-black">Campito</p>

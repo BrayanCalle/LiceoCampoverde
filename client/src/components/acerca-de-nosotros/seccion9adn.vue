@@ -1,14 +1,16 @@
 <template>
     <section class="window-height section9">
         <div class="q-pt-lg container">
-            <p class="titulo--section9 my-font-black">
+            <p class="titulo--section9 my-font-black" data-aos="fade-right" data-aos-duration="1500">
                 <span>Aprobación</span><br>
                 ministerial de costo<br>de pensiones
             </p>
-            <div class="resolucion-de-costos">
-                <img src="../../assets/Icon/I-download-doc.svg" width="64px" height="64px" alt="">
-                <p class="my-font-medium">Resolución de<br>costos 2021</p>
-            </div>
+            <a href="https://www.liceocampoverde.edu.ec/recursos-liceo/Resolución-costos-2021.pdf" target="_blank">
+                <div class="resolucion-de-costos">
+                    <img src="../../assets/Icon/I-download-doc.svg" width="64px" height="64px" alt="">
+                    <p class="my-font-medium">Resolución de<br>costos 2021</p>
+                </div>
+            </a>
             <div class="container-texto-section9">
                 <p class="texto-section9 my-font">
                     Los padres y madres de familia de Liceo Campoverde deben cancelar los valores por concepto de
@@ -31,9 +33,11 @@
         </p>
         <div class="container-mv-circulo-seccion9">
             <div class="mv-circulo-seccion9">
-                <img src="../../assets/Icon/I-download-doc.svg" width="64px" height="64px" alt="">
-                <p class="my-font-medium">Resolución de<br>Costos 2021</p>
-            </div>
+                    <a href="https://www.liceocampoverde.edu.ec/recursos-liceo/Resolución-costos-2021.pdf" target="_blank">
+                        <img src="../../assets/Icon/I-download-doc.svg" width="64px" height="64px" alt="">
+                    </a>
+                    <p class="my-font-medium">Resolución de<br>Costos 2021</p>
+                </div>
         </div>
     </section>
 </template>
@@ -106,6 +110,10 @@
 
 .texto-section9{
     font-size: 15px;
+}
+
+.mv-circulo-seccion9 > a{
+    text-decoration: none;
 }
 
 @media (max-width: 1025px) {

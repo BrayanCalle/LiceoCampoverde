@@ -2,7 +2,7 @@
     <section class="section-4 q-pa-xl">
         <div class="container">
             <div class="mitad-arriba--section-4">
-                <p class="titulo--section-4 my-font-black">
+                <p class="titulo--section-4 my-font-black" data-aos="fade-right" data-aos-duration="1500">
                     Valores <br> <span>corporativos</span>
                 </p>
             </div>

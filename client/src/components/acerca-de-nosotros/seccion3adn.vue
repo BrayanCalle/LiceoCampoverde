@@ -5,7 +5,7 @@
                 <p>Valores <br> vinculados al</p>
                 <p>aprendizaje</p>
             </div>
-            <div class="cuerpo-section3">
+            <div class="cuerpo-section3" data-aos="fade-up" data-aos-duration="2000">
                 <div class="container-imagen-cuerpo-section3">
                     <!-- <img src="../assets/img/Figuras/F-N-2.svg" alt=""> -->
                 </div>

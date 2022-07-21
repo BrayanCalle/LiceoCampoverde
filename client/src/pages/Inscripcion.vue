@@ -3,13 +3,13 @@
         <div class="container">
             <div class="parte-arriba">
                 <div class="container-titulo-parte-arriba">
-                    <p class="titulo-parte-arriba my-font-black">
+                    <p class="titulo-parte-arriba my-font-black" data-aos="fade-right" data-aos-duration="1500">
                         Completa en<br>línea nuestro<br>
                         <span>formulario</span> de<br>inscripción:
                     </p>
                 </div>
                 <div class="container-texto-parte-arriba">
-                    <p class="texto-parte-arriba my-font">
+                    <p class="texto-parte-arriba my-font" data-aos="fade-left" data-aos-duration="1750">
                         Para tu comodidad puedes aplicar al formulario de inscripción en línea, solo necesitas una
                         conexión
                         a internet y un smartphone o un computador.
@@ -27,7 +27,7 @@
                     <div class="row">
                         <div class="col-md-1 col-sm-1"></div>
                         <div class="col-12 col-md-4 col-sm-4">
-                            <q-input dense borderless v-model="form.nombrea" name="nombre-alumno" label="Apellidos y nombres"
+                            <q-input dense borderless v-model="form.nombrea" name="nombre-alumno" required label="Apellidos y nombres"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -35,7 +35,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.nacimientoa" name="fechanacimiento-alumno" label="Fecha de nacimiento"
+                            <q-input dense borderless v-model="form.nacimientoa" name="fechanacimiento-alumno" required label="Fecha de nacimiento"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -43,7 +43,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.lugara" name="lugarnacimiento-alumno" label="Lugar de Nacimiento"
+                            <q-input dense borderless v-model="form.lugara" name="lugarnacimiento-alumno" required label="Lugar de Nacimiento"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -51,7 +51,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.domicilioa" name="domicilio-alumno" label="Domicilio" label-color="indigo-8"
+                            <q-input dense borderless v-model="form.domicilioa" name="domicilio-alumno" required data-aos="fade-right" data-aos-duration="1500" label="Domicilio" label-color="indigo-8"
                                 class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -62,7 +62,7 @@
                         </div>
                         <div class="col-md-1 col-sm-1"></div>
                         <div class="col-12 col-md-4 col-sm-4 columnas-formulario">
-                            <q-input dense borderless v-model="form.gradoa" name="grado-alumno" label="Grado o curso al que postula"
+                            <q-input dense borderless v-model="form.gradoa" name="grado-alumno" required label="Grado o curso al que postula"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -78,7 +78,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.edada" name="edad-alumno" label="Edad" label-color="indigo-8"
+                            <q-input dense borderless v-model="form.edada" name="edad-alumno" required label="Edad" label-color="indigo-8"
                                 class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -86,7 +86,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.paisa" name="pais-alumno" label="País" label-color="indigo-8"
+                            <q-input dense borderless v-model="form.paisa" name="pais-alumno" required label="País" label-color="indigo-8"
                                 class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -106,7 +106,7 @@
                     <div class="row">
                         <div class="col-md-1 col-sm-1"></div>
                         <div class="col-12 col-md-4 col-sm-4">
-                            <q-input dense borderless v-model="form.nombrep" name="nombre-padre" label="Apellidos y nombres"
+                            <q-input dense borderless v-model="form.nombrep" name="nombre-padre" required label="Apellidos y nombres"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -114,7 +114,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.nacimientop" name="fechanacimiento-padre" label="Fecha de nacimiento"
+                            <q-input dense borderless v-model="form.nacimientop" name="fechanacimiento-padre" required label="Fecha de nacimiento"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -122,7 +122,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.profesionp" name="profesion-padre" label="Profesión" label-color="indigo-8"
+                            <q-input dense borderless v-model="form.profesionp" name="profesion-padre" required label="Profesión" label-color="indigo-8"
                                 class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -130,7 +130,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.direcciontrabajop" name="direcciontrabajo-padre" label="Dirección de Trabajo"
+                            <q-input dense borderless v-model="form.direcciontrabajop" name="direcciontrabajo-padre" required label="Dirección de Trabajo"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -138,7 +138,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.telefonocasap" name="telefonocasa-padre" label="Teléfono de casa"
+                            <q-input dense borderless v-model="form.telefonocasap" name="telefonocasa-padre" required label="Teléfono de casa"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -146,7 +146,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.telefonocelularp" name="telefonocelular-padre" label="Teléfono de celular"
+                            <q-input dense borderless v-model="form.telefonocelularp" name="telefonocelular-padre" required label="Teléfono de celular"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -157,7 +157,7 @@
                         </div>
                         <div class="col-md-1 col-sm-1"></div>
                         <div class="col-12 col-md-4 col-sm-4 columnas-formulario">
-                            <q-input dense borderless v-model="form.pasaportep" name="pasaporte-padre" label="C.I Pasaporte"
+                            <q-input dense borderless v-model="form.pasaportep" name="pasaporte-padre" required label="C.I Pasaporte"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -165,7 +165,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.direcciondomiciliop" name="direcciondomicilio-padre" label="Dirección de domicilio"
+                            <q-input dense borderless v-model="form.direcciondomiciliop" name="direcciondomicilio-padre" required label="Dirección de domicilio"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -173,7 +173,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.lugartrabajop" name="lugartrabajo-padre" label="Lugar de Trabajo"
+                            <q-input dense borderless v-model="form.lugartrabajop" name="lugartrabajo-padre" required label="Lugar de Trabajo"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -181,7 +181,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.emailp" name="email-padre" label="Correo electrónico"
+                            <q-input dense borderless v-model="form.emailp" name="email-padre" required label="Correo electrónico"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -189,7 +189,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.telefonotrabajop" name="telefonotrabajo-padre" label="Teléfono de Trabajo"
+                            <q-input dense borderless v-model="form.telefonotrabajop" name="telefonotrabajo-padre" required label="Teléfono de Trabajo"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -209,7 +209,7 @@
                     <div class="row">
                         <div class="col-md-1 col-sm-1"></div>
                         <div class="col-12 col-md-4 col-sm-4">
-                            <q-input dense borderless v-model="form.nombrem" name="nombre-madre" label="Apellidos y nombres"
+                            <q-input dense borderless v-model="form.nombrem" name="nombre-madre" required label="Apellidos y nombres"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -217,7 +217,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.nacimientom" name="fechanacimiento-madre" label="Fecha de nacimiento"
+                            <q-input dense borderless v-model="form.nacimientom" name="fechanacimiento-madre" required label="Fecha de nacimiento"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -225,7 +225,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.profesionm" name="profesion-madre" label="Profesión" label-color="indigo-8"
+                            <q-input dense borderless v-model="form.profesionm" name="profesion-madre" required label="Profesión" label-color="indigo-8"
                                 class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -233,7 +233,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.direcciontrabajom" name="direcciontrabajo-madre" label="Dirección de Trabajo"
+                            <q-input dense borderless v-model="form.direcciontrabajom" name="direcciontrabajo-madre" required label="Dirección de Trabajo"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -241,7 +241,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.telefonocasam" name="telefonocasa-madre" label="Teléfono de casa"
+                            <q-input dense borderless v-model="form.telefonocasam" name="telefonocasa-madre" required label="Teléfono de casa"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -249,7 +249,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.telefonocelularm" name="telefonocelular-madre" label="Teléfono de celular"
+                            <q-input dense borderless v-model="form.telefonocelularm" name="telefonocelular-madre" required label="Teléfono de celular"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -260,7 +260,7 @@
                         </div>
                         <div class="col-md-1 col-sm-1"></div>
                         <div class="col-12 col-md-4 col-sm-4 columnas-formulario">
-                            <q-input dense borderless v-model="form.pasaportem" name="pasaporte-madre" label="C.I Pasaporte"
+                            <q-input dense borderless v-model="form.pasaportem" name="pasaporte-madre" required label="C.I Pasaporte"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -268,7 +268,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.direcciondomiciliom" name="direcciondomicilio-madre" label="Dirección de domicilio"
+                            <q-input dense borderless v-model="form.direcciondomiciliom" required name="direcciondomicilio-madre" label="Dirección de domicilio"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -276,7 +276,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.lugartrabajom" name="lugartrabajo-madre" label="Lugar de Trabajo"
+                            <q-input dense borderless v-model="form.lugartrabajom" name="lugartrabajo-madre" required label="Lugar de Trabajo"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -284,7 +284,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.emailm" name="email-madre" label="Correo electrónico"
+                            <q-input dense borderless v-model="form.emailm" name="email-madre" required label="Correo electrónico"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -292,7 +292,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.telefonotrabajom" name="telefonotrabajo-madre" label="Teléfono de Trabajo"
+                            <q-input dense borderless v-model="form.telefonotrabajom" name="telefonotrabajo-madre" required label="Teléfono de Trabajo"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
