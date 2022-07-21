@@ -108,7 +108,7 @@ export default {
           items: [
             {
               label: 'Modelo pedagógico',
-              ruta: ''
+              ruta: 'acerca-de-nosotros?section=modelopedagogico'
             },
             {
               label: 'Idiomas',
@@ -159,6 +159,11 @@ export default {
     }
   },
   methods: {
+    goto () {
+      if (this.$route.query.section) {
+        location.hash = '#' + this.$route.query.section
+      }
+    },
     action (item) {
       this.selecItem = item
       this.$emit('close')
@@ -166,6 +171,9 @@ export default {
         this.$router.push({ name: item.ruta })
       }
     }
+  },
+  created () {
+    setTimeout(this.goto, 500)
   }
 }
 </script>
