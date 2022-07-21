@@ -1,192 +1,125 @@
 <template>
-    <section class="section10">
-        <div class="container">
-            <p class="titulo--section10 my-font-black" data-aos="fade-right" data-aos-duration="1500">
-                Herramientas<br>
-                <span>tecnológicas</span>
+    <section class="banner-acerca-de-nosotros">
+        <div class="container-texto-banner--acerca-de-nosotros">
+            <p class="texto-banner--acerca-de-nosotros my-font-black" data-aos="fade-right" data-aos-duration="1500" >
+                Acerca de <br> nosotros, <br>nuestra<br><span>motivación</span>
             </p>
-            <div class="row fila-texto--section10">
-                <div class="col-12col-md-10 container-texto--section10">
-                    <p class="texto--section10 my-font" data-aos="fade-right" data-aos-duration="1750">
-                        Nuestras herramientas tecnológicas para estudiantes desde segundo de básica en adelante incluyen
-                        el
-                        uso de software (App) efectivo y entretenido en las áreas de matemáticas, lenguaje, literatura e
-                        inglés entre ellos contamos con:
-                    </p>
-                </div>
-            </div>
-            <div class="row fila-marcas--section10">
-                <div class="col-0 col-md-1"></div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-RazK.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-Aleks.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-matif.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-Cambridge.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-Zoom.jpg" alt="">
-                </div>
-                <div class="col-0 col-md-1"></div>
-                <div class="col-0 col-md-1"></div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-myon.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-nearpod.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-classkick.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-deltamath.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-googl-class.jpg" alt="">
-                </div>
-                <div class="col-0 col-md-1"></div>
-            </div>
-            <!-- Movil -->
-            <div class="row mv-fila-marcas--section10">
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-RazK.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-Aleks.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-matif.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-Cambridge.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-Zoom.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-myon.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-nearpod.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-classkick.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-deltamath.jpg" alt="">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="../../assets/img/Logo/Logo-googl-class.jpg" alt="">
-                </div>
-            </div>
+        </div>
+        <div class="container-imagen-banner--acerca-de-nosotros">
+            <img src="../../assets/img/Figuras/F-N-1.svg" data-aos="fade-up-left" data-aos-duration="1500" alt="">
+        </div>
+        <!-- Movil -->
+        <div class="mv-container-imagen-banner--acerca-de-nosotros">
+            <img src="../../assets/img/Figuras/F-N-P1.svg" alt="" data-aos="fade-up-left" data-aos-duration="1500">
+        </div>
+        <div class="mv-container-texto-banner--acerca-de-nosotros">
+            <p class="mv-texto-banner--acerca-de-nosotros my-font-black" data-aos="fade-left" data-aos-duration="1500">
+                Acerca de <br> nosotros, <br>nuestra<br><span>motivación</span>
+            </p>
         </div>
     </section>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss" scoped >
 @import 'src/css/colores.scss';
 
-.section10{
-    height: 95vh;
-}
-
-.section10 > .container{
-    padding-top: 5em;
-}
-
-.titulo--section10{
-    font-size:40px;
-    line-height: 45px;
-    font-weight: 900;
-}
-
-.titulo--section10 > span{
-    background-color: $verde-limon;
-    padding: 0 10px;
-}
-
-.texto--section10{
-    font-size: 22px;
-    line-height: 28px;
-    margin: 20px 0px;
-}
-
-.fila-texto--section10{
+.banner-acerca-de-nosotros{
+    height:100%;
+    width:100%;
     display: flex;
-    justify-content: center;
 }
-.container-texto--section10{
-    padding-right: 27%;
-}
-
-.fila-marcas--section10{
-    display: flex;
-    justify-content: center;
+.container-texto-banner--acerca-de-nosotros{
+    width: 50%;
+    justify-content: flex-end;
     align-items: center;
+    display: flex;
 }
 
-.fila-marcas--section10 > div{
-    height: fit-content;
-    width: fit-content;
-    padding: 0px 10px;
+.container-texto-banner--acerca-de-nosotros{
+    color: $negro;
 }
 
-.fila-marcas--section10 > div > img{
-    width: 170px;
-    padding: 0 10px;
-    height: auto;
+.texto-banner--acerca-de-nosotros{
+    letter-spacing: 0px;
+    width: 504px;
+    height: 371.46px;
+    font-weight: 900;
+    font-size: 62px;
+    line-height: 60px;
+    text-align: left;
+
+}
+
+.texto-banner--acerca-de-nosotros > span{
+    background-color: $amarillo;
+}
+
+.container-imagen-banner--acerca-de-nosotros{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+.container-imagen-banner--acerca-de-nosotros > img{
+    width: 100%;
+    height: 100%;
 }
 
 @media (max-width:768px) {
-    .container-texto--section10{
-        padding-right: 14%;
+    .banner-acerca-de-nosotros{
+        font-size: 14px;
+        display: block;
     }
 
-    .section10{
-        height: 100%;
-    }
-
-    .fila-marcas--section10{
+    .container-imagen-banner--acerca-de-nosotros{
         display: none;
     }
 
-    .mv-fila-marcas--section10{
+    .container-texto-banner--acerca-de-nosotros{
+        display: none;
+    }
+
+    .mv-texto-banner--acerca-de-nosotros > span{
+        background-color: $amarillo;
+    }
+
+    .mv-container-texto-banner--acerca-de-nosotros{
+        position: absolute;
+        top: 10px;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-    }
-    .mv-fila-marcas--section10 > div{
-        height: fit-content;
-        width: fit-content;
-        padding: 0px 10px;
+        width: 90%;
+        justify-content: flex-end;
     }
 
-    .mv-fila-marcas--section10 > div > img{
-        width: 170px;
-        padding: 0 10px;
-        height: auto;
+    .mv-texto-banner--acerca-de-nosotros{
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 35px;
+        margin-top: 30px;
     }
 
-    .section10 > .container{
-        margin-bottom: 50px;
+    .mv-container-imagen-banner--acerca-de-nosotros > img{
+        width: 100%;
     }
+
 }
 
-@media (min-width: 768px) {
-    .mv-fila-marcas--section10{
+@media (min-width:768px) {
+    .mv-container-imagen-banner--acerca-de-nosotros{
+        display: none;
+    }
+
+    .mv-container-texto-banner--acerca-de-nosotros{
         display: none;
     }
 }
+
 </style>
 
 <script>
+
 export default {
-  name: 'sec10adn'
+  name: 'sec1adn'
 }
 </script>
