@@ -5,7 +5,7 @@
         <span class="bg-secondary text-white">Educamos </span><br/>
         seres<br/>
         humanos <br>
-        auténticos.
+        auténticos
       </div>
 
       <div class="column items-end full-width">
