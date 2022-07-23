@@ -151,7 +151,7 @@ export default {
           image: 'blog/blog-1.png',
           date: '10/10/2022',
           type: 'Desarrollo',
-          color: '#E5E1D3',
+          color: '#e6e1d1',
           user: {
             name: 'Frida Campo',
             perfil: 'blog/blog-2.png'
@@ -163,7 +163,7 @@ export default {
           image: 'blog/blog-3.png',
           date: '10/10/2022',
           type: 'Creatividad',
-          color: '#F9D938',
+          color: '#ffd800',
           user: {
             name: 'Marco Polo',
             perfil: 'blog/blog-5.png'
@@ -175,7 +175,7 @@ export default {
           image: 'blog/blog-4.png',
           date: '10/10/2022',
           type: 'Tutoriales',
-          color: '#8CAEF9',
+          color: '#83afff',
           user: {
             name: 'Marco Polo',
             perfil: 'blog/blog-5.png'
@@ -187,7 +187,7 @@ export default {
           image: 'blog/blog-1.png',
           date: '10/10/2022',
           type: 'Clases',
-          color: '#EF5A37',
+          color: '#ff4b23',
           user: {
             name: 'Frida Campo',
             perfil: 'blog/blog-2.png'
@@ -199,7 +199,7 @@ export default {
           image: 'blog/blog-1.png',
           date: '10/10/2022',
           type: 'Desarrollo',
-          color: '#E5E1D3',
+          color: '#e6e1d1',
           user: {
             name: 'Marco Polo',
             perfil: 'blog/blog-5.png'
@@ -211,7 +211,7 @@ export default {
           image: 'blog/blog-4.png',
           date: '10/10/2022',
           type: 'Comunidad',
-          color: '#2FAD62',
+          color: '#00b059',
           user: {
             name: 'Marco Polo',
             perfil: 'blog/blog-5.png'
@@ -223,7 +223,7 @@ export default {
           image: 'blog/blog-1.png',
           date: '10/10/2022',
           type: 'Desarrollo',
-          color: '#E5E1D3',
+          color: '#e6e1d1',
           user: {
             name: 'Frida Campo',
             perfil: 'blog/blog-2.png'
@@ -235,7 +235,7 @@ export default {
           image: 'blog/blog-3.png',
           date: '10/10/2022',
           type: 'Creatividad',
-          color: '#F9D938',
+          color: '#ffd800',
           user: {
             name: 'Marco Polo',
             perfil: 'blog/blog-5.png'
@@ -247,7 +247,7 @@ export default {
           image: 'blog/blog-4.png',
           date: '10/10/2022',
           type: 'Tutoriales',
-          color: '#8CAEF9',
+          color: '#83afff',
           user: {
             name: 'Marco Polo',
             perfil: 'blog/blog-5.png'
