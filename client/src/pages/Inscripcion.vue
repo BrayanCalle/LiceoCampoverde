@@ -96,7 +96,7 @@
                             </q-input>
                         </div>
                     </div>
-                    <!--  -->
+                    <!-- Inicio Datos del Padre  -->
                     <div class="row">
                         <div class="col-md-1"></div>
                         <div class="col-md-10">
@@ -199,7 +199,8 @@
                             </q-input>
                         </div>
                     </div>
-                    <!--  -->
+                    <!-- Fin datos del Padre -->
+                    <!-- Datos de la Madre  -->
                     <div class="row">
                         <div class="col-md-1"></div>
                         <div class="col-md-10">
@@ -302,9 +303,10 @@
                             </q-input>
                         </div>
                     </div>
+                    <!-- Fin datos de la madre -->
                     <div class="row justify-center q-pt-md">
                         <q-btn rounded dense no-caps label="Enviar Formulario" type="submit" color="accent"
-                            class="q-px-md boton-formulario my-font-medium" @click="form = {}" />
+                            class="q-px-md boton-formulario my-font-medium" />
                     </div>
                 </q-form>
             </div>

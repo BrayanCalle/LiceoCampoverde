@@ -369,7 +369,7 @@
     }
 
     .mv-texto-pdb > p:first-child{
-        font-size: 27px;
+        font-size: 25px;
         color: white;
         line-height: 30px;
         font-weight: 900;
