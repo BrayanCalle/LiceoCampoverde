@@ -9,8 +9,8 @@
             <div class="container-parte-derecha--section5">
                 <div class="parte-derecha--section5">
                     <div class="parte-arriba-parte-derecha--section5">
-                        <p class="titulo-parte-derecha--section5 my-font-black" data-aos="fade-left" data-aos-duration="1500">Idiomas</p>
-                        <p class="texto-parte-derecha--section5 my-font-medium" data-aos="fade-left" data-aos-duration="1600">
+                        <p class="titulo-parte-derecha--section5 my-font-black" data-aos="fade-right" data-aos-duration="1500">Idiomas</p>
+                        <p class="texto-parte-derecha--section5 my-font-medium" data-aos="fade-right" data-aos-duration="1600">
                             Los idiomas extranjeros cobran auge ya que la internacionalización, así como el
                             desarrollo científico y
                             tecnológico, exigen que los estudiantes adquieran herramientas para enfrentar
@@ -18,14 +18,14 @@
                         </p>
                     </div>
                     <div class="parte-abajo-parte-derecha--section5">
-                        <p class="titulo-parte-abajo-parte-derecha--section5 my-font-black" data-aos="fade-left" data-aos-duration="1700"><b>Nuestros estudiantes egresan
+                        <p class="titulo-parte-abajo-parte-derecha--section5 my-font-black" data-aos="fade-right" data-aos-duration="1700"><b>Nuestros estudiantes egresan
                                 preparados en tres idiomas:</b></p>
-                        <ul class="my-font" data-aos="fade-left" data-aos-duration="1800">
+                        <ul class="my-font" data-aos="fade-right" data-aos-duration="1800">
                             <li>Español (C2)*</li>
                             <li>Inglés (Bilingüe, B2-C1)*</li>
                             <li>Francés (Suficiencia B1-B2)</li>
                         </ul>
-                        <p class="my-font" data-aos="fade-left" data-aos-duration="1900">*Cuadro común europeo de uso de Lenguas</p>
+                        <p class="my-font" data-aos="fade-right" data-aos-duration="1900">*Cuadro común europeo de uso de Lenguas</p>
                     </div>
                 </div>
             </div>
