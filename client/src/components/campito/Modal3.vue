@@ -12,7 +12,7 @@
         </div>
         <div class="row q-pb-sm">
           <div class="col-6 q-px-xl q-py-xl text-center">
-            <p class="text-h4 text-center text-weight-bold">Menú</p>
+            <p class="my-font-bold text-modal text-h4 text-center text-weight-bold">Menú</p>
           </div>
           <div class="col-6 bg-info">
             <img width="80%" style="margin: auto ; display: flex;" src="figuras/F-C-6.svg" alt="imagen"/>

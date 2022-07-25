@@ -12,10 +12,10 @@
         </div>
         <div class="row">
           <div class="col-12 col-md-6 q-px-xl q-py-xl text-center">
-            <p class="text-h4">Idiomas</p>
+            <p class="my-font-bold text-modal text-h4">Idiomas</p>
           </div>
           <div class="col-12 col-md-6 bg-dark">
-            <p class="q-pl-xl text-h1 lyrics_modal I">I</p>
+            <p class="q-pl-xl text-h1 lyrics_modal I my-font-ultra lyrics-animation">I</p>
           </div>
         </div>
         <div class="row q-py-sm">

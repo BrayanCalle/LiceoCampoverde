@@ -28,13 +28,13 @@ export default {
     return {
       slides: [
         {
-          id: 1, title: 'Jueves', number: '12', time: '12:00', descripcion: 'Pristiños con miel. Bebida de avena. Fruta'
+          id: 1, title: 'Miércoles', number: '12', time: '12:00', descripcion: 'Minga general'
         },
         {
-          id: 2, title: 'Martes', number: '13', time: '12:00', descripcion: 'Pristiños con miel. Bebida de avena. Fruta'
+          id: 2, title: 'Jueves', number: '13', time: '12:00', descripcion: 'Pristiños con miel. Bebida de avena. Fruta'
         },
         {
-          id: 3, title: 'Miercoles', number: '13', time: '12:00', descripcion: 'Pristiños con miel. Bebida de avena. Fruta'
+          id: 3, title: 'Martes', number: '11', time: '12:00', descripcion: 'Pristiños con miel. Bebida de avena. Fruta'
         }
       ]
     }

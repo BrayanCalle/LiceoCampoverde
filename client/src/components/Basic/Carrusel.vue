@@ -16,17 +16,21 @@
       >
         <q-carousel-slide :name="1" class="flex flex-center">
           <div class="text-h4 text-weight-bolder my-font-ultra">
-            Tenemos un <br>
-            espíritu <br>
-            comprometido <br>
-            e innovador
+            Apasionados<br/> en resolver<br/> problemas
           </div>
         </q-carousel-slide>
         <q-carousel-slide :name="2" class="flex flex-center">
           <div class="text-h4 text-weight-bolder my-font-ultra">
-            Apasionados <br>
-            en resolver <br>
-            problemas <br>
+            Desarrollo de<br>
+            habilidades <br>
+            blandas
+          </div>
+        </q-carousel-slide>
+        <q-carousel-slide :name="3" class="flex flex-center">
+          <div class="text-h4 text-weight-bolder my-font-ultra">
+            Facilidad de<br>
+            expresar <br>
+            opiniones
           </div>
         </q-carousel-slide>
       </q-carousel>

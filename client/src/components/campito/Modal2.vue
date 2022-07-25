@@ -12,7 +12,7 @@
         </div>
         <div class="row q-pb-sm">
           <div class="col-6 q-px-xl q-py-xl text-center">
-            <p class="text-h4 text-center text-weight-bold">Calendario <br/>de actividades</p>
+            <p class="my-font-bold text-modal text-h4 text-center text-weight-bold">Calendario <br/>de actividades</p>
           </div>
           <div class="col-6 bg-info">
             <img width="60%" style="margin: auto ; display: flex;" height="100%" src="figuras/F-C-9.svg" alt="imagen"/>

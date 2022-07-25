@@ -3,7 +3,7 @@
       <div class="col-5">
         <img style="max-width: 70%; height: auto; margin: auto; display: flex;" src="figuras/F-C-2.svg" alt="imagen"/>
       </div>
-      <div class="col-6 campito_title">
+      <div data-aos="fade-left" class="col-6 campito_title">
         <h2 style="line-height: 3rem;" class="text-top text-weight-bolder my-font-ultra">
           <span style="background-color: #2fad62;" class="q-my-xl q-px-md q-py-xs">En Campito</span>  <br/>recibimos a niños de <br/>2 a 4 años de edad
         </h2>

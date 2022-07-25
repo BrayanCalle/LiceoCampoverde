@@ -1,6 +1,6 @@
 <template>
     <div class="row relative-position">
-      <div class="col-12 col-md-6 q-pa-md margin">
+      <div data-aos="fade-up" class="col-12 col-md-6 q-pa-md margin">
        <h2 style="padding: 10rem 0rem;" class="my-font-ultra space-line my-font-bold text-weight-bolder q-pl-xs-md">Aprendizaje basado en
           <span style="background-color: #c6d33a;" class="text-white q-my-xl q-px-md q-py-xs">proyectos</span>
        </h2>

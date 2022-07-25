@@ -16,21 +16,17 @@
       >
         <q-carousel-slide :name="1" class="flex flex-center">
           <div class="text-h4 text-weight-bolder my-font-ultra">
-            Tenemos un <br>
-            espíritu <br>
-            comprometido <br>
-            e innovador
+            Exploración <br/>alegre y<br/> activa
           </div>
         </q-carousel-slide>
         <q-carousel-slide :name="2" class="flex flex-center">
-          <div class="text-subtitle1 text-weight-bolder  my-font-ultra ">
-            Tomamos acción <br>
-            para educar a <br>
-            personas con valores, <br>
-            que logren influenciar <br>
-            positivamente a su <br>
-            entorno, la sociedad <br>
-            y el medio ambiente.
+          <div class="text-h4 text-weight-bolder  my-font-ultra ">
+            Desarrollo <br/> progresivo de<br/> autonomía
+          </div>
+        </q-carousel-slide>
+        <q-carousel-slide :name="3" class="flex flex-center">
+          <div class="text-h4 text-weight-bolder  my-font-ultra ">
+            Juego <br/> de roles
           </div>
         </q-carousel-slide>
       </q-carousel>
