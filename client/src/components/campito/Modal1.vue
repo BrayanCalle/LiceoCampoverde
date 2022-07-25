@@ -12,10 +12,10 @@
         </div>
         <div class="row">
           <div class="col-md-6 col-12 q-px-xl q-py-xl text-center">
-            <p class="text-h4">Horario</p>
+            <p class="text-h4 my-font-bold text-modal">Horario</p>
           </div>
           <div class="col-md-6 col-12 bg-info">
-            <img width="80%" height="100%" src="figuras/F-C-5.svg" alt="imagen"/>
+            <img style="margin: auto; display: flex;" width="80%" height="100%" src="figuras/F-C-5.svg" alt="imagen"/>
           </div>
         </div>
         <div class="row">
@@ -29,13 +29,21 @@
           </div>
           <div class="col-md-4 col-12 q-px-xl q-py-xl text-justify">
             <p class="text-h5 text-weight-bold">
-              Hora de ingreso:
+              Hora de clases:
             </p>
             <p class="text-h6 text-weight-light">
-              Lunes y miércoles <br/>de 07:50 a 15:55
+              Lunes a Viernes <br/>8:20 a 12:45
+            </p>
+          </div>
+           <div class="col-md-4 col-12 q-px-xl q-py-xl text-justify">
+            <p class="text-h5 text-weight-bold">
+              Horario Club Campito:
             </p>
             <p class="text-h6 text-weight-light">
-              Martes, jueves y viernes <br/>de 07:50 a 15:05
+              Lunes y miércoles <br/>de 12:55 a 16:05
+            </p>
+            <p class="text-h6 text-weight-light">
+              Martes, jueves y viernes <br/>de 12:55 a 15:05
             </p>
           </div>
         </div>

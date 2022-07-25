@@ -1,6 +1,6 @@
 <template>
     <section class="">
-      <div class="bg-accent schedule row q-gutter-x-xl justify-center my-font-bold padding_top">
+      <div style="background-color: #8a52aa;" class="schedule row q-gutter-x-xl justify-center my-font-bold padding_top">
         <div class="col-12 col-md-5">
           <div class="row q-gutter-y-md ">
             <div class="col-6 bg-white text-center relative-position" style="height: 13.4rem;">

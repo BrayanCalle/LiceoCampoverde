@@ -1,7 +1,7 @@
 <template>
     <section>
-      <div class="row bg-info relative-position q-py-xl ">
-        <div class="col-12 col-md-3 bar-te">
+      <div style="background-color: #19a4e8;" class="row relative-position q-py-xl ">
+        <div data-aos="fade-right" class="col-12 col-md-3 bar-te">
           <h3 class="bar-text text-weight-bold text-white my-font-ultra">Juegos</h3>
         </div>
         <div class="col-12 col-md-4">
@@ -13,9 +13,9 @@
           </h5>
         </div>
       </div>
-      <div class="row bg-secondary relative-position q-py-xl circle_one">
+      <div  style="background-color: #00b059;" class="row relative-position q-py-xl circle_one">
          <div class="col-12 col-md-4">
-          <div style="height: 62vh;" class="coursel_responsive">
+          <div style="height: 63vh;" class="coursel_responsive">
             <q-carousel
               animated
               v-model="slide"
@@ -28,8 +28,8 @@
               style="border-radius:100%"
             >
               <q-carousel-slide :name="1" img-src="img/desplazamiento-3.png" />
-              <q-carousel-slide :name="2" img-src="img/desplazamiento.png" />
-              <q-carousel-slide :name="3" img-src="img/desplazamiento-3.png" />
+              <q-carousel-slide :name="2" img-src="img/C-10.png" />
+              <q-carousel-slide :name="3" img-src="img/C-11.png" />
             </q-carousel>
           </div>
         </div>
@@ -38,7 +38,7 @@
             Tenemos mucho espacio al aire libre, que junto a la granja y huerto aportan para un buen desarrollo psicomotor de nuestros niños.
           </h5>
         </div>
-         <div class="col-12 col-md-3 bar-te">
+         <div data-aos="fade-left" class="col-12 col-md-3 bar-te">
           <h3 class="bar-text text-weight-bold my-font-ultra">Naturaleza</h3>
         </div>
       </div>

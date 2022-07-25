@@ -2,7 +2,7 @@
    <section  >
      <div class="row relative-position bg-primary">
       <div class="col-12 col-md-6 text-appearanc">
-        <h3 class="text-weight-bold my-font-ultra">
+        <h3 data-aos="fade-right" class="text-weight-bold my-font-ultra">
           En Campito aplicamos nuestro programa <span class="bg-warning q-px-md q-py-sm">Fortalezas</span> del Carácter
         </h3>
         <p class="text-h5 text-weight-regular my-font text_fortaleza">

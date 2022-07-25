@@ -12,7 +12,7 @@
     <div class="row bg-dark q-py-xl">
       <div class="col-12 col-md-6 q-py-xl bachiller_btn">
         <div class="card_schedule q-py-xl q-px-xl">
-          <p class="lyrics H">H</p>
+          <p class="lyrics H my-font-ultra">H</p>
           <div>
             <button>
               <modal-1/>
@@ -29,7 +29,7 @@
               <modal-2/>
              </button>
           </div><br/>
-          <p class="lyrics text_lyrics A">A</p>
+          <p class="lyrics text_lyrics A my-font-ultra">A</p>
         </div>
       </div>
       <div class="col-12 col-md-6 q-py-xl bachiller_btn ">
@@ -40,12 +40,12 @@
             </button>
             <p class="text-h5 text-weight-bold text-white q-pt-sm">Menú</p>
           </div>
-          <p class="lyrics M">M</p>
+          <p class="lyrics M my-font-ultra">M</p>
         </div>
       </div>
        <div class="col-12 col-md-6 q-py-xl bachiller_btn">
         <div class="card_schedule q-py-xl q-px-xl">
-          <p class="lyrics I">I</p>
+          <p class="lyrics I my-font-ultra">I</p>
           <div class="q-mx-xl">
             <button>
               <modal-4/>

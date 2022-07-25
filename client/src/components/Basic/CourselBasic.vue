@@ -1,5 +1,5 @@
 <template>
-    <div style="height: 60vh;" class="coursel_responsive">
+    <div style="height: 63vh;" class="coursel_responsive">
       <q-carousel
         v-model="slide"
         swipeable
@@ -10,9 +10,10 @@
         height="100%"
         style="border-radius:100%"
       >
-        <q-carousel-slide :name="1" img-src="img/EC-7.png" />
-        <q-carousel-slide :name="2" img-src="img/desplazamiento.png" />
-        <q-carousel-slide :name="3" img-src="img/desplazamiento.png" />
+        <q-carousel-slide :name="1" img-src="img/EB-5.png" />
+        <q-carousel-slide :name="2" img-src="img/EB-6.png" />
+        <q-carousel-slide :name="3" img-src="img/EC-7.png" />
+
       </q-carousel>
     </div>
 </template>

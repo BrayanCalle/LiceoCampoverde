@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-5 infrastructure">
+        <div data-aos="fade-right" class="col-12 col-md-5 infrastructure">
           <p class="text-h3 text-weight-bold my-font-ultra">
             Los niños pueden jugar y aprender en <span style="background-color: #2fad62; line-height: 3.5rem;" class="q-px-md q-py-xs text-white">nuestras</span> áreas
           </p>
@@ -21,7 +21,7 @@
               <img width="100%" src="img/C-3.png" alt="alt"/>
             </div>
             <div class="col-12 col-md-6 "><br/><br/>
-              <h4 class="text-weight-bold q-mt-xl q-pt-xl text-center my-font-bold">Infraestructura</h4>
+              <h4 class="text-infraestructura text-weight-bold q-mt-xl q-pt-xl text-center my-font-ultra">Infraestructura</h4>
             </div>
             <div class="col-12 col-md-6 text-circle">
               <p class="text-h5">
@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import VideoHome from '../Video/Video'
+import VideoHome from './Video'
 export default {
   components: {
     VideoHome

@@ -2,7 +2,7 @@
    <section>
      <div class="row relative-position" style="background-color: #E5E1D3;">
       <div class="col-12 col-md-6 text-appearance">
-        <h3 class="text-weight-bold my-font-bold my-font-ultra">
+        <h3 data-aos="fade-right" class="text-weight-bold my-font-bold my-font-ultra">
           En educación básica aplicamos nuestro programa <span class="text-white bg-warning q-px-md q-py-xs">Fortalezas</span> del Carácter
         </h3>
         <p class="text-basic text-h5 text-weight-regular">

@@ -12,7 +12,7 @@
         </div>
         <div class="row">
           <div class="col-6 q-px-xl q-py-xl text-center">
-            <p class="text-h4">Idioma</p>
+            <p class="my-font-bold text-modal text-h4">Idioma</p>
           </div>
           <div class="col-12 col-md-6 bg-info">
             <img width="50%" style="margin: auto ; display: flex;" src="figuras/F-C-9.svg" alt="imagen"/>

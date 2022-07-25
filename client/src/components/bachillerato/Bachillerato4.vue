@@ -6,7 +6,7 @@
       </div>
       <div class="col-12 col-md-6">
         <div class="q-px-xl q-py-xl ">
-          <p class="text-h3 text-weight-bold  my-font-ultra">Nuestra <br/><span class="text-white bg-accent q-px-md">metodología</span></p>
+          <p data-aos="fade-left" class="text-h3 text-weight-bold  my-font-ultra">Nuestra <br/><span class="text-white bg-accent q-px-md">metodología</span></p>
           <p class="text-h4 text-weight-medium">busca su desarrollo integral</p>
         </div>
         <div class="q-px-xl">

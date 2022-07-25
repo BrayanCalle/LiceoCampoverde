@@ -1,7 +1,7 @@
 <template>
     <section>
-      <div class="row bg-info relative-position circle_one">
-        <div class="col-12 col-md-4 bar-te">
+      <div style="background-color: #83afff;"  class="row relative-position circle_one">
+        <div data-aos="fade-right" class="col-12 col-md-4 bar-te">
           <h3 class="bar-text text-weight-bold text-dark my-font-ultra">Laboratorios</h3>
         </div>
         <div class="col-12 col-md-4">
@@ -13,9 +13,9 @@
           </h5>
         </div>
       </div>
-      <div class="row bg-secondary relative-position circle_one">
+      <div style="background-color: #00B059;" class="row relative-position circle_one">
          <div class="col-12 col-md-4">
-          <div style="height: 60vh;" class="coursel_responsive">
+          <div style="height: 63vh;" class="coursel_responsive">
             <q-carousel
               v-model="slide"
               swipeable
@@ -27,8 +27,7 @@
               style="border-radius:100%"
             >
               <q-carousel-slide :name="1" img-src="img/EC-8.png" />
-              <q-carousel-slide :name="2" img-src="img/desplazamiento.png" />
-              <q-carousel-slide :name="3" img-src="img/EC-8.png" />
+              <q-carousel-slide :name="3" img-src="img/EB-9.png" />
             </q-carousel>
           </div>
         </div>
@@ -37,7 +36,7 @@
             Nos divertimos en los juegos de equilibrio, canchas de fútbol, básquetbol y en nuestra pista de atletismo.
           </h5>
         </div>
-         <div class="col-12 col-md-3 bar-te">
+         <div  data-aos="fade-left" class="col-12 col-md-3 bar-te">
           <h3 class="bar-text text-weight-bold text-dark my-font-ultra">Espacios recreativos</h3>
         </div>
       </div>

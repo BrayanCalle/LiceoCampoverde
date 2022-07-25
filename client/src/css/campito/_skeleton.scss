@@ -228,6 +228,9 @@
 .circle_one {
   padding: 48px !important;
 }
+.text-modal {
+  padding-top: 5rem;
+}
 //Responsive web
 @media only screen and (max-width: 600px) {
   .img_responsive {
@@ -301,6 +304,9 @@
     height: 24rem !important;
     margin: auto;
   }
+  .text-modal {
+    padding-top: 3rem;
+  }
 }
 @media (min-width: 900px) and (max-width: 1280px){
   .campito_title {
@@ -329,6 +335,9 @@
   }
   .two_text-circle {
     font-size: 22px !important;
+  }
+  .text-modal {
+    padding-top: 1rem;
   }
 }
 
@@ -425,6 +434,9 @@
     height: 24rem !important;
     margin: auto;
   }
+  .text-modal {
+    padding-top: 1rem;
+  }
 
 }
 
@@ -468,6 +480,9 @@
     position: absolute;
     top: 9rem;
     left: 12rem;
+  }
+  .text-modal {
+    padding-top: 1rem;
   }
 }
 
@@ -513,5 +528,8 @@
   .tour-play {
     top: 8rem;
     left: 10rem;
+  }
+  .text-modal {
+    padding-top: 1rem;
   }
 }
