@@ -33,44 +33,45 @@ $lugartrabajomadre = $_POST['lugartrabajomadre'];
 $emailmadre = $_POST['emailmadre'];
 $telefonotrabajomadre = $_POST['telefonotrabajomadre'];
 
-$header = 'From: ' . $emailpadre . $emailmadre . " \r\n";
+$header = 'From: ' . $emailpadre ."-" . $emailmadre . " \r\n";
 $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
 $header .= "Mime-Version: 1.0 \r\n";
 $header .= "Content-Type: text/plain";
 
 // Mensaje alumno
 $mensaje = "Los nombres del alumno son: " . $nombrealumno . ",\r\n";
-$mensaje = "La fecha de nacimiento del alumno es: " . $fechanacimientoalumno . ",\r\n";
-$mensaje = "El lugar del nacimiento del alumno es: " . $lugarnacimientoalumno . ",\r\n";
-$mensaje = "El domicilio del alumno es: " . $domicilioalumno . ",\r\n";
-$mensaje = "El grado o el curso al que postula el alumno es: " . $gradoalumno . ",\r\n";
-$mensaje = "El número de identificacion del alumno es: " . $cedulaalumno . ",\r\n";
-$mensaje = "La edad del alumno es: " . $edadalumno . ",\r\n";
-$mensaje = "La pais del alumno es: " . $paisalumno . ",\r\n";
+$mensaje .= "La fecha de nacimiento del alumno es: " . $fechanacimientoalumno . " \r\n";
+$mensaje .= "El lugar del nacimiento del alumno es: " . $lugarnacimientoalumno . " \r\n";
+$mensaje .= "El domicilio del alumno es: " . $domicilioalumno . " \r\n";
+$mensaje .= "El grado o el curso al que postula el alumno es: " . $gradoalumno . " \r\n";
+$mensaje .= "El número de identificacion del alumno es: " . $cedulaalumno . " \r\n";
+$mensaje .= "La edad del alumno es: " . $edadalumno . " \r\n";
+$mensaje .= "La pais del alumno es: " . $paisalumno . " \r\n";
 // Mensaje Padre
-$mensaje = "Los nombres del padre son: " . $nombrepadre . ",\r\n";
-$mensaje = "La fecha de nacimiento del padre es: " . $fechanacimientopadre . ",\r\n";
-$mensaje = "La profesión del padre es: " . $profesionpadre . ",\r\n";
-$mensaje = "La dirección del trabajo del padre es: " . $direcciontrabajopadre . ",\r\n";
-$mensaje = "El telefono de casa del padre es: " . $telefonocasapadre . ",\r\n";
-$mensaje = "El telefono celular del padre es: " . $telefonocelularpadre . ",\r\n";
-$mensaje = "El pasaporte del padre es: " . $pasaportepadre . ",\r\n";
-$mensaje = "La dirección del domicilio del padre es: " . $direcciondomiciliopadre . ",\r\n";
-$mensaje = "El lugar del trabajo del padre es: " . $lugartrabajopadre . ",\r\n";
-$mensaje = "El email del padre es: " . $emailpadre . ",\r\n";
-$mensaje = "El telefono de trabajo del padre es: " . $telefonotrabajopadre . ",\r\n";
+$mensaje .= "Los nombres del padre son: " . $nombrepadre . " \r\n";
+$mensaje .= "La fecha de nacimiento del padre es: " . $fechanacimientopadre . " \r\n";
+$mensaje .= "La profesión del padre es: " . $profesionpadre . " \r\n";
+$mensaje .= "La dirección del trabajo del padre es: " . $direcciontrabajopadre . " \r\n";
+$mensaje .= "El telefono de casa del padre es: " . $telefonocasapadre . " \r\n";
+$mensaje .= "El telefono celular del padre es: " . $telefonocelularpadre . " \r\n";
+$mensaje .= "El pasaporte del padre es: " . $pasaportepadre . " \r\n";
+$mensaje .= "La dirección del domicilio del padre es: " . $direcciondomiciliopadre . " \r\n";
+$mensaje .= "El lugar del trabajo del padre es: " . $lugartrabajopadre . " \r\n";
+$mensaje .= "El email del padre es: " . $emailpadre . " \r\n";
+$mensaje .= "El telefono de trabajo del padre es: " . $telefonotrabajopadre . " \r\n";
 // Mensaje madre
-$mensaje = "Los nombres de la madre son: " . $nombremadre . ",\r\n";
-$mensaje = "La fecha de nacimiento de la madre es: " . $fechanacimientomadre . ",\r\n";
-$mensaje = "La profesión de la madre es: " . $profesionmadre . ",\r\n";
-$mensaje = "La dirección del trabajo de la madre es: " . $direcciontrabajomadre . ",\r\n";
-$mensaje = "El telefono de casa de la madre es: " . $telefonocasamadre . ",\r\n";
-$mensaje = "El telefono celular de la madre es: " . $telefonocelularmadre . ",\r\n";
-$mensaje = "El pasaporte de la madre es: " . $pasaportemadre . ",\r\n";
-$mensaje = "La dirección del domicilio de la madre es: " . $direcciondomiciliomadre . ",\r\n";
-$mensaje = "El lugar del trabajo de la madre es: " . $lugartrabajomadre . ",\r\n";
-$mensaje = "El email de la madre es: " . $emailmadre . ",\r\n";
-$mensaje = "El telefono de trabajo de la madre es: " . $telefonotrabajomadre . ",\r\n";
+$mensaje .= "Los nombres de la madre son: " . $nombremadre . " \r\n";
+$mensaje .= "La fecha de nacimiento de la madre es: " . $fechanacimientomadre . " \r\n";
+$mensaje .= "La profesión de la madre es: " . $profesionmadre . " \r\n";
+$mensaje .= "La dirección del trabajo de la madre es: " . $direcciontrabajomadre . " \r\n";
+$mensaje .= "El telefono de casa de la madre es: " . $telefonocasamadre . " \r\n";
+$mensaje .= "El telefono celular de la madre es: " . $telefonocelularmadre . " \r\n";
+$mensaje .= "El pasaporte de la madre es: " . $pasaportemadre . " \r\n";
+$mensaje .= "La dirección del domicilio de la madre es: " . $direcciondomiciliomadre . " \r\n";
+$mensaje .= "El lugar del trabajo de la madre es: " . $lugartrabajomadre . " \r\n";
+$mensaje .= "El email de la madre es: " . $emailmadre . " \r\n";
+$mensaje .= "El telefono de trabajo de la madre es: " . $telefonotrabajomadre . " \r\n";
+$mensaje .= "Enviado el " . date('d/m/Y', time());
 
 
 $para = 'infonueva@liceocampoverde.edu.ec';

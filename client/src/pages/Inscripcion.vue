@@ -409,7 +409,7 @@ export default {
     return {
       form: {},
       rules: {
-        required: (value) => !!value || ''
+        required: (value) => !!value || 'Este campo es obligatorio'
       }
     }
   },
