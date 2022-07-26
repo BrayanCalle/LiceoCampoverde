@@ -1,10 +1,9 @@
 <?php
+var_dump($_POST);
+exit;
 $nombre = $_POST['nombre'];
 $email = $_POST['email'];
-$opciones = $_POST['opcion'];
-foreach ($opciones as $opcion){
-    $opcion;
-}
+$opcion = $_POST['opcion'];
 $telefono = $_POST['telefono'];
 $comentario = $_POST['comentario'];
 
