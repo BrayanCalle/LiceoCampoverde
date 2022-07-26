@@ -104,7 +104,6 @@ export default {
           this.form = {}
           this.$refs.myForm.resetValidation()
           this.$q.loading.hide()
-          console.log(request)
         })
         .catch((err) => {
           this.$q.loading.hide()
