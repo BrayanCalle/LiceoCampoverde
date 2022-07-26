@@ -30,9 +30,8 @@
       </div>
 
       <div class="q-py-lg">
-        <q-form class="column items-center q-gutter-y-xs full-width"
-          action="formularioseccion7.php" method="post">
-          <q-input borderless name="nombre" ref="nombre" v-model="form.name" placeholder="Nombre y apellido"
+        <q-form ref="myForm" class="column items-center q-gutter-y-xs full-width" @submit="sendForm()">
+          <q-input borderless name="nombre" ref="nombre" v-model="form.nombre" placeholder="Nombre y apellido"
             class="q-px-sm campos_form" lazy-rules :rules="[rules.required]">
             <template v-slot:prepend>
               <q-avatar square>
@@ -48,20 +47,20 @@
               </q-avatar>
             </template>
           </q-input>
-          <q-input borderless v-model="form.phone" ref="telefono" name="telefono" placeholder="WhatsApp"
+          <q-input borderless v-model="form.telefono" ref="telefono" name="telefono" placeholder="WhatsApp"
             class="q-px-sm campos_form" lazy-rules :rules="[rules.required]">
             <template v-slot:prepend>
               <q-icon name="whatsapp" color="accent" />
             </template>
           </q-input>
-          <q-select borderless v-model="form.selection" ref="opcion" name="opcion[]" :options="['Campito', 'E. Básica', 'Bachillerato']"
+          <q-select borderless v-model="form['opcion[]']" ref="opcion" name="opcion[]" :options="['Campito', 'E. Básica', 'Bachillerato']"
             label="Escoge una opción" lazy-rules :rules="[rules.required]"
             class="q-px-sm campos_form">
             <template v-slot:prepend>
               <q-icon name="dashboard" color="accent" />
             </template>
           </q-select>
-          <q-input ref="comentario" name="comentario" borderless v-model="form.comment" type="textarea" placeholder="Escribe aqui tu mensaje"
+          <q-input ref="comentario" name="comentario" borderless v-model="form.comentario" type="textarea" placeholder="Escribe aqui tu mensaje"
             class="q-px-sm campos_form" lazy-rules :rules="[rules.required]">
             <template v-slot:prepend>
               <q-icon name="send" color="accent" />
@@ -91,6 +90,26 @@ export default {
     }
   },
   methods: {
+    sendForm () {
+      this.$q.loading.show({
+        message: 'Enviando información'
+      })
+      this.$axios
+        .post('formularioseccion7.php', this.form)
+        .then((request) => {
+          this.$q.notify({
+            message: 'Enviado con exito',
+            color: 'primary'
+          })
+          this.form = {}
+          this.$refs.myForm.resetValidation()
+          this.$q.loading.hide()
+        })
+        .catch((err) => {
+          this.$q.loading.hide()
+          console.log(err)
+        })
+    }
   }
 }
 </script>
