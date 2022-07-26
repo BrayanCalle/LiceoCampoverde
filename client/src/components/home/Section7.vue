@@ -30,7 +30,7 @@
       </div>
 
       <div class="q-py-lg">
-        <q-form class="column items-center q-gutter-y-xs full-width" @submit="sendForm()">
+        <q-form ref="myForm" class="column items-center q-gutter-y-xs full-width" @submit="sendForm()">
           <q-input borderless name="nombre" ref="nombre" v-model="form.nombre" placeholder="Nombre y apellido"
             class="q-px-sm campos_form" lazy-rules :rules="[rules.required]">
             <template v-slot:prepend>
@@ -102,6 +102,7 @@ export default {
             color: 'primary'
           })
           this.form = {}
+          this.$refs.myForm.resetValidation()
           this.$q.loading.hide()
           console.log(request)
         })
