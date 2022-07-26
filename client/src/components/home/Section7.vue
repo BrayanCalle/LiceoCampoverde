@@ -53,7 +53,7 @@
               <q-icon name="whatsapp" color="accent" />
             </template>
           </q-input>
-          <q-select borderless v-model="form['opcion[]']" ref="opcion" name="opcion[]" :options="['Campito', 'E. Básica', 'Bachillerato']"
+          <q-select borderless v-model="form.opcion" ref="opcion" :options="['Campito', 'E. Básica', 'Bachillerato']"
             label="Escoge una opción" lazy-rules :rules="[rules.required]"
             class="q-px-sm campos_form">
             <template v-slot:prepend>
@@ -83,7 +83,13 @@ export default {
   },
   data () {
     return {
-      form: {},
+      form: {
+        nombre: '',
+        email: '',
+        opcion: '',
+        telefono: '',
+        comentario: ''
+      },
       rules: {
         required: (value) => !!value || ''
       }
