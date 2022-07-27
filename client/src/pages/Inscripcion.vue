@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="parte-abajo">
-                <q-form action="inscripcion.php" method="post">
+                <q-form ref="myForm" @submit="sendForm()">
                     <div class="row">
                         <div class="col-md-1"></div>
                         <div class="col-md-10">
@@ -27,7 +27,7 @@
                     <div class="row">
                         <div class="col-md-1 col-sm-1"></div>
                         <div class="col-12 col-md-4 col-sm-4">
-                            <q-input dense borderless v-model="form.nombrea" ref="nombrealumno" name="nombrealumno" lazy-rules :rules="[rules.required]" label="Apellidos y nombres"
+                            <q-input dense borderless v-model="form.nombrealumno" ref="nombrealumno" name="nombrealumno" lazy-rules :rules="[rules.required]" label="Apellidos y nombres"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -35,7 +35,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.nacimientoa" ref="fechanacimientoalumno" name="fechanacimientoalumno" lazy-rules :rules="[rules.required]" label="Fecha de nacimiento"
+                            <q-input dense borderless v-model="form.fechanacimientoalumno" ref="fechanacimientoalumno" name="fechanacimientoalumno" lazy-rules :rules="[rules.required]" label="Fecha de nacimiento"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -43,7 +43,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.lugara" ref="lugarnacimientoalumno" name="lugarnacimientoalumno" lazy-rules :rules="[rules.required]" label="Lugar de Nacimiento"
+                            <q-input dense borderless v-model="form.lugarnacimientoalumno" ref="lugarnacimientoalumno" name="lugarnacimientoalumno" lazy-rules :rules="[rules.required]" label="Lugar de Nacimiento"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -51,7 +51,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.domicilioa" ref="domicilioalumno" name="domicilioalumno" lazy-rules :rules="[rules.required]" data-aos="fade-right" data-aos-duration="1500" label="Domicilio" label-color="indigo-8"
+                            <q-input dense borderless v-model="form.domicilioalumno" ref="domicilioalumno" name="domicilioalumno" lazy-rules :rules="[rules.required]" data-aos="fade-right" data-aos-duration="1500" label="Domicilio" label-color="indigo-8"
                                 class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -62,7 +62,7 @@
                         </div>
                         <div class="col-md-1 col-sm-1"></div>
                         <div class="col-12 col-md-4 col-sm-4 columnas-formulario">
-                            <q-input dense borderless v-model="form.gradoa" ref="gradoalumno" name="gradoalumno" lazy-rules :rules="[rules.required]" label="Grado o curso al que postula"
+                            <q-input dense borderless v-model="form.gradoalumno" ref="gradoalumno" name="gradoalumno" lazy-rules :rules="[rules.required]" label="Grado o curso al que postula"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -70,7 +70,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.generoa" ref="identificacionalumno" name="identificacionalumno" label="Cédula" label-color="indigo-8"
+                            <q-input dense borderless v-model="form.identificacionalumno" ref="identificacionalumno" name="identificacionalumno" label="Cédula" label-color="indigo-8"
                                 class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -78,7 +78,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.edada" ref="edadalumno" name="edadalumno" lazy-rules :rules="[rules.required]" label="Edad" label-color="indigo-8"
+                            <q-input dense borderless v-model="form.edadalumno" ref="edadalumno" name="edadalumno" lazy-rules :rules="[rules.required]" label="Edad" label-color="indigo-8"
                                 class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -86,7 +86,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.paisa" ref="paisalumno" name="paisalumno" lazy-rules :rules="[rules.required]" label="País" label-color="indigo-8"
+                            <q-input dense borderless v-model="form.paisalumno" ref="paisalumno" name="paisalumno" lazy-rules :rules="[rules.required]" label="País" label-color="indigo-8"
                                 class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -106,7 +106,7 @@
                     <div class="row">
                         <div class="col-md-1 col-sm-1"></div>
                         <div class="col-12 col-md-4 col-sm-4">
-                            <q-input dense borderless v-model="form.nombrep" ref="nombrepadre" name="nombrepadre" lazy-rules :rules="[rules.required]" label="Apellidos y nombres"
+                            <q-input dense borderless v-model="form.nombrepadre" ref="nombrepadre" name="nombrepadre" lazy-rules :rules="[rules.required]" label="Apellidos y nombres"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -114,7 +114,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.nacimientop" ref="fechanacimientopadre" name="fechanacimientopadre" lazy-rules :rules="[rules.required]" label="Fecha de nacimiento"
+                            <q-input dense borderless v-model="form.fechanacimientopadre" ref="fechanacimientopadre" name="fechanacimientopadre" lazy-rules :rules="[rules.required]" label="Fecha de nacimiento"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -122,7 +122,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.profesionp" ref="profesionpadre" name="profesionpadre" lazy-rules :rules="[rules.required]" label="Profesión" label-color="indigo-8"
+                            <q-input dense borderless v-model="form.profesionpadre" ref="profesionpadre" name="profesionpadre" lazy-rules :rules="[rules.required]" label="Profesión" label-color="indigo-8"
                                 class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -130,7 +130,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.direcciontrabajop" ref="direcciontrabajopadre" name="direcciontrabajopadre" lazy-rules :rules="[rules.required]" label="Dirección de Trabajo"
+                            <q-input dense borderless v-model="form.direcciontrabajopadre" ref="direcciontrabajopadre" name="direcciontrabajopadre" lazy-rules :rules="[rules.required]" label="Dirección de Trabajo"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -138,7 +138,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.telefonocasap" ref="telefonocasapadre" name="telefonocasapadre" lazy-rules :rules="[rules.required]" label="Teléfono de casa"
+                            <q-input dense borderless v-model="form.telefonocasapadre" ref="telefonocasapadre" name="telefonocasapadre" lazy-rules :rules="[rules.required]" label="Teléfono de casa"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -146,7 +146,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.telefonocelularp" ref="telefonocelularpadre" name="telefonocelularpadre" lazy-rules :rules="[rules.required]" label="Teléfono de celular"
+                            <q-input dense borderless v-model="form.telefonocelularpadre" ref="telefonocelularpadre" name="telefonocelularpadre" lazy-rules :rules="[rules.required]" label="Teléfono de celular"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -157,7 +157,7 @@
                         </div>
                         <div class="col-md-1 col-sm-1"></div>
                         <div class="col-12 col-md-4 col-sm-4 columnas-formulario">
-                            <q-input dense borderless v-model="form.pasaportep" ref="pasaportepadre" name="pasaportepadre" lazy-rules :rules="[rules.required]" label="C.I Pasaporte"
+                            <q-input dense borderless v-model="form.pasaportepadre" ref="pasaportepadre" name="pasaportepadre" lazy-rules :rules="[rules.required]" label="C.I Pasaporte"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -165,7 +165,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.direcciondomiciliop" ref="direcciondomiciliopadre" name="direcciondomiciliopadre" lazy-rules :rules="[rules.required]" label="Dirección de domicilio"
+                            <q-input dense borderless v-model="form.direcciondomiciliopadre" ref="direcciondomiciliopadre" name="direcciondomiciliopadre" lazy-rules :rules="[rules.required]" label="Dirección de domicilio"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -173,7 +173,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.lugartrabajop" ref="lugartrabajopadre" name="lugartrabajopadre" lazy-rules :rules="[rules.required]" label="Lugar de Trabajo"
+                            <q-input dense borderless v-model="form.lugartrabajopadre" ref="lugartrabajopadre" name="lugartrabajopadre" lazy-rules :rules="[rules.required]" label="Lugar de Trabajo"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -181,7 +181,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.emailp" ref="emailpadre" name="emailpadre" lazy-rules :rules="[rules.required]" label="Correo electrónico"
+                            <q-input dense borderless v-model="form.emailpadre" ref="emailpadre" name="emailpadre" lazy-rules :rules="[rules.required]" label="Correo electrónico"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -189,7 +189,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.telefonotrabajop" ref="telefonotrabajopadre" name="telefonotrabajopadre" lazy-rules :rules="[rules.required]" label="Teléfono de Trabajo"
+                            <q-input dense borderless v-model="form.telefonotrabajopadre" ref="telefonotrabajopadre" name="telefonotrabajopadre" lazy-rules :rules="[rules.required]" label="Teléfono de Trabajo"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -210,7 +210,7 @@
                     <div class="row">
                         <div class="col-md-1 col-sm-1"></div>
                         <div class="col-12 col-md-4 col-sm-4">
-                            <q-input dense borderless v-model="form.nombrem" ref="nombremadre" name="nombremadre" lazy-rules :rules="[rules.required]" label="Apellidos y nombres"
+                            <q-input dense borderless v-model="form.nombremadre" ref="nombremadre" name="nombremadre" lazy-rules :rules="[rules.required]" label="Apellidos y nombres"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -218,7 +218,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.nacimientom" ref="fechanacimientomadre" name="fechanacimientomadre" lazy-rules :rules="[rules.required]" label="Fecha de nacimiento"
+                            <q-input dense borderless v-model="form.fechanacimientomadre" ref="fechanacimientomadre" name="fechanacimientomadre" lazy-rules :rules="[rules.required]" label="Fecha de nacimiento"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -226,7 +226,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.profesionm" ref="profesionmadre" name="profesionmadre" lazy-rules :rules="[rules.required]" label="Profesión" label-color="indigo-8"
+                            <q-input dense borderless v-model="form.profesionmadre" ref="profesionmadre" name="profesionmadre" lazy-rules :rules="[rules.required]" label="Profesión" label-color="indigo-8"
                                 class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -234,7 +234,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.direcciontrabajom" ref="direcciontrabajomadre" name="direcciontrabajomadre" lazy-rules :rules="[rules.required]" label="Dirección de Trabajo"
+                            <q-input dense borderless v-model="form.direcciontrabajomadre" ref="direcciontrabajomadre" name="direcciontrabajomadre" lazy-rules :rules="[rules.required]" label="Dirección de Trabajo"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -242,7 +242,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.telefonocasam" ref="telefonocasamadre" name="telefonocasamadre" lazy-rules :rules="[rules.required]" label="Teléfono de casa"
+                            <q-input dense borderless v-model="form.telefonocasamadre" ref="telefonocasamadre" name="telefonocasamadre" lazy-rules :rules="[rules.required]" label="Teléfono de casa"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -250,7 +250,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.telefonocelularm" ref="telefonocelularmadre" name="telefonocelularmadre" lazy-rules :rules="[rules.required]" label="Teléfono de celular"
+                            <q-input dense borderless v-model="form.telefonocelularmadre" ref="telefonocelularmadre" name="telefonocelularmadre" lazy-rules :rules="[rules.required]" label="Teléfono de celular"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -261,7 +261,7 @@
                         </div>
                         <div class="col-md-1 col-sm-1"></div>
                         <div class="col-12 col-md-4 col-sm-4 columnas-formulario">
-                            <q-input dense borderless v-model="form.pasaportem" ref="pasaportemadre" name="pasaportemadre" lazy-rules :rules="[rules.required]" label="C.I Pasaporte"
+                            <q-input dense borderless v-model="form.pasaportemadre" ref="pasaportemadre" name="pasaportemadre" lazy-rules :rules="[rules.required]" label="C.I Pasaporte"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -269,7 +269,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.direcciondomiciliom" ref="direcciondomiciliomadre" name="direcciondomiciliomadre" lazy-rules :rules="[rules.required]" label="Dirección de domicilio"
+                            <q-input dense borderless v-model="form.direcciondomiciliomadre" ref="direcciondomiciliomadre" name="direcciondomiciliomadre" lazy-rules :rules="[rules.required]" label="Dirección de domicilio"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -277,7 +277,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.lugartrabajom" ref="lugartrabajomadre" name="lugartrabajomadre" lazy-rules :rules="[rules.required]" label="Lugar de Trabajo"
+                            <q-input dense borderless v-model="form.lugartrabajomadre" ref="lugartrabajomadre" name="lugartrabajomadre" lazy-rules :rules="[rules.required]" label="Lugar de Trabajo"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -285,7 +285,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.emailm" ref="emailmadre" name="emailmadre" lazy-rules :rules="[rules.required]" label="Correo electrónico"
+                            <q-input dense borderless v-model="form.emailmadre" ref="emailmadre" name="emailmadre" lazy-rules :rules="[rules.required]" label="Correo electrónico"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -293,7 +293,7 @@
                                     </q-avatar>
                                 </template>
                             </q-input>
-                            <q-input dense borderless v-model="form.telefonotrabajom" ref="telefonotrabajomadre" name="telefonotrabajomadre" lazy-rules :rules="[rules.required]" label="Teléfono de Trabajo"
+                            <q-input dense borderless v-model="form.telefonotrabajomadre" ref="telefonotrabajomadre" name="telefonotrabajomadre" lazy-rules :rules="[rules.required]" label="Teléfono de Trabajo"
                                 label-color="indigo-8" class="q-px-sm campos-formulario colores-inscripcion">
                                 <template v-slot:prepend>
                                     <q-avatar square>
@@ -407,13 +407,64 @@ export default {
   },
   data () {
     return {
-      form: {},
+      form: {
+        nombrealumno: '',
+        fechanacimientoalumno: '',
+        lugarnacimientoalumno: '',
+        domicilioalumno: '',
+        gradoalumno: '',
+        identificacionalumno: '',
+        edadalumno: '',
+        paisalumno: '',
+        nombrepadre: '',
+        fechanacimientopadre: '',
+        profesionpadre: '',
+        direcciontrabajopadre: '',
+        telefonocasapadre: '',
+        telefonocelularpadre: '',
+        pasaportepadre: '',
+        direcciondomiciliopadre: '',
+        lugartrabajopadre: '',
+        emailpadre: '',
+        telefonotrabajopadre: '',
+        nombremadre: '',
+        fechanacimientomadre: '',
+        profesionmadre: '',
+        direcciontrabajomadre: '',
+        telefonocasamadre: '',
+        telefonocelularmadre: '',
+        pasaportemadre: '',
+        direcciondomiciliomadre: '',
+        lugartrabajomadre: '',
+        emailmadre: '',
+        telefonotrabajomadre: ''
+      },
       rules: {
         required: (value) => !!value || 'Este campo es obligatorio'
       }
     }
   },
   methods: {
+    sendForm () {
+      this.$q.loading.show({
+        message: 'Enviando información'
+      })
+      this.$axios
+        .post('inscripcion.php', this.form)
+        .then((request) => {
+          this.$q.notify({
+            message: 'Enviado con exito',
+            color: 'primary'
+          })
+          this.form = {}
+          this.$refs.myForm.resetValidation()
+          this.$q.loading.hide()
+        })
+        .catch((err) => {
+          this.$q.loading.hide()
+          console.log(err)
+        })
+    }
   }
 }
 </script>

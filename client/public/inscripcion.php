@@ -1,4 +1,5 @@
 <?php
+$_POST = json_decode(file_get_contents("php://input"), true);
 // Datos del alumno
 $nombrealumno = $_POST['nombrealumno'];
 $fechanacimientoalumno = $_POST['fechanacimientoalumno'];
