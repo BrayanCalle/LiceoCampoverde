@@ -108,7 +108,7 @@ export default {
           items: [
             {
               label: 'Modelo pedagógico',
-              ruta: 'acerca-de-nosotros?section=modelopedagogico'
+              ruta: 'acerca-de-nosotros'
             },
             {
               label: 'Idiomas',
@@ -167,7 +167,10 @@ export default {
     action (item) {
       this.selecItem = item
       if (item.label === 'Contáctanos') {
-        this.$emit('go')
+        this.$emit('go', 'contacto')
+      }
+      if (item.label === 'Modelo pedagógico') {
+        this.$emit('go', 'modelopedagogico')
       }
       this.$emit('close')
       if (item.ruta) {

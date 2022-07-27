@@ -1,5 +1,5 @@
 <template>
-    <section class="window-height section6">
+    <section ref="modelopedagogico" class="window-height section6">
         <div class="parte-izquierda--section6">
             <div class="row">
                 <p class="col-9 col-md-12 titulo-parte-izquierda--section6 my-font-black" data-aos="fade-right" data-aos-duration="1500">Modelo <br> <span>pedagógico</span></p>

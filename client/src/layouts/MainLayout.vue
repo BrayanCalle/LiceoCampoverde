@@ -2,7 +2,7 @@
   <q-layout view="lHr lpr lfr">
     <header-web @menu="drawer = !drawer"/>
 
-    <drawer-data :drawer="drawer" @go="goTo()" @close="action()" />
+    <drawer-data :drawer="drawer" @go="goTo($event)" @close="action()" />
 
     <q-page-container>
       <router-view />
@@ -38,9 +38,15 @@ export default {
     action () {
       this.drawer = false
     },
-    goTo () {
-      const target = getScrollTarget(this.$refs.footer)
-      const offset = this.$refs.footer.offsetTop
+    goTo (event) {
+      console.log(event)
+      let target = getScrollTarget(this.$refs.footer)
+      let offset = this.$refs.footer.offsetTop
+      if (event === 'modelopedagogico') {
+        target = getScrollTarget(this.$refs.modelopedagogico)
+        offset = this.$refs.modelopedagogico.offsetTop
+        console.log('entrando')
+      }
       setTimeout(() => {
         animScrollTo(target, offset, 1000)
       }, 300)

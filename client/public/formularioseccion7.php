@@ -6,7 +6,7 @@ $opcion = $_POST['opcion'];
 $telefono = $_POST['telefono'];
 $comentario = $_POST['comentario'];
 
-$header = 'From: ' . $mail . " \r\n";
+$header = 'From: ' . $email . " \r\n";
 $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
 $header .= "Mime-Version: 1.0 \r\n";
 $header .= "Content-Type: text/plain";
