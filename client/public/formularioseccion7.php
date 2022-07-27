@@ -1,6 +1,5 @@
 <?php
-var_dump($_POST);
-exit;
+$_POST = json_decode(file_get_contents("php://input"), true);
 $nombre = $_POST['nombre'];
 $email = $_POST['email'];
 $opcion = $_POST['opcion'];
