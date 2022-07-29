@@ -334,10 +334,13 @@
     margin: auto;
   }
   .two_text-circle {
-    font-size: 22px !important;
+    font-size: 18px !important;
   }
   .text-modal {
     padding-top: 1rem;
+  }
+  .play-video {
+    transform: translateX(-6rem) translateY(-6rem);
   }
 }
 
@@ -528,8 +531,42 @@
   .tour-play {
     top: 8rem;
     left: 10rem;
-  }
+  }circle-text
   .text-modal {
     padding-top: 1rem;
   }
 }
+
+@media only screen and (min-width: 1600px) and (max-width: 2560px){
+  .circle-text {
+    top: 0rem;
+    padding: 7rem;
+    width: 44%;
+  }
+  .text-board {
+    bottom: 16rem;
+    width: 39%;
+    right: 28rem;
+    font-size: calc(1em + 1vw);
+    transform: translateX(6rem) translateY(6rem);
+  }
+  .text-circle p {
+    padding: 7rem;
+  }
+  .one_text-circle {
+    padding: 8rem;
+  }
+  .two_text-circle {
+    padding: 7rem;
+  }
+  .play-video {
+    position: absolute;
+    top: 15rem !important;
+    left: 16rem !important;
+  }
+  .section-height {
+    height: 18.4rem !important;
+  }
+
+}
+
