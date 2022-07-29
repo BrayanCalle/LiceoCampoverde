@@ -335,9 +335,8 @@
   }
   .paralax_section {
     background-size: 100% 100%;
+    background-position: right center;
     height: 50vh;
-    max-width: 100%;
-    width: 100% !important;
     .img_in {
       visibility: visible;
     }

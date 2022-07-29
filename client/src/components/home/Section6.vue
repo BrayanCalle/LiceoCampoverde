@@ -21,7 +21,8 @@
       </div>
       <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
         <div class="paralax_section block1 ">
-          <img src="home/F-servicios.svg" class="img_in" style="height:100%; width:auto" />
+          <img src="home/F-servicios.svg" class="img_in"
+            style="height:100%; width:auto" />
         </div>
       </div>
     </div>
@@ -39,7 +40,8 @@
       </div>
       <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
         <div class="paralax_section block2">
-          <img src="home/F-servicios.svg" class="img_in" style="height:100%; width:auto" />
+          <img src="home/F-servicios.svg" class="img_in"
+            style="height:100%; width:auto" />
         </div>
       </div>
     </div>
@@ -57,7 +59,8 @@
       </div>
       <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
         <div class="paralax_section block3">
-          <img src="home/F-servicios.svg" class="img_in" style="height:100%; width:auto" />
+          <img src="home/F-servicios.svg" class="img_in"
+            style="height:100%; width:auto" />
         </div>
       </div>
     </div>

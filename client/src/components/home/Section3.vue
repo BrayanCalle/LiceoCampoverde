@@ -14,7 +14,7 @@
     <div class="col-12 row justify-center mobile_img_section3 full-height">
       <div class="contenedor full-height">
         <img src="home/colegio-trilingue-en-cumbaya-quito-liceo.jpg" class="img" />
-        <div class="text-black text-h4 text-center texto_encima full-width">Centrados en el <br><b>estudiante</b></div>
+        <div class="text-black title_1 text-center texto_encima full-width">Centrados en el <br><b class=" my-font-ultra">estudiante</b></div>
       </div>
     </div>
 
