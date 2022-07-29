@@ -8,7 +8,7 @@
       <div class="column items-center q-px-md q-pb-lg col-xs-12 col-sm-3 col-md-3 col-lg-3">
         <img src="iconInfo/I-direccion.svg" class="otros" />
         <div class="font_small my-font-bold">Dirección</div>
-        <div class="font_small text-center q-py-sm">Av. Simón Bolivar Km. 2½, via <br> a Nayón. SEctor Tanda, tras la <br> Casa de la Selección</div>
+        <div class="font_small text-center q-py-sm">Av. Simón Bolivar Km. 2½, vía <br> a Nayón. Sector Tanda, tras la <br> Casa de la Selección</div>
         <q-btn rounded no-caps dense color="accent"  label="Admisiones" class="buttom_accent" @click="$router.push({ name: 'admisiones'})" />
       </div>
 
@@ -31,7 +31,7 @@
       <div class="column items-center q-px-md q-pb-lg col-xs-12 col-sm-3 col-md-3 col-lg-3">
         <img src="iconInfo/I-correo.svg" class="otros" />
         <div class="font_small my-font-bold">Correo</div>
-        <div class="font_small"><b>información</b>@liceocampoverde.edu.ec</div>
+        <div class="font_small"><b>informacion</b>@liceocampoverde.edu.ec</div>
       </div>
 
       <div class="row justify-center items-center q-gutter-x-md q-gutter-y-lg col-xs-12 col-sm-3 col-md-1 col-lg-1">

@@ -18,7 +18,7 @@
             </q-item>
 
             <q-item clickable @click="$emit('go')" v-ripple class="text-white bg-blue">
-              <q-item-section class="font_small">Contactanos</q-item-section>
+              <q-item-section class="font_small">Contáctanos</q-item-section>
             </q-item>
 
             <q-item @click="openLink()" clickable v-ripple class="text-white bg-green">

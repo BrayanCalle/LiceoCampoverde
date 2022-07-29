@@ -31,7 +31,7 @@
 
       <div class="q-py-lg">
         <q-form ref="myForm" class="column items-center q-gutter-y-xs full-width" @submit="sendForm()">
-          <q-input borderless name="nombre" ref="nombre" v-model="form.nombre" placeholder="Nombre y apellido"
+          <q-input borderless name="nombre" ref="nombre" v-model="form.nombre" placeholder="Nombre y Apellido"
             class="q-px-sm campos_form" lazy-rules :rules="[rules.required]">
             <template v-slot:prepend>
               <q-avatar square>
@@ -60,7 +60,7 @@
               <q-icon name="dashboard" color="accent" />
             </template>
           </q-select>
-          <q-input ref="comentario" name="comentario" borderless v-model="form.comentario" type="textarea" placeholder="Escribe aqui tu mensaje"
+          <q-input ref="comentario" name="comentario" borderless v-model="form.comentario" type="textarea" placeholder="Escribe aquí tu mensaje"
             class="q-px-sm campos_form" lazy-rules :rules="[rules.required]">
             <template v-slot:prepend>
               <q-icon name="send" color="accent" />

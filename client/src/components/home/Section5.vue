@@ -13,7 +13,7 @@
         importancia del <br class="mobile_element"> <b class="my-font-ultra">equilibrio <br class="web_element">
         entre el ser y el <br class="mobile_element"> saber,</b> es <br class="web_element">
         por eso que <br class="mobile_element"> nuestros <br class="web_element">
-        diferenciados <br class="mobile_element"> nos convierten <br class="web_element">
+        diferenciadores <br class="mobile_element"> nos convierten <br class="web_element">
         en un <br class="mobile_element"> colegio innovador.
       </div>
     </div>
