@@ -6,7 +6,7 @@
         <div class="bg-white text_naranja q-px-sm">metodología</div>
       </div>
       <div class="row justify-center">
-        <img src="logo/F2C®.png" style="height:15vh" />
+        <img src="logo/F2C.png" style="height:15vh" />
       </div>
     </div>
 
