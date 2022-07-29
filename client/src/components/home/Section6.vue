@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-        <div class="paralax_section block1 ">
+        <div class="paralax_section block1">
           <img src="home/F-servicios.svg" class="img_in"
             style="height:100%; width:auto" />
         </div>
@@ -74,14 +74,3 @@ export default {
   }
 }
 </script>
-<style lang="scss" scoped>
-.block1 {
-  background-image: url('../../../public/home/prekinder-campus-moderno.jpg');
-}
-.block2 {
-  background-image: url('../../../public/home/escuela-campus-moderno.jpg');
-}
-.block3 {
-  background-image: url('../../../public/home/bachillerato-campus-moderno.jpg');
-}
-</style>

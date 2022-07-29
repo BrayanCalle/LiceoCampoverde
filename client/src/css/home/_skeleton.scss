@@ -16,6 +16,15 @@
     visibility: hidden;
   }
 }
+.block1 {
+  background-image: url('../../public/home/prekinder-campus-moderno.jpg');
+}
+.block2 {
+  background-image: url('../../public/home/escuela-campus-moderno.jpg');
+}
+.block3 {
+  background-image: url('../../public/home/bachillerato-campus-moderno.jpg');
+}
 .img_cover {
   position: sticky;
   top: 0px;
@@ -340,5 +349,14 @@
     .img_in {
       visibility: visible;
     }
+  }
+  .block1 {
+    background-image: url('../../public/home/prekinder-campus-moderno-movil.jpg');
+  }
+  .block2 {
+    background-image: url('../../public/home/escuela-campus-moderno-movil.jpg');
+  }
+  .block3 {
+    background-image: url('../../public/home/bachillerato-campus-moderno-movil.jpg');
   }
 }
