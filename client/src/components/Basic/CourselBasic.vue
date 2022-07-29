@@ -1,5 +1,5 @@
 <template>
-    <div style="height: 63vh;" class="coursel_responsive">
+    <div style="height: 63vh; width: auto;" class="coursel_responsive">
       <q-carousel
         v-model="slide"
         swipeable

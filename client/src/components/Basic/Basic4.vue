@@ -1,7 +1,7 @@
 <template>
     <section>
       <div style="background-color: #83afff;"  class="row relative-position circle_one">
-        <div data-aos="fade-right" class="col-12 col-md-4 bar-te">
+        <div class="col-12 col-md-4 bar-te">
           <h3 class="bar-text text-weight-bold text-dark my-font-ultra">Laboratorios</h3>
         </div>
         <div class="col-12 col-md-4">
@@ -36,7 +36,7 @@
             Nos divertimos en los juegos de equilibrio, canchas de fútbol, básquetbol y en nuestra pista de atletismo.
           </h5>
         </div>
-         <div  data-aos="fade-left" class="col-12 col-md-3 bar-te">
+         <div class="col-12 col-md-3 bar-te">
           <h3 class="bar-text text-weight-bold text-dark my-font-ultra">Espacios recreativos</h3>
         </div>
       </div>

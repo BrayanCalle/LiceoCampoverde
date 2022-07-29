@@ -21,7 +21,7 @@
         <div class="row">
           <div class="col-md-4 col-12 q-px-xl q-py-xl text-justify">
             <p class="text-h5 text-weight-bold">
-              Hora de ingreso:
+              Horario de ingreso:
             </p>
             <p class="text-h5 text-weight-light">
               7:40
@@ -29,7 +29,7 @@
           </div>
           <div class="col-md-4 col-12 q-px-xl q-py-xl text-justify">
             <p class="text-h5 text-weight-bold">
-              Hora de clases:
+              Horario de clases:
             </p>
             <p class="text-h6 text-weight-light">
               Lunes a Viernes <br/>8:20 a 12:45

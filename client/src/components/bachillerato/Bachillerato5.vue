@@ -5,7 +5,7 @@
           <img src="bachillerato/half-circle.svg"/>
           <div class="circle relative-position">
             <video-home class="play-video" />
-            <img src="/img/bachiler.png" alt="alt"/>
+            <img src="/bachillerato/bachiler-bch.png" alt="alt"/>
           </div>
         </div>
       </div>
@@ -16,19 +16,19 @@
         <div class="row q-my-xl">
           <div class="box-responsive col-12 col-md-4 q-px-sm q-py-sm q-px-xl">
             <div class="card_bachiller">
-              <p class="text-h4 text-center bg-info text-white q-px-md q-py-md my-font-ultra">Creatividad</p>
+              <p style="background-color: #83afff;" class="text-h4 text-center text-white q-px-md q-py-md my-font-ultra respon-text">Creatividad</p>
               <img width="100%" src="bachillerato/img1.jpg" alt="imagen"/>
             </div>
           </div>
           <div class="box-responsive col-12 col-md-4 q-px-sm q-py-sm q-px-xl">
             <div class="card_bachiller">
-              <p class="text-h4 text-center bg-warning text-white q-px-md q-py-md my-font-ultra">Actividades</p>
+              <p class="text-h4 text-center bg-warning text-white q-px-md q-py-md my-font-ultra respon-text">Actividades</p>
               <img width="100%" src="bachillerato/img2.jpg" alt="imagen"/>
             </div>
           </div>
           <div class="box-responsive col-12 col-md-4 q-px-sm q-py-sm q-px-xl">
             <div class="card_bachiller">
-              <p class="text-infraestructura text-h4 text-center bg-positive text-white q-px-md q-py-md my-font-ultra">Infraestructura</p>
+              <p class="text-infraestructura text-h4 text-center bg-positive text-white q-px-md q-py-md my-font-ultra respon-text">Infraestructura</p>
               <img width="100%" src="bachillerato/img3.jpg" alt="imagen"/>
             </div>
           </div>

@@ -29,7 +29,7 @@
           </div>
           <div class="col-12 col-md-4 q-px-xl q-py-xl text-justify">
             <p class="text-h5 text-weight-bold">
-              Hora de ingreso:
+              Hora de clases:
             </p>
             <p class="text-h6 text-weight-light">
               Lunes y miércoles <br/>de 07:50 a 15:55

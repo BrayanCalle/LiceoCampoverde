@@ -1,7 +1,7 @@
 <template>
     <section>
       <div style="background-color: #19a4e8;" class="row relative-position q-py-xl ">
-        <div data-aos="fade-right" class="col-12 col-md-3 bar-te">
+        <div class="col-12 col-md-3 bar-te">
           <h3 class="bar-text text-weight-bold text-white my-font-ultra">Juegos</h3>
         </div>
         <div class="col-12 col-md-4">
@@ -38,7 +38,7 @@
             Tenemos mucho espacio al aire libre, que junto a la granja y huerto aportan para un buen desarrollo psicomotor de nuestros niños.
           </h5>
         </div>
-         <div data-aos="fade-left" class="col-12 col-md-3 bar-te">
+         <div class="col-12 col-md-3 bar-te">
           <h3 class="bar-text text-weight-bold my-font-ultra">Naturaleza</h3>
         </div>
       </div>
